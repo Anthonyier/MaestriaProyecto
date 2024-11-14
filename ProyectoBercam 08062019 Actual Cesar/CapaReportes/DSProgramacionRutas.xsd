@@ -1,0 +1,191 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DSProgramacionRutas" targetNamespace="http://tempuri.org/DSProgramacionRutas.xsd" xmlns:mstns="http://tempuri.org/DSProgramacionRutas.xsd" xmlns="http://tempuri.org/DSProgramacionRutas.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Web.config" AppSettingsPropertyName="bercamConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="bercamConnectionString (Web.config)" ParameterPrefix="@" PropertyReference="AppConfig.System.Configuration.ConfigurationManager.0.ConnectionStrings.bercamConnectionString.ConnectionString" Provider="System.Data.SqlClient" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="vi_ListaRutasPrincipalTableAdapter" GeneratorDataComponentClassName="vi_ListaRutasPrincipalTableAdapter" Name="vi_ListaRutasPrincipal" UserDataComponentName="vi_ListaRutasPrincipalTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="bercamConnectionString (Web.config)" DbObjectName="bercam.dbo.vi_ListaRutasPrincipal" DbObjectType="View" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="false" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT Id_Ruta, Ruta, MontoAnticipo, PrecioTotal, Id_Producto, PRODUCTO, Id_Cliente, Id_Persona, CI, CLIENTE, RutaCompleta FROM dbo.vi_ListaRutasPrincipal</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="Id_Ruta" DataSetColumn="Id_Ruta" />
+              <Mapping SourceColumn="Ruta" DataSetColumn="Ruta" />
+              <Mapping SourceColumn="MontoAnticipo" DataSetColumn="MontoAnticipo" />
+              <Mapping SourceColumn="PrecioTotal" DataSetColumn="PrecioTotal" />
+              <Mapping SourceColumn="Id_Producto" DataSetColumn="Id_Producto" />
+              <Mapping SourceColumn="PRODUCTO" DataSetColumn="PRODUCTO" />
+              <Mapping SourceColumn="Id_Cliente" DataSetColumn="Id_Cliente" />
+              <Mapping SourceColumn="Id_Persona" DataSetColumn="Id_Persona" />
+              <Mapping SourceColumn="CI" DataSetColumn="CI" />
+              <Mapping SourceColumn="CLIENTE" DataSetColumn="CLIENTE" />
+              <Mapping SourceColumn="RutaCompleta" DataSetColumn="RutaCompleta" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="vi_ListaProgramacionRutasTableAdapter" GeneratorDataComponentClassName="vi_ListaProgramacionRutasTableAdapter" Name="vi_ListaProgramacionRutas" UserDataComponentName="vi_ListaProgramacionRutasTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="bercamConnectionString (Web.config)" DbObjectName="bercam.dbo.vi_ListaProgramacionRutas" DbObjectType="View" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="false" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT CLIENTE, Id_Recepcion, Ruta, PRODUCTO, Vigencia, Estado, F_Reg, IdChofer, Chofer, Placa, Capacidad, Color, Marca, Telefono FROM dbo.vi_ListaProgramacionRutas</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="CLIENTE" DataSetColumn="CLIENTE" />
+              <Mapping SourceColumn="Id_Recepcion" DataSetColumn="Id_Recepcion" />
+              <Mapping SourceColumn="Ruta" DataSetColumn="Ruta" />
+              <Mapping SourceColumn="PRODUCTO" DataSetColumn="PRODUCTO" />
+              <Mapping SourceColumn="Vigencia" DataSetColumn="Vigencia" />
+              <Mapping SourceColumn="Estado" DataSetColumn="Estado" />
+              <Mapping SourceColumn="F_Reg" DataSetColumn="F_Reg" />
+              <Mapping SourceColumn="IdChofer" DataSetColumn="IdChofer" />
+              <Mapping SourceColumn="Chofer" DataSetColumn="Chofer" />
+              <Mapping SourceColumn="Placa" DataSetColumn="Placa" />
+              <Mapping SourceColumn="Capacidad" DataSetColumn="Capacidad" />
+              <Mapping SourceColumn="Color" DataSetColumn="Color" />
+              <Mapping SourceColumn="Marca" DataSetColumn="Marca" />
+              <Mapping SourceColumn="Telefono" DataSetColumn="Telefono" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DSProgramacionRutas" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="DSProgramacionRutas" msprop:Generator_UserDSName="DSProgramacionRutas">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="vi_ListaRutasPrincipal" msprop:Generator_TableClassName="vi_ListaRutasPrincipalDataTable" msprop:Generator_TableVarName="tablevi_ListaRutasPrincipal" msprop:Generator_TablePropName="vi_ListaRutasPrincipal" msprop:Generator_RowDeletingName="vi_ListaRutasPrincipalRowDeleting" msprop:Generator_RowChangingName="vi_ListaRutasPrincipalRowChanging" msprop:Generator_RowEvHandlerName="vi_ListaRutasPrincipalRowChangeEventHandler" msprop:Generator_RowDeletedName="vi_ListaRutasPrincipalRowDeleted" msprop:Generator_UserTableName="vi_ListaRutasPrincipal" msprop:Generator_RowChangedName="vi_ListaRutasPrincipalRowChanged" msprop:Generator_RowEvArgName="vi_ListaRutasPrincipalRowChangeEvent" msprop:Generator_RowClassName="vi_ListaRutasPrincipalRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Id_Ruta" msprop:Generator_ColumnVarNameInTable="columnId_Ruta" msprop:Generator_ColumnPropNameInRow="Id_Ruta" msprop:Generator_ColumnPropNameInTable="Id_RutaColumn" msprop:Generator_UserColumnName="Id_Ruta" type="xs:int" />
+              <xs:element name="Ruta" msprop:Generator_ColumnVarNameInTable="columnRuta" msprop:Generator_ColumnPropNameInRow="Ruta" msprop:Generator_ColumnPropNameInTable="RutaColumn" msprop:Generator_UserColumnName="Ruta" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="250" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="MontoAnticipo" msprop:Generator_ColumnVarNameInTable="columnMontoAnticipo" msprop:Generator_ColumnPropNameInRow="MontoAnticipo" msprop:Generator_ColumnPropNameInTable="MontoAnticipoColumn" msprop:Generator_UserColumnName="MontoAnticipo" type="xs:double" minOccurs="0" />
+              <xs:element name="PrecioTotal" msprop:Generator_ColumnVarNameInTable="columnPrecioTotal" msprop:Generator_ColumnPropNameInRow="PrecioTotal" msprop:Generator_ColumnPropNameInTable="PrecioTotalColumn" msprop:Generator_UserColumnName="PrecioTotal" type="xs:double" minOccurs="0" />
+              <xs:element name="Id_Producto" msprop:Generator_ColumnVarNameInTable="columnId_Producto" msprop:Generator_ColumnPropNameInRow="Id_Producto" msprop:Generator_ColumnPropNameInTable="Id_ProductoColumn" msprop:Generator_UserColumnName="Id_Producto" type="xs:int" />
+              <xs:element name="PRODUCTO" msprop:Generator_ColumnVarNameInTable="columnPRODUCTO" msprop:Generator_ColumnPropNameInRow="PRODUCTO" msprop:Generator_ColumnPropNameInTable="PRODUCTOColumn" msprop:Generator_UserColumnName="PRODUCTO" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="250" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Id_Cliente" msprop:Generator_ColumnVarNameInTable="columnId_Cliente" msprop:Generator_ColumnPropNameInRow="Id_Cliente" msprop:Generator_ColumnPropNameInTable="Id_ClienteColumn" msprop:Generator_UserColumnName="Id_Cliente" type="xs:int" />
+              <xs:element name="Id_Persona" msprop:Generator_ColumnVarNameInTable="columnId_Persona" msprop:Generator_ColumnPropNameInRow="Id_Persona" msprop:Generator_ColumnPropNameInTable="Id_PersonaColumn" msprop:Generator_UserColumnName="Id_Persona" type="xs:int" />
+              <xs:element name="CI" msprop:Generator_ColumnVarNameInTable="columnCI" msprop:Generator_ColumnPropNameInRow="CI" msprop:Generator_ColumnPropNameInTable="CIColumn" msprop:Generator_UserColumnName="CI" type="xs:int" minOccurs="0" />
+              <xs:element name="CLIENTE" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnCLIENTE" msprop:Generator_ColumnPropNameInRow="CLIENTE" msprop:Generator_ColumnPropNameInTable="CLIENTEColumn" msprop:Generator_UserColumnName="CLIENTE" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="201" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="RutaCompleta" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnRutaCompleta" msprop:Generator_ColumnPropNameInRow="RutaCompleta" msprop:Generator_ColumnPropNameInTable="RutaCompletaColumn" msprop:Generator_UserColumnName="RutaCompleta" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="709" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="vi_ListaProgramacionRutas" msprop:Generator_TableClassName="vi_ListaProgramacionRutasDataTable" msprop:Generator_TableVarName="tablevi_ListaProgramacionRutas" msprop:Generator_TablePropName="vi_ListaProgramacionRutas" msprop:Generator_RowDeletingName="vi_ListaProgramacionRutasRowDeleting" msprop:Generator_RowChangingName="vi_ListaProgramacionRutasRowChanging" msprop:Generator_RowEvHandlerName="vi_ListaProgramacionRutasRowChangeEventHandler" msprop:Generator_RowDeletedName="vi_ListaProgramacionRutasRowDeleted" msprop:Generator_UserTableName="vi_ListaProgramacionRutas" msprop:Generator_RowChangedName="vi_ListaProgramacionRutasRowChanged" msprop:Generator_RowEvArgName="vi_ListaProgramacionRutasRowChangeEvent" msprop:Generator_RowClassName="vi_ListaProgramacionRutasRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="CLIENTE" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnCLIENTE" msprop:Generator_ColumnPropNameInRow="CLIENTE" msprop:Generator_ColumnPropNameInTable="CLIENTEColumn" msprop:Generator_UserColumnName="CLIENTE" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="201" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Id_Recepcion" msprop:Generator_ColumnVarNameInTable="columnId_Recepcion" msprop:Generator_ColumnPropNameInRow="Id_Recepcion" msprop:Generator_ColumnPropNameInTable="Id_RecepcionColumn" msprop:Generator_UserColumnName="Id_Recepcion" type="xs:int" />
+              <xs:element name="Ruta" msprop:Generator_ColumnVarNameInTable="columnRuta" msprop:Generator_ColumnPropNameInRow="Ruta" msprop:Generator_ColumnPropNameInTable="RutaColumn" msprop:Generator_UserColumnName="Ruta" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="250" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="PRODUCTO" msprop:Generator_ColumnVarNameInTable="columnPRODUCTO" msprop:Generator_ColumnPropNameInRow="PRODUCTO" msprop:Generator_ColumnPropNameInTable="PRODUCTOColumn" msprop:Generator_UserColumnName="PRODUCTO" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="250" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Vigencia" msprop:Generator_ColumnVarNameInTable="columnVigencia" msprop:Generator_ColumnPropNameInRow="Vigencia" msprop:Generator_ColumnPropNameInTable="VigenciaColumn" msprop:Generator_UserColumnName="Vigencia" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="Estado" msprop:Generator_ColumnVarNameInTable="columnEstado" msprop:Generator_ColumnPropNameInRow="Estado" msprop:Generator_ColumnPropNameInTable="EstadoColumn" msprop:Generator_UserColumnName="Estado" type="xs:int" />
+              <xs:element name="F_Reg" msprop:Generator_ColumnVarNameInTable="columnF_Reg" msprop:Generator_ColumnPropNameInRow="F_Reg" msprop:Generator_ColumnPropNameInTable="F_RegColumn" msprop:Generator_UserColumnName="F_Reg" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="IdChofer" msprop:Generator_ColumnVarNameInTable="columnIdChofer" msprop:Generator_ColumnPropNameInRow="IdChofer" msprop:Generator_ColumnPropNameInTable="IdChoferColumn" msprop:Generator_UserColumnName="IdChofer" type="xs:int" minOccurs="0" />
+              <xs:element name="Chofer" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnChofer" msprop:Generator_ColumnPropNameInRow="Chofer" msprop:Generator_ColumnPropNameInTable="ChoferColumn" msprop:Generator_UserColumnName="Chofer" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="201" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Placa" msprop:Generator_ColumnVarNameInTable="columnPlaca" msprop:Generator_ColumnPropNameInRow="Placa" msprop:Generator_ColumnPropNameInTable="PlacaColumn" msprop:Generator_UserColumnName="Placa" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="150" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Capacidad" msprop:Generator_ColumnVarNameInTable="columnCapacidad" msprop:Generator_ColumnPropNameInRow="Capacidad" msprop:Generator_ColumnPropNameInTable="CapacidadColumn" msprop:Generator_UserColumnName="Capacidad" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="250" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Color" msprop:Generator_ColumnVarNameInTable="columnColor" msprop:Generator_ColumnPropNameInRow="Color" msprop:Generator_ColumnPropNameInTable="ColorColumn" msprop:Generator_UserColumnName="Color" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="350" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Marca" msprop:Generator_ColumnVarNameInTable="columnMarca" msprop:Generator_ColumnPropNameInRow="Marca" msprop:Generator_ColumnPropNameInTable="MarcaColumn" msprop:Generator_UserColumnName="Marca" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="250" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Telefono" msprop:Generator_ColumnVarNameInTable="columnTelefono" msprop:Generator_ColumnPropNameInRow="Telefono" msprop:Generator_ColumnPropNameInTable="TelefonoColumn" msprop:Generator_UserColumnName="Telefono" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

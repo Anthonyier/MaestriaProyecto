@@ -1,0 +1,178 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{1BFD1C98-B9DC-4CDA-BC6E-0926944914B0}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>CapaNegocios</RootNamespace>
+    <AssemblyName>CapaNegocios</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Web.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="NegAdelanto.cs" />
+    <Compile Include="NegAdelantoDePago.cs" />
+    <Compile Include="NegAnticipo.cs" />
+    <Compile Include="NegAplicacion.cs" />
+    <Compile Include="NegAsignacionCamion.cs" />
+    <Compile Include="NegAsignacionRuta.cs" />
+    <Compile Include="NegAño.cs" />
+    <Compile Include="NegBitacora.cs" />
+    <Compile Include="NegCamiones.cs" />
+    <Compile Include="NegCamionGuia.cs" />
+    <Compile Include="NegColor.cs" />
+    <Compile Include="NegConciliacionCarroGuia.cs" />
+    <Compile Include="NegConciliacionPagarAceite.cs" />
+    <Compile Include="NegConciliacionPorCobrar.cs" />
+    <Compile Include="NegConciliacionPorCobrarAceite.cs" />
+    <Compile Include="NegConciliacionPorPagar.cs" />
+    <Compile Include="NegCuentaContable.cs" />
+    <Compile Include="NegDatosEmpresa.cs" />
+    <Compile Include="NegDetalleCarroGuia.cs" />
+    <Compile Include="NegDetalleDim.cs" />
+    <Compile Include="NegDetalleMulta.cs" />
+    <Compile Include="NegDetalleRastreo.cs" />
+    <Compile Include="NegDetalleRutaAceite.cs" />
+    <Compile Include="NegDetalleTelefono.cs" />
+    <Compile Include="NegDim.cs" />
+    <Compile Include="NegFacturaCamionGuia.cs" />
+    <Compile Include="NegFacturaTrans.cs" />
+    <Compile Include="NegFrontera.cs" />
+    <Compile Include="NegHorario.cs" />
+    <Compile Include="NegHorarioFaltantes.cs" />
+    <Compile Include="NegHorarioPersona.cs" />
+    <Compile Include="NegImagCert.cs" />
+    <Compile Include="NegImagenes.cs" />
+    <Compile Include="NegImagenesAdelantoDepagos.cs" />
+    <Compile Include="NegImagenesAnticipos.cs" />
+    <Compile Include="NegImagenesCarroGuia.cs" />
+    <Compile Include="NegImgPagadas.cs" />
+    <Compile Include="NegInspeccTec.cs" />
+    <Compile Include="NegKilometraje.cs" />
+    <Compile Include="NegMaestroProveedor.cs" />
+    <Compile Include="NegMarca.cs" />
+    <Compile Include="NegMes.cs" />
+    <Compile Include="NegMulta.cs" />
+    <Compile Include="NegPermisoAnticipos.cs" />
+    <Compile Include="NegPermisoCamiones.cs" />
+    <Compile Include="NegPermisoPersona.cs" />
+    <Compile Include="NegPermisoRutas.cs" />
+    <Compile Include="NegPermisosAdelantosDePago.cs" />
+    <Compile Include="NegPermisosCarroGuia.cs" />
+    <Compile Include="NegPermisosConciliaciones.cs" />
+    <Compile Include="NegPermisosPagos.cs" />
+    <Compile Include="NegPermisosServicios.cs" />
+    <Compile Include="NegPersona.cs" />
+    <Compile Include="Negproducto.cs" />
+    <Compile Include="NegProveedores.cs" />
+    <Compile Include="NegRuta.cs" />
+    <Compile Include="NegServicios.cs" />
+    <Compile Include="NegSoat.cs" />
+    <Compile Include="NegTransaccion.cs" />
+    <Compile Include="NegUsuario.cs" />
+    <Compile Include="NegZkteko.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\CapaDatos\CapaDatos.csproj">
+      <Project>{6d4ea392-7c6c-42df-8f18-018087f3d3d8}</Project>
+      <Name>CapaDatos</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\CapaEntidad\CapaEntidad.csproj">
+      <Project>{0c947429-c773-482b-af2a-dba348e10418}</Project>
+      <Name>CapaEntidad</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>1577</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:1577/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

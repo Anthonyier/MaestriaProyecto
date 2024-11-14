@@ -1,0 +1,284 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DataSetResumenConcPeriodo" targetNamespace="http://tempuri.org/DataSetResumenConcPeriodo.xsd" xmlns:mstns="http://tempuri.org/DataSetResumenConcPeriodo.xsd" xmlns="http://tempuri.org/DataSetResumenConcPeriodo.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Web.config" AppSettingsPropertyName="bercamConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="bercamConnectionString (Web.config)" ParameterPrefix="@" PropertyReference="AppConfig.System.Configuration.ConfigurationManager.0.ConnectionStrings.bercamConnectionString.ConnectionString" Provider="System.Data.SqlClient" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="VistatotalDetalleCorporacionPeriodoTableAdapter" GeneratorDataComponentClassName="VistatotalDetalleCorporacionPeriodoTableAdapter" Name="VistatotalDetalleCorporacionPeriodo" UserDataComponentName="VistatotalDetalleCorporacionPeriodoTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="bercamConnectionString (Web.config)" DbObjectName="bercam.dbo.VistatotalDetalleRefinacionPeriodo" DbObjectType="View" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="false" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="true">
+                    <CommandText>SELECT Despacho, Recepcion, Merma, SeguroProducto, SeguroCivil, IdPeriodo, IdAño, MermaCobrable
+FROM     VistatotalDetalleRefinacionPeriodo</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="Despacho" DataSetColumn="Despacho" />
+              <Mapping SourceColumn="Recepcion" DataSetColumn="Recepcion" />
+              <Mapping SourceColumn="Merma" DataSetColumn="Merma" />
+              <Mapping SourceColumn="SeguroProducto" DataSetColumn="SeguroProducto" />
+              <Mapping SourceColumn="SeguroCivil" DataSetColumn="SeguroCivil" />
+              <Mapping SourceColumn="IdPeriodo" DataSetColumn="IdPeriodo" />
+              <Mapping SourceColumn="IdAño" DataSetColumn="IdAño" />
+              <Mapping SourceColumn="MermaCobrable" DataSetColumn="MermaCobrable" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="VistatotalPagableCorporacionPeriodoTableAdapter" GeneratorDataComponentClassName="VistatotalPagableCorporacionPeriodoTableAdapter" Name="VistatotalPagableCorporacionPeriodo" UserDataComponentName="VistatotalPagableCorporacionPeriodoTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="bercamConnectionString (Web.config)" DbObjectName="bercam.dbo.VistatotalPagableRefinacionPeriodo" DbObjectType="View" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="false" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="true">
+                    <CommandText>SELECT Anticipos, CarroGuia, Adelantos, Multa, TotalPagable, IdPeriodo, IdAño, MultaMerma
+FROM     VistatotalPagableRefinacionPeriodo</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="Anticipos" DataSetColumn="Anticipos" />
+              <Mapping SourceColumn="CarroGuia" DataSetColumn="CarroGuia" />
+              <Mapping SourceColumn="Adelantos" DataSetColumn="Adelantos" />
+              <Mapping SourceColumn="Multa" DataSetColumn="Multa" />
+              <Mapping SourceColumn="TotalPagable" DataSetColumn="TotalPagable" />
+              <Mapping SourceColumn="IdPeriodo" DataSetColumn="IdPeriodo" />
+              <Mapping SourceColumn="IdAño" DataSetColumn="IdAño" />
+              <Mapping SourceColumn="MultaMerma" DataSetColumn="MultaMerma" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="TotalTelefoniaPeriodoTableAdapter" GeneratorDataComponentClassName="TotalTelefoniaPeriodoTableAdapter" Name="TotalTelefoniaPeriodo" UserDataComponentName="TotalTelefoniaPeriodoTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="bercamConnectionString (Web.config)" DbObjectName="bercam.dbo.TotalTelefoniaPeriodo" DbObjectType="View" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="false" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="true">
+                    <CommandText>SELECT TotalTelefoniaPeriodo.*
+FROM     TotalTelefoniaPeriodo</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="SumTelefonia" DataSetColumn="SumTelefonia" />
+              <Mapping SourceColumn="IdPeriodo" DataSetColumn="IdPeriodo" />
+              <Mapping SourceColumn="IdAño" DataSetColumn="IdAño" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="TotalRastreoSatelitalPeriodoTableAdapter" GeneratorDataComponentClassName="TotalRastreoSatelitalPeriodoTableAdapter" Name="TotalRastreoSatelitalPeriodo" UserDataComponentName="TotalRastreoSatelitalPeriodoTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="bercamConnectionString (Web.config)" DbObjectName="bercam.dbo.TotalRastreoSatelitalPeriodo" DbObjectType="View" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="false" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="true">
+                    <CommandText>SELECT TotalRastreoSatelitalPeriodo.*
+FROM     TotalRastreoSatelitalPeriodo</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="SumRasSatelital" DataSetColumn="SumRasSatelital" />
+              <Mapping SourceColumn="IdPeriodo" DataSetColumn="IdPeriodo" />
+              <Mapping SourceColumn="IdAño" DataSetColumn="IdAño" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="ViTotalTelefoniaRefinacionTableAdapter" GeneratorDataComponentClassName="ViTotalTelefoniaRefinacionTableAdapter" Name="ViTotalTelefoniaRefinacion" UserDataComponentName="ViTotalTelefoniaRefinacionTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="bercamConnectionString (Web.config)" DbObjectName="bercam.dbo.ViTotalTelefoniaRefinacion" DbObjectType="View" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="false" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="true">
+                    <CommandText>SELECT ViTotalTelefoniaRefinacion.*
+FROM     ViTotalTelefoniaRefinacion</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="SumTelefonia" DataSetColumn="SumTelefonia" />
+              <Mapping SourceColumn="IdPeriodo" DataSetColumn="IdPeriodo" />
+              <Mapping SourceColumn="IdAño" DataSetColumn="IdAño" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="ViTotalRastreoRefTableAdapter" GeneratorDataComponentClassName="ViTotalRastreoRefTableAdapter" Name="ViTotalRastreoRef" UserDataComponentName="ViTotalRastreoRefTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="bercamConnectionString (Web.config)" DbObjectName="bercam.dbo.ViTotalRastreoRef" DbObjectType="View" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="false" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="true">
+                    <CommandText>SELECT SumRasSatelital, IdPeriodo, IdAño FROM ViTotalRastreoRef</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="IdPeriodo" DataSetColumn="IdPeriodo" />
+              <Mapping SourceColumn="IdAño" DataSetColumn="IdAño" />
+              <Mapping SourceColumn="SumRasSatelital" DataSetColumn="SumRasSatelital" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="ViResumenTotalPagableRefinacionTableAdapter" GeneratorDataComponentClassName="ViResumenTotalPagableRefinacionTableAdapter" Name="ViResumenTotalPagableRefinacion" UserDataComponentName="ViResumenTotalPagableRefinacionTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="bercamConnectionString (Web.config)" DbObjectName="bercam.dbo.ViResumenTotalPagableRefinacion" DbObjectType="View" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="false" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="true">
+                    <CommandText>SELECT ViResumenTotalPagableRefinacion.*
+FROM     ViResumenTotalPagableRefinacion</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="Anticipos" DataSetColumn="Anticipos" />
+              <Mapping SourceColumn="Adelantos" DataSetColumn="Adelantos" />
+              <Mapping SourceColumn="Multa" DataSetColumn="Multa" />
+              <Mapping SourceColumn="MultaMerma" DataSetColumn="MultaMerma" />
+              <Mapping SourceColumn="TotalPagable" DataSetColumn="TotalPagable" />
+              <Mapping SourceColumn="IdPeriodo" DataSetColumn="IdPeriodo" />
+              <Mapping SourceColumn="IdAño" DataSetColumn="IdAño" />
+              <Mapping SourceColumn="SeguroProducto" DataSetColumn="SeguroProducto" />
+              <Mapping SourceColumn="SeguroRespCivil" DataSetColumn="SeguroRespCivil" />
+              <Mapping SourceColumn="CarroGuia" DataSetColumn="CarroGuia" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="ViResumenDetalleRefTableAdapter" GeneratorDataComponentClassName="ViResumenDetalleRefTableAdapter" Name="ViResumenDetalleRef" UserDataComponentName="ViResumenDetalleRefTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="bercamConnectionString (Web.config)" DbObjectName="bercam.dbo.ViResumenDetalleRef" DbObjectType="View" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="false" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="true">
+                    <CommandText>SELECT ViResumenDetalleRef.*
+FROM     ViResumenDetalleRef</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="Despacho" DataSetColumn="Despacho" />
+              <Mapping SourceColumn="Recepcion" DataSetColumn="Recepcion" />
+              <Mapping SourceColumn="Merma" DataSetColumn="Merma" />
+              <Mapping SourceColumn="MermaCobrable" DataSetColumn="MermaCobrable" />
+              <Mapping SourceColumn="IdPeriodo" DataSetColumn="IdPeriodo" />
+              <Mapping SourceColumn="IdAño" DataSetColumn="IdAño" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DataSetResumenConcPeriodo" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="DataSetResumenConcPeriodo" msprop:Generator_UserDSName="DataSetResumenConcPeriodo">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="VistatotalDetalleCorporacionPeriodo" msprop:Generator_TableClassName="VistatotalDetalleCorporacionPeriodoDataTable" msprop:Generator_TableVarName="tableVistatotalDetalleCorporacionPeriodo" msprop:Generator_RowChangedName="VistatotalDetalleCorporacionPeriodoRowChanged" msprop:Generator_TablePropName="VistatotalDetalleCorporacionPeriodo" msprop:Generator_RowDeletingName="VistatotalDetalleCorporacionPeriodoRowDeleting" msprop:Generator_RowChangingName="VistatotalDetalleCorporacionPeriodoRowChanging" msprop:Generator_RowEvHandlerName="VistatotalDetalleCorporacionPeriodoRowChangeEventHandler" msprop:Generator_RowDeletedName="VistatotalDetalleCorporacionPeriodoRowDeleted" msprop:Generator_RowClassName="VistatotalDetalleCorporacionPeriodoRow" msprop:Generator_UserTableName="VistatotalDetalleCorporacionPeriodo" msprop:Generator_RowEvArgName="VistatotalDetalleCorporacionPeriodoRowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Despacho" msprop:Generator_ColumnVarNameInTable="columnDespacho" msprop:Generator_ColumnPropNameInRow="Despacho" msprop:Generator_ColumnPropNameInTable="DespachoColumn" msprop:Generator_UserColumnName="Despacho" type="xs:double" minOccurs="0" />
+              <xs:element name="Recepcion" msprop:Generator_ColumnVarNameInTable="columnRecepcion" msprop:Generator_ColumnPropNameInRow="Recepcion" msprop:Generator_ColumnPropNameInTable="RecepcionColumn" msprop:Generator_UserColumnName="Recepcion" type="xs:double" minOccurs="0" />
+              <xs:element name="Merma" msprop:Generator_ColumnVarNameInTable="columnMerma" msprop:Generator_ColumnPropNameInRow="Merma" msprop:Generator_ColumnPropNameInTable="MermaColumn" msprop:Generator_UserColumnName="Merma" type="xs:double" minOccurs="0" />
+              <xs:element name="SeguroProducto" msprop:Generator_ColumnVarNameInTable="columnSeguroProducto" msprop:Generator_ColumnPropNameInRow="SeguroProducto" msprop:Generator_ColumnPropNameInTable="SeguroProductoColumn" msprop:Generator_UserColumnName="SeguroProducto" type="xs:double" minOccurs="0" />
+              <xs:element name="SeguroCivil" msprop:Generator_ColumnVarNameInTable="columnSeguroCivil" msprop:Generator_ColumnPropNameInRow="SeguroCivil" msprop:Generator_ColumnPropNameInTable="SeguroCivilColumn" msprop:Generator_UserColumnName="SeguroCivil" type="xs:double" minOccurs="0" />
+              <xs:element name="IdPeriodo" msprop:Generator_ColumnVarNameInTable="columnIdPeriodo" msprop:Generator_ColumnPropNameInRow="IdPeriodo" msprop:Generator_ColumnPropNameInTable="IdPeriodoColumn" msprop:Generator_UserColumnName="IdPeriodo" type="xs:int" minOccurs="0" />
+              <xs:element name="IdAño" msprop:Generator_ColumnVarNameInTable="columnIdAño" msprop:Generator_ColumnPropNameInRow="IdAño" msprop:Generator_ColumnPropNameInTable="IdAñoColumn" msprop:Generator_UserColumnName="IdAño" type="xs:int" minOccurs="0" />
+              <xs:element name="MermaCobrable" msprop:Generator_ColumnVarNameInTable="columnMermaCobrable" msprop:Generator_ColumnPropNameInRow="MermaCobrable" msprop:Generator_ColumnPropNameInTable="MermaCobrableColumn" msprop:Generator_UserColumnName="MermaCobrable" type="xs:double" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="VistatotalPagableCorporacionPeriodo" msprop:Generator_TableClassName="VistatotalPagableCorporacionPeriodoDataTable" msprop:Generator_TableVarName="tableVistatotalPagableCorporacionPeriodo" msprop:Generator_RowChangedName="VistatotalPagableCorporacionPeriodoRowChanged" msprop:Generator_TablePropName="VistatotalPagableCorporacionPeriodo" msprop:Generator_RowDeletingName="VistatotalPagableCorporacionPeriodoRowDeleting" msprop:Generator_RowChangingName="VistatotalPagableCorporacionPeriodoRowChanging" msprop:Generator_RowEvHandlerName="VistatotalPagableCorporacionPeriodoRowChangeEventHandler" msprop:Generator_RowDeletedName="VistatotalPagableCorporacionPeriodoRowDeleted" msprop:Generator_RowClassName="VistatotalPagableCorporacionPeriodoRow" msprop:Generator_UserTableName="VistatotalPagableCorporacionPeriodo" msprop:Generator_RowEvArgName="VistatotalPagableCorporacionPeriodoRowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Anticipos" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnAnticipos" msprop:Generator_ColumnPropNameInRow="Anticipos" msprop:Generator_ColumnPropNameInTable="AnticiposColumn" msprop:Generator_UserColumnName="Anticipos" type="xs:double" minOccurs="0" />
+              <xs:element name="CarroGuia" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnCarroGuia" msprop:Generator_ColumnPropNameInRow="CarroGuia" msprop:Generator_ColumnPropNameInTable="CarroGuiaColumn" msprop:Generator_UserColumnName="CarroGuia" type="xs:double" minOccurs="0" />
+              <xs:element name="Adelantos" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnAdelantos" msprop:Generator_ColumnPropNameInRow="Adelantos" msprop:Generator_ColumnPropNameInTable="AdelantosColumn" msprop:Generator_UserColumnName="Adelantos" type="xs:double" minOccurs="0" />
+              <xs:element name="Multa" msprop:Generator_ColumnVarNameInTable="columnMulta" msprop:Generator_ColumnPropNameInRow="Multa" msprop:Generator_ColumnPropNameInTable="MultaColumn" msprop:Generator_UserColumnName="Multa" type="xs:double" minOccurs="0" />
+              <xs:element name="TotalPagable" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnTotalPagable" msprop:Generator_ColumnPropNameInRow="TotalPagable" msprop:Generator_ColumnPropNameInTable="TotalPagableColumn" msprop:Generator_UserColumnName="TotalPagable" type="xs:double" minOccurs="0" />
+              <xs:element name="IdPeriodo" msprop:Generator_ColumnVarNameInTable="columnIdPeriodo" msprop:Generator_ColumnPropNameInRow="IdPeriodo" msprop:Generator_ColumnPropNameInTable="IdPeriodoColumn" msprop:Generator_UserColumnName="IdPeriodo" type="xs:int" minOccurs="0" />
+              <xs:element name="IdAño" msprop:Generator_ColumnVarNameInTable="columnIdAño" msprop:Generator_ColumnPropNameInRow="IdAño" msprop:Generator_ColumnPropNameInTable="IdAñoColumn" msprop:Generator_UserColumnName="IdAño" type="xs:int" minOccurs="0" />
+              <xs:element name="MultaMerma" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnMultaMerma" msprop:Generator_ColumnPropNameInRow="MultaMerma" msprop:Generator_ColumnPropNameInTable="MultaMermaColumn" msprop:Generator_UserColumnName="MultaMerma" type="xs:double" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="TotalTelefoniaPeriodo" msprop:Generator_TableClassName="TotalTelefoniaPeriodoDataTable" msprop:Generator_TableVarName="tableTotalTelefoniaPeriodo" msprop:Generator_RowChangedName="TotalTelefoniaPeriodoRowChanged" msprop:Generator_TablePropName="TotalTelefoniaPeriodo" msprop:Generator_RowDeletingName="TotalTelefoniaPeriodoRowDeleting" msprop:Generator_RowChangingName="TotalTelefoniaPeriodoRowChanging" msprop:Generator_RowEvHandlerName="TotalTelefoniaPeriodoRowChangeEventHandler" msprop:Generator_RowDeletedName="TotalTelefoniaPeriodoRowDeleted" msprop:Generator_RowClassName="TotalTelefoniaPeriodoRow" msprop:Generator_UserTableName="TotalTelefoniaPeriodo" msprop:Generator_RowEvArgName="TotalTelefoniaPeriodoRowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="SumTelefonia" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnSumTelefonia" msprop:Generator_ColumnPropNameInRow="SumTelefonia" msprop:Generator_ColumnPropNameInTable="SumTelefoniaColumn" msprop:Generator_UserColumnName="SumTelefonia" type="xs:double" minOccurs="0" />
+              <xs:element name="IdPeriodo" msprop:Generator_ColumnVarNameInTable="columnIdPeriodo" msprop:Generator_ColumnPropNameInRow="IdPeriodo" msprop:Generator_ColumnPropNameInTable="IdPeriodoColumn" msprop:Generator_UserColumnName="IdPeriodo" type="xs:int" minOccurs="0" />
+              <xs:element name="IdAño" msprop:Generator_ColumnVarNameInTable="columnIdAño" msprop:Generator_ColumnPropNameInRow="IdAño" msprop:Generator_ColumnPropNameInTable="IdAñoColumn" msprop:Generator_UserColumnName="IdAño" type="xs:int" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="TotalRastreoSatelitalPeriodo" msprop:Generator_TableClassName="TotalRastreoSatelitalPeriodoDataTable" msprop:Generator_TableVarName="tableTotalRastreoSatelitalPeriodo" msprop:Generator_RowChangedName="TotalRastreoSatelitalPeriodoRowChanged" msprop:Generator_TablePropName="TotalRastreoSatelitalPeriodo" msprop:Generator_RowDeletingName="TotalRastreoSatelitalPeriodoRowDeleting" msprop:Generator_RowChangingName="TotalRastreoSatelitalPeriodoRowChanging" msprop:Generator_RowEvHandlerName="TotalRastreoSatelitalPeriodoRowChangeEventHandler" msprop:Generator_RowDeletedName="TotalRastreoSatelitalPeriodoRowDeleted" msprop:Generator_RowClassName="TotalRastreoSatelitalPeriodoRow" msprop:Generator_UserTableName="TotalRastreoSatelitalPeriodo" msprop:Generator_RowEvArgName="TotalRastreoSatelitalPeriodoRowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="SumRasSatelital" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnSumRasSatelital" msprop:Generator_ColumnPropNameInRow="SumRasSatelital" msprop:Generator_ColumnPropNameInTable="SumRasSatelitalColumn" msprop:Generator_UserColumnName="SumRasSatelital" type="xs:double" minOccurs="0" />
+              <xs:element name="IdPeriodo" msprop:Generator_ColumnVarNameInTable="columnIdPeriodo" msprop:Generator_ColumnPropNameInRow="IdPeriodo" msprop:Generator_ColumnPropNameInTable="IdPeriodoColumn" msprop:Generator_UserColumnName="IdPeriodo" type="xs:int" minOccurs="0" />
+              <xs:element name="IdAño" msprop:Generator_ColumnVarNameInTable="columnIdAño" msprop:Generator_ColumnPropNameInRow="IdAño" msprop:Generator_ColumnPropNameInTable="IdAñoColumn" msprop:Generator_UserColumnName="IdAño" type="xs:int" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="ViTotalTelefoniaRefinacion" msprop:Generator_TableClassName="ViTotalTelefoniaRefinacionDataTable" msprop:Generator_TableVarName="tableViTotalTelefoniaRefinacion" msprop:Generator_RowChangedName="ViTotalTelefoniaRefinacionRowChanged" msprop:Generator_TablePropName="ViTotalTelefoniaRefinacion" msprop:Generator_RowDeletingName="ViTotalTelefoniaRefinacionRowDeleting" msprop:Generator_RowChangingName="ViTotalTelefoniaRefinacionRowChanging" msprop:Generator_RowEvHandlerName="ViTotalTelefoniaRefinacionRowChangeEventHandler" msprop:Generator_RowDeletedName="ViTotalTelefoniaRefinacionRowDeleted" msprop:Generator_RowClassName="ViTotalTelefoniaRefinacionRow" msprop:Generator_UserTableName="ViTotalTelefoniaRefinacion" msprop:Generator_RowEvArgName="ViTotalTelefoniaRefinacionRowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="SumTelefonia" msprop:Generator_ColumnVarNameInTable="columnSumTelefonia" msprop:Generator_ColumnPropNameInRow="SumTelefonia" msprop:Generator_ColumnPropNameInTable="SumTelefoniaColumn" msprop:Generator_UserColumnName="SumTelefonia" type="xs:double" minOccurs="0" />
+              <xs:element name="IdPeriodo" msprop:Generator_ColumnVarNameInTable="columnIdPeriodo" msprop:Generator_ColumnPropNameInRow="IdPeriodo" msprop:Generator_ColumnPropNameInTable="IdPeriodoColumn" msprop:Generator_UserColumnName="IdPeriodo" type="xs:int" minOccurs="0" />
+              <xs:element name="IdAño" msprop:Generator_ColumnVarNameInTable="columnIdAño" msprop:Generator_ColumnPropNameInRow="IdAño" msprop:Generator_ColumnPropNameInTable="IdAñoColumn" msprop:Generator_UserColumnName="IdAño" type="xs:int" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="ViTotalRastreoRef" msprop:Generator_TableClassName="ViTotalRastreoRefDataTable" msprop:Generator_TableVarName="tableViTotalRastreoRef" msprop:Generator_RowChangedName="ViTotalRastreoRefRowChanged" msprop:Generator_TablePropName="ViTotalRastreoRef" msprop:Generator_RowDeletingName="ViTotalRastreoRefRowDeleting" msprop:Generator_RowChangingName="ViTotalRastreoRefRowChanging" msprop:Generator_RowEvHandlerName="ViTotalRastreoRefRowChangeEventHandler" msprop:Generator_RowDeletedName="ViTotalRastreoRefRowDeleted" msprop:Generator_RowClassName="ViTotalRastreoRefRow" msprop:Generator_UserTableName="ViTotalRastreoRef" msprop:Generator_RowEvArgName="ViTotalRastreoRefRowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="IdPeriodo" msprop:Generator_ColumnVarNameInTable="columnIdPeriodo" msprop:Generator_ColumnPropNameInRow="IdPeriodo" msprop:Generator_ColumnPropNameInTable="IdPeriodoColumn" msprop:Generator_UserColumnName="IdPeriodo" type="xs:int" minOccurs="0" />
+              <xs:element name="IdAño" msprop:Generator_ColumnVarNameInTable="columnIdAño" msprop:Generator_ColumnPropNameInRow="IdAño" msprop:Generator_ColumnPropNameInTable="IdAñoColumn" msprop:Generator_UserColumnName="IdAño" type="xs:int" minOccurs="0" />
+              <xs:element name="SumRasSatelital" msprop:Generator_ColumnVarNameInTable="columnSumRasSatelital" msprop:Generator_ColumnPropNameInRow="SumRasSatelital" msprop:Generator_ColumnPropNameInTable="SumRasSatelitalColumn" msprop:Generator_UserColumnName="SumRasSatelital" type="xs:double" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="ViResumenTotalPagableRefinacion" msprop:Generator_TableClassName="ViResumenTotalPagableRefinacionDataTable" msprop:Generator_TableVarName="tableViResumenTotalPagableRefinacion" msprop:Generator_TablePropName="ViResumenTotalPagableRefinacion" msprop:Generator_RowDeletingName="ViResumenTotalPagableRefinacionRowDeleting" msprop:Generator_RowChangingName="ViResumenTotalPagableRefinacionRowChanging" msprop:Generator_RowEvHandlerName="ViResumenTotalPagableRefinacionRowChangeEventHandler" msprop:Generator_RowDeletedName="ViResumenTotalPagableRefinacionRowDeleted" msprop:Generator_UserTableName="ViResumenTotalPagableRefinacion" msprop:Generator_RowChangedName="ViResumenTotalPagableRefinacionRowChanged" msprop:Generator_RowEvArgName="ViResumenTotalPagableRefinacionRowChangeEvent" msprop:Generator_RowClassName="ViResumenTotalPagableRefinacionRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Anticipos" msprop:Generator_ColumnVarNameInTable="columnAnticipos" msprop:Generator_ColumnPropNameInRow="Anticipos" msprop:Generator_ColumnPropNameInTable="AnticiposColumn" msprop:Generator_UserColumnName="Anticipos" type="xs:double" minOccurs="0" />
+              <xs:element name="Adelantos" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnAdelantos" msprop:Generator_ColumnPropNameInRow="Adelantos" msprop:Generator_ColumnPropNameInTable="AdelantosColumn" msprop:Generator_UserColumnName="Adelantos" type="xs:double" minOccurs="0" />
+              <xs:element name="Multa" msprop:Generator_ColumnVarNameInTable="columnMulta" msprop:Generator_ColumnPropNameInRow="Multa" msprop:Generator_ColumnPropNameInTable="MultaColumn" msprop:Generator_UserColumnName="Multa" type="xs:double" minOccurs="0" />
+              <xs:element name="MultaMerma" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnMultaMerma" msprop:Generator_ColumnPropNameInRow="MultaMerma" msprop:Generator_ColumnPropNameInTable="MultaMermaColumn" msprop:Generator_UserColumnName="MultaMerma" type="xs:double" minOccurs="0" />
+              <xs:element name="TotalPagable" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnTotalPagable" msprop:Generator_ColumnPropNameInRow="TotalPagable" msprop:Generator_ColumnPropNameInTable="TotalPagableColumn" msprop:Generator_UserColumnName="TotalPagable" type="xs:double" minOccurs="0" />
+              <xs:element name="IdPeriodo" msprop:Generator_ColumnVarNameInTable="columnIdPeriodo" msprop:Generator_ColumnPropNameInRow="IdPeriodo" msprop:Generator_ColumnPropNameInTable="IdPeriodoColumn" msprop:Generator_UserColumnName="IdPeriodo" type="xs:int" minOccurs="0" />
+              <xs:element name="IdAño" msprop:Generator_ColumnVarNameInTable="columnIdAño" msprop:Generator_ColumnPropNameInRow="IdAño" msprop:Generator_ColumnPropNameInTable="IdAñoColumn" msprop:Generator_UserColumnName="IdAño" type="xs:int" minOccurs="0" />
+              <xs:element name="SeguroProducto" msprop:Generator_ColumnVarNameInTable="columnSeguroProducto" msprop:Generator_ColumnPropNameInRow="SeguroProducto" msprop:Generator_ColumnPropNameInTable="SeguroProductoColumn" msprop:Generator_UserColumnName="SeguroProducto" type="xs:double" minOccurs="0" />
+              <xs:element name="SeguroRespCivil" msprop:Generator_ColumnVarNameInTable="columnSeguroRespCivil" msprop:Generator_ColumnPropNameInRow="SeguroRespCivil" msprop:Generator_ColumnPropNameInTable="SeguroRespCivilColumn" msprop:Generator_UserColumnName="SeguroRespCivil" type="xs:double" minOccurs="0" />
+              <xs:element name="CarroGuia" msprop:Generator_ColumnVarNameInTable="columnCarroGuia" msprop:Generator_ColumnPropNameInRow="CarroGuia" msprop:Generator_ColumnPropNameInTable="CarroGuiaColumn" msprop:Generator_UserColumnName="CarroGuia" type="xs:double" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="ViResumenDetalleRef" msprop:Generator_TableClassName="ViResumenDetalleRefDataTable" msprop:Generator_TableVarName="tableViResumenDetalleRef" msprop:Generator_TablePropName="ViResumenDetalleRef" msprop:Generator_RowDeletingName="ViResumenDetalleRefRowDeleting" msprop:Generator_RowChangingName="ViResumenDetalleRefRowChanging" msprop:Generator_RowEvHandlerName="ViResumenDetalleRefRowChangeEventHandler" msprop:Generator_RowDeletedName="ViResumenDetalleRefRowDeleted" msprop:Generator_UserTableName="ViResumenDetalleRef" msprop:Generator_RowChangedName="ViResumenDetalleRefRowChanged" msprop:Generator_RowEvArgName="ViResumenDetalleRefRowChangeEvent" msprop:Generator_RowClassName="ViResumenDetalleRefRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Despacho" msprop:Generator_ColumnVarNameInTable="columnDespacho" msprop:Generator_ColumnPropNameInRow="Despacho" msprop:Generator_ColumnPropNameInTable="DespachoColumn" msprop:Generator_UserColumnName="Despacho" type="xs:double" minOccurs="0" />
+              <xs:element name="Recepcion" msprop:Generator_ColumnVarNameInTable="columnRecepcion" msprop:Generator_ColumnPropNameInRow="Recepcion" msprop:Generator_ColumnPropNameInTable="RecepcionColumn" msprop:Generator_UserColumnName="Recepcion" type="xs:double" minOccurs="0" />
+              <xs:element name="Merma" msprop:Generator_ColumnVarNameInTable="columnMerma" msprop:Generator_ColumnPropNameInRow="Merma" msprop:Generator_ColumnPropNameInTable="MermaColumn" msprop:Generator_UserColumnName="Merma" type="xs:double" minOccurs="0" />
+              <xs:element name="MermaCobrable" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnMermaCobrable" msprop:Generator_ColumnPropNameInRow="MermaCobrable" msprop:Generator_ColumnPropNameInTable="MermaCobrableColumn" msprop:Generator_UserColumnName="MermaCobrable" type="xs:double" minOccurs="0" />
+              <xs:element name="IdPeriodo" msprop:Generator_ColumnVarNameInTable="columnIdPeriodo" msprop:Generator_ColumnPropNameInRow="IdPeriodo" msprop:Generator_ColumnPropNameInTable="IdPeriodoColumn" msprop:Generator_UserColumnName="IdPeriodo" type="xs:int" minOccurs="0" />
+              <xs:element name="IdAño" msprop:Generator_ColumnVarNameInTable="columnIdAño" msprop:Generator_ColumnPropNameInRow="IdAño" msprop:Generator_ColumnPropNameInTable="IdAñoColumn" msprop:Generator_UserColumnName="IdAño" type="xs:int" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

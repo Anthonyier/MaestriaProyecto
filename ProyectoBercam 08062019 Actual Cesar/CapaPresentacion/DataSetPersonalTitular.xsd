@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DataSetPersonalTitular" targetNamespace="http://tempuri.org/DataSetPersonalTitular.xsd" xmlns:mstns="http://tempuri.org/DataSetPersonalTitular.xsd" xmlns="http://tempuri.org/DataSetPersonalTitular.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Web.config" AppSettingsPropertyName="bercamConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="bercamConnectionString (Web.config)" ParameterPrefix="@" PropertyReference="AppConfig.System.Configuration.ConfigurationManager.0.ConnectionStrings.bercamConnectionString.ConnectionString" Provider="System.Data.SqlClient" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="ViTitularHabilitadoTableAdapter" GeneratorDataComponentClassName="ViTitularHabilitadoTableAdapter" Name="ViTitularHabilitado" UserDataComponentName="ViTitularHabilitadoTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="bercamConnectionString (Web.config)" DbObjectName="bercam.dbo.ViTitularHabilitado" DbObjectType="View" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="false" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="true">
+                    <CommandText>SELECT ViTitularHabilitado.* FROM ViTitularHabilitado</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="Titular" DataSetColumn="Titular" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DataSetPersonalTitular" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="DataSetPersonalTitular" msprop:Generator_UserDSName="DataSetPersonalTitular">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="ViTitularHabilitado" msprop:Generator_TableClassName="ViTitularHabilitadoDataTable" msprop:Generator_TableVarName="tableViTitularHabilitado" msprop:Generator_TablePropName="ViTitularHabilitado" msprop:Generator_RowDeletingName="ViTitularHabilitadoRowDeleting" msprop:Generator_RowChangingName="ViTitularHabilitadoRowChanging" msprop:Generator_RowEvHandlerName="ViTitularHabilitadoRowChangeEventHandler" msprop:Generator_RowDeletedName="ViTitularHabilitadoRowDeleted" msprop:Generator_UserTableName="ViTitularHabilitado" msprop:Generator_RowChangedName="ViTitularHabilitadoRowChanged" msprop:Generator_RowEvArgName="ViTitularHabilitadoRowChangeEvent" msprop:Generator_RowClassName="ViTitularHabilitadoRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Titular" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnTitular" msprop:Generator_ColumnPropNameInRow="Titular" msprop:Generator_ColumnPropNameInTable="TitularColumn" msprop:Generator_UserColumnName="Titular" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="201" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

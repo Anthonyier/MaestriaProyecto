@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DataSetNominas1" targetNamespace="http://tempuri.org/DataSetNominas1.xsd" xmlns:mstns="http://tempuri.org/DataSetNominas1.xsd" xmlns="http://tempuri.org/DataSetNominas1.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Web.config" AppSettingsPropertyName="bercamConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="bercamConnectionString (Web.config)" ParameterPrefix="@" PropertyReference="AppConfig.System.Configuration.ConfigurationManager.0.ConnectionStrings.bercamConnectionString.ConnectionString" Provider="System.Data.SqlClient" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="Vi_NominaTableAdapter" GeneratorDataComponentClassName="Vi_NominaTableAdapter" Name="Vi_Nomina" UserDataComponentName="Vi_NominaTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="bercamConnectionString (Web.config)" DbObjectName="bercam.dbo.Vi_Nomina" DbObjectType="View" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="false" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="true">
+                    <CommandText>SELECT        Monto_Anticipo, FechaCarga, FechaDescarga, Vigencia, Placa_Camion, Id_Recepcion, Id_Chofer, Compartimiento1, Compartimiento2, Compartimiento3, Compartimiento4, Compartimiento5, Compartimiento6, 
+                         Compartimiento7, Precintos, Producto
+FROM            Vi_Nomina</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="Monto_Anticipo" DataSetColumn="Monto_Anticipo" />
+              <Mapping SourceColumn="FechaCarga" DataSetColumn="FechaCarga" />
+              <Mapping SourceColumn="FechaDescarga" DataSetColumn="FechaDescarga" />
+              <Mapping SourceColumn="Vigencia" DataSetColumn="Vigencia" />
+              <Mapping SourceColumn="Placa_Camion" DataSetColumn="Placa_Camion" />
+              <Mapping SourceColumn="Id_Recepcion" DataSetColumn="Id_Recepcion" />
+              <Mapping SourceColumn="Id_Chofer" DataSetColumn="Id_Chofer" />
+              <Mapping SourceColumn="Compartimiento1" DataSetColumn="Compartimiento1" />
+              <Mapping SourceColumn="Compartimiento2" DataSetColumn="Compartimiento2" />
+              <Mapping SourceColumn="Compartimiento3" DataSetColumn="Compartimiento3" />
+              <Mapping SourceColumn="Compartimiento4" DataSetColumn="Compartimiento4" />
+              <Mapping SourceColumn="Compartimiento5" DataSetColumn="Compartimiento5" />
+              <Mapping SourceColumn="Compartimiento6" DataSetColumn="Compartimiento6" />
+              <Mapping SourceColumn="Compartimiento7" DataSetColumn="Compartimiento7" />
+              <Mapping SourceColumn="Precintos" DataSetColumn="Precintos" />
+              <Mapping SourceColumn="Producto" DataSetColumn="Producto" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DataSetNominas1" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="DataSetNominas1" msprop:Generator_UserDSName="DataSetNominas1">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Vi_Nomina" msprop:Generator_TableClassName="Vi_NominaDataTable" msprop:Generator_TableVarName="tableVi_Nomina" msprop:Generator_TablePropName="Vi_Nomina" msprop:Generator_RowDeletingName="Vi_NominaRowDeleting" msprop:Generator_RowChangingName="Vi_NominaRowChanging" msprop:Generator_RowEvHandlerName="Vi_NominaRowChangeEventHandler" msprop:Generator_RowDeletedName="Vi_NominaRowDeleted" msprop:Generator_UserTableName="Vi_Nomina" msprop:Generator_RowChangedName="Vi_NominaRowChanged" msprop:Generator_RowEvArgName="Vi_NominaRowChangeEvent" msprop:Generator_RowClassName="Vi_NominaRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Monto_Anticipo" msprop:Generator_ColumnVarNameInTable="columnMonto_Anticipo" msprop:Generator_ColumnPropNameInRow="Monto_Anticipo" msprop:Generator_ColumnPropNameInTable="Monto_AnticipoColumn" msprop:Generator_UserColumnName="Monto_Anticipo" type="xs:double" minOccurs="0" />
+              <xs:element name="FechaCarga" msprop:Generator_ColumnVarNameInTable="columnFechaCarga" msprop:Generator_ColumnPropNameInRow="FechaCarga" msprop:Generator_ColumnPropNameInTable="FechaCargaColumn" msprop:Generator_UserColumnName="FechaCarga" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="FechaDescarga" msprop:Generator_ColumnVarNameInTable="columnFechaDescarga" msprop:Generator_ColumnPropNameInRow="FechaDescarga" msprop:Generator_ColumnPropNameInTable="FechaDescargaColumn" msprop:Generator_UserColumnName="FechaDescarga" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="Vigencia" msprop:Generator_ColumnVarNameInTable="columnVigencia" msprop:Generator_ColumnPropNameInRow="Vigencia" msprop:Generator_ColumnPropNameInTable="VigenciaColumn" msprop:Generator_UserColumnName="Vigencia" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="Placa_Camion" msprop:Generator_ColumnVarNameInTable="columnPlaca_Camion" msprop:Generator_ColumnPropNameInRow="Placa_Camion" msprop:Generator_ColumnPropNameInTable="Placa_CamionColumn" msprop:Generator_UserColumnName="Placa_Camion" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="250" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Id_Recepcion" msprop:Generator_ColumnVarNameInTable="columnId_Recepcion" msprop:Generator_ColumnPropNameInRow="Id_Recepcion" msprop:Generator_ColumnPropNameInTable="Id_RecepcionColumn" msprop:Generator_UserColumnName="Id_Recepcion" type="xs:int" minOccurs="0" />
+              <xs:element name="Id_Chofer" msprop:Generator_ColumnVarNameInTable="columnId_Chofer" msprop:Generator_ColumnPropNameInRow="Id_Chofer" msprop:Generator_ColumnPropNameInTable="Id_ChoferColumn" msprop:Generator_UserColumnName="Id_Chofer" type="xs:int" minOccurs="0" />
+              <xs:element name="Compartimiento1" msprop:Generator_ColumnVarNameInTable="columnCompartimiento1" msprop:Generator_ColumnPropNameInRow="Compartimiento1" msprop:Generator_ColumnPropNameInTable="Compartimiento1Column" msprop:Generator_UserColumnName="Compartimiento1" type="xs:double" minOccurs="0" />
+              <xs:element name="Compartimiento2" msprop:Generator_ColumnVarNameInTable="columnCompartimiento2" msprop:Generator_ColumnPropNameInRow="Compartimiento2" msprop:Generator_ColumnPropNameInTable="Compartimiento2Column" msprop:Generator_UserColumnName="Compartimiento2" type="xs:double" minOccurs="0" />
+              <xs:element name="Compartimiento3" msprop:Generator_ColumnVarNameInTable="columnCompartimiento3" msprop:Generator_ColumnPropNameInRow="Compartimiento3" msprop:Generator_ColumnPropNameInTable="Compartimiento3Column" msprop:Generator_UserColumnName="Compartimiento3" type="xs:double" minOccurs="0" />
+              <xs:element name="Compartimiento4" msprop:Generator_ColumnVarNameInTable="columnCompartimiento4" msprop:Generator_ColumnPropNameInRow="Compartimiento4" msprop:Generator_ColumnPropNameInTable="Compartimiento4Column" msprop:Generator_UserColumnName="Compartimiento4" type="xs:double" minOccurs="0" />
+              <xs:element name="Compartimiento5" msprop:Generator_ColumnVarNameInTable="columnCompartimiento5" msprop:Generator_ColumnPropNameInRow="Compartimiento5" msprop:Generator_ColumnPropNameInTable="Compartimiento5Column" msprop:Generator_UserColumnName="Compartimiento5" type="xs:double" minOccurs="0" />
+              <xs:element name="Compartimiento6" msprop:Generator_ColumnVarNameInTable="columnCompartimiento6" msprop:Generator_ColumnPropNameInRow="Compartimiento6" msprop:Generator_ColumnPropNameInTable="Compartimiento6Column" msprop:Generator_UserColumnName="Compartimiento6" type="xs:double" minOccurs="0" />
+              <xs:element name="Compartimiento7" msprop:Generator_ColumnVarNameInTable="columnCompartimiento7" msprop:Generator_ColumnPropNameInRow="Compartimiento7" msprop:Generator_ColumnPropNameInTable="Compartimiento7Column" msprop:Generator_UserColumnName="Compartimiento7" type="xs:double" minOccurs="0" />
+              <xs:element name="Precintos" msprop:Generator_ColumnVarNameInTable="columnPrecintos" msprop:Generator_ColumnPropNameInRow="Precintos" msprop:Generator_ColumnPropNameInTable="PrecintosColumn" msprop:Generator_UserColumnName="Precintos" type="xs:int" minOccurs="0" />
+              <xs:element name="Producto" msprop:Generator_ColumnVarNameInTable="columnProducto" msprop:Generator_ColumnPropNameInRow="Producto" msprop:Generator_ColumnPropNameInTable="ProductoColumn" msprop:Generator_UserColumnName="Producto" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="250" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

@@ -1,0 +1,236 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DataSetDetalleCarroGuia" targetNamespace="http://tempuri.org/DataSetDetalleCarroGuia.xsd" xmlns:mstns="http://tempuri.org/DataSetDetalleCarroGuia.xsd" xmlns="http://tempuri.org/DataSetDetalleCarroGuia.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Web.config" AppSettingsPropertyName="bercamConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="bercamConnectionString (Web.config)" ParameterPrefix="@" PropertyReference="AppConfig.System.Configuration.ConfigurationManager.0.ConnectionStrings.bercamConnectionString.ConnectionString" Provider="System.Data.SqlClient" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="ViDetalleCaroGuiaTableAdapter" GeneratorDataComponentClassName="ViDetalleCaroGuiaTableAdapter" Name="ViDetalleCaroGuia" UserDataComponentName="ViDetalleCaroGuiaTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="bercamConnectionString (Web.config)" DbObjectName="bercam.dbo.ViDetalleCaroGuia" DbObjectType="View" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="false" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="true">
+                    <CommandText>SELECT ViDetalleCaroGuia.*
+FROM     ViDetalleCaroGuia</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="Id" DataSetColumn="Id" />
+              <Mapping SourceColumn="Monto" DataSetColumn="Monto" />
+              <Mapping SourceColumn="IdPersona" DataSetColumn="IdPersona" />
+              <Mapping SourceColumn="IdPeriodo" DataSetColumn="IdPeriodo" />
+              <Mapping SourceColumn="IdAño" DataSetColumn="IdAño" />
+              <Mapping SourceColumn="Solicitud" DataSetColumn="Solicitud" />
+              <Mapping SourceColumn="IdRegion" DataSetColumn="IdRegion" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="ViDetalleCarroGuiaTableAdapter" GeneratorDataComponentClassName="ViDetalleCarroGuiaTableAdapter" Name="ViDetalleCarroGuia" UserDataComponentName="ViDetalleCarroGuiaTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="bercamConnectionString (Web.config)" DbObjectName="bercam.dbo.ViDetalleCarroGuia" DbObjectType="View" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="false" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="true">
+                    <CommandText>SELECT ViDetalleCarroGuia.*
+FROM     ViDetalleCarroGuia</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="Nombres" DataSetColumn="Nombres" />
+              <Mapping SourceColumn="CI" DataSetColumn="CI" />
+              <Mapping SourceColumn="Monto" DataSetColumn="Monto" />
+              <Mapping SourceColumn="IdPeriodo" DataSetColumn="IdPeriodo" />
+              <Mapping SourceColumn="IdAño" DataSetColumn="IdAño" />
+              <Mapping SourceColumn="IdRegion" DataSetColumn="IdRegion" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="VistaTotalCarroGuiaTableAdapter" GeneratorDataComponentClassName="VistaTotalCarroGuiaTableAdapter" Name="VistaTotalCarroGuia" UserDataComponentName="VistaTotalCarroGuiaTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="bercamConnectionString (Web.config)" DbObjectName="bercam.dbo.VistaTotalCarroGuia" DbObjectType="View" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="false" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="true">
+                    <CommandText>SELECT Monto, IdPeriodo, IdAño, IdRegion
+FROM     VistaTotalCarroGuia</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="Monto" DataSetColumn="Monto" />
+              <Mapping SourceColumn="IdPeriodo" DataSetColumn="IdPeriodo" />
+              <Mapping SourceColumn="IdAño" DataSetColumn="IdAño" />
+              <Mapping SourceColumn="IdRegion" DataSetColumn="IdRegion" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="ViConciliacionCarroGuiaTableAdapter" GeneratorDataComponentClassName="ViConciliacionCarroGuiaTableAdapter" Name="ViConciliacionCarroGuia" UserDataComponentName="ViConciliacionCarroGuiaTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="bercamConnectionString (Web.config)" DbObjectName="bercam.dbo.ViConciliacionCarroGuia" DbObjectType="View" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="false" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="true">
+                    <CommandText>SELECT id, Depositos, Pagos, Diferencias, it, Rastreo, Telefonia, IdPeriodo, IdRastreo, IdAño, IdTelefono1, IdTelefono2, Quincena, TotalPagable
+FROM     ViConciliacionCarroGuia
+ORDER BY IdPeriodo,IdAño</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="id" DataSetColumn="id" />
+              <Mapping SourceColumn="Depositos" DataSetColumn="Depositos" />
+              <Mapping SourceColumn="Pagos" DataSetColumn="Pagos" />
+              <Mapping SourceColumn="Diferencias" DataSetColumn="Diferencias" />
+              <Mapping SourceColumn="it" DataSetColumn="it" />
+              <Mapping SourceColumn="Rastreo" DataSetColumn="Rastreo" />
+              <Mapping SourceColumn="Telefonia" DataSetColumn="Telefonia" />
+              <Mapping SourceColumn="IdPeriodo" DataSetColumn="IdPeriodo" />
+              <Mapping SourceColumn="IdRastreo" DataSetColumn="IdRastreo" />
+              <Mapping SourceColumn="IdAño" DataSetColumn="IdAño" />
+              <Mapping SourceColumn="IdTelefono1" DataSetColumn="IdTelefono1" />
+              <Mapping SourceColumn="IdTelefono2" DataSetColumn="IdTelefono2" />
+              <Mapping SourceColumn="Quincena" DataSetColumn="Quincena" />
+              <Mapping SourceColumn="TotalPagable" DataSetColumn="TotalPagable" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="SumaTotalCarroGuiaTableAdapter" GeneratorDataComponentClassName="SumaTotalCarroGuiaTableAdapter" Name="SumaTotalCarroGuia" UserDataComponentName="SumaTotalCarroGuiaTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="bercamConnectionString (Web.config)" DbObjectName="bercam.dbo.SumaTotalCarroGuia" DbObjectType="View" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="false" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="true">
+                    <CommandText>SELECT Depositos, Pagos, TotalPagable, Diferencias, it, Rastreo, Telefonia, IdAño
+FROM     SumaTotalCarroGuia</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="Depositos" DataSetColumn="Depositos" />
+              <Mapping SourceColumn="Pagos" DataSetColumn="Pagos" />
+              <Mapping SourceColumn="Diferencias" DataSetColumn="Diferencias" />
+              <Mapping SourceColumn="it" DataSetColumn="it" />
+              <Mapping SourceColumn="Rastreo" DataSetColumn="Rastreo" />
+              <Mapping SourceColumn="Telefonia" DataSetColumn="Telefonia" />
+              <Mapping SourceColumn="IdAño" DataSetColumn="IdAño" />
+              <Mapping SourceColumn="TotalPagable" DataSetColumn="TotalPagable" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DataSetDetalleCarroGuia" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="DataSetDetalleCarroGuia" msprop:Generator_UserDSName="DataSetDetalleCarroGuia">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="ViDetalleCaroGuia" msprop:Generator_TableClassName="ViDetalleCaroGuiaDataTable" msprop:Generator_TableVarName="tableViDetalleCaroGuia" msprop:Generator_RowChangedName="ViDetalleCaroGuiaRowChanged" msprop:Generator_TablePropName="ViDetalleCaroGuia" msprop:Generator_RowDeletingName="ViDetalleCaroGuiaRowDeleting" msprop:Generator_RowChangingName="ViDetalleCaroGuiaRowChanging" msprop:Generator_RowEvHandlerName="ViDetalleCaroGuiaRowChangeEventHandler" msprop:Generator_RowDeletedName="ViDetalleCaroGuiaRowDeleted" msprop:Generator_RowClassName="ViDetalleCaroGuiaRow" msprop:Generator_UserTableName="ViDetalleCaroGuia" msprop:Generator_RowEvArgName="ViDetalleCaroGuiaRowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Id" msdata:ReadOnly="true" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="-1" msdata:AutoIncrementStep="-1" msprop:Generator_ColumnVarNameInTable="columnId" msprop:Generator_ColumnPropNameInRow="Id" msprop:Generator_ColumnPropNameInTable="IdColumn" msprop:Generator_UserColumnName="Id" type="xs:int" />
+              <xs:element name="Monto" msprop:Generator_ColumnVarNameInTable="columnMonto" msprop:Generator_ColumnPropNameInRow="Monto" msprop:Generator_ColumnPropNameInTable="MontoColumn" msprop:Generator_UserColumnName="Monto" type="xs:double" />
+              <xs:element name="IdPersona" msprop:Generator_ColumnVarNameInTable="columnIdPersona" msprop:Generator_ColumnPropNameInRow="IdPersona" msprop:Generator_ColumnPropNameInTable="IdPersonaColumn" msprop:Generator_UserColumnName="IdPersona" type="xs:int" />
+              <xs:element name="IdPeriodo" msprop:Generator_ColumnVarNameInTable="columnIdPeriodo" msprop:Generator_ColumnPropNameInRow="IdPeriodo" msprop:Generator_ColumnPropNameInTable="IdPeriodoColumn" msprop:Generator_UserColumnName="IdPeriodo" type="xs:int" minOccurs="0" />
+              <xs:element name="IdAño" msprop:Generator_ColumnVarNameInTable="columnIdAño" msprop:Generator_ColumnPropNameInRow="IdAño" msprop:Generator_ColumnPropNameInTable="IdAñoColumn" msprop:Generator_UserColumnName="IdAño" type="xs:int" minOccurs="0" />
+              <xs:element name="Solicitud" msprop:Generator_ColumnVarNameInTable="columnSolicitud" msprop:Generator_ColumnPropNameInRow="Solicitud" msprop:Generator_ColumnPropNameInTable="SolicitudColumn" msprop:Generator_UserColumnName="Solicitud" type="xs:int" minOccurs="0" />
+              <xs:element name="IdRegion" msprop:Generator_ColumnVarNameInTable="columnIdRegion" msprop:Generator_ColumnPropNameInRow="IdRegion" msprop:Generator_ColumnPropNameInTable="IdRegionColumn" msprop:Generator_UserColumnName="IdRegion" type="xs:int" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="ViDetalleCarroGuia" msprop:Generator_TableClassName="ViDetalleCarroGuiaDataTable" msprop:Generator_TableVarName="tableViDetalleCarroGuia" msprop:Generator_RowChangedName="ViDetalleCarroGuiaRowChanged" msprop:Generator_TablePropName="ViDetalleCarroGuia" msprop:Generator_RowDeletingName="ViDetalleCarroGuiaRowDeleting" msprop:Generator_RowChangingName="ViDetalleCarroGuiaRowChanging" msprop:Generator_RowEvHandlerName="ViDetalleCarroGuiaRowChangeEventHandler" msprop:Generator_RowDeletedName="ViDetalleCarroGuiaRowDeleted" msprop:Generator_RowClassName="ViDetalleCarroGuiaRow" msprop:Generator_UserTableName="ViDetalleCarroGuia" msprop:Generator_RowEvArgName="ViDetalleCarroGuiaRowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Nombres" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnNombres" msprop:Generator_ColumnPropNameInRow="Nombres" msprop:Generator_ColumnPropNameInTable="NombresColumn" msprop:Generator_UserColumnName="Nombres" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="201" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="CI" msprop:Generator_ColumnVarNameInTable="columnCI" msprop:Generator_ColumnPropNameInRow="CI" msprop:Generator_ColumnPropNameInTable="CIColumn" msprop:Generator_UserColumnName="CI" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="250" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Monto" msprop:Generator_ColumnVarNameInTable="columnMonto" msprop:Generator_ColumnPropNameInRow="Monto" msprop:Generator_ColumnPropNameInTable="MontoColumn" msprop:Generator_UserColumnName="Monto" type="xs:double" />
+              <xs:element name="IdPeriodo" msprop:Generator_ColumnVarNameInTable="columnIdPeriodo" msprop:Generator_ColumnPropNameInRow="IdPeriodo" msprop:Generator_ColumnPropNameInTable="IdPeriodoColumn" msprop:Generator_UserColumnName="IdPeriodo" type="xs:int" minOccurs="0" />
+              <xs:element name="IdAño" msprop:Generator_ColumnVarNameInTable="columnIdAño" msprop:Generator_ColumnPropNameInRow="IdAño" msprop:Generator_ColumnPropNameInTable="IdAñoColumn" msprop:Generator_UserColumnName="IdAño" type="xs:int" minOccurs="0" />
+              <xs:element name="IdRegion" msprop:Generator_ColumnVarNameInTable="columnIdRegion" msprop:Generator_ColumnPropNameInRow="IdRegion" msprop:Generator_ColumnPropNameInTable="IdRegionColumn" msprop:Generator_UserColumnName="IdRegion" type="xs:int" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="VistaTotalCarroGuia" msprop:Generator_TableClassName="VistaTotalCarroGuiaDataTable" msprop:Generator_TableVarName="tableVistaTotalCarroGuia" msprop:Generator_TablePropName="VistaTotalCarroGuia" msprop:Generator_RowDeletingName="VistaTotalCarroGuiaRowDeleting" msprop:Generator_RowChangingName="VistaTotalCarroGuiaRowChanging" msprop:Generator_RowEvHandlerName="VistaTotalCarroGuiaRowChangeEventHandler" msprop:Generator_RowDeletedName="VistaTotalCarroGuiaRowDeleted" msprop:Generator_UserTableName="VistaTotalCarroGuia" msprop:Generator_RowChangedName="VistaTotalCarroGuiaRowChanged" msprop:Generator_RowEvArgName="VistaTotalCarroGuiaRowChangeEvent" msprop:Generator_RowClassName="VistaTotalCarroGuiaRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Monto" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnMonto" msprop:Generator_ColumnPropNameInRow="Monto" msprop:Generator_ColumnPropNameInTable="MontoColumn" msprop:Generator_UserColumnName="Monto" type="xs:double" minOccurs="0" />
+              <xs:element name="IdPeriodo" msprop:Generator_ColumnVarNameInTable="columnIdPeriodo" msprop:Generator_ColumnPropNameInRow="IdPeriodo" msprop:Generator_ColumnPropNameInTable="IdPeriodoColumn" msprop:Generator_UserColumnName="IdPeriodo" type="xs:int" minOccurs="0" />
+              <xs:element name="IdAño" msprop:Generator_ColumnVarNameInTable="columnIdAño" msprop:Generator_ColumnPropNameInRow="IdAño" msprop:Generator_ColumnPropNameInTable="IdAñoColumn" msprop:Generator_UserColumnName="IdAño" type="xs:int" minOccurs="0" />
+              <xs:element name="IdRegion" msprop:Generator_ColumnVarNameInTable="columnIdRegion" msprop:Generator_ColumnPropNameInRow="IdRegion" msprop:Generator_ColumnPropNameInTable="IdRegionColumn" msprop:Generator_UserColumnName="IdRegion" type="xs:int" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="ViConciliacionCarroGuia" msprop:Generator_TableClassName="ViConciliacionCarroGuiaDataTable" msprop:Generator_TableVarName="tableViConciliacionCarroGuia" msprop:Generator_RowChangedName="ViConciliacionCarroGuiaRowChanged" msprop:Generator_TablePropName="ViConciliacionCarroGuia" msprop:Generator_RowDeletingName="ViConciliacionCarroGuiaRowDeleting" msprop:Generator_RowChangingName="ViConciliacionCarroGuiaRowChanging" msprop:Generator_RowEvHandlerName="ViConciliacionCarroGuiaRowChangeEventHandler" msprop:Generator_RowDeletedName="ViConciliacionCarroGuiaRowDeleted" msprop:Generator_RowClassName="ViConciliacionCarroGuiaRow" msprop:Generator_UserTableName="ViConciliacionCarroGuia" msprop:Generator_RowEvArgName="ViConciliacionCarroGuiaRowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="id" msprop:Generator_ColumnVarNameInTable="columnid" msprop:Generator_ColumnPropNameInRow="id" msprop:Generator_ColumnPropNameInTable="idColumn" msprop:Generator_UserColumnName="id" type="xs:int" />
+              <xs:element name="Depositos" msprop:Generator_ColumnVarNameInTable="columnDepositos" msprop:Generator_ColumnPropNameInRow="Depositos" msprop:Generator_ColumnPropNameInTable="DepositosColumn" msprop:Generator_UserColumnName="Depositos" type="xs:double" />
+              <xs:element name="Pagos" msprop:Generator_ColumnVarNameInTable="columnPagos" msprop:Generator_ColumnPropNameInRow="Pagos" msprop:Generator_ColumnPropNameInTable="PagosColumn" msprop:Generator_UserColumnName="Pagos" type="xs:double" />
+              <xs:element name="Diferencias" msprop:Generator_ColumnVarNameInTable="columnDiferencias" msprop:Generator_ColumnPropNameInRow="Diferencias" msprop:Generator_ColumnPropNameInTable="DiferenciasColumn" msprop:Generator_UserColumnName="Diferencias" type="xs:double" />
+              <xs:element name="it" msprop:Generator_ColumnVarNameInTable="columnit" msprop:Generator_ColumnPropNameInRow="it" msprop:Generator_ColumnPropNameInTable="itColumn" msprop:Generator_UserColumnName="it" type="xs:double" />
+              <xs:element name="Rastreo" msprop:Generator_ColumnVarNameInTable="columnRastreo" msprop:Generator_ColumnPropNameInRow="Rastreo" msprop:Generator_ColumnPropNameInTable="RastreoColumn" msprop:Generator_UserColumnName="Rastreo" type="xs:double" />
+              <xs:element name="Telefonia" msprop:Generator_ColumnVarNameInTable="columnTelefonia" msprop:Generator_ColumnPropNameInRow="Telefonia" msprop:Generator_ColumnPropNameInTable="TelefoniaColumn" msprop:Generator_UserColumnName="Telefonia" type="xs:double" />
+              <xs:element name="IdPeriodo" msprop:Generator_ColumnVarNameInTable="columnIdPeriodo" msprop:Generator_ColumnPropNameInRow="IdPeriodo" msprop:Generator_ColumnPropNameInTable="IdPeriodoColumn" msprop:Generator_UserColumnName="IdPeriodo" type="xs:int" />
+              <xs:element name="IdRastreo" msprop:Generator_ColumnVarNameInTable="columnIdRastreo" msprop:Generator_ColumnPropNameInRow="IdRastreo" msprop:Generator_ColumnPropNameInTable="IdRastreoColumn" msprop:Generator_UserColumnName="IdRastreo" type="xs:int" />
+              <xs:element name="IdAño" msprop:Generator_ColumnVarNameInTable="columnIdAño" msprop:Generator_ColumnPropNameInRow="IdAño" msprop:Generator_ColumnPropNameInTable="IdAñoColumn" msprop:Generator_UserColumnName="IdAño" type="xs:int" />
+              <xs:element name="IdTelefono1" msprop:Generator_ColumnVarNameInTable="columnIdTelefono1" msprop:Generator_ColumnPropNameInRow="IdTelefono1" msprop:Generator_ColumnPropNameInTable="IdTelefono1Column" msprop:Generator_UserColumnName="IdTelefono1" type="xs:int" />
+              <xs:element name="IdTelefono2" msprop:Generator_ColumnVarNameInTable="columnIdTelefono2" msprop:Generator_ColumnPropNameInRow="IdTelefono2" msprop:Generator_ColumnPropNameInTable="IdTelefono2Column" msprop:Generator_UserColumnName="IdTelefono2" type="xs:int" />
+              <xs:element name="Quincena" msprop:Generator_ColumnVarNameInTable="columnQuincena" msprop:Generator_ColumnPropNameInRow="Quincena" msprop:Generator_ColumnPropNameInTable="QuincenaColumn" msprop:Generator_UserColumnName="Quincena">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="250" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="TotalPagable" msprop:Generator_ColumnVarNameInTable="columnTotalPagable" msprop:Generator_ColumnPropNameInRow="TotalPagable" msprop:Generator_ColumnPropNameInTable="TotalPagableColumn" msprop:Generator_UserColumnName="TotalPagable" type="xs:double" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="SumaTotalCarroGuia" msprop:Generator_TableClassName="SumaTotalCarroGuiaDataTable" msprop:Generator_TableVarName="tableSumaTotalCarroGuia" msprop:Generator_TablePropName="SumaTotalCarroGuia" msprop:Generator_RowDeletingName="SumaTotalCarroGuiaRowDeleting" msprop:Generator_RowChangingName="SumaTotalCarroGuiaRowChanging" msprop:Generator_RowEvHandlerName="SumaTotalCarroGuiaRowChangeEventHandler" msprop:Generator_RowDeletedName="SumaTotalCarroGuiaRowDeleted" msprop:Generator_UserTableName="SumaTotalCarroGuia" msprop:Generator_RowChangedName="SumaTotalCarroGuiaRowChanged" msprop:Generator_RowEvArgName="SumaTotalCarroGuiaRowChangeEvent" msprop:Generator_RowClassName="SumaTotalCarroGuiaRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Depositos" msprop:Generator_ColumnVarNameInTable="columnDepositos" msprop:Generator_ColumnPropNameInRow="Depositos" msprop:Generator_ColumnPropNameInTable="DepositosColumn" msprop:Generator_UserColumnName="Depositos" type="xs:double" minOccurs="0" />
+              <xs:element name="Pagos" msprop:Generator_ColumnVarNameInTable="columnPagos" msprop:Generator_ColumnPropNameInRow="Pagos" msprop:Generator_ColumnPropNameInTable="PagosColumn" msprop:Generator_UserColumnName="Pagos" type="xs:double" minOccurs="0" />
+              <xs:element name="Diferencias" msprop:Generator_ColumnVarNameInTable="columnDiferencias" msprop:Generator_ColumnPropNameInRow="Diferencias" msprop:Generator_ColumnPropNameInTable="DiferenciasColumn" msprop:Generator_UserColumnName="Diferencias" type="xs:double" minOccurs="0" />
+              <xs:element name="it" msprop:Generator_ColumnVarNameInTable="columnit" msprop:Generator_ColumnPropNameInRow="it" msprop:Generator_ColumnPropNameInTable="itColumn" msprop:Generator_UserColumnName="it" type="xs:double" minOccurs="0" />
+              <xs:element name="Rastreo" msprop:Generator_ColumnVarNameInTable="columnRastreo" msprop:Generator_ColumnPropNameInRow="Rastreo" msprop:Generator_ColumnPropNameInTable="RastreoColumn" msprop:Generator_UserColumnName="Rastreo" type="xs:double" minOccurs="0" />
+              <xs:element name="Telefonia" msprop:Generator_ColumnVarNameInTable="columnTelefonia" msprop:Generator_ColumnPropNameInRow="Telefonia" msprop:Generator_ColumnPropNameInTable="TelefoniaColumn" msprop:Generator_UserColumnName="Telefonia" type="xs:double" minOccurs="0" />
+              <xs:element name="IdAño" msprop:Generator_ColumnVarNameInTable="columnIdAño" msprop:Generator_ColumnPropNameInRow="IdAño" msprop:Generator_ColumnPropNameInTable="IdAñoColumn" msprop:Generator_UserColumnName="IdAño" type="xs:int" />
+              <xs:element name="TotalPagable" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnTotalPagable" msprop:Generator_ColumnPropNameInRow="TotalPagable" msprop:Generator_ColumnPropNameInTable="TotalPagableColumn" msprop:Generator_UserColumnName="TotalPagable" type="xs:double" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:ViDetalleCaroGuia" />
+      <xs:field xpath="mstns:Id" />
+    </xs:unique>
+    <xs:unique name="ViConciliacionCarroGuia_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:ViConciliacionCarroGuia" />
+      <xs:field xpath="mstns:id" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>

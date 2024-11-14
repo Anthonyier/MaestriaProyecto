@@ -1,0 +1,660 @@
+C:\Users\clm\Desktop\ParaCesar05112017_Ult\ProyectoBercamAnthony2 26102017 CLM\CapaDatos\bin\CapaDatos.dll.config
+C:\Users\clm\Desktop\ParaCesar05112017_Ult\ProyectoBercamAnthony2 26102017 CLM\CapaDatos\bin\CapaDatos.dll
+C:\Users\clm\Desktop\ParaCesar05112017_Ult\ProyectoBercamAnthony2 26102017 CLM\CapaDatos\bin\CapaDatos.pdb
+C:\Users\clm\Desktop\ParaCesar05112017_Ult\ProyectoBercamAnthony2 26102017 CLM\CapaDatos\bin\CapaEntidad.dll
+C:\Users\clm\Desktop\ParaCesar05112017_Ult\ProyectoBercamAnthony2 26102017 CLM\CapaDatos\bin\CapaEntidad.pdb
+C:\Users\clm\Desktop\ParaCesar05112017_Ult\ProyectoBercamAnthony2 26102017 CLM\CapaDatos\obj\Release\CapaDatos.csprojResolveAssemblyReference.cache
+C:\Users\clm\Desktop\ParaCesar05112017_Ult\ProyectoBercamAnthony2 26102017 CLM\CapaDatos\obj\Release\CapaDatos.Properties.Resources.resources
+C:\Users\clm\Desktop\ParaCesar05112017_Ult\ProyectoBercamAnthony2 26102017 CLM\CapaDatos\obj\Release\CapaDatos.csproj.GenerateResource.Cache
+C:\Users\clm\Desktop\ParaCesar05112017_Ult\ProyectoBercamAnthony2 26102017 CLM\CapaDatos\obj\Release\CapaDatos.dll
+C:\Users\clm\Desktop\ParaCesar05112017_Ult\ProyectoBercamAnthony2 26102017 CLM\CapaDatos\obj\Release\CapaDatos.pdb
+C:\Users\anthony\Desktop\Desarrollo Sys Bercam\Proyecto\ProyectoBERCAM 14112017_Ult\ProyectoBercam 14112017\CapaDatos\bin\CapaDatos.dll.config
+C:\Users\anthony\Desktop\Desarrollo Sys Bercam\Proyecto\ProyectoBERCAM 14112017_Ult\ProyectoBercam 14112017\CapaDatos\bin\CapaDatos.dll
+C:\Users\anthony\Desktop\Desarrollo Sys Bercam\Proyecto\ProyectoBERCAM 14112017_Ult\ProyectoBercam 14112017\CapaDatos\bin\CapaDatos.pdb
+C:\Users\anthony\Desktop\Desarrollo Sys Bercam\Proyecto\ProyectoBERCAM 14112017_Ult\ProyectoBercam 14112017\CapaDatos\bin\CapaEntidad.dll
+C:\Users\anthony\Desktop\Desarrollo Sys Bercam\Proyecto\ProyectoBERCAM 14112017_Ult\ProyectoBercam 14112017\CapaDatos\bin\CapaEntidad.pdb
+C:\Users\anthony\Desktop\Desarrollo Sys Bercam\Proyecto\ProyectoBERCAM 14112017_Ult\ProyectoBercam 14112017\CapaDatos\obj\Release\CapaDatos.csprojResolveAssemblyReference.cache
+C:\Users\anthony\Desktop\Desarrollo Sys Bercam\Proyecto\ProyectoBERCAM 14112017_Ult\ProyectoBercam 14112017\CapaDatos\obj\Release\CapaDatos.Properties.Resources.resources
+C:\Users\anthony\Desktop\Desarrollo Sys Bercam\Proyecto\ProyectoBERCAM 14112017_Ult\ProyectoBercam 14112017\CapaDatos\obj\Release\CapaDatos.csproj.GenerateResource.Cache
+C:\Users\anthony\Desktop\Desarrollo Sys Bercam\Proyecto\ProyectoBERCAM 14112017_Ult\ProyectoBercam 14112017\CapaDatos\obj\Release\CapaDatos.dll
+C:\Users\anthony\Desktop\Desarrollo Sys Bercam\Proyecto\ProyectoBERCAM 14112017_Ult\ProyectoBercam 14112017\CapaDatos\obj\Release\CapaDatos.pdb
+C:\Users\anthony\Desktop\Desarrollo Sys Bercam\Codigos\ProyectoBERCAM 15012018\ProyectoBercam 12122017\CapaDatos\bin\CapaDatos.dll.config
+C:\Users\anthony\Desktop\Desarrollo Sys Bercam\Codigos\ProyectoBERCAM 15012018\ProyectoBercam 12122017\CapaDatos\bin\CapaDatos.dll
+C:\Users\anthony\Desktop\Desarrollo Sys Bercam\Codigos\ProyectoBERCAM 15012018\ProyectoBercam 12122017\CapaDatos\bin\CapaDatos.pdb
+C:\Users\anthony\Desktop\Desarrollo Sys Bercam\Codigos\ProyectoBERCAM 15012018\ProyectoBercam 12122017\CapaDatos\bin\CapaEntidad.dll
+C:\Users\anthony\Desktop\Desarrollo Sys Bercam\Codigos\ProyectoBERCAM 15012018\ProyectoBercam 12122017\CapaDatos\bin\CapaEntidad.pdb
+C:\Users\anthony\Desktop\Desarrollo Sys Bercam\Codigos\ProyectoBERCAM 15012018\ProyectoBercam 12122017\CapaDatos\obj\Release\CapaDatos.csprojResolveAssemblyReference.cache
+C:\Users\anthony\Desktop\Desarrollo Sys Bercam\Codigos\ProyectoBERCAM 15012018\ProyectoBercam 12122017\CapaDatos\obj\Release\CapaDatos.Properties.Resources.resources
+C:\Users\anthony\Desktop\Desarrollo Sys Bercam\Codigos\ProyectoBERCAM 15012018\ProyectoBercam 12122017\CapaDatos\obj\Release\CapaDatos.csproj.GenerateResource.Cache
+C:\Users\anthony\Desktop\Desarrollo Sys Bercam\Codigos\ProyectoBERCAM 15012018\ProyectoBercam 12122017\CapaDatos\obj\Release\CapaDatos.dll
+C:\Users\anthony\Desktop\Desarrollo Sys Bercam\Codigos\ProyectoBERCAM 15012018\ProyectoBercam 12122017\CapaDatos\obj\Release\CapaDatos.pdb
+C:\Users\anthony\Desktop\Desarrollo Sys Bercam\Codigos\ProyectoBERCAM 01022018\ProyectoBercam 12122017\CapaDatos\bin\CapaDatos.dll.config
+C:\Users\anthony\Desktop\Desarrollo Sys Bercam\Codigos\ProyectoBERCAM 01022018\ProyectoBercam 12122017\CapaDatos\bin\CapaDatos.dll
+C:\Users\anthony\Desktop\Desarrollo Sys Bercam\Codigos\ProyectoBERCAM 01022018\ProyectoBercam 12122017\CapaDatos\bin\CapaDatos.pdb
+C:\Users\anthony\Desktop\Desarrollo Sys Bercam\Codigos\ProyectoBERCAM 01022018\ProyectoBercam 12122017\CapaDatos\bin\CapaEntidad.dll
+C:\Users\anthony\Desktop\Desarrollo Sys Bercam\Codigos\ProyectoBERCAM 01022018\ProyectoBercam 12122017\CapaDatos\bin\CapaEntidad.pdb
+C:\Users\anthony\Desktop\Desarrollo Sys Bercam\Codigos\ProyectoBERCAM 01022018\ProyectoBercam 12122017\CapaDatos\obj\Release\CapaDatos.csprojResolveAssemblyReference.cache
+C:\Users\anthony\Desktop\Desarrollo Sys Bercam\Codigos\ProyectoBERCAM 01022018\ProyectoBercam 12122017\CapaDatos\obj\Release\CapaDatos.Properties.Resources.resources
+C:\Users\anthony\Desktop\Desarrollo Sys Bercam\Codigos\ProyectoBERCAM 01022018\ProyectoBercam 12122017\CapaDatos\obj\Release\CapaDatos.csproj.GenerateResource.Cache
+C:\Users\anthony\Desktop\Desarrollo Sys Bercam\Codigos\ProyectoBERCAM 01022018\ProyectoBercam 12122017\CapaDatos\obj\Release\CapaDatos.dll
+C:\Users\anthony\Desktop\Desarrollo Sys Bercam\Codigos\ProyectoBERCAM 01022018\ProyectoBercam 12122017\CapaDatos\obj\Release\CapaDatos.pdb
+\\serverbercam\E\Proyecto Final Bercam 2018 Cesar - Anthony\ProyectoBERCAM 12052018\ProyectoBercam 12122017\CapaDatos\bin\CapaDatos.dll.config
+\\serverbercam\E\Proyecto Final Bercam 2018 Cesar - Anthony\ProyectoBERCAM 12052018\ProyectoBercam 12122017\CapaDatos\bin\CapaDatos.dll
+\\serverbercam\E\Proyecto Final Bercam 2018 Cesar - Anthony\ProyectoBERCAM 12052018\ProyectoBercam 12122017\CapaDatos\bin\CapaDatos.pdb
+\\serverbercam\E\Proyecto Final Bercam 2018 Cesar - Anthony\ProyectoBERCAM 12052018\ProyectoBercam 12122017\CapaDatos\bin\CapaEntidad.dll
+\\serverbercam\E\Proyecto Final Bercam 2018 Cesar - Anthony\ProyectoBERCAM 12052018\ProyectoBercam 12122017\CapaDatos\bin\CapaEntidad.pdb
+\\serverbercam\E\Proyecto Final Bercam 2018 Cesar - Anthony\ProyectoBERCAM 12052018\ProyectoBercam 12122017\CapaDatos\obj\Release\CapaDatos.csprojResolveAssemblyReference.cache
+\\serverbercam\E\Proyecto Final Bercam 2018 Cesar - Anthony\ProyectoBERCAM 12052018\ProyectoBercam 12122017\CapaDatos\obj\Release\CapaDatos.Properties.Resources.resources
+\\serverbercam\E\Proyecto Final Bercam 2018 Cesar - Anthony\ProyectoBERCAM 12052018\ProyectoBercam 12122017\CapaDatos\obj\Release\CapaDatos.csproj.GenerateResource.Cache
+\\serverbercam\E\Proyecto Final Bercam 2018 Cesar - Anthony\ProyectoBERCAM 12052018\ProyectoBercam 12122017\CapaDatos\obj\Release\CapaDatos.dll
+\\serverbercam\E\Proyecto Final Bercam 2018 Cesar - Anthony\ProyectoBERCAM 12052018\ProyectoBercam 12122017\CapaDatos\obj\Release\CapaDatos.pdb
+C:\Users\anthony\Desktop\Desarrollo Sys Bercam\Codigos\ProyectoBERCAM 14052018\ProyectoBercam 14052018\CapaDatos\bin\CapaDatos.dll.config
+C:\Users\anthony\Desktop\Desarrollo Sys Bercam\Codigos\ProyectoBERCAM 14052018\ProyectoBercam 14052018\CapaDatos\bin\CapaDatos.dll
+C:\Users\anthony\Desktop\Desarrollo Sys Bercam\Codigos\ProyectoBERCAM 14052018\ProyectoBercam 14052018\CapaDatos\bin\CapaDatos.pdb
+C:\Users\anthony\Desktop\Desarrollo Sys Bercam\Codigos\ProyectoBERCAM 14052018\ProyectoBercam 14052018\CapaDatos\bin\CapaEntidad.dll
+C:\Users\anthony\Desktop\Desarrollo Sys Bercam\Codigos\ProyectoBERCAM 14052018\ProyectoBercam 14052018\CapaDatos\bin\CapaEntidad.pdb
+C:\Users\anthony\Desktop\Desarrollo Sys Bercam\Codigos\ProyectoBERCAM 14052018\ProyectoBercam 14052018\CapaDatos\obj\Release\CapaDatos.csprojResolveAssemblyReference.cache
+C:\Users\anthony\Desktop\Desarrollo Sys Bercam\Codigos\ProyectoBERCAM 14052018\ProyectoBercam 14052018\CapaDatos\obj\Release\CapaDatos.Properties.Resources.resources
+C:\Users\anthony\Desktop\Desarrollo Sys Bercam\Codigos\ProyectoBERCAM 14052018\ProyectoBercam 14052018\CapaDatos\obj\Release\CapaDatos.csproj.GenerateResource.Cache
+C:\Users\anthony\Desktop\Desarrollo Sys Bercam\Codigos\ProyectoBERCAM 14052018\ProyectoBercam 14052018\CapaDatos\obj\Release\CapaDatos.dll
+C:\Users\anthony\Desktop\Desarrollo Sys Bercam\Codigos\ProyectoBERCAM 14052018\ProyectoBercam 14052018\CapaDatos\obj\Release\CapaDatos.pdb
+C:\Users\anthony\Desktop\Desarrollo Sys Bercam\Codigos\ProyectoBERCAM 17052018\ProyectoBercam 14052018\CapaDatos\bin\CapaDatos.dll.config
+C:\Users\anthony\Desktop\Desarrollo Sys Bercam\Codigos\ProyectoBERCAM 17052018\ProyectoBercam 14052018\CapaDatos\bin\CapaDatos.dll
+C:\Users\anthony\Desktop\Desarrollo Sys Bercam\Codigos\ProyectoBERCAM 17052018\ProyectoBercam 14052018\CapaDatos\bin\CapaDatos.pdb
+C:\Users\anthony\Desktop\Desarrollo Sys Bercam\Codigos\ProyectoBERCAM 17052018\ProyectoBercam 14052018\CapaDatos\bin\CapaEntidad.dll
+C:\Users\anthony\Desktop\Desarrollo Sys Bercam\Codigos\ProyectoBERCAM 17052018\ProyectoBercam 14052018\CapaDatos\bin\CapaEntidad.pdb
+C:\Users\anthony\Desktop\Desarrollo Sys Bercam\Codigos\ProyectoBERCAM 17052018\ProyectoBercam 14052018\CapaDatos\obj\Release\CapaDatos.csprojResolveAssemblyReference.cache
+C:\Users\anthony\Desktop\Desarrollo Sys Bercam\Codigos\ProyectoBERCAM 17052018\ProyectoBercam 14052018\CapaDatos\obj\Release\CapaDatos.Properties.Resources.resources
+C:\Users\anthony\Desktop\Desarrollo Sys Bercam\Codigos\ProyectoBERCAM 17052018\ProyectoBercam 14052018\CapaDatos\obj\Release\CapaDatos.csproj.GenerateResource.Cache
+C:\Users\anthony\Desktop\Desarrollo Sys Bercam\Codigos\ProyectoBERCAM 17052018\ProyectoBercam 14052018\CapaDatos\obj\Release\CapaDatos.dll
+C:\Users\anthony\Desktop\Desarrollo Sys Bercam\Codigos\ProyectoBERCAM 17052018\ProyectoBercam 14052018\CapaDatos\obj\Release\CapaDatos.pdb
+C:\Users\anthony\Desktop\Desarrollo Sys Bercam\Codigos\ProyectoBERCAM 18052018\ProyectoBercam 14052018\CapaDatos\bin\CapaDatos.dll.config
+C:\Users\anthony\Desktop\Desarrollo Sys Bercam\Codigos\ProyectoBERCAM 18052018\ProyectoBercam 14052018\CapaDatos\bin\CapaDatos.dll
+C:\Users\anthony\Desktop\Desarrollo Sys Bercam\Codigos\ProyectoBERCAM 18052018\ProyectoBercam 14052018\CapaDatos\bin\CapaDatos.pdb
+C:\Users\anthony\Desktop\Desarrollo Sys Bercam\Codigos\ProyectoBERCAM 18052018\ProyectoBercam 14052018\CapaDatos\bin\CapaEntidad.dll
+C:\Users\anthony\Desktop\Desarrollo Sys Bercam\Codigos\ProyectoBERCAM 18052018\ProyectoBercam 14052018\CapaDatos\bin\CapaEntidad.pdb
+C:\Users\anthony\Desktop\Desarrollo Sys Bercam\Codigos\ProyectoBERCAM 18052018\ProyectoBercam 14052018\CapaDatos\obj\Release\CapaDatos.csprojResolveAssemblyReference.cache
+C:\Users\anthony\Desktop\Desarrollo Sys Bercam\Codigos\ProyectoBERCAM 18052018\ProyectoBercam 14052018\CapaDatos\obj\Release\CapaDatos.Properties.Resources.resources
+C:\Users\anthony\Desktop\Desarrollo Sys Bercam\Codigos\ProyectoBERCAM 18052018\ProyectoBercam 14052018\CapaDatos\obj\Release\CapaDatos.csproj.GenerateResource.Cache
+C:\Users\anthony\Desktop\Desarrollo Sys Bercam\Codigos\ProyectoBERCAM 18052018\ProyectoBercam 14052018\CapaDatos\obj\Release\CapaDatos.dll
+C:\Users\anthony\Desktop\Desarrollo Sys Bercam\Codigos\ProyectoBERCAM 18052018\ProyectoBercam 14052018\CapaDatos\obj\Release\CapaDatos.pdb
+C:\Users\anthony\Desktop\Desarrollo Sys Bercam\Codigos\ProyectoBERCAM 21052018\ProyectoBercam 14052018\CapaDatos\bin\CapaDatos.dll.config
+C:\Users\anthony\Desktop\Desarrollo Sys Bercam\Codigos\ProyectoBERCAM 21052018\ProyectoBercam 14052018\CapaDatos\bin\CapaDatos.dll
+C:\Users\anthony\Desktop\Desarrollo Sys Bercam\Codigos\ProyectoBERCAM 21052018\ProyectoBercam 14052018\CapaDatos\bin\CapaDatos.pdb
+C:\Users\anthony\Desktop\Desarrollo Sys Bercam\Codigos\ProyectoBERCAM 21052018\ProyectoBercam 14052018\CapaDatos\bin\CapaEntidad.dll
+C:\Users\anthony\Desktop\Desarrollo Sys Bercam\Codigos\ProyectoBERCAM 21052018\ProyectoBercam 14052018\CapaDatos\bin\CapaEntidad.pdb
+C:\Users\anthony\Desktop\Desarrollo Sys Bercam\Codigos\ProyectoBERCAM 21052018\ProyectoBercam 14052018\CapaDatos\obj\Release\CapaDatos.csprojResolveAssemblyReference.cache
+C:\Users\anthony\Desktop\Desarrollo Sys Bercam\Codigos\ProyectoBERCAM 21052018\ProyectoBercam 14052018\CapaDatos\obj\Release\CapaDatos.Properties.Resources.resources
+C:\Users\anthony\Desktop\Desarrollo Sys Bercam\Codigos\ProyectoBERCAM 21052018\ProyectoBercam 14052018\CapaDatos\obj\Release\CapaDatos.csproj.GenerateResource.Cache
+C:\Users\anthony\Desktop\Desarrollo Sys Bercam\Codigos\ProyectoBERCAM 21052018\ProyectoBercam 14052018\CapaDatos\obj\Release\CapaDatos.dll
+C:\Users\anthony\Desktop\Desarrollo Sys Bercam\Codigos\ProyectoBERCAM 21052018\ProyectoBercam 14052018\CapaDatos\obj\Release\CapaDatos.pdb
+C:\Users\anthony\Desktop\Desarrollo Sys Bercam\Codigos\ProyectoBERCAM 22052018\ProyectoBercam 14052018\CapaDatos\bin\CapaDatos.dll.config
+C:\Users\anthony\Desktop\Desarrollo Sys Bercam\Codigos\ProyectoBERCAM 22052018\ProyectoBercam 14052018\CapaDatos\bin\CapaDatos.dll
+C:\Users\anthony\Desktop\Desarrollo Sys Bercam\Codigos\ProyectoBERCAM 22052018\ProyectoBercam 14052018\CapaDatos\bin\CapaDatos.pdb
+C:\Users\anthony\Desktop\Desarrollo Sys Bercam\Codigos\ProyectoBERCAM 22052018\ProyectoBercam 14052018\CapaDatos\bin\CapaEntidad.dll
+C:\Users\anthony\Desktop\Desarrollo Sys Bercam\Codigos\ProyectoBERCAM 22052018\ProyectoBercam 14052018\CapaDatos\bin\CapaEntidad.pdb
+C:\Users\anthony\Desktop\Desarrollo Sys Bercam\Codigos\ProyectoBERCAM 22052018\ProyectoBercam 14052018\CapaDatos\obj\Release\CapaDatos.csprojResolveAssemblyReference.cache
+C:\Users\anthony\Desktop\Desarrollo Sys Bercam\Codigos\ProyectoBERCAM 22052018\ProyectoBercam 14052018\CapaDatos\obj\Release\CapaDatos.Properties.Resources.resources
+C:\Users\anthony\Desktop\Desarrollo Sys Bercam\Codigos\ProyectoBERCAM 22052018\ProyectoBercam 14052018\CapaDatos\obj\Release\CapaDatos.csproj.GenerateResource.Cache
+C:\Users\anthony\Desktop\Desarrollo Sys Bercam\Codigos\ProyectoBERCAM 22052018\ProyectoBercam 14052018\CapaDatos\obj\Release\CapaDatos.dll
+C:\Users\anthony\Desktop\Desarrollo Sys Bercam\Codigos\ProyectoBERCAM 22052018\ProyectoBercam 14052018\CapaDatos\obj\Release\CapaDatos.pdb
+C:\Users\anthony\Desktop\Desarrollo Sys Bercam\Codigos\ProyectoBERCAM 28052018\ProyectoBercam 14052018\CapaDatos\bin\CapaDatos.dll.config
+C:\Users\anthony\Desktop\Desarrollo Sys Bercam\Codigos\ProyectoBERCAM 28052018\ProyectoBercam 14052018\CapaDatos\bin\CapaDatos.dll
+C:\Users\anthony\Desktop\Desarrollo Sys Bercam\Codigos\ProyectoBERCAM 28052018\ProyectoBercam 14052018\CapaDatos\bin\CapaDatos.pdb
+C:\Users\anthony\Desktop\Desarrollo Sys Bercam\Codigos\ProyectoBERCAM 28052018\ProyectoBercam 14052018\CapaDatos\bin\CapaEntidad.dll
+C:\Users\anthony\Desktop\Desarrollo Sys Bercam\Codigos\ProyectoBERCAM 28052018\ProyectoBercam 14052018\CapaDatos\bin\CapaEntidad.pdb
+C:\Users\anthony\Desktop\Desarrollo Sys Bercam\Codigos\ProyectoBERCAM 28052018\ProyectoBercam 14052018\CapaDatos\obj\Release\CapaDatos.csprojResolveAssemblyReference.cache
+C:\Users\anthony\Desktop\Desarrollo Sys Bercam\Codigos\ProyectoBERCAM 28052018\ProyectoBercam 14052018\CapaDatos\obj\Release\CapaDatos.Properties.Resources.resources
+C:\Users\anthony\Desktop\Desarrollo Sys Bercam\Codigos\ProyectoBERCAM 28052018\ProyectoBercam 14052018\CapaDatos\obj\Release\CapaDatos.csproj.GenerateResource.Cache
+C:\Users\anthony\Desktop\Desarrollo Sys Bercam\Codigos\ProyectoBERCAM 28052018\ProyectoBercam 14052018\CapaDatos\obj\Release\CapaDatos.dll
+C:\Users\anthony\Desktop\Desarrollo Sys Bercam\Codigos\ProyectoBERCAM 28052018\ProyectoBercam 14052018\CapaDatos\obj\Release\CapaDatos.pdb
+C:\Users\anthony\Desktop\Desarrollo Sys Bercam\Codigos\ProyectoBERCAM 01062018\ProyectoBercam 01062018\CapaDatos\bin\CapaDatos.dll.config
+C:\Users\anthony\Desktop\Desarrollo Sys Bercam\Codigos\ProyectoBERCAM 01062018\ProyectoBercam 01062018\CapaDatos\bin\CapaDatos.dll
+C:\Users\anthony\Desktop\Desarrollo Sys Bercam\Codigos\ProyectoBERCAM 01062018\ProyectoBercam 01062018\CapaDatos\bin\CapaDatos.pdb
+C:\Users\anthony\Desktop\Desarrollo Sys Bercam\Codigos\ProyectoBERCAM 01062018\ProyectoBercam 01062018\CapaDatos\bin\CapaEntidad.dll
+C:\Users\anthony\Desktop\Desarrollo Sys Bercam\Codigos\ProyectoBERCAM 01062018\ProyectoBercam 01062018\CapaDatos\bin\CapaEntidad.pdb
+C:\Users\anthony\Desktop\Desarrollo Sys Bercam\Codigos\ProyectoBERCAM 01062018\ProyectoBercam 01062018\CapaDatos\obj\Release\CapaDatos.csprojResolveAssemblyReference.cache
+C:\Users\anthony\Desktop\Desarrollo Sys Bercam\Codigos\ProyectoBERCAM 01062018\ProyectoBercam 01062018\CapaDatos\obj\Release\CapaDatos.Properties.Resources.resources
+C:\Users\anthony\Desktop\Desarrollo Sys Bercam\Codigos\ProyectoBERCAM 01062018\ProyectoBercam 01062018\CapaDatos\obj\Release\CapaDatos.csproj.GenerateResource.Cache
+C:\Users\anthony\Desktop\Desarrollo Sys Bercam\Codigos\ProyectoBERCAM 01062018\ProyectoBercam 01062018\CapaDatos\obj\Release\CapaDatos.dll
+C:\Users\anthony\Desktop\Desarrollo Sys Bercam\Codigos\ProyectoBERCAM 01062018\ProyectoBercam 01062018\CapaDatos\obj\Release\CapaDatos.pdb
+C:\Users\anthony\Desktop\Desarrollo Sys Bercam\Codigos\ProyectoBercam 17082018 Actual Cesar\CapaDatos\bin\CapaDatos.dll.config
+C:\Users\anthony\Desktop\Desarrollo Sys Bercam\Codigos\ProyectoBercam 17082018 Actual Cesar\CapaDatos\bin\CapaDatos.dll
+C:\Users\anthony\Desktop\Desarrollo Sys Bercam\Codigos\ProyectoBercam 17082018 Actual Cesar\CapaDatos\bin\CapaDatos.pdb
+C:\Users\anthony\Desktop\Desarrollo Sys Bercam\Codigos\ProyectoBercam 17082018 Actual Cesar\CapaDatos\bin\CapaEntidad.dll
+C:\Users\anthony\Desktop\Desarrollo Sys Bercam\Codigos\ProyectoBercam 17082018 Actual Cesar\CapaDatos\bin\CapaEntidad.pdb
+C:\Users\anthony\Desktop\Desarrollo Sys Bercam\Codigos\ProyectoBercam 17082018 Actual Cesar\CapaDatos\obj\Release\CapaDatos.csprojResolveAssemblyReference.cache
+C:\Users\anthony\Desktop\Desarrollo Sys Bercam\Codigos\ProyectoBercam 17082018 Actual Cesar\CapaDatos\obj\Release\CapaDatos.Properties.Resources.resources
+C:\Users\anthony\Desktop\Desarrollo Sys Bercam\Codigos\ProyectoBercam 17082018 Actual Cesar\CapaDatos\obj\Release\CapaDatos.csproj.GenerateResource.Cache
+C:\Users\anthony\Desktop\Desarrollo Sys Bercam\Codigos\ProyectoBercam 17082018 Actual Cesar\CapaDatos\obj\Release\CapaDatos.dll
+C:\Users\anthony\Desktop\Desarrollo Sys Bercam\Codigos\ProyectoBercam 17082018 Actual Cesar\CapaDatos\obj\Release\CapaDatos.pdb
+C:\Users\anthony\Desktop\Desarrollo Sys Bercam\Codigos\ProyectoBercam 16102018 Actual Cesar\CapaDatos\bin\CapaDatos.dll.config
+C:\Users\anthony\Desktop\Desarrollo Sys Bercam\Codigos\ProyectoBercam 16102018 Actual Cesar\CapaDatos\bin\CapaDatos.dll
+C:\Users\anthony\Desktop\Desarrollo Sys Bercam\Codigos\ProyectoBercam 16102018 Actual Cesar\CapaDatos\bin\CapaDatos.pdb
+C:\Users\anthony\Desktop\Desarrollo Sys Bercam\Codigos\ProyectoBercam 16102018 Actual Cesar\CapaDatos\bin\CapaEntidad.dll
+C:\Users\anthony\Desktop\Desarrollo Sys Bercam\Codigos\ProyectoBercam 16102018 Actual Cesar\CapaDatos\bin\CapaEntidad.pdb
+C:\Users\anthony\Desktop\Desarrollo Sys Bercam\Codigos\ProyectoBercam 16102018 Actual Cesar\CapaDatos\obj\Release\CapaDatos.csprojResolveAssemblyReference.cache
+C:\Users\anthony\Desktop\Desarrollo Sys Bercam\Codigos\ProyectoBercam 16102018 Actual Cesar\CapaDatos\obj\Release\CapaDatos.Properties.Resources.resources
+C:\Users\anthony\Desktop\Desarrollo Sys Bercam\Codigos\ProyectoBercam 16102018 Actual Cesar\CapaDatos\obj\Release\CapaDatos.csproj.GenerateResource.Cache
+C:\Users\anthony\Desktop\Desarrollo Sys Bercam\Codigos\ProyectoBercam 16102018 Actual Cesar\CapaDatos\obj\Release\CapaDatos.dll
+C:\Users\anthony\Desktop\Desarrollo Sys Bercam\Codigos\ProyectoBercam 16102018 Actual Cesar\CapaDatos\obj\Release\CapaDatos.pdb
+C:\Users\anthony\Desktop\Desarrollo Sys Bercam\Codigos\ProyectoBercam 26102018 Actual Cesar\CapaDatos\bin\CapaDatos.dll.config
+C:\Users\anthony\Desktop\Desarrollo Sys Bercam\Codigos\ProyectoBercam 26102018 Actual Cesar\CapaDatos\bin\CapaDatos.dll
+C:\Users\anthony\Desktop\Desarrollo Sys Bercam\Codigos\ProyectoBercam 26102018 Actual Cesar\CapaDatos\bin\CapaDatos.pdb
+C:\Users\anthony\Desktop\Desarrollo Sys Bercam\Codigos\ProyectoBercam 26102018 Actual Cesar\CapaDatos\bin\CapaEntidad.dll
+C:\Users\anthony\Desktop\Desarrollo Sys Bercam\Codigos\ProyectoBercam 26102018 Actual Cesar\CapaDatos\bin\CapaEntidad.pdb
+C:\Users\anthony\Desktop\Desarrollo Sys Bercam\Codigos\ProyectoBercam 26102018 Actual Cesar\CapaDatos\obj\Release\CapaDatos.csprojResolveAssemblyReference.cache
+C:\Users\anthony\Desktop\Desarrollo Sys Bercam\Codigos\ProyectoBercam 26102018 Actual Cesar\CapaDatos\obj\Release\CapaDatos.Properties.Resources.resources
+C:\Users\anthony\Desktop\Desarrollo Sys Bercam\Codigos\ProyectoBercam 26102018 Actual Cesar\CapaDatos\obj\Release\CapaDatos.csproj.GenerateResource.Cache
+C:\Users\anthony\Desktop\Desarrollo Sys Bercam\Codigos\ProyectoBercam 26102018 Actual Cesar\CapaDatos\obj\Release\CapaDatos.dll
+C:\Users\anthony\Desktop\Desarrollo Sys Bercam\Codigos\ProyectoBercam 26102018 Actual Cesar\CapaDatos\obj\Release\CapaDatos.pdb
+C:\Users\anthony\Desktop\Desarrollo Sys Bercam\Codigos\ProyectoBercam 08112018 Actual Cesar\CapaDatos\bin\CapaDatos.dll.config
+C:\Users\anthony\Desktop\Desarrollo Sys Bercam\Codigos\ProyectoBercam 08112018 Actual Cesar\CapaDatos\bin\CapaDatos.dll
+C:\Users\anthony\Desktop\Desarrollo Sys Bercam\Codigos\ProyectoBercam 08112018 Actual Cesar\CapaDatos\bin\CapaDatos.pdb
+C:\Users\anthony\Desktop\Desarrollo Sys Bercam\Codigos\ProyectoBercam 08112018 Actual Cesar\CapaDatos\bin\CapaEntidad.dll
+C:\Users\anthony\Desktop\Desarrollo Sys Bercam\Codigos\ProyectoBercam 08112018 Actual Cesar\CapaDatos\bin\CapaEntidad.pdb
+C:\Users\anthony\Desktop\Desarrollo Sys Bercam\Codigos\ProyectoBercam 08112018 Actual Cesar\CapaDatos\obj\Release\CapaDatos.csprojResolveAssemblyReference.cache
+C:\Users\anthony\Desktop\Desarrollo Sys Bercam\Codigos\ProyectoBercam 08112018 Actual Cesar\CapaDatos\obj\Release\CapaDatos.Properties.Resources.resources
+C:\Users\anthony\Desktop\Desarrollo Sys Bercam\Codigos\ProyectoBercam 08112018 Actual Cesar\CapaDatos\obj\Release\CapaDatos.csproj.GenerateResource.Cache
+C:\Users\anthony\Desktop\Desarrollo Sys Bercam\Codigos\ProyectoBercam 08112018 Actual Cesar\CapaDatos\obj\Release\CapaDatos.dll
+C:\Users\anthony\Desktop\Desarrollo Sys Bercam\Codigos\ProyectoBercam 08112018 Actual Cesar\CapaDatos\obj\Release\CapaDatos.pdb
+C:\Users\anthony\Desktop\Desarrollo Sys Bercam\Codigos\ProyectoBercam 18122018 Actual Cesar\CapaDatos\bin\CapaDatos.dll.config
+C:\Users\anthony\Desktop\Desarrollo Sys Bercam\Codigos\ProyectoBercam 18122018 Actual Cesar\CapaDatos\bin\CapaDatos.dll
+C:\Users\anthony\Desktop\Desarrollo Sys Bercam\Codigos\ProyectoBercam 18122018 Actual Cesar\CapaDatos\bin\CapaDatos.pdb
+C:\Users\anthony\Desktop\Desarrollo Sys Bercam\Codigos\ProyectoBercam 18122018 Actual Cesar\CapaDatos\bin\CapaEntidad.dll
+C:\Users\anthony\Desktop\Desarrollo Sys Bercam\Codigos\ProyectoBercam 18122018 Actual Cesar\CapaDatos\bin\CapaEntidad.pdb
+C:\Users\anthony\Desktop\Desarrollo Sys Bercam\Codigos\ProyectoBercam 18122018 Actual Cesar\CapaDatos\obj\Release\CapaDatos.csprojResolveAssemblyReference.cache
+C:\Users\anthony\Desktop\Desarrollo Sys Bercam\Codigos\ProyectoBercam 18122018 Actual Cesar\CapaDatos\obj\Release\CapaDatos.Properties.Resources.resources
+C:\Users\anthony\Desktop\Desarrollo Sys Bercam\Codigos\ProyectoBercam 18122018 Actual Cesar\CapaDatos\obj\Release\CapaDatos.csproj.GenerateResource.Cache
+C:\Users\anthony\Desktop\Desarrollo Sys Bercam\Codigos\ProyectoBercam 18122018 Actual Cesar\CapaDatos\obj\Release\CapaDatos.dll
+C:\Users\anthony\Desktop\Desarrollo Sys Bercam\Codigos\ProyectoBercam 18122018 Actual Cesar\CapaDatos\obj\Release\CapaDatos.pdb
+C:\Users\anthony\Desktop\Desarrollo Sys Bercam\Codigos\ProyectoBercam 18012019 Actual Cesar\CapaDatos\bin\CapaDatos.dll.config
+C:\Users\anthony\Desktop\Desarrollo Sys Bercam\Codigos\ProyectoBercam 18012019 Actual Cesar\CapaDatos\bin\CapaDatos.dll
+C:\Users\anthony\Desktop\Desarrollo Sys Bercam\Codigos\ProyectoBercam 18012019 Actual Cesar\CapaDatos\bin\CapaDatos.pdb
+C:\Users\anthony\Desktop\Desarrollo Sys Bercam\Codigos\ProyectoBercam 18012019 Actual Cesar\CapaDatos\bin\CapaEntidad.dll
+C:\Users\anthony\Desktop\Desarrollo Sys Bercam\Codigos\ProyectoBercam 18012019 Actual Cesar\CapaDatos\bin\CapaEntidad.pdb
+C:\Users\anthony\Desktop\Desarrollo Sys Bercam\Codigos\ProyectoBercam 18012019 Actual Cesar\CapaDatos\obj\Release\CapaDatos.csprojResolveAssemblyReference.cache
+C:\Users\anthony\Desktop\Desarrollo Sys Bercam\Codigos\ProyectoBercam 18012019 Actual Cesar\CapaDatos\obj\Release\CapaDatos.Properties.Resources.resources
+C:\Users\anthony\Desktop\Desarrollo Sys Bercam\Codigos\ProyectoBercam 18012019 Actual Cesar\CapaDatos\obj\Release\CapaDatos.csproj.GenerateResource.Cache
+C:\Users\anthony\Desktop\Desarrollo Sys Bercam\Codigos\ProyectoBercam 18012019 Actual Cesar\CapaDatos\obj\Release\CapaDatos.dll
+C:\Users\anthony\Desktop\Desarrollo Sys Bercam\Codigos\ProyectoBercam 18012019 Actual Cesar\CapaDatos\obj\Release\CapaDatos.pdb
+C:\Users\anthony\Desktop\Desarrollo Sys Bercam\Codigos\ProyectoBercam 28012019 Actual Cesar\CapaDatos\bin\CapaDatos.dll.config
+C:\Users\anthony\Desktop\Desarrollo Sys Bercam\Codigos\ProyectoBercam 28012019 Actual Cesar\CapaDatos\bin\CapaDatos.dll
+C:\Users\anthony\Desktop\Desarrollo Sys Bercam\Codigos\ProyectoBercam 28012019 Actual Cesar\CapaDatos\bin\CapaDatos.pdb
+C:\Users\anthony\Desktop\Desarrollo Sys Bercam\Codigos\ProyectoBercam 28012019 Actual Cesar\CapaDatos\bin\CapaEntidad.dll
+C:\Users\anthony\Desktop\Desarrollo Sys Bercam\Codigos\ProyectoBercam 28012019 Actual Cesar\CapaDatos\bin\CapaEntidad.pdb
+C:\Users\anthony\Desktop\Desarrollo Sys Bercam\Codigos\ProyectoBercam 28012019 Actual Cesar\CapaDatos\obj\Release\CapaDatos.csprojResolveAssemblyReference.cache
+C:\Users\anthony\Desktop\Desarrollo Sys Bercam\Codigos\ProyectoBercam 28012019 Actual Cesar\CapaDatos\obj\Release\CapaDatos.Properties.Resources.resources
+C:\Users\anthony\Desktop\Desarrollo Sys Bercam\Codigos\ProyectoBercam 28012019 Actual Cesar\CapaDatos\obj\Release\CapaDatos.csproj.GenerateResource.Cache
+C:\Users\anthony\Desktop\Desarrollo Sys Bercam\Codigos\ProyectoBercam 28012019 Actual Cesar\CapaDatos\obj\Release\CapaDatos.dll
+C:\Users\anthony\Desktop\Desarrollo Sys Bercam\Codigos\ProyectoBercam 28012019 Actual Cesar\CapaDatos\obj\Release\CapaDatos.pdb
+C:\Users\anthony\Desktop\Desarrollo Sys Bercam\Codigos\ProyectoBercam 08022019 Actual Cesar\CapaDatos\bin\CapaDatos.dll.config
+C:\Users\anthony\Desktop\Desarrollo Sys Bercam\Codigos\ProyectoBercam 08022019 Actual Cesar\CapaDatos\bin\CapaDatos.dll
+C:\Users\anthony\Desktop\Desarrollo Sys Bercam\Codigos\ProyectoBercam 08022019 Actual Cesar\CapaDatos\bin\CapaDatos.pdb
+C:\Users\anthony\Desktop\Desarrollo Sys Bercam\Codigos\ProyectoBercam 08022019 Actual Cesar\CapaDatos\bin\CapaEntidad.dll
+C:\Users\anthony\Desktop\Desarrollo Sys Bercam\Codigos\ProyectoBercam 08022019 Actual Cesar\CapaDatos\bin\CapaEntidad.pdb
+C:\Users\anthony\Desktop\Desarrollo Sys Bercam\Codigos\ProyectoBercam 08022019 Actual Cesar\CapaDatos\obj\Release\CapaDatos.csprojResolveAssemblyReference.cache
+C:\Users\anthony\Desktop\Desarrollo Sys Bercam\Codigos\ProyectoBercam 08022019 Actual Cesar\CapaDatos\obj\Release\CapaDatos.Properties.Resources.resources
+C:\Users\anthony\Desktop\Desarrollo Sys Bercam\Codigos\ProyectoBercam 08022019 Actual Cesar\CapaDatos\obj\Release\CapaDatos.csproj.GenerateResource.Cache
+C:\Users\anthony\Desktop\Desarrollo Sys Bercam\Codigos\ProyectoBercam 08022019 Actual Cesar\CapaDatos\obj\Release\CapaDatos.dll
+C:\Users\anthony\Desktop\Desarrollo Sys Bercam\Codigos\ProyectoBercam 08022019 Actual Cesar\CapaDatos\obj\Release\CapaDatos.pdb
+C:\Users\anthony\Desktop\Desarrollo Sys Bercam\Codigos\ProyectoBercam 22022019 Actual Cesar\CapaDatos\bin\CapaDatos.dll.config
+C:\Users\anthony\Desktop\Desarrollo Sys Bercam\Codigos\ProyectoBercam 22022019 Actual Cesar\CapaDatos\bin\CapaDatos.dll
+C:\Users\anthony\Desktop\Desarrollo Sys Bercam\Codigos\ProyectoBercam 22022019 Actual Cesar\CapaDatos\bin\CapaDatos.pdb
+C:\Users\anthony\Desktop\Desarrollo Sys Bercam\Codigos\ProyectoBercam 22022019 Actual Cesar\CapaDatos\bin\CapaEntidad.dll
+C:\Users\anthony\Desktop\Desarrollo Sys Bercam\Codigos\ProyectoBercam 22022019 Actual Cesar\CapaDatos\bin\CapaEntidad.pdb
+C:\Users\anthony\Desktop\Desarrollo Sys Bercam\Codigos\ProyectoBercam 22022019 Actual Cesar\CapaDatos\obj\Release\CapaDatos.csprojResolveAssemblyReference.cache
+C:\Users\anthony\Desktop\Desarrollo Sys Bercam\Codigos\ProyectoBercam 22022019 Actual Cesar\CapaDatos\obj\Release\CapaDatos.Properties.Resources.resources
+C:\Users\anthony\Desktop\Desarrollo Sys Bercam\Codigos\ProyectoBercam 22022019 Actual Cesar\CapaDatos\obj\Release\CapaDatos.csproj.GenerateResource.Cache
+C:\Users\anthony\Desktop\Desarrollo Sys Bercam\Codigos\ProyectoBercam 22022019 Actual Cesar\CapaDatos\obj\Release\CapaDatos.dll
+C:\Users\anthony\Desktop\Desarrollo Sys Bercam\Codigos\ProyectoBercam 22022019 Actual Cesar\CapaDatos\obj\Release\CapaDatos.pdb
+C:\Users\anthony\Desktop\Desarrollo Sys Bercam\Codigos\ProyectoBercam 10042019 Actual Cesar\CapaDatos\bin\CapaDatos.dll.config
+C:\Users\anthony\Desktop\Desarrollo Sys Bercam\Codigos\ProyectoBercam 10042019 Actual Cesar\CapaDatos\bin\CapaDatos.dll
+C:\Users\anthony\Desktop\Desarrollo Sys Bercam\Codigos\ProyectoBercam 10042019 Actual Cesar\CapaDatos\bin\CapaDatos.pdb
+C:\Users\anthony\Desktop\Desarrollo Sys Bercam\Codigos\ProyectoBercam 10042019 Actual Cesar\CapaDatos\bin\CapaEntidad.dll
+C:\Users\anthony\Desktop\Desarrollo Sys Bercam\Codigos\ProyectoBercam 10042019 Actual Cesar\CapaDatos\bin\CapaEntidad.pdb
+C:\Users\anthony\Desktop\Desarrollo Sys Bercam\Codigos\ProyectoBercam 10042019 Actual Cesar\CapaDatos\obj\Release\CapaDatos.csprojResolveAssemblyReference.cache
+C:\Users\anthony\Desktop\Desarrollo Sys Bercam\Codigos\ProyectoBercam 10042019 Actual Cesar\CapaDatos\obj\Release\CapaDatos.Properties.Resources.resources
+C:\Users\anthony\Desktop\Desarrollo Sys Bercam\Codigos\ProyectoBercam 10042019 Actual Cesar\CapaDatos\obj\Release\CapaDatos.csproj.GenerateResource.Cache
+C:\Users\anthony\Desktop\Desarrollo Sys Bercam\Codigos\ProyectoBercam 10042019 Actual Cesar\CapaDatos\obj\Release\CapaDatos.dll
+C:\Users\anthony\Desktop\Desarrollo Sys Bercam\Codigos\ProyectoBercam 10042019 Actual Cesar\CapaDatos\obj\Release\CapaDatos.pdb
+C:\Users\Usuario\Desktop\Systemas ANthony\ProyectoBercam 08062019 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaDatos\bin\CapaDatos.dll.config
+C:\Users\Usuario\Desktop\Systemas ANthony\ProyectoBercam 08062019 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaDatos\bin\CapaDatos.dll
+C:\Users\Usuario\Desktop\Systemas ANthony\ProyectoBercam 08062019 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaDatos\bin\CapaDatos.pdb
+C:\Users\Usuario\Desktop\Systemas ANthony\ProyectoBercam 08062019 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaDatos\bin\CapaEntidad.dll
+C:\Users\Usuario\Desktop\Systemas ANthony\ProyectoBercam 08062019 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaDatos\bin\CapaEntidad.pdb
+C:\Users\Usuario\Desktop\Systemas ANthony\ProyectoBercam 08062019 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaDatos\obj\Release\CapaDatos.csprojResolveAssemblyReference.cache
+C:\Users\Usuario\Desktop\Systemas ANthony\ProyectoBercam 08062019 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaDatos\obj\Release\CapaDatos.Properties.Resources.resources
+C:\Users\Usuario\Desktop\Systemas ANthony\ProyectoBercam 08062019 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaDatos\obj\Release\CapaDatos.csproj.GenerateResource.Cache
+C:\Users\Usuario\Desktop\Systemas ANthony\ProyectoBercam 08062019 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaDatos\obj\Release\CapaDatos.dll
+C:\Users\Usuario\Desktop\Systemas ANthony\ProyectoBercam 08062019 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaDatos\obj\Release\CapaDatos.pdb
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 08062019 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaDatos\bin\CapaDatos.dll.config
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 08062019 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaDatos\bin\CapaDatos.dll
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 08062019 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaDatos\bin\CapaDatos.pdb
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 08062019 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaDatos\bin\CapaEntidad.dll
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 08062019 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaDatos\bin\CapaEntidad.pdb
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 08062019 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaDatos\obj\Release\CapaDatos.csprojResolveAssemblyReference.cache
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 08062019 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaDatos\obj\Release\CapaDatos.Properties.Resources.resources
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 08062019 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaDatos\obj\Release\CapaDatos.csproj.GenerateResource.Cache
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 08062019 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaDatos\obj\Release\CapaDatos.dll
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 08062019 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaDatos\obj\Release\CapaDatos.pdb
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 31082019 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaDatos\bin\CapaDatos.dll.config
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 31082019 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaDatos\bin\CapaDatos.dll
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 31082019 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaDatos\bin\CapaDatos.pdb
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 31082019 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaDatos\bin\CapaEntidad.dll
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 31082019 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaDatos\bin\CapaEntidad.pdb
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 31082019 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaDatos\obj\Release\CapaDatos.csprojResolveAssemblyReference.cache
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 31082019 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaDatos\obj\Release\CapaDatos.Properties.Resources.resources
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 31082019 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaDatos\obj\Release\CapaDatos.csproj.GenerateResource.Cache
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 31082019 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaDatos\obj\Release\CapaDatos.dll
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 31082019 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaDatos\obj\Release\CapaDatos.pdb
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 17092019 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaDatos\bin\CapaDatos.dll.config
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 17092019 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaDatos\bin\CapaDatos.dll
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 17092019 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaDatos\bin\CapaDatos.pdb
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 17092019 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaDatos\bin\CapaEntidad.dll
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 17092019 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaDatos\bin\CapaEntidad.pdb
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 17092019 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaDatos\obj\Release\CapaDatos.csprojResolveAssemblyReference.cache
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 17092019 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaDatos\obj\Release\CapaDatos.Properties.Resources.resources
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 17092019 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaDatos\obj\Release\CapaDatos.csproj.GenerateResource.Cache
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 17092019 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaDatos\obj\Release\CapaDatos.dll
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 17092019 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaDatos\obj\Release\CapaDatos.pdb
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 28092019 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaDatos\bin\CapaDatos.dll.config
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 28092019 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaDatos\bin\CapaDatos.dll
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 28092019 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaDatos\bin\CapaDatos.pdb
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 28092019 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaDatos\bin\CapaEntidad.dll
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 28092019 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaDatos\bin\CapaEntidad.pdb
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 28092019 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaDatos\obj\Release\CapaDatos.csprojResolveAssemblyReference.cache
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 28092019 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaDatos\obj\Release\CapaDatos.Properties.Resources.resources
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 28092019 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaDatos\obj\Release\CapaDatos.csproj.GenerateResource.Cache
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 28092019 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaDatos\obj\Release\CapaDatos.dll
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 28092019 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaDatos\obj\Release\CapaDatos.pdb
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 8102019 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaDatos\bin\CapaDatos.dll.config
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 8102019 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaDatos\bin\CapaDatos.dll
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 8102019 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaDatos\bin\CapaDatos.pdb
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 8102019 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaDatos\bin\CapaEntidad.dll
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 8102019 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaDatos\bin\CapaEntidad.pdb
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 8102019 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaDatos\obj\Release\CapaDatos.csprojResolveAssemblyReference.cache
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 8102019 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaDatos\obj\Release\CapaDatos.Properties.Resources.resources
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 8102019 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaDatos\obj\Release\CapaDatos.csproj.GenerateResource.Cache
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 8102019 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaDatos\obj\Release\CapaDatos.dll
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 8102019 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaDatos\obj\Release\CapaDatos.pdb
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 17102019 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaDatos\bin\CapaDatos.dll.config
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 17102019 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaDatos\bin\CapaDatos.dll
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 17102019 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaDatos\bin\CapaDatos.pdb
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 17102019 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaDatos\bin\CapaEntidad.dll
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 17102019 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaDatos\bin\CapaEntidad.pdb
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 17102019 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaDatos\obj\Release\CapaDatos.csprojResolveAssemblyReference.cache
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 17102019 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaDatos\obj\Release\CapaDatos.Properties.Resources.resources
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 17102019 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaDatos\obj\Release\CapaDatos.csproj.GenerateResource.Cache
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 17102019 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaDatos\obj\Release\CapaDatos.dll
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 17102019 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaDatos\obj\Release\CapaDatos.pdb
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 7112019 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaDatos\bin\CapaDatos.dll.config
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 7112019 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaDatos\bin\CapaDatos.dll
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 7112019 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaDatos\bin\CapaDatos.pdb
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 7112019 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaDatos\bin\CapaEntidad.dll
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 7112019 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaDatos\bin\CapaEntidad.pdb
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 7112019 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaDatos\obj\Release\CapaDatos.csprojResolveAssemblyReference.cache
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 7112019 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaDatos\obj\Release\CapaDatos.Properties.Resources.resources
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 7112019 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaDatos\obj\Release\CapaDatos.csproj.GenerateResource.Cache
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 7112019 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaDatos\obj\Release\CapaDatos.dll
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 7112019 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaDatos\obj\Release\CapaDatos.pdb
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 20112019 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaDatos\bin\CapaDatos.dll.config
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 20112019 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaDatos\bin\CapaDatos.dll
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 20112019 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaDatos\bin\CapaDatos.pdb
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 20112019 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaDatos\bin\CapaEntidad.dll
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 20112019 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaDatos\bin\CapaEntidad.pdb
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 20112019 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaDatos\obj\Release\CapaDatos.csprojResolveAssemblyReference.cache
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 20112019 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaDatos\obj\Release\CapaDatos.Properties.Resources.resources
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 20112019 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaDatos\obj\Release\CapaDatos.csproj.GenerateResource.Cache
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 20112019 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaDatos\obj\Release\CapaDatos.dll
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 20112019 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaDatos\obj\Release\CapaDatos.pdb
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 19122019 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaDatos\bin\CapaDatos.dll.config
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 19122019 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaDatos\bin\CapaDatos.dll
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 19122019 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaDatos\bin\CapaDatos.pdb
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 19122019 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaDatos\bin\CapaEntidad.dll
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 19122019 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaDatos\bin\CapaEntidad.pdb
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 19122019 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaDatos\obj\Release\CapaDatos.csprojResolveAssemblyReference.cache
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 19122019 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaDatos\obj\Release\CapaDatos.Properties.Resources.resources
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 19122019 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaDatos\obj\Release\CapaDatos.csproj.GenerateResource.Cache
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 19122019 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaDatos\obj\Release\CapaDatos.dll
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 19122019 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaDatos\obj\Release\CapaDatos.pdb
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 28122019 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaDatos\bin\CapaDatos.dll.config
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 28122019 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaDatos\bin\CapaDatos.dll
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 28122019 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaDatos\bin\CapaDatos.pdb
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 28122019 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaDatos\bin\CapaEntidad.dll
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 28122019 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaDatos\bin\CapaEntidad.pdb
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 28122019 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaDatos\obj\Release\CapaDatos.csprojResolveAssemblyReference.cache
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 28122019 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaDatos\obj\Release\CapaDatos.Properties.Resources.resources
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 28122019 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaDatos\obj\Release\CapaDatos.csproj.GenerateResource.Cache
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 28122019 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaDatos\obj\Release\CapaDatos.dll
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 28122019 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaDatos\obj\Release\CapaDatos.pdb
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 24012020 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaDatos\bin\CapaDatos.dll.config
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 24012020 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaDatos\bin\CapaDatos.dll
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 24012020 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaDatos\bin\CapaDatos.pdb
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 24012020 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaDatos\bin\CapaEntidad.dll
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 24012020 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaDatos\bin\CapaEntidad.pdb
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 24012020 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaDatos\obj\Release\CapaDatos.csprojResolveAssemblyReference.cache
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 24012020 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaDatos\obj\Release\CapaDatos.Properties.Resources.resources
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 24012020 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaDatos\obj\Release\CapaDatos.csproj.GenerateResource.Cache
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 24012020 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaDatos\obj\Release\CapaDatos.dll
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 24012020 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaDatos\obj\Release\CapaDatos.pdb
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 3022020 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaDatos\bin\CapaDatos.dll.config
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 3022020 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaDatos\bin\CapaDatos.dll
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 3022020 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaDatos\bin\CapaDatos.pdb
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 3022020 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaDatos\bin\CapaEntidad.dll
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 3022020 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaDatos\bin\CapaEntidad.pdb
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 3022020 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaDatos\obj\Release\CapaDatos.csprojResolveAssemblyReference.cache
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 3022020 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaDatos\obj\Release\CapaDatos.Properties.Resources.resources
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 3022020 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaDatos\obj\Release\CapaDatos.csproj.GenerateResource.Cache
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 3022020 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaDatos\obj\Release\CapaDatos.dll
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 3022020 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaDatos\obj\Release\CapaDatos.pdb
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 21022020 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaDatos\bin\CapaDatos.dll.config
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 21022020 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaDatos\bin\CapaDatos.dll
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 21022020 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaDatos\bin\CapaDatos.pdb
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 21022020 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaDatos\bin\CapaEntidad.dll
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 21022020 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaDatos\bin\CapaEntidad.pdb
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 21022020 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaDatos\obj\Release\CapaDatos.csprojResolveAssemblyReference.cache
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 21022020 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaDatos\obj\Release\CapaDatos.Properties.Resources.resources
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 21022020 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaDatos\obj\Release\CapaDatos.csproj.GenerateResource.Cache
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 21022020 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaDatos\obj\Release\CapaDatos.dll
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 21022020 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaDatos\obj\Release\CapaDatos.pdb
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 03032020 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaDatos\bin\CapaDatos.dll.config
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 03032020 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaDatos\bin\CapaDatos.dll
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 03032020 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaDatos\bin\CapaDatos.pdb
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 03032020 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaDatos\bin\CapaEntidad.dll
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 03032020 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaDatos\bin\CapaEntidad.pdb
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 03032020 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaDatos\obj\Release\CapaDatos.csprojResolveAssemblyReference.cache
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 03032020 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaDatos\obj\Release\CapaDatos.Properties.Resources.resources
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 03032020 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaDatos\obj\Release\CapaDatos.csproj.GenerateResource.Cache
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 03032020 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaDatos\obj\Release\CapaDatos.dll
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 03032020 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaDatos\obj\Release\CapaDatos.pdb
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 25032020 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaDatos\bin\CapaDatos.dll.config
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 25032020 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaDatos\bin\CapaDatos.dll
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 25032020 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaDatos\bin\CapaDatos.pdb
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 25032020 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaDatos\bin\CapaEntidad.dll
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 25032020 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaDatos\bin\CapaEntidad.pdb
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 25032020 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaDatos\obj\Release\CapaDatos.csprojResolveAssemblyReference.cache
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 25032020 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaDatos\obj\Release\CapaDatos.Properties.Resources.resources
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 25032020 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaDatos\obj\Release\CapaDatos.csproj.GenerateResource.Cache
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 25032020 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaDatos\obj\Release\CapaDatos.dll
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 25032020 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaDatos\obj\Release\CapaDatos.pdb
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 24042020 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaDatos\bin\CapaDatos.dll.config
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 24042020 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaDatos\bin\CapaDatos.dll
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 24042020 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaDatos\bin\CapaDatos.pdb
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 24042020 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaDatos\bin\CapaEntidad.dll
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 24042020 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaDatos\bin\CapaEntidad.pdb
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 24042020 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaDatos\obj\Release\CapaDatos.csprojResolveAssemblyReference.cache
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 24042020 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaDatos\obj\Release\CapaDatos.Properties.Resources.resources
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 24042020 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaDatos\obj\Release\CapaDatos.csproj.GenerateResource.Cache
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 24042020 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaDatos\obj\Release\CapaDatos.dll
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 24042020 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaDatos\obj\Release\CapaDatos.pdb
+D:\datos c\Desktop\Systemas ANthony\ProyectoBercam 07052020 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaDatos\bin\CapaDatos.dll.config
+D:\datos c\Desktop\Systemas ANthony\ProyectoBercam 07052020 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaDatos\bin\CapaDatos.dll
+D:\datos c\Desktop\Systemas ANthony\ProyectoBercam 07052020 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaDatos\bin\CapaDatos.pdb
+D:\datos c\Desktop\Systemas ANthony\ProyectoBercam 07052020 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaDatos\bin\CapaEntidad.dll
+D:\datos c\Desktop\Systemas ANthony\ProyectoBercam 07052020 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaDatos\bin\CapaEntidad.pdb
+D:\datos c\Desktop\Systemas ANthony\ProyectoBercam 07052020 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaDatos\obj\Release\CapaDatos.csprojResolveAssemblyReference.cache
+D:\datos c\Desktop\Systemas ANthony\ProyectoBercam 07052020 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaDatos\obj\Release\CapaDatos.Properties.Resources.resources
+D:\datos c\Desktop\Systemas ANthony\ProyectoBercam 07052020 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaDatos\obj\Release\CapaDatos.csproj.GenerateResource.Cache
+D:\datos c\Desktop\Systemas ANthony\ProyectoBercam 07052020 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaDatos\obj\Release\CapaDatos.dll
+D:\datos c\Desktop\Systemas ANthony\ProyectoBercam 07052020 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaDatos\obj\Release\CapaDatos.pdb
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 08052020 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaDatos\bin\CapaDatos.dll.config
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 08052020 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaDatos\bin\CapaDatos.dll
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 08052020 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaDatos\bin\CapaDatos.pdb
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 08052020 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaDatos\bin\CapaEntidad.dll
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 08052020 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaDatos\bin\CapaEntidad.pdb
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 08052020 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaDatos\obj\Release\CapaDatos.csprojResolveAssemblyReference.cache
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 08052020 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaDatos\obj\Release\CapaDatos.Properties.Resources.resources
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 08052020 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaDatos\obj\Release\CapaDatos.csproj.GenerateResource.Cache
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 08052020 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaDatos\obj\Release\CapaDatos.dll
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 08052020 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaDatos\obj\Release\CapaDatos.pdb
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 18052020 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaDatos\bin\CapaDatos.dll.config
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 18052020 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaDatos\bin\CapaDatos.dll
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 18052020 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaDatos\bin\CapaDatos.pdb
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 18052020 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaDatos\bin\CapaEntidad.dll
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 18052020 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaDatos\bin\CapaEntidad.pdb
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 18052020 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaDatos\obj\Release\CapaDatos.csprojResolveAssemblyReference.cache
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 18052020 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaDatos\obj\Release\CapaDatos.Properties.Resources.resources
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 18052020 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaDatos\obj\Release\CapaDatos.csproj.GenerateResource.Cache
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 18052020 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaDatos\obj\Release\CapaDatos.dll
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 18052020 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaDatos\obj\Release\CapaDatos.pdb
+D:\datos c\Desktop\Systemas ANthony\ProyectoBercam 18052020 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaDatos\bin\CapaDatos.dll.config
+D:\datos c\Desktop\Systemas ANthony\ProyectoBercam 18052020 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaDatos\bin\CapaDatos.dll
+D:\datos c\Desktop\Systemas ANthony\ProyectoBercam 18052020 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaDatos\bin\CapaDatos.pdb
+D:\datos c\Desktop\Systemas ANthony\ProyectoBercam 18052020 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaDatos\bin\CapaEntidad.dll
+D:\datos c\Desktop\Systemas ANthony\ProyectoBercam 18052020 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaDatos\bin\CapaEntidad.pdb
+D:\datos c\Desktop\Systemas ANthony\ProyectoBercam 18052020 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaDatos\obj\Release\CapaDatos.csprojResolveAssemblyReference.cache
+D:\datos c\Desktop\Systemas ANthony\ProyectoBercam 18052020 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaDatos\obj\Release\CapaDatos.Properties.Resources.resources
+D:\datos c\Desktop\Systemas ANthony\ProyectoBercam 18052020 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaDatos\obj\Release\CapaDatos.csproj.GenerateResource.Cache
+D:\datos c\Desktop\Systemas ANthony\ProyectoBercam 18052020 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaDatos\obj\Release\CapaDatos.dll
+D:\datos c\Desktop\Systemas ANthony\ProyectoBercam 18052020 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaDatos\obj\Release\CapaDatos.pdb
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 01062020 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaDatos\bin\CapaDatos.dll.config
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 01062020 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaDatos\bin\CapaDatos.dll
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 01062020 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaDatos\bin\CapaDatos.pdb
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 01062020 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaDatos\bin\CapaEntidad.dll
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 01062020 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaDatos\bin\CapaEntidad.pdb
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 01062020 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaDatos\obj\Release\CapaDatos.csprojResolveAssemblyReference.cache
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 01062020 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaDatos\obj\Release\CapaDatos.Properties.Resources.resources
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 01062020 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaDatos\obj\Release\CapaDatos.csproj.GenerateResource.Cache
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 01062020 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaDatos\obj\Release\CapaDatos.dll
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 01062020 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaDatos\obj\Release\CapaDatos.pdb
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 17062020 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaDatos\bin\CapaDatos.dll.config
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 17062020 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaDatos\bin\CapaDatos.dll
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 17062020 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaDatos\bin\CapaDatos.pdb
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 17062020 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaDatos\bin\CapaEntidad.dll
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 17062020 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaDatos\bin\CapaEntidad.pdb
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 17062020 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaDatos\obj\Release\CapaDatos.csprojResolveAssemblyReference.cache
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 17062020 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaDatos\obj\Release\CapaDatos.Properties.Resources.resources
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 17062020 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaDatos\obj\Release\CapaDatos.csproj.GenerateResource.Cache
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 17062020 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaDatos\obj\Release\CapaDatos.dll
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 17062020 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaDatos\obj\Release\CapaDatos.pdb
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 22062020 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaDatos\bin\CapaDatos.dll.config
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 22062020 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaDatos\bin\CapaDatos.dll
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 22062020 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaDatos\bin\CapaDatos.pdb
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 22062020 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaDatos\bin\CapaEntidad.dll
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 22062020 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaDatos\bin\CapaEntidad.pdb
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 22062020 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaDatos\obj\Release\CapaDatos.csprojResolveAssemblyReference.cache
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 22062020 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaDatos\obj\Release\CapaDatos.Properties.Resources.resources
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 22062020 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaDatos\obj\Release\CapaDatos.csproj.GenerateResource.Cache
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 22062020 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaDatos\obj\Release\CapaDatos.dll
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 22062020 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaDatos\obj\Release\CapaDatos.pdb
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 09072020 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaDatos\bin\CapaDatos.dll.config
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 09072020 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaDatos\bin\CapaDatos.dll
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 09072020 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaDatos\bin\CapaDatos.pdb
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 09072020 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaDatos\bin\CapaEntidad.dll
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 09072020 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaDatos\bin\CapaEntidad.pdb
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 09072020 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaDatos\obj\Release\CapaDatos.csprojResolveAssemblyReference.cache
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 09072020 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaDatos\obj\Release\CapaDatos.Properties.Resources.resources
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 09072020 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaDatos\obj\Release\CapaDatos.csproj.GenerateResource.Cache
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 09072020 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaDatos\obj\Release\CapaDatos.dll
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 09072020 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaDatos\obj\Release\CapaDatos.pdb
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 14072020 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaDatos\bin\CapaDatos.dll.config
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 14072020 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaDatos\bin\CapaDatos.dll
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 14072020 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaDatos\bin\CapaDatos.pdb
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 14072020 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaDatos\bin\CapaEntidad.dll
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 14072020 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaDatos\bin\CapaEntidad.pdb
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 14072020 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaDatos\obj\Release\CapaDatos.csprojResolveAssemblyReference.cache
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 14072020 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaDatos\obj\Release\CapaDatos.Properties.Resources.resources
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 14072020 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaDatos\obj\Release\CapaDatos.csproj.GenerateResource.Cache
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 14072020 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaDatos\obj\Release\CapaDatos.dll
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 14072020 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaDatos\obj\Release\CapaDatos.pdb
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 19072020 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaDatos\bin\CapaDatos.dll.config
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 19072020 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaDatos\bin\CapaDatos.dll
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 19072020 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaDatos\bin\CapaDatos.pdb
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 19072020 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaDatos\bin\CapaEntidad.dll
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 19072020 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaDatos\bin\CapaEntidad.pdb
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 19072020 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaDatos\obj\Release\CapaDatos.csprojResolveAssemblyReference.cache
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 19072020 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaDatos\obj\Release\CapaDatos.Properties.Resources.resources
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 19072020 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaDatos\obj\Release\CapaDatos.csproj.GenerateResource.Cache
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 19072020 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaDatos\obj\Release\CapaDatos.dll
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 19072020 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaDatos\obj\Release\CapaDatos.pdb
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 21072020 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaDatos\bin\CapaDatos.dll.config
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 21072020 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaDatos\bin\CapaDatos.dll
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 21072020 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaDatos\bin\CapaDatos.pdb
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 21072020 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaDatos\bin\CapaEntidad.dll
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 21072020 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaDatos\bin\CapaEntidad.pdb
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 21072020 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaDatos\obj\Release\CapaDatos.csprojResolveAssemblyReference.cache
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 21072020 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaDatos\obj\Release\CapaDatos.Properties.Resources.resources
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 21072020 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaDatos\obj\Release\CapaDatos.csproj.GenerateResource.Cache
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 21072020 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaDatos\obj\Release\CapaDatos.dll
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 21072020 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaDatos\obj\Release\CapaDatos.pdb
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 22072020 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaDatos\bin\CapaDatos.dll.config
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 22072020 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaDatos\bin\CapaDatos.dll
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 22072020 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaDatos\bin\CapaDatos.pdb
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 22072020 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaDatos\bin\CapaEntidad.dll
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 22072020 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaDatos\bin\CapaEntidad.pdb
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 22072020 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaDatos\obj\Release\CapaDatos.csprojResolveAssemblyReference.cache
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 22072020 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaDatos\obj\Release\CapaDatos.Properties.Resources.resources
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 22072020 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaDatos\obj\Release\CapaDatos.csproj.GenerateResource.Cache
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 22072020 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaDatos\obj\Release\CapaDatos.dll
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 22072020 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaDatos\obj\Release\CapaDatos.pdb
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 01082020 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaDatos\bin\CapaDatos.dll.config
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 01082020 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaDatos\bin\CapaDatos.dll
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 01082020 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaDatos\bin\CapaDatos.pdb
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 01082020 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaDatos\bin\CapaEntidad.dll
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 01082020 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaDatos\bin\CapaEntidad.pdb
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 01082020 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaDatos\obj\Release\CapaDatos.csprojResolveAssemblyReference.cache
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 01082020 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaDatos\obj\Release\CapaDatos.Properties.Resources.resources
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 01082020 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaDatos\obj\Release\CapaDatos.csproj.GenerateResource.Cache
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 01082020 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaDatos\obj\Release\CapaDatos.dll
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 01082020 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaDatos\obj\Release\CapaDatos.pdb
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 03092020 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaDatos\bin\CapaDatos.dll.config
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 03092020 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaDatos\bin\CapaDatos.dll
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 03092020 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaDatos\bin\CapaDatos.pdb
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 03092020 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaDatos\bin\CapaEntidad.dll
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 03092020 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaDatos\bin\CapaEntidad.pdb
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 03092020 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaDatos\obj\Release\CapaDatos.csprojResolveAssemblyReference.cache
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 03092020 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaDatos\obj\Release\CapaDatos.Properties.Resources.resources
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 03092020 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaDatos\obj\Release\CapaDatos.csproj.GenerateResource.Cache
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 03092020 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaDatos\obj\Release\CapaDatos.dll
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 03092020 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaDatos\obj\Release\CapaDatos.pdb
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 09092020 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaDatos\bin\CapaDatos.dll.config
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 09092020 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaDatos\bin\CapaDatos.dll
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 09092020 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaDatos\bin\CapaDatos.pdb
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 09092020 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaDatos\bin\CapaEntidad.dll
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 09092020 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaDatos\bin\CapaEntidad.pdb
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 09092020 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaDatos\obj\Release\CapaDatos.csprojResolveAssemblyReference.cache
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 09092020 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaDatos\obj\Release\CapaDatos.Properties.Resources.resources
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 09092020 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaDatos\obj\Release\CapaDatos.csproj.GenerateResource.Cache
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 09092020 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaDatos\obj\Release\CapaDatos.dll
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 09092020 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaDatos\obj\Release\CapaDatos.pdb
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 11092020 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaDatos\bin\CapaDatos.dll.config
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 11092020 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaDatos\bin\CapaDatos.dll
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 11092020 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaDatos\bin\CapaDatos.pdb
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 11092020 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaDatos\bin\CapaEntidad.dll
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 11092020 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaDatos\bin\CapaEntidad.pdb
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 11092020 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaDatos\obj\Release\CapaDatos.csprojResolveAssemblyReference.cache
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 11092020 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaDatos\obj\Release\CapaDatos.Properties.Resources.resources
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 11092020 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaDatos\obj\Release\CapaDatos.csproj.GenerateResource.Cache
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 11092020 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaDatos\obj\Release\CapaDatos.dll
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 11092020 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaDatos\obj\Release\CapaDatos.pdb
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 13102020 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaDatos\bin\CapaDatos.dll.config
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 13102020 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaDatos\bin\CapaDatos.dll
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 13102020 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaDatos\bin\CapaDatos.pdb
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 13102020 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaDatos\bin\CapaEntidad.dll
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 13102020 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaDatos\bin\CapaEntidad.pdb
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 13102020 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaDatos\obj\Release\CapaDatos.csprojResolveAssemblyReference.cache
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 13102020 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaDatos\obj\Release\CapaDatos.Properties.Resources.resources
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 13102020 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaDatos\obj\Release\CapaDatos.csproj.GenerateResource.Cache
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 13102020 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaDatos\obj\Release\CapaDatos.dll
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 13102020 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaDatos\obj\Release\CapaDatos.pdb
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 6112020 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaDatos\bin\CapaDatos.dll.config
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 6112020 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaDatos\bin\CapaDatos.dll
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 6112020 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaDatos\bin\CapaDatos.pdb
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 6112020 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaDatos\bin\CapaEntidad.dll
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 6112020 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaDatos\bin\CapaEntidad.pdb
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 6112020 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaDatos\obj\Release\CapaDatos.csprojResolveAssemblyReference.cache
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 6112020 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaDatos\obj\Release\CapaDatos.Properties.Resources.resources
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 6112020 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaDatos\obj\Release\CapaDatos.csproj.GenerateResource.Cache
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 6112020 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaDatos\obj\Release\CapaDatos.dll
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 6112020 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaDatos\obj\Release\CapaDatos.pdb
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 24112020 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaDatos\bin\CapaDatos.dll.config
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 24112020 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaDatos\bin\CapaDatos.dll
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 24112020 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaDatos\bin\CapaDatos.pdb
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 24112020 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaDatos\bin\CapaEntidad.dll
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 24112020 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaDatos\bin\CapaEntidad.pdb
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 24112020 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaDatos\obj\Release\CapaDatos.csprojResolveAssemblyReference.cache
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 24112020 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaDatos\obj\Release\CapaDatos.Properties.Resources.resources
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 24112020 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaDatos\obj\Release\CapaDatos.csproj.GenerateResource.Cache
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 24112020 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaDatos\obj\Release\CapaDatos.dll
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 24112020 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaDatos\obj\Release\CapaDatos.pdb
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 25012021 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaDatos\bin\CapaDatos.dll.config
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 25012021 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaDatos\bin\CapaDatos.dll
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 25012021 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaDatos\bin\CapaDatos.pdb
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 25012021 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaDatos\bin\CapaEntidad.dll
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 25012021 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaDatos\bin\CapaEntidad.pdb
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 25012021 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaDatos\obj\Release\CapaDatos.csprojResolveAssemblyReference.cache
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 25012021 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaDatos\obj\Release\CapaDatos.Properties.Resources.resources
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 25012021 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaDatos\obj\Release\CapaDatos.csproj.GenerateResource.Cache
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 25012021 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaDatos\obj\Release\CapaDatos.dll
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 25012021 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaDatos\obj\Release\CapaDatos.pdb
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 13052021 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaDatos\bin\CapaDatos.dll.config
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 13052021 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaDatos\bin\CapaDatos.dll
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 13052021 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaDatos\bin\CapaDatos.pdb
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 13052021 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaDatos\bin\CapaEntidad.dll
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 13052021 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaDatos\bin\CapaEntidad.pdb
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 13052021 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaDatos\obj\Release\CapaDatos.csprojResolveAssemblyReference.cache
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 13052021 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaDatos\obj\Release\CapaDatos.Properties.Resources.resources
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 13052021 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaDatos\obj\Release\CapaDatos.csproj.GenerateResource.Cache
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 13052021 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaDatos\obj\Release\CapaDatos.dll
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 13052021 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaDatos\obj\Release\CapaDatos.pdb
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 30062021 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaDatos\bin\CapaDatos.dll.config
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 30062021 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaDatos\bin\CapaDatos.dll
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 30062021 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaDatos\bin\CapaDatos.pdb
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 30062021 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaDatos\bin\CapaEntidad.dll
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 30062021 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaDatos\bin\CapaEntidad.pdb
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 30062021 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaDatos\obj\Release\CapaDatos.csprojResolveAssemblyReference.cache
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 30062021 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaDatos\obj\Release\CapaDatos.Properties.Resources.resources
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 30062021 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaDatos\obj\Release\CapaDatos.csproj.GenerateResource.Cache
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 30062021 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaDatos\obj\Release\CapaDatos.dll
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 30062021 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaDatos\obj\Release\CapaDatos.pdb
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 13092021 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaDatos\bin\CapaDatos.dll.config
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 13092021 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaDatos\bin\CapaDatos.dll
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 13092021 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaDatos\bin\CapaDatos.pdb
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 13092021 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaDatos\bin\CapaEntidad.dll
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 13092021 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaDatos\bin\CapaEntidad.pdb
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 13092021 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaDatos\obj\Release\CapaDatos.csprojResolveAssemblyReference.cache
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 13092021 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaDatos\obj\Release\CapaDatos.Properties.Resources.resources
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 13092021 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaDatos\obj\Release\CapaDatos.csproj.GenerateResource.Cache
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 13092021 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaDatos\obj\Release\CapaDatos.dll
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 13092021 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaDatos\obj\Release\CapaDatos.pdb
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 21122021 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaDatos\bin\CapaDatos.dll.config
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 21122021 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaDatos\bin\CapaDatos.dll
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 21122021 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaDatos\bin\CapaDatos.pdb
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 21122021 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaDatos\bin\CapaEntidad.dll
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 21122021 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaDatos\bin\CapaEntidad.pdb
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 21122021 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaDatos\obj\Release\CapaDatos.csprojResolveAssemblyReference.cache
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 21122021 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaDatos\obj\Release\CapaDatos.Properties.Resources.resources
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 21122021 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaDatos\obj\Release\CapaDatos.csproj.GenerateResource.Cache
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 21122021 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaDatos\obj\Release\CapaDatos.dll
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 21122021 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaDatos\obj\Release\CapaDatos.pdb
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 15022022 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaDatos\bin\CapaDatos.dll.config
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 15022022 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaDatos\bin\CapaDatos.dll
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 15022022 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaDatos\bin\CapaDatos.pdb
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 15022022 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaDatos\bin\CapaEntidad.dll
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 15022022 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaDatos\bin\CapaEntidad.pdb
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 15022022 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaDatos\obj\Release\CapaDatos.csprojResolveAssemblyReference.cache
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 15022022 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaDatos\obj\Release\CapaDatos.Properties.Resources.resources
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 15022022 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaDatos\obj\Release\CapaDatos.csproj.GenerateResource.Cache
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 15022022 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaDatos\obj\Release\CapaDatos.dll
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 15022022 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaDatos\obj\Release\CapaDatos.pdb
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 30082022 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaDatos\bin\CapaDatos.dll.config
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 30082022 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaDatos\bin\CapaDatos.dll
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 30082022 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaDatos\bin\CapaDatos.pdb
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 30082022 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaDatos\bin\CapaEntidad.dll
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 30082022 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaDatos\bin\CapaEntidad.pdb
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 30082022 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaDatos\obj\Release\CapaDatos.csprojResolveAssemblyReference.cache
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 30082022 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaDatos\obj\Release\CapaDatos.Properties.Resources.resources
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 30082022 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaDatos\obj\Release\CapaDatos.csproj.GenerateResource.Cache
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 30082022 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaDatos\obj\Release\CapaDatos.dll
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 30082022 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaDatos\obj\Release\CapaDatos.pdb
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 16022023\ProyectoBercam 08062019 Actual Cesar\CapaDatos\bin\CapaDatos.dll.config
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 16022023\ProyectoBercam 08062019 Actual Cesar\CapaDatos\bin\CapaDatos.dll
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 16022023\ProyectoBercam 08062019 Actual Cesar\CapaDatos\bin\CapaDatos.pdb
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 16022023\ProyectoBercam 08062019 Actual Cesar\CapaDatos\bin\CapaEntidad.dll
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 16022023\ProyectoBercam 08062019 Actual Cesar\CapaDatos\bin\CapaEntidad.pdb
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 16022023\ProyectoBercam 08062019 Actual Cesar\CapaDatos\obj\Release\CapaDatos.csprojResolveAssemblyReference.cache
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 16022023\ProyectoBercam 08062019 Actual Cesar\CapaDatos\obj\Release\CapaDatos.Properties.Resources.resources
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 16022023\ProyectoBercam 08062019 Actual Cesar\CapaDatos\obj\Release\CapaDatos.csproj.GenerateResource.Cache
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 16022023\ProyectoBercam 08062019 Actual Cesar\CapaDatos\obj\Release\CapaDatos.dll
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 16022023\ProyectoBercam 08062019 Actual Cesar\CapaDatos\obj\Release\CapaDatos.pdb

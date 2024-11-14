@@ -1,0 +1,3785 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{238DF146-CD87-451F-A7DA-0FF712DB2488}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>CapaPresentacion</RootNamespace>
+    <AssemblyName>CapaPresentacion</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <Use64BitIISExpress />
+    <UseGlobalApplicationHostFile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <FilesToIncludeForPublish>OnlyFilesToRunTheApp</FilesToIncludeForPublish>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="AjaxControlToolkit, Version=17.1.1.0, Culture=neutral, PublicKeyToken=28f01b0e84b6d53e, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\Documents\ASP.NET AJAX Control Toolkit\Bin\AjaxControlToolkit.dll</HintPath>
+    </Reference>
+    <Reference Include="EPPlus, Version=6.2.8.0, Culture=neutral, PublicKeyToken=ea159fdaa78159a1, processorArchitecture=MSIL">
+      <HintPath>..\packages\EPPlus.6.2.8\lib\net35\EPPlus.dll</HintPath>
+    </Reference>
+    <Reference Include="EPPlus.Interfaces, Version=6.1.1.0, Culture=neutral, PublicKeyToken=a694d7f3b0907a61, processorArchitecture=MSIL">
+      <HintPath>..\packages\EPPlus.Interfaces.6.1.1\lib\net35\EPPlus.Interfaces.dll</HintPath>
+    </Reference>
+    <Reference Include="EPPlus.System.Drawing, Version=6.1.1.0, Culture=neutral, PublicKeyToken=2308d35469c9bac0, processorArchitecture=MSIL">
+      <HintPath>..\packages\EPPlus.System.Drawing.6.1.1\lib\net35\EPPlus.System.Drawing.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="Microsoft.ReportViewer.WebForms, Version=11.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL" />
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Data.Linq" />
+    <Reference Include="System.Security" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="Microsoft.Web.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.Web.Infrastructure.1.0.0.0\lib\net40\Microsoft.Web.Infrastructure.dll</HintPath>
+    </Reference>
+    <Reference Include="AspNet.ScriptManager.bootstrap">
+      <HintPath>..\packages\AspNet.ScriptManager.bootstrap.3.0.0\lib\net45\AspNet.ScriptManager.bootstrap.dll</HintPath>
+    </Reference>
+    <Reference Include="AspNet.ScriptManager.jQuery">
+      <HintPath>..\packages\AspNet.ScriptManager.jQuery.1.10.2\lib\net45\AspNet.ScriptManager.jQuery.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ScriptManager.MSAjax">
+      <HintPath>..\packages\Microsoft.AspNet.ScriptManager.MSAjax.5.0.0\lib\net45\Microsoft.ScriptManager.MSAjax.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ScriptManager.WebForms">
+      <HintPath>..\packages\Microsoft.AspNet.ScriptManager.WebForms.5.0.0\lib\net45\Microsoft.ScriptManager.WebForms.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Optimization, Version=1.1.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35">
+      <HintPath>..\packages\Microsoft.AspNet.Web.Optimization.1.1.1\lib\net40\System.Web.Optimization.dll</HintPath>
+    </Reference>
+    <Reference Include="WebGrease">
+      <Private>True</Private>
+      <HintPath>..\packages\WebGrease.1.5.2\lib\WebGrease.dll</HintPath>
+    </Reference>
+    <Reference Include="Antlr3.Runtime">
+      <Private>True</Private>
+      <HintPath>..\packages\Antlr.3.4.1.9004\lib\Antlr3.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json">
+      <Private>True</Private>
+      <HintPath>..\packages\Newtonsoft.Json.5.0.6\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.AspNet.Web.Optimization.WebForms">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.AspNet.Web.Optimization.WebForms.1.1.1\lib\net45\Microsoft.AspNet.Web.Optimization.WebForms.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.AspNet.FriendlyUrls">
+      <HintPath>..\packages\Microsoft.AspNet.FriendlyUrls.Core.1.0.2\lib\net45\Microsoft.AspNet.FriendlyUrls.dll</HintPath>
+    </Reference>
+    <Reference Include="WindowsBase" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="EntityFramework">
+      <HintPath>..\packages\EntityFramework.6.0.0\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer">
+      <HintPath>..\packages\EntityFramework.6.0.0\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.AspNet.Identity.Core">
+      <HintPath>..\packages\Microsoft.AspNet.Identity.Core.1.0.0\lib\net45\Microsoft.AspNet.Identity.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.AspNet.Identity.Owin">
+      <HintPath>..\packages\Microsoft.AspNet.Identity.Owin.1.0.0\lib\net45\Microsoft.AspNet.Identity.Owin.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.AspNet.Identity.EntityFramework">
+      <HintPath>..\packages\Microsoft.AspNet.Identity.EntityFramework.1.0.0\lib\net45\Microsoft.AspNet.Identity.EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Providers">
+      <HintPath>..\packages\Microsoft.AspNet.Providers.Core.1.2\lib\net40\System.Web.Providers.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Owin">
+      <HintPath>..\packages\Microsoft.Owin.2.0.0\lib\net45\Microsoft.Owin.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Owin.Host.SystemWeb">
+      <HintPath>..\packages\Microsoft.Owin.Host.SystemWeb.2.0.0\lib\net45\Microsoft.Owin.Host.SystemWeb.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Owin.Security">
+      <HintPath>..\packages\Microsoft.Owin.Security.2.0.0\lib\net45\Microsoft.Owin.Security.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Owin.Security.Facebook">
+      <HintPath>..\packages\Microsoft.Owin.Security.Facebook.2.0.0\lib\net45\Microsoft.Owin.Security.Facebook.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Owin.Security.Cookies">
+      <HintPath>..\packages\Microsoft.Owin.Security.Cookies.2.0.0\lib\net45\Microsoft.Owin.Security.Cookies.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Owin.Security.Google">
+      <HintPath>..\packages\Microsoft.Owin.Security.Google.2.0.0\lib\net45\Microsoft.Owin.Security.Google.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Owin.Security.Twitter">
+      <HintPath>..\packages\Microsoft.Owin.Security.Twitter.2.0.0\lib\net45\Microsoft.Owin.Security.Twitter.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Owin.Security.MicrosoftAccount">
+      <HintPath>..\packages\Microsoft.Owin.Security.MicrosoftAccount.2.0.0\lib\net45\Microsoft.Owin.Security.MicrosoftAccount.dll</HintPath>
+    </Reference>
+    <Reference Include="Owin">
+      <HintPath>..\packages\Owin.1.0\lib\net40\Owin.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Owin.Security.OAuth">
+      <HintPath>..\packages\Microsoft.Owin.Security.OAuth.2.0.0\lib\net45\Microsoft.Owin.Security.OAuth.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="About.aspx" />
+    <Content Include="Account\Login.aspx" />
+    <Content Include="Account\Manage.aspx" />
+    <Content Include="Account\OpenAuthProviders.ascx" />
+    <Content Include="Account\Register.aspx" />
+    <Content Include="Account\RegisterExternalLogin.aspx" />
+    <Content Include="Autocomplete.aspx" />
+    <Content Include="FormActualizarDim.aspx" />
+    <Content Include="FormAdelanto.aspx" />
+    <Content Include="FormAdelantoDePago.aspx" />
+    <Content Include="FormAdelantoDePagoImagenes.aspx" />
+    <Content Include="FormAgregarAplicacion.aspx" />
+    <Content Include="FormAnticipoChequeDolar.aspx" />
+    <Content Include="FormAnticiposImagenes.aspx" />
+    <Content Include="FormAnticiposManuales.aspx" />
+    <Content Include="FormAprobCarroGuia.aspx" />
+    <Content Include="FormCambioRutaViaje.aspx" />
+    <Content Include="FormConfirmarDescarga.aspx" />
+    <Content Include="FormConfirmarProgMic.aspx" />
+    <Content Include="FormConfirmarViajePlaca.aspx" />
+    <Content Include="FormCreacionAplicacion.aspx" />
+    <Content Include="FormCreacionDim.aspx" />
+    <Content Include="FormCrearCuentaBanco.aspx" />
+    <Content Include="FormDescargarAceite.aspx" />
+    <Content Include="FormDescargarCarroGuia.aspx" />
+    <Content Include="FormDescuentosPorNombre.aspx" />
+    <Content Include="FormDetalleRutaAceite.aspx" />
+    <Content Include="FormDocumentosAceite.aspx" />
+    <Content Include="FormEliminarClientCamiones.aspx" />
+    <Content Include="FormEnlazarUsuZkTeko.aspx" />
+    <Content Include="FormHabDeshab.aspx" />
+    <Content Include="FormHorarios.aspx" />
+    <Content Include="FormImagenAdelantoDePago.aspx" />
+    <Content Include="FormImagenAdelPagoCheque.aspx" />
+    <Content Include="FormImagenConcVis.aspx" />
+    <Content Include="FormImagenConcVisAceite.aspx" />
+    <Content Include="FormImagenesAnticipoChequeInter.aspx" />
+    <Content Include="FormImagenesAnticiposCheques.aspx" />
+    <Content Include="FormImagenesCarla.aspx" />
+    <Content Include="FormImagenesCarroGuia.aspx" />
+    <Content Include="FormImagenesJoseluisCamiones.aspx" />
+    <Content Include="FormImagenesPagadasCorporacion.aspx" />
+    <Content Include="FormImgCheckList.aspx" />
+    <Content Include="FormImgPagadasCheques.aspx" />
+    <Content Include="FormImgPagasChequesAceite.aspx" />
+    <Content Include="FormInsertAnticipVer.aspx" />
+    <Content Include="FormListaAdelantoCorreos.aspx" />
+    <Content Include="FormListaAdelantoPagoNvFormat.aspx" />
+    <Content Include="FormListaAdelantosCheques.aspx" />
+    <Content Include="FormListaAnticipoNvFormt.aspx" />
+    <Content Include="FormListaAnticiposCheques.aspx" />
+    <Content Include="FormListaAnticiposCorreo.aspx" />
+    <Content Include="FormListaAnticipoSinFactura.aspx" />
+    <Content Include="FormListaAplicacion.aspx" />
+    <Content Include="FormListaAsegAlcohol.aspx" />
+    <Content Include="FormListaAsegDAPInter.aspx" />
+    <Content Include="FormListaAseguradoAlcoholPeriodo.aspx" />
+    <Content Include="FormListaAsegYPFBInter.aspx" />
+    <Content Include="FormListaCarroGuiasAprobados.aspx" />
+    <Content Include="FormListaConcAlcoholPer.aspx" />
+    <Content Include="FormListaConcDapInter.aspx" />
+    <Content Include="FormListaConcilaicionPagarDAPInter.aspx" />
+    <Content Include="FormListaConciliacionPagarAlcPeri.aspx" />
+    <Content Include="FormListaConciliacionPagarDAPInter.aspx" />
+    <Content Include="FormListaConciliacionPagarYPFBInter.aspx" />
+    <Content Include="FormListaConcYPFBInter.aspx" />
+    <Content Include="FormListaConfirmadosInternacional.aspx" />
+    <Content Include="FormListaConfirmarViajeInternacional.aspx" />
+    <Content Include="FormListaNroContratoAceite.aspx" />
+    <Content Include="FormListaNumeroDeConciliacion.aspx" />
+    <Content Include="FormListaRutasCambiar.aspx" />
+    <Content Include="FormListaSolicAceitePagSinFactura.aspx" />
+    <Content Include="FormListaSolicitudPagoNuevoFormato.aspx" />
+    <Content Include="FormListaSolicitudPagos.aspx" />
+    <Content Include="FormListaSolicitudPagosAceite.aspx" />
+    <Content Include="FormListaSolicitudPagosCarroGuia.aspx" />
+    <Content Include="FormListaSolicitudPagoSinFactura.aspx" />
+    <Content Include="FormListaSolPagoAceCheque.aspx" />
+    <Content Include="FormListaSolPagoCheque.aspx" />
+    <Content Include="FormListaViajesConfirmados.aspx" />
+    <Content Include="FormListaViajesNoDespachados.aspx" />
+    <Content Include="FormListImgAdelanto.aspx" />
+    <Content Include="FormListImgAnticipoCheque.aspx" />
+    <Content Include="FormModAnticipo.aspx" />
+    <Content Include="FormModificarDetalleDim.aspx" />
+    <Content Include="FormModificarDim.aspx" />
+    <Content Include="FormModNroConcRefinacion.aspx" />
+    <Content Include="FormNroContratoAceite.aspx" />
+    <Content Include="FormObtenerHorarioBiometrico.aspx" />
+    <Content Include="FormPagadoAlcoholMes.aspx" />
+    <Content Include="FormPagadoAlcPeri.aspx" />
+    <Content Include="FormPagadoCarroGuia.aspx" />
+    <Content Include="FormPagadoDAPInternacional.aspx" />
+    <Content Include="FormPagadosCheque.aspx" />
+    <Content Include="FormPagadoYpfbInter.aspx" />
+    <Content Include="FormPagarAnticipoSinFactura.aspx" />
+    <Content Include="FormPagarSinFacturaAceite.aspx" />
+    <Content Include="FormPagoSinFactura.aspx" />
+    <Content Include="FormPrecioAnticipo.aspx" />
+    <Content Include="FormRecordatorio.aspx" />
+    <Content Include="FormRecordatorioCamiones.aspx" />
+    <Content Include="FormRepCobrYPFBInternacional.aspx" />
+    <Content Include="FormRepConcAlcPeriodoPagar.aspx" />
+    <Content Include="FormRepConcDAPInter.aspx" />
+    <Content Include="FormRepConCorpAlcohol.aspx" />
+    <Content Include="FormRepConCorpPeriodo.aspx" />
+    <Content Include="FormRepConcRefPagar2023.aspx" />
+    <Content Include="FormRepConcYpfbPagarInter.aspx" />
+    <Content Include="FormRepMermCamPlaca.aspx" />
+    <Content Include="FormRepMermGeneralPlaca.aspx" />
+    <Content Include="FormReportCamionesMermaGeneral.aspx" />
+    <Content Include="FormReportDetAdelPagoCuenta.aspx" />
+    <Content Include="FormReportDim.aspx" />
+    <Content Include="FormReporteAdelantoDePago.aspx" />
+    <Content Include="FormReporteAdelantoDePagoCuenta.aspx" />
+    <Content Include="FormReporteAnticipoConfirNoPagado.aspx" />
+    <Content Include="FormReporteAnticiposInsertadosNombre.aspx" />
+    <Content Include="FormReporteAnticiposViajeSinConfirmar.aspx" />
+    <Content Include="FormReporteAnticipoTransitoPorPersona.aspx" />
+    <Content Include="FormReporteAplicacion.aspx" />
+    <Content Include="FormReporteBercamCamiones.aspx" />
+    <Content Include="FormReporteComparacionCobrarPagar.aspx" />
+    <Content Include="FormReporteConfirmadosDescarga.aspx" />
+    <Content Include="FormReporteCuentaTotal.aspx" />
+    <Content Include="FormReporteDescuentos.aspx" />
+    <Content Include="FormReporteDesFechaMonto.aspx" />
+    <Content Include="FormReporteDetAdelPago.aspx" />
+    <Content Include="FormReporteDetalleViajeAnticipoInsertado.aspx" />
+    <Content Include="FormReporteDetalleViajesAntciposTransito.aspx" />
+    <Content Include="FormReporteDetalleViajesAnticipo.aspx" />
+    <Content Include="FormEditarFechaAnticipo.aspx" />
+    <Content Include="FormListaAdelantoDePagos.aspx" />
+    <Content Include="FormAnticipo.aspx" />
+    <Content Include="FormAsegurarCarroGuia.aspx" />
+    <Content Include="FormAsegurarConciliacion.aspx" />
+    <Content Include="FormBercamFletero.aspx" />
+    <Content Include="FormCamioGuia.aspx" />
+    <Content Include="FormConfirmarProgramacionFecha.aspx" />
+    <Content Include="FormClienteCamionGuia.aspx" />
+    <Content Include="FormCobroGuia.aspx" />
+    <Content Include="FormConceptoMulta.aspx" />
+    <Content Include="FormConcilacionCorpo.aspx" />
+    <Content Include="FormConciliacionAsegurada.aspx" />
+    <Content Include="FormConciliacionCarroGuia.aspx" />
+    <Content Include="FormConfirmarViaje.aspx" />
+    <Content Include="FormDescargarLiquidacion.aspx" />
+    <Content Include="FormDetalleMulta.aspx" />
+    <Content Include="FormAsignaccionCamiones.aspx" />
+    <Content Include="FormCambiarCam.aspx" />
+    <Content Include="FormColor.aspx" />
+    <Content Include="FormConciliacionPorCobrar.aspx" />
+    <Content Include="css\jquery-ui.css" />
+    <Content Include="FormConciliacionPorPagar.aspx" />
+    <Content Include="FormDetalleRastreo.aspx" />
+    <Content Include="FormDetalleTelefono.aspx" />
+    <Content Include="FormDetRuta.aspx" />
+    <Content Include="FormEditarMermas.aspx" />
+    <Content Include="FormEstadoConcCorp.aspx" />
+    <Content Include="FormEstadoConcRef.aspx" />
+    <Content Include="FormFechaConfirmada.aspx" />
+    <Content Include="FormHabPersona.aspx" />
+    <Content Include="FormHistorialEstado.aspx" />
+    <Content Include="FormImagenesPagadas.aspx" />
+    <Content Include="FormImagenesPagadasAceite.aspx" />
+    <Content Include="FormListaAceite.aspx" />
+    <Content Include="FormListaAnticipos.aspx" />
+    <Content Include="FormListaAsegAceite.aspx" />
+    <Content Include="FormListaAsegCorp.aspx" />
+    <Content Include="FormListaAseguradosRefi.aspx" />
+    <Content Include="FormListaAsignacionCamiones.aspx" />
+    <Content Include="FormListaCamionesEstado.aspx" />
+    <Content Include="FormListaConcAlcohol.aspx" />
+    <Content Include="FormListaConcFleteAlcohol.aspx" />
+    <Content Include="FormListaConciliacion.aspx" />
+    <Content Include="FormListaConciliacionCorp.aspx" />
+    <Content Include="FormListaConciliacionPagarRef.aspx" />
+    <Content Include="FormListaCorpConc.aspx" />
+    <Content Include="FormListaProgramNoConfir.aspx" />
+    <Content Include="FormListaDetalleConciliacion.aspx" />
+    <Content Include="FormListaFacturaCarroGuia.aspx" />
+    <Content Include="FormListaImgAnticipo.aspx" />
+    <Content Include="FormListaMermaDetalle.aspx" />
+    <Content Include="FormListaMultas.aspx" />
+    <Content Include="FormListaProveedores.aspx" />
+    <Content Include="FormListaRastreo.aspx" />
+    <Content Include="FormListaSolicitud.aspx" />
+    <Content Include="FormListaSolicitudAceite.aspx" />
+    <Content Include="FormListaSolicitudCarroGuia.aspx" />
+    <Content Include="FormListaSolicitudCorp.aspx" />
+    <Content Include="FormListaTelefono.aspx" />
+    <Content Include="FormListTransAceite.aspx" />
+    <Content Include="FormListTransCorp.aspx" />
+    <Content Include="FormListTransRefi.aspx" />
+    <Content Include="FormMontNomi.aspx" />
+    <Content Include="FormMulta.aspx" />
+    <Content Include="FormPagadoAceite.aspx" />
+    <Content Include="FormPagadoCorp.aspx" />
+    <Content Include="FormPagadosRefi.aspx" />
+    <Content Include="FormPermisos.aspx" />
+    <Content Include="FormProgramacionRuta.aspx" />
+    <Content Include="Bercam\Calendar.jpg" />
+    <Content Include="Bercam\descarga.png" />
+    <Content Include="Bercam\imgBannerBercam.jpg" />
+    <Content Include="Bercam\imgFinalBercam.jpg" />
+    <Content Include="Bercam\imgFinalBercam2.jpg" />
+    <Content Include="Bercam\imgFinalBercam3.jpg" />
+    <Content Include="Bercam\imgFinalBercam4.jpg" />
+    <Content Include="Bercam\Login1.jpg" />
+    <Content Include="Bercam\Login2.jpg" />
+    <Content Include="Bercam\Login3.jpg" />
+    <Content Include="Bercam\Login4.jpg" />
+    <Content Include="Bercam\LogoBercam.jpg" />
+    <Content Include="Contact.aspx" />
+    <Content Include="Content\bootstrap.css" />
+    <Content Include="Content\bootstrap.min.css" />
+    <Content Include="Content\Site.css" />
+    <Content Include="css\ie.css" />
+    <Content Include="css\layout.css" />
+    <Content Include="css\style.css" />
+    <Content Include="Dibey\imgDibeyMain1.jpg" />
+    <Content Include="Dibey\imgDibeyMain2.jpg" />
+    <Content Include="Dibey\imgDibeyMain3.jpg" />
+    <Content Include="Dibey\Login3.jpg" />
+    <Content Include="Dibey\Login4.jpg" />
+    <Content Include="Dibey\LOGOdibey-2.jpg" />
+    <Content Include="Estilos.css" />
+    <Content Include="fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="FormCertificados.aspx" />
+    <Content Include="FormCreacionCamiones.aspx" />
+    <Content Include="FormCuenta.aspx" />
+    <Content Include="FormCuentaContable.aspx" />
+    <Content Include="FormDatosEmpresa.aspx" />
+    <Content Include="FormEstCami.aspx" />
+    <Content Include="FormEstCamion.aspx" />
+    <Content Include="FormListaCamiones.aspx" />
+    <Content Include="FormListarProgramacionRuta.aspx" />
+    <Content Include="FormListarMarca.aspx" />
+    <Content Include="FormListarPersonas.aspx" />
+    <Content Include="FormListaTransacciones.aspx" />
+    <Content Include="FormMarcas.aspx" />
+    <Content Include="FormMensaje.aspx" />
+    <Content Include="FormModCuenta.aspx" />
+    <Content Include="FormProd.aspx" />
+    <Content Include="FormProveedores.aspx" />
+    <Content Include="FormRepConciliacion.aspx" />
+    <Content Include="FormRepConCorp.aspx" />
+    <Content Include="FormRepConCorporacionFlet.aspx" />
+    <Content Include="FormRepConcPagar.aspx" />
+    <Content Include="FormRepNomina.aspx" />
+    <Content Include="FormReportAceite.aspx" />
+    <Content Include="FormReportCarroGuia.aspx" />
+    <Content Include="FormReporteAceiteAPagar.aspx" />
+    <Content Include="FormReporteAnticiposViaje.aspx" />
+    <Content Include="FormReporteCarroGuia.aspx" />
+    <Content Include="FormReporteDeTelefonoLibre.aspx" />
+    <Content Include="FormReporteDeTelefonoOcupado.aspx" />
+    <Content Include="FormReporteDeTelefonos.aspx" />
+    <Content Include="FormReporteDetViajesAntCuenta.aspx" />
+    <Content Include="FormReporteDiasViajados.aspx" />
+    <Content Include="FormReporteFaltas.aspx" />
+    <Content Include="FormReporteGeneralDescuento.aspx" />
+    <Content Include="FormReporteHorarioFaltante.aspx" />
+    <Content Include="FormReporteHorarioPersona.aspx" />
+    <Content Include="FormReporteLiquidacionPagada.aspx" />
+    <Content Include="FormReporteLiquidacionPagadaCuenta.aspx" />
+    <Content Include="FormReporteLiquidacionPagadaSuma.aspx" />
+    <Content Include="FormReporteLiquidacionPendiente.aspx" />
+    <Content Include="FormReporteMermaBercamCamiones.aspx" />
+    <Content Include="FormReportePendienteAdelanto.aspx" />
+    <Content Include="FormReportePendientesDescuentos.aspx" />
+    <Content Include="FormReporteResConciAceite.aspx" />
+    <Content Include="FormReporteResConciPeriodo.aspx" />
+    <Content Include="FormReporteResumenAlcoholCliente.aspx" />
+    <Content Include="FormReporteResumenAlcPeriodoCliente.aspx" />
+    <Content Include="FormReporteSeguros.aspx" />
+    <Content Include="FormReporteSumaSeguros.aspx" />
+    <Content Include="FormReporteTelefonoCamiones.aspx" />
+    <Content Include="FormReporteTelefonoGeneral.aspx" />
+    <Content Include="FormReporteTitularBanco.aspx" />
+    <Content Include="FormReporteTotalAnticiposSinConfirmar.aspx" />
+    <Content Include="FormReporteTotalViajes.aspx" />
+    <Content Include="FormReporteTransLiqui.aspx" />
+    <Content Include="FormReporteViajesConfirInter.aspx" />
+    <Content Include="FormReportTransitoNombre.aspx" />
+    <Content Include="FormReportYpfbRefinacion.aspx" />
+    <Content Include="FormReptCamionesHab.aspx" />
+    <Content Include="FormResumenAceite.aspx" />
+    <Content Include="FormResumenAceiteFletero.aspx" />
+    <Content Include="FormResumenAlcohol.aspx" />
+    <Content Include="FormResumenCorporacion.aspx" />
+    <Content Include="FormResumenDAPinternacional.aspx" />
+    <Content Include="FormResumenFleteroDAPInternacional.aspx" />
+    <Content Include="FormResumenFleterosAlcohol.aspx" />
+    <Content Include="FormResumenFleterosAlcoholPeriodo.aspx" />
+    <Content Include="FormResumenFleterosCoorp.aspx" />
+    <Content Include="FormResumenFleteroYPFBInternacional.aspx" />
+    <Content Include="FormResumenYpfbCorporacion.aspx" />
+    <Content Include="FormResumenYPFBInternacional.aspx" />
+    <Content Include="FormRuta.aspx" />
+    <Content Include="FormRutaCorta.aspx" />
+    <Content Include="FormSeguroCamiones.aspx" />
+    <Content Include="FormServicios.aspx" />
+    <Content Include="FormSolicitudPagosAceiteNuevoFormato.aspx" />
+    <Content Include="FormSumaLiquidaciones.aspx" />
+    <Content Include="FormTipoCambio.aspx" />
+    <Content Include="FormTotalPagarCorp.aspx" />
+    <Content Include="FormTotalPorPagarRef.aspx" />
+    <Content Include="FormTransaccion.aspx" />
+    <Content Include="FormTransAdelAnt.aspx" />
+    <Content Include="FormVerificarFechaDescarga.aspx" />
+    <Content Include="FormViajesAcordados.aspx" />
+    <Content Include="FormVisualizarDim.aspx" />
+    <Content Include="FrmImagenesAnticipo.aspx" />
+    <Content Include="frmImagenesCamiones.aspx" />
+    <Content Include="FrmImagenesJoseluis.aspx" />
+    <Content Include="frmInicioSesion.aspx" />
+    <Content Include="FrmKilometraje.aspx" />
+    <Content Include="frmLogin.aspx" />
+    <Content Include="frmPrincipal.aspx" />
+    <Content Include="FrmRegistrodeEntidades.aspx" />
+    <Content Include="FrmImagenes.aspx" />
+    <Content Include="images\bitacora.png" />
+    <Content Include="images\brand.png" />
+    <Content Include="images\breadcrumb_divider.png" />
+    <Content Include="images\btn_submit.png" />
+    <Content Include="images\btn_submit_2.png" />
+    <Content Include="images\btn_view_site.png" />
+    <Content Include="images\camiones.png" />
+    <Content Include="images\clientes.png" />
+    <Content Include="images\clients.png" />
+    <Content Include="images\color.png" />
+    <Content Include="images\company.png" />
+    <Content Include="images\configuracion.png" />
+    <Content Include="images\consulta.png" />
+    <Content Include="images\header_bg.png" />
+    <Content Include="images\header_shadow.png" />
+    <Content Include="images\icn_add_user.png" />
+    <Content Include="images\icn_alert_error.png" />
+    <Content Include="images\icn_alert_info.png" />
+    <Content Include="images\icn_alert_success.png" />
+    <Content Include="images\icn_alert_warning.png" />
+    <Content Include="images\icn_audio.png" />
+    <Content Include="images\icn_categories.png" />
+    <Content Include="images\icn_edit.png" />
+    <Content Include="images\icn_edit_article.png" />
+    <Content Include="images\icn_folder.png" />
+    <Content Include="images\icn_jump_back.png" />
+    <Content Include="images\icn_logout.png" />
+    <Content Include="images\icn_new_article.png" />
+    <Content Include="images\icn_photo.png" />
+    <Content Include="images\icn_profile.png" />
+    <Content Include="images\icn_search.png" />
+    <Content Include="images\icn_security.png" />
+    <Content Include="images\icn_settings.png" />
+    <Content Include="images\icn_tags.png" />
+    <Content Include="images\icn_trash.png" />
+    <Content Include="images\icn_user.png" />
+    <Content Include="images\icn_video.png" />
+    <Content Include="images\icn_view_users.png" />
+    <Content Include="images\lists.png" />
+    <Content Include="images\locked.png" />
+    <Content Include="images\module_footer_bg.png" />
+    <Content Include="images\money.gif" />
+    <Content Include="images\money1.png" />
+    <Content Include="images\permisos.png" />
+    <Content Include="images\permisos1.png" />
+    <Content Include="images\porcobrar.png" />
+    <Content Include="images\post_message.png" />
+    <Content Include="images\product.png" />
+    <Content Include="images\reportes.png" />
+    <Content Include="images\reporteventas.png" />
+    <Content Include="images\secondary_bar.png" />
+    <Content Include="images\secondary_bar_shadow.png" />
+    <Content Include="images\sidebar.png" />
+    <Content Include="images\sidebar_divider.png" />
+    <Content Include="images\sidebar_shadow.png" />
+    <Content Include="images\sucursal.png" />
+    <Content Include="images\table_sorter_header.png" />
+    <Content Include="images\type_list.png" />
+    <Content Include="images\user.png" />
+    <Content Include="images\ventas.png" />
+    <Content Include="jquery-1.8.3.css" />
+    <Content Include="jquery-ui-1.9.2.custom.min.js" />
+    <Content Include="jquery-ui.css" />
+    <Content Include="jquery-ui.js" />
+    <Content Include="js\hideshow.js" />
+    <Content Include="js\index.js" />
+    <Content Include="js\jquery-1.5.2.min.js" />
+    <Content Include="js\jquery-ui.js" />
+    <Content Include="js\jquery.equalHeight.js" />
+    <Content Include="js\jquery.tablesorter.min.js" />
+    <Content Include="FrmListaRutas.aspx" />
+    <Content Include="FrmListarColor.aspx" />
+    <Content Include="FormListaConcPagarAceite.aspx" />
+    <Content Include="packages.config" />
+    <Content Include="fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="Account\Web.config" />
+    <Content Include="FormularioPrincipal.Master" />
+    <Content Include="FormCamiones.aspx" />
+    <Content Include="CargaImagen1.ashx" />
+    <Content Include="CargaImagen1Lic.ashx" />
+    <Content Include="CargaImagen1Felcn.ashx" />
+    <Content Include="CargaImagen1Rejap.ashx" />
+    <Content Include="CargarImagenRuat.ashx" />
+    <Content Include="CargarImagenMant.ashx" />
+    <Content Include="CargarImagenSoat1.ashx" />
+    <Content Include="CargarImagenInsp.ashx" />
+    <Content Include="CargarImagenTor.ashx" />
+    <Content Include="CargaImagenCis.ashx" />
+    <Content Include="CargaImagenEstan.ashx" />
+    <Content Include="ReporteProgramacionRutas.aspx" />
+    <Content Include="webFormReporte.aspx" />
+    <Content Include="bercamDataSet.xsc">
+      <DependentUpon>bercamDataSet.xsd</DependentUpon>
+    </Content>
+    <Content Include="AnticiposPagados.ashx" />
+    <Content Include="AdelantosPagados.ashx" />
+    <Content Include="WebServiceTransbercam.asmx" />
+    <None Include="bercamDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>bercamDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <Content Include="bercamDataSet.xss">
+      <DependentUpon>bercamDataSet.xsd</DependentUpon>
+    </Content>
+    <Content Include="CargaImgRespCivProd.ashx" />
+    <Content Include="CargarRespCivTrac.ashx" />
+    <Content Include="DataSetNominas1.xsc">
+      <DependentUpon>DataSetNominas1.xsd</DependentUpon>
+    </Content>
+    <Content Include="CargarImgCont.ashx" />
+    <Content Include="DataSetConciliacion.xsc">
+      <DependentUpon>DataSetConciliacion.xsd</DependentUpon>
+    </Content>
+    <Content Include="DataSetBercamFlet.xsc">
+      <DependentUpon>DataSetBercamFlet.xsd</DependentUpon>
+    </Content>
+    <Content Include="DataSetAceiteConciliacion.xsc">
+      <DependentUpon>DataSetAceiteConciliacion.xsd</DependentUpon>
+    </Content>
+    <None Include="DataSetAceiteConciliacion.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataSetAceiteConciliacion.Designer.cs</LastGenOutput>
+    </None>
+    <Content Include="DataSetAceiteConciliacion.xss">
+      <DependentUpon>DataSetAceiteConciliacion.xsd</DependentUpon>
+    </Content>
+    <Content Include="DataSetAnticiposMensual.xsc">
+      <DependentUpon>DataSetAnticiposMensual.xsd</DependentUpon>
+    </Content>
+    <Content Include="DataSetAdelantoDePagos.xsc">
+      <DependentUpon>DataSetAdelantoDePagos.xsd</DependentUpon>
+    </Content>
+    <None Include="DataSetAdelantoDePagos.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataSetAdelantoDePagos.Designer.cs</LastGenOutput>
+    </None>
+    <Content Include="DataSetAdelantoDePagos.xss">
+      <DependentUpon>DataSetAdelantoDePagos.xsd</DependentUpon>
+    </Content>
+    <Content Include="DataSetAlcoholFleteros.xsc">
+      <DependentUpon>DataSetAlcoholFleteros.xsd</DependentUpon>
+    </Content>
+    <None Include="DataSetAlcoholFleteros.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataSetAlcoholFleteros.Designer.cs</LastGenOutput>
+    </None>
+    <Content Include="DataSetAlcoholFleteros.xss">
+      <DependentUpon>DataSetAlcoholFleteros.xsd</DependentUpon>
+    </Content>
+    <Content Include="DataSetAnticiposInsertado.xsc">
+      <DependentUpon>DataSetAnticiposInsertado.xsd</DependentUpon>
+    </Content>
+    <Content Include="DataSetAlcPeriodo.xsc">
+      <DependentUpon>DataSetAlcPeriodo.xsd</DependentUpon>
+    </Content>
+    <None Include="DataSetAlcPeriodo.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataSetAlcPeriodo.Designer.cs</LastGenOutput>
+    </None>
+    <Content Include="DataSetAlcPeriodo.xss">
+      <DependentUpon>DataSetAlcPeriodo.xsd</DependentUpon>
+    </Content>
+    <None Include="DataSetAnticiposInsertado.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataSetAnticiposInsertado.Designer.cs</LastGenOutput>
+    </None>
+    <Content Include="DataSetAnticiposInsertado.xss">
+      <DependentUpon>DataSetAnticiposInsertado.xsd</DependentUpon>
+    </Content>
+    <None Include="DataSetAnticiposMensual.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataSetAnticiposMensual.Designer.cs</LastGenOutput>
+    </None>
+    <Content Include="DataSetAnticiposMensual.xss">
+      <DependentUpon>DataSetAnticiposMensual.xsd</DependentUpon>
+    </Content>
+    <Content Include="DataSetAnticiposNombre.xsc">
+      <DependentUpon>DataSetAnticiposNombre.xsd</DependentUpon>
+    </Content>
+    <None Include="DataSetAnticiposNombre.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataSetAnticiposNombre.Designer.cs</LastGenOutput>
+    </None>
+    <Content Include="DataSetAnticiposNombre.xss">
+      <DependentUpon>DataSetAnticiposNombre.xsd</DependentUpon>
+    </Content>
+    <Content Include="DataSetAplicacionDim.xsc">
+      <DependentUpon>DataSetAplicacionDim.xsd</DependentUpon>
+    </Content>
+    <None Include="DataSetAplicacionDim.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataSetAplicacionDim.Designer.cs</LastGenOutput>
+    </None>
+    <Content Include="DataSetAplicacionDim.xss">
+      <DependentUpon>DataSetAplicacionDim.xsd</DependentUpon>
+    </Content>
+    <None Include="DataSetBercamFlet.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataSetBercamFlet.Designer.cs</LastGenOutput>
+    </None>
+    <Content Include="DataSetBercamFlet.xss">
+      <DependentUpon>DataSetBercamFlet.xsd</DependentUpon>
+    </Content>
+    <Content Include="DataSetCamionesBercam.xsc">
+      <DependentUpon>DataSetCamionesBercam.xsd</DependentUpon>
+    </Content>
+    <None Include="DataSetCamionesBercam.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataSetCamionesBercam.Designer.cs</LastGenOutput>
+    </None>
+    <Content Include="DataSetCamionesBercam.xss">
+      <DependentUpon>DataSetCamionesBercam.xsd</DependentUpon>
+    </Content>
+    <Content Include="DataSetCamionesReporte.xsc">
+      <DependentUpon>DataSetCamionesReporte.xsd</DependentUpon>
+    </Content>
+    <None Include="DataSetCamionesReporte.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataSetCamionesReporte.Designer.cs</LastGenOutput>
+    </None>
+    <Content Include="DataSetCamionesReporte.xss">
+      <DependentUpon>DataSetCamionesReporte.xsd</DependentUpon>
+    </Content>
+    <Content Include="DataSetComparacion.xsc">
+      <DependentUpon>DataSetComparacion.xsd</DependentUpon>
+    </Content>
+    <None Include="DataSetComparacion.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataSetComparacion.Designer.cs</LastGenOutput>
+    </None>
+    <Content Include="DataSetComparacion.xss">
+      <DependentUpon>DataSetComparacion.xsd</DependentUpon>
+    </Content>
+    <None Include="DataSetConciliacion.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataSetConciliacion.Designer.cs</LastGenOutput>
+    </None>
+    <Content Include="DataSetConciliacion.xss">
+      <DependentUpon>DataSetConciliacion.xsd</DependentUpon>
+    </Content>
+    <Content Include="DataSetConciliacionRef.xsc">
+      <DependentUpon>DataSetConciliacionRef.xsd</DependentUpon>
+    </Content>
+    <Content Include="DataSetConciliacionPagar.xsc">
+      <DependentUpon>DataSetConciliacionPagar.xsd</DependentUpon>
+    </Content>
+    <Content Include="DataSetConciliacionCorp.xsc">
+      <DependentUpon>DataSetConciliacionCorp.xsd</DependentUpon>
+    </Content>
+    <None Include="DataSetConciliacionCorp.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataSetConciliacionCorp.Designer.cs</LastGenOutput>
+    </None>
+    <Content Include="DataSetConciliacionCorp.xss">
+      <DependentUpon>DataSetConciliacionCorp.xsd</DependentUpon>
+    </Content>
+    <None Include="DataSetConciliacionPagar.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataSetConciliacionPagar.Designer.cs</LastGenOutput>
+    </None>
+    <Content Include="DataSetConciliacionPagar.xss">
+      <DependentUpon>DataSetConciliacionPagar.xsd</DependentUpon>
+    </Content>
+    <Content Include="DataSetConciliacionPagarAceite.xsc">
+      <DependentUpon>DataSetConciliacionPagarAceite.xsd</DependentUpon>
+    </Content>
+    <None Include="DataSetConciliacionPagarAceite.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataSetConciliacionPagarAceite.Designer.cs</LastGenOutput>
+    </None>
+    <Content Include="DataSetConciliacionPagarAceite.xss">
+      <DependentUpon>DataSetConciliacionPagarAceite.xsd</DependentUpon>
+    </Content>
+    <None Include="DataSetConciliacionRef.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataSetConciliacionRef.Designer.cs</LastGenOutput>
+    </None>
+    <Content Include="DataSetConciliacionRef.xss">
+      <DependentUpon>DataSetConciliacionRef.xsd</DependentUpon>
+    </Content>
+    <Content Include="DataSetDetalleCarroGuia.xsc">
+      <DependentUpon>DataSetDetalleCarroGuia.xsd</DependentUpon>
+    </Content>
+    <Content Include="DataSetConcPagarCorpAlcohol.xsc">
+      <DependentUpon>DataSetConcPagarCorpAlcohol.xsd</DependentUpon>
+    </Content>
+    <Content Include="DataSetConciPagarAlcoPeri.xsc">
+      <DependentUpon>DataSetConciPagarAlcoPeri.xsd</DependentUpon>
+    </Content>
+    <None Include="DataSetConciPagarAlcoPeri.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataSetConciPagarAlcoPeri.Designer.cs</LastGenOutput>
+    </None>
+    <Content Include="DataSetConciPagarAlcoPeri.xss">
+      <DependentUpon>DataSetConciPagarAlcoPeri.xsd</DependentUpon>
+    </Content>
+    <None Include="DataSetConcPagarCorpAlcohol.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataSetConcPagarCorpAlcohol.Designer.cs</LastGenOutput>
+    </None>
+    <Content Include="DataSetConcPagarCorpAlcohol.xss">
+      <DependentUpon>DataSetConcPagarCorpAlcohol.xsd</DependentUpon>
+    </Content>
+    <Content Include="DataSetCoorproacionFleteros.xsc">
+      <DependentUpon>DataSetCoorproacionFleteros.xsd</DependentUpon>
+    </Content>
+    <Content Include="DataSetConcPagarDAPInter.xsc">
+      <DependentUpon>DataSetConcPagarDAPInter.xsd</DependentUpon>
+    </Content>
+    <None Include="DataSetConcPagarDAPInter.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataSetConcPagarDAPInter.Designer.cs</LastGenOutput>
+    </None>
+    <Content Include="DataSetConcPagarDAPInter.xss">
+      <DependentUpon>DataSetConcPagarDAPInter.xsd</DependentUpon>
+    </Content>
+    <None Include="DataSetCoorproacionFleteros.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataSetCoorproacionFleteros.Designer.cs</LastGenOutput>
+    </None>
+    <Content Include="DataSetCoorproacionFleteros.xss">
+      <DependentUpon>DataSetCoorproacionFleteros.xsd</DependentUpon>
+    </Content>
+    <Content Include="DataSetDescuentos.xsc">
+      <DependentUpon>DataSetDescuentos.xsd</DependentUpon>
+    </Content>
+    <Content Include="DataSetCuentasTotal.xsc">
+      <DependentUpon>DataSetCuentasTotal.xsd</DependentUpon>
+    </Content>
+    <None Include="DataSetCuentasTotal.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataSetCuentasTotal.Designer.cs</LastGenOutput>
+    </None>
+    <Content Include="DataSetCuentasTotal.xss">
+      <DependentUpon>DataSetCuentasTotal.xsd</DependentUpon>
+    </Content>
+    <None Include="DataSetDescuentos.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataSetDescuentos.Designer.cs</LastGenOutput>
+    </None>
+    <Content Include="DataSetDescuentos.xss">
+      <DependentUpon>DataSetDescuentos.xsd</DependentUpon>
+    </Content>
+    <None Include="DataSetDetalleCarroGuia.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataSetDetalleCarroGuia.Designer.cs</LastGenOutput>
+    </None>
+    <Content Include="DataSetDetalleCarroGuia.xss">
+      <DependentUpon>DataSetDetalleCarroGuia.xsd</DependentUpon>
+    </Content>
+    <Content Include="DataSetLiquidacionPagada.xsc">
+      <DependentUpon>DataSetLiquidacionPagada.xsd</DependentUpon>
+    </Content>
+    <Content Include="DataSetHorarioPersona.xsc">
+      <DependentUpon>DataSetHorarioPersona.xsd</DependentUpon>
+    </Content>
+    <Content Include="DataSetDim.xsc">
+      <DependentUpon>DataSetDim.xsd</DependentUpon>
+    </Content>
+    <None Include="DataSetDim.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataSetDim.Designer.cs</LastGenOutput>
+    </None>
+    <Content Include="DataSetDim.xss">
+      <DependentUpon>DataSetDim.xsd</DependentUpon>
+    </Content>
+    <None Include="DataSetHorarioPersona.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataSetHorarioPersona.Designer.cs</LastGenOutput>
+    </None>
+    <Content Include="DataSetHorarioPersona.xss">
+      <DependentUpon>DataSetHorarioPersona.xsd</DependentUpon>
+    </Content>
+    <None Include="DataSetLiquidacionPagada.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataSetLiquidacionPagada.Designer.cs</LastGenOutput>
+    </None>
+    <Content Include="DataSetLiquidacionPagada.xss">
+      <DependentUpon>DataSetLiquidacionPagada.xsd</DependentUpon>
+    </Content>
+    <None Include="DataSetNominas1.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataSetNominas1.Designer.cs</LastGenOutput>
+    </None>
+    <Content Include="DataSetNominas1.xss">
+      <DependentUpon>DataSetNominas1.xsd</DependentUpon>
+    </Content>
+    <Content Include="DataSetViNomina.xsc">
+      <DependentUpon>DataSetViNomina.xsd</DependentUpon>
+    </Content>
+    <Content Include="DataSetResumenConciliaciones.xsc">
+      <DependentUpon>DataSetResumenConciliaciones.xsd</DependentUpon>
+    </Content>
+    <Content Include="DataSetResumenAceite.xsc">
+      <DependentUpon>DataSetResumenAceite.xsd</DependentUpon>
+    </Content>
+    <Content Include="DataSetPersonalTitular.xsc">
+      <DependentUpon>DataSetPersonalTitular.xsd</DependentUpon>
+    </Content>
+    <None Include="DataSetPersonalTitular.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataSetPersonalTitular.Designer.cs</LastGenOutput>
+    </None>
+    <Content Include="DataSetPersonalTitular.xss">
+      <DependentUpon>DataSetPersonalTitular.xsd</DependentUpon>
+    </Content>
+    <Content Include="DataSetProcReporte.xsc">
+      <DependentUpon>DataSetProcReporte.xsd</DependentUpon>
+    </Content>
+    <None Include="DataSetProcReporte.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataSetProcReporte.Designer.cs</LastGenOutput>
+    </None>
+    <Content Include="DataSetProcReporte.xss">
+      <DependentUpon>DataSetProcReporte.xsd</DependentUpon>
+    </Content>
+    <None Include="DataSetResumenAceite.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataSetResumenAceite.Designer.cs</LastGenOutput>
+    </None>
+    <Content Include="DataSetResumenAceite.xss">
+      <DependentUpon>DataSetResumenAceite.xsd</DependentUpon>
+    </Content>
+    <Content Include="DataSetResumenAlcoholDap.xsc">
+      <DependentUpon>DataSetResumenAlcoholDap.xsd</DependentUpon>
+    </Content>
+    <None Include="DataSetResumenAlcoholDap.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataSetResumenAlcoholDap.Designer.cs</LastGenOutput>
+    </None>
+    <Content Include="DataSetResumenAlcoholDap.xss">
+      <DependentUpon>DataSetResumenAlcoholDap.xsd</DependentUpon>
+    </Content>
+    <None Include="DataSetResumenConciliaciones.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataSetResumenConciliaciones.Designer.cs</LastGenOutput>
+    </None>
+    <Content Include="DataSetResumenConciliaciones.xss">
+      <DependentUpon>DataSetResumenConciliaciones.xsd</DependentUpon>
+    </Content>
+    <Content Include="DataSetResumenConcPeriodo.xsc">
+      <DependentUpon>DataSetResumenConcPeriodo.xsd</DependentUpon>
+    </Content>
+    <Content Include="DataSetResumenConcPagarDAPInter.xsc">
+      <DependentUpon>DataSetResumenConcPagarDAPInter.xsd</DependentUpon>
+    </Content>
+    <None Include="DataSetResumenConcPagarDAPInter.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataSetResumenConcPagarDAPInter.Designer.cs</LastGenOutput>
+    </None>
+    <Content Include="DataSetResumenConcPagarDAPInter.xss">
+      <DependentUpon>DataSetResumenConcPagarDAPInter.xsd</DependentUpon>
+    </Content>
+    <Content Include="DataSetResumenConcPagarYPFBInter.xsc">
+      <DependentUpon>DataSetResumenConcPagarYPFBInter.xsd</DependentUpon>
+    </Content>
+    <None Include="DataSetResumenConcPagarYPFBInter.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataSetResumenConcPagarYPFBInter.Designer.cs</LastGenOutput>
+    </None>
+    <Content Include="DataSetResumenConcPagarYPFBInter.xss">
+      <DependentUpon>DataSetResumenConcPagarYPFBInter.xsd</DependentUpon>
+    </Content>
+    <None Include="DataSetResumenConcPeriodo.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataSetResumenConcPeriodo.Designer.cs</LastGenOutput>
+    </None>
+    <Content Include="DataSetResumenConcPeriodo.xss">
+      <DependentUpon>DataSetResumenConcPeriodo.xsd</DependentUpon>
+    </Content>
+    <Content Include="DataSetTotalAPagar.xsc">
+      <DependentUpon>DataSetTotalAPagar.xsd</DependentUpon>
+    </Content>
+    <Content Include="DataSetResumenFleterosAceite.xsc">
+      <DependentUpon>DataSetResumenFleterosAceite.xsd</DependentUpon>
+    </Content>
+    <Content Include="DataSetResumenDAPInter.xsc">
+      <DependentUpon>DataSetResumenDAPInter.xsd</DependentUpon>
+    </Content>
+    <None Include="DataSetResumenDAPInter.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataSetResumenDAPInter.Designer.cs</LastGenOutput>
+    </None>
+    <Content Include="DataSetResumenDAPInter.xss">
+      <DependentUpon>DataSetResumenDAPInter.xsd</DependentUpon>
+    </Content>
+    <None Include="DataSetResumenFleterosAceite.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataSetResumenFleterosAceite.Designer.cs</LastGenOutput>
+    </None>
+    <Content Include="DataSetResumenFleterosAceite.xss">
+      <DependentUpon>DataSetResumenFleterosAceite.xsd</DependentUpon>
+    </Content>
+    <Content Include="DataSetSegurosFleteros.xsc">
+      <DependentUpon>DataSetSegurosFleteros.xsd</DependentUpon>
+    </Content>
+    <Content Include="DataSetResumenPagarAlcoholPeriodo.xsc">
+      <DependentUpon>DataSetResumenPagarAlcoholPeriodo.xsd</DependentUpon>
+    </Content>
+    <None Include="DataSetResumenPagarAlcoholPeriodo.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataSetResumenPagarAlcoholPeriodo.Designer.cs</LastGenOutput>
+    </None>
+    <Content Include="DataSetResumenPagarAlcoholPeriodo.xss">
+      <DependentUpon>DataSetResumenPagarAlcoholPeriodo.xsd</DependentUpon>
+    </Content>
+    <Content Include="DataSetResumenYPFBInternacional.xsc">
+      <DependentUpon>DataSetResumenYPFBInternacional.xsd</DependentUpon>
+    </Content>
+    <None Include="DataSetResumenYPFBInternacional.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataSetResumenYPFBInternacional.Designer.cs</LastGenOutput>
+    </None>
+    <Content Include="DataSetResumenYPFBInternacional.xss">
+      <DependentUpon>DataSetResumenYPFBInternacional.xsd</DependentUpon>
+    </Content>
+    <None Include="DataSetSegurosFleteros.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataSetSegurosFleteros.Designer.cs</LastGenOutput>
+    </None>
+    <Content Include="DataSetSegurosFleteros.xss">
+      <DependentUpon>DataSetSegurosFleteros.xsd</DependentUpon>
+    </Content>
+    <Content Include="DataSetTelefono.xsc">
+      <DependentUpon>DataSetTelefono.xsd</DependentUpon>
+    </Content>
+    <None Include="DataSetTelefono.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataSetTelefono.Designer.cs</LastGenOutput>
+    </None>
+    <Content Include="DataSetTelefono.xss">
+      <DependentUpon>DataSetTelefono.xsd</DependentUpon>
+    </Content>
+    <None Include="DataSetTotalAPagar.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataSetTotalAPagar.Designer.cs</LastGenOutput>
+    </None>
+    <Content Include="DataSetTotalAPagar.xss">
+      <DependentUpon>DataSetTotalAPagar.xsd</DependentUpon>
+    </Content>
+    <None Include="DataSetViNomina.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataSetViNomina.Designer.cs</LastGenOutput>
+    </None>
+    <Content Include="DataSetViNomina.xss">
+      <DependentUpon>DataSetViNomina.xsd</DependentUpon>
+    </Content>
+    <Content Include="DataSetViNomina2.xsc">
+      <DependentUpon>DataSetViNomina2.xsd</DependentUpon>
+    </Content>
+    <None Include="DataSetViNomina2.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataSetViNomina2.Designer.cs</LastGenOutput>
+    </None>
+    <Content Include="DataSetViNomina2.xss">
+      <DependentUpon>DataSetViNomina2.xsd</DependentUpon>
+    </Content>
+    <Content Include="DataSetYpfbRefinacionResumen.xsc">
+      <DependentUpon>DataSetYpfbRefinacionResumen.xsd</DependentUpon>
+    </Content>
+    <Content Include="DataSetYpfbCorporacionResumen.xsc">
+      <DependentUpon>DataSetYpfbCorporacionResumen.xsd</DependentUpon>
+    </Content>
+    <None Include="DataSetYpfbCorporacionResumen.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataSetYpfbCorporacionResumen.Designer.cs</LastGenOutput>
+    </None>
+    <Content Include="DataSetYpfbCorporacionResumen.xss">
+      <DependentUpon>DataSetYpfbCorporacionResumen.xsd</DependentUpon>
+    </Content>
+    <None Include="DataSetYpfbRefinacionResumen.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataSetYpfbRefinacionResumen.Designer.cs</LastGenOutput>
+    </None>
+    <Content Include="DataSetYpfbRefinacionResumen.xss">
+      <DependentUpon>DataSetYpfbRefinacionResumen.xsd</DependentUpon>
+    </Content>
+    <Content Include="HandlerLiquidaciones.ashx" />
+    <Content Include="Handler1.ashx" />
+    <None Include="Properties\PublishProfiles\Bercam2017.pubxml" />
+    <None Include="Properties\PublishProfiles\Bercam2018.pubxml" />
+    <None Include="Properties\PublishProfiles\Bercam2019.pubxml" />
+    <None Include="Properties\PublishProfiles\BercamCLM.pubxml" />
+    <None Include="Properties\PublishProfiles\some.pubxml" />
+    <None Include="Scripts\jquery-1.10.2.intellisense.js" />
+    <Content Include="Scripts\bootstrap.js" />
+    <Content Include="Scripts\bootstrap.min.js" />
+    <Content Include="Scripts\jquery-1.10.2.js" />
+    <Content Include="Scripts\jquery-1.10.2.min.js" />
+    <Content Include="Scripts\modernizr-2.6.2.js" />
+    <Content Include="Scripts\respond.js" />
+    <Content Include="Scripts\respond.min.js" />
+    <Content Include="Scripts\WebForms\DetailsView.js" />
+    <Content Include="Scripts\WebForms\Focus.js" />
+    <Content Include="Scripts\WebForms\GridView.js" />
+    <Content Include="Scripts\WebForms\Menu.js" />
+    <Content Include="Scripts\WebForms\MenuStandards.js" />
+    <Content Include="Scripts\WebForms\MSAjax\MicrosoftAjax.js" />
+    <Content Include="Scripts\WebForms\MSAjax\MicrosoftAjaxApplicationServices.js" />
+    <Content Include="Scripts\WebForms\MSAjax\MicrosoftAjaxComponentModel.js" />
+    <Content Include="Scripts\WebForms\MSAjax\MicrosoftAjaxCore.js" />
+    <Content Include="Scripts\WebForms\MSAjax\MicrosoftAjaxGlobalization.js" />
+    <Content Include="Scripts\WebForms\MSAjax\MicrosoftAjaxHistory.js" />
+    <Content Include="Scripts\WebForms\MSAjax\MicrosoftAjaxNetwork.js" />
+    <Content Include="Scripts\WebForms\MSAjax\MicrosoftAjaxSerialization.js" />
+    <Content Include="Scripts\WebForms\MSAjax\MicrosoftAjaxTimer.js" />
+    <Content Include="Scripts\WebForms\MSAjax\MicrosoftAjaxWebForms.js" />
+    <Content Include="Scripts\WebForms\MSAjax\MicrosoftAjaxWebServices.js" />
+    <Content Include="Scripts\WebForms\SmartNav.js" />
+    <Content Include="Scripts\WebForms\TreeView.js" />
+    <Content Include="Scripts\WebForms\WebForms.js" />
+    <Content Include="Scripts\WebForms\WebParts.js" />
+    <Content Include="Scripts\WebForms\WebUIValidation.js" />
+    <Content Include="Scripts\_references.js" />
+    <Content Include="Default.aspx" />
+    <Content Include="favicon.ico" />
+    <Content Include="Global.asax" />
+    <Content Include="ViewSwitcher.ascx" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Bundle.config" />
+    <None Include="Project_Readme.html" />
+    <Content Include="Scripts\jquery-1.10.2.min.map" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Account\Login.aspx.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Account\Login.aspx.designer.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Account\Manage.aspx.cs">
+      <DependentUpon>Manage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Account\Manage.aspx.designer.cs">
+      <DependentUpon>Manage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Account\OpenAuthProviders.ascx.cs">
+      <DependentUpon>OpenAuthProviders.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Account\OpenAuthProviders.ascx.designer.cs">
+      <DependentUpon>OpenAuthProviders.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Account\Register.aspx.cs">
+      <DependentUpon>Register.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Account\Register.aspx.designer.cs">
+      <DependentUpon>Register.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Account\RegisterExternalLogin.aspx.cs">
+      <DependentUpon>RegisterExternalLogin.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Account\RegisterExternalLogin.aspx.designer.cs">
+      <DependentUpon>RegisterExternalLogin.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AdelantosPagados.ashx.cs">
+      <DependentUpon>AdelantosPagados.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="AnticiposPagados.ashx.cs">
+      <DependentUpon>AnticiposPagados.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="App_Start\BundleConfig.cs" />
+    <Compile Include="About.aspx.cs">
+      <DependentUpon>About.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="About.aspx.designer.cs">
+      <DependentUpon>About.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="App_Start\Startup.Auth.cs" />
+    <Compile Include="Autocomplete.aspx.cs">
+      <DependentUpon>Autocomplete.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Autocomplete.aspx.designer.cs">
+      <DependentUpon>Autocomplete.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Autocomplete.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="bercamDataSet.Designer.cs">
+      <DependentUpon>bercamDataSet.xsd</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="CargaImagen1Rejap.ashx.cs">
+      <DependentUpon>CargaImagen1Rejap.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="CargaImagen1Felcn.ashx.cs">
+      <DependentUpon>CargaImagen1Felcn.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="CargaImagen1Lic.ashx.cs">
+      <DependentUpon>CargaImagen1Lic.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="CargaImagen1.ashx.cs">
+      <DependentUpon>CargaImagen1.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="CargaImagenCis.ashx.cs">
+      <DependentUpon>CargaImagenCis.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="CargaImagenEstan.ashx.cs">
+      <DependentUpon>CargaImagenEstan.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="CargaImgRespCivProd.ashx.cs">
+      <DependentUpon>CargaImgRespCivProd.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="CargarImagenInsp.ashx.cs">
+      <DependentUpon>CargarImagenInsp.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="CargarImagenMant.ashx.cs">
+      <DependentUpon>CargarImagenMant.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="CargarImagenRuat.ashx.cs">
+      <DependentUpon>CargarImagenRuat.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="CargarImagenSoat1.ashx.cs">
+      <DependentUpon>CargarImagenSoat1.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="CargarImagenTor.ashx.cs">
+      <DependentUpon>CargarImagenTor.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="CargarImgCont.ashx.cs">
+      <DependentUpon>CargarImgCont.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="CargarRespCivTrac.ashx.cs">
+      <DependentUpon>CargarRespCivTrac.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="DataSetAceiteConciliacion.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataSetAceiteConciliacion.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSetAdelantoDePagos.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataSetAdelantoDePagos.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSetAlcoholFleteros.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataSetAlcoholFleteros.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSetAlcPeriodo.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataSetAlcPeriodo.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSetAnticiposInsertado.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataSetAnticiposInsertado.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSetAnticiposMensual.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataSetAnticiposMensual.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSetAnticiposNombre.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataSetAnticiposNombre.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSetAplicacionDim.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataSetAplicacionDim.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSetBercamFlet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataSetBercamFlet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSetCamionesBercam.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataSetCamionesBercam.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSetCamionesReporte.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataSetCamionesReporte.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSetComparacion.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataSetComparacion.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSetConciliacion.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataSetConciliacion.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSetConciliacionCorp.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataSetConciliacionCorp.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSetConciliacionPagar.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataSetConciliacionPagar.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSetConciliacionPagarAceite.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataSetConciliacionPagarAceite.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSetConciliacionRef.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataSetConciliacionRef.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSetConciPagarAlcoPeri.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataSetConciPagarAlcoPeri.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSetConcPagarCorpAlcohol.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataSetConcPagarCorpAlcohol.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSetConcPagarDAPInter.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataSetConcPagarDAPInter.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSetCoorproacionFleteros.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataSetCoorproacionFleteros.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSetCuentasTotal.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataSetCuentasTotal.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSetDescuentos.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataSetDescuentos.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSetDetalleCarroGuia.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataSetDetalleCarroGuia.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSetDim.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataSetDim.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSetHorarioPersona.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataSetHorarioPersona.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSetLiquidacionPagada.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataSetLiquidacionPagada.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSetNominas1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataSetNominas1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSetPersonalTitular.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataSetPersonalTitular.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSetProcReporte.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataSetProcReporte.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSetResumenAceite.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataSetResumenAceite.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSetResumenAlcoholDap.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataSetResumenAlcoholDap.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSetResumenConciliaciones.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataSetResumenConciliaciones.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSetResumenConcPagarDAPInter.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataSetResumenConcPagarDAPInter.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSetResumenConcPagarYPFBInter.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataSetResumenConcPagarYPFBInter.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSetResumenConcPeriodo.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataSetResumenConcPeriodo.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSetResumenDAPInter.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataSetResumenDAPInter.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSetResumenFleterosAceite.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataSetResumenFleterosAceite.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSetResumenPagarAlcoholPeriodo.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataSetResumenPagarAlcoholPeriodo.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSetResumenYPFBInternacional.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataSetResumenYPFBInternacional.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSetSegurosFleteros.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataSetSegurosFleteros.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSetTelefono.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataSetTelefono.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSetTotalAPagar.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataSetTotalAPagar.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSetViNomina.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataSetViNomina.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSetViNomina2.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataSetViNomina2.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSetYpfbCorporacionResumen.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataSetYpfbCorporacionResumen.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSetYpfbRefinacionResumen.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataSetYpfbRefinacionResumen.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DBHelper.cs" />
+    <Compile Include="FormActualizarDim.aspx.cs">
+      <DependentUpon>FormActualizarDim.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FormActualizarDim.aspx.designer.cs">
+      <DependentUpon>FormActualizarDim.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FormAdelanto.aspx.cs">
+      <DependentUpon>FormAdelanto.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FormAdelanto.aspx.designer.cs">
+      <DependentUpon>FormAdelanto.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FormAdelantoDePago.aspx.cs">
+      <DependentUpon>FormAdelantoDePago.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FormAdelantoDePago.aspx.designer.cs">
+      <DependentUpon>FormAdelantoDePago.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FormAdelantoDePagoImagenes.aspx.cs">
+      <DependentUpon>FormAdelantoDePagoImagenes.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FormAdelantoDePagoImagenes.aspx.designer.cs">
+      <DependentUpon>FormAdelantoDePagoImagenes.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FormAgregarAplicacion.aspx.cs">
+      <DependentUpon>FormAgregarAplicacion.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FormAgregarAplicacion.aspx.designer.cs">
+      <DependentUpon>FormAgregarAplicacion.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FormAnticipoChequeDolar.aspx.cs">
+      <DependentUpon>FormAnticipoChequeDolar.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FormAnticipoChequeDolar.aspx.designer.cs">
+      <DependentUpon>FormAnticipoChequeDolar.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FormAnticiposImagenes.aspx.cs">
+      <DependentUpon>FormAnticiposImagenes.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FormAnticiposImagenes.aspx.designer.cs">
+      <DependentUpon>FormAnticiposImagenes.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FormAnticiposManuales.aspx.cs">
+      <DependentUpon>FormAnticiposManuales.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FormAnticiposManuales.aspx.designer.cs">
+      <DependentUpon>FormAnticiposManuales.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FormAprobCarroGuia.aspx.cs">
+      <DependentUpon>FormAprobCarroGuia.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FormAprobCarroGuia.aspx.designer.cs">
+      <DependentUpon>FormAprobCarroGuia.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FormCambioRutaViaje.aspx.cs">
+      <DependentUpon>FormCambioRutaViaje.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FormCambioRutaViaje.aspx.designer.cs">
+      <DependentUpon>FormCambioRutaViaje.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FormConfirmarDescarga.aspx.cs">
+      <DependentUpon>FormConfirmarDescarga.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FormConfirmarDescarga.aspx.designer.cs">
+      <DependentUpon>FormConfirmarDescarga.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FormConfirmarProgMic.aspx.cs">
+      <DependentUpon>FormConfirmarProgMic.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FormConfirmarProgMic.aspx.designer.cs">
+      <DependentUpon>FormConfirmarProgMic.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FormConfirmarViajePlaca.aspx.cs">
+      <DependentUpon>FormConfirmarViajePlaca.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FormConfirmarViajePlaca.aspx.designer.cs">
+      <DependentUpon>FormConfirmarViajePlaca.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FormCreacionAplicacion.aspx.cs">
+      <DependentUpon>FormCreacionAplicacion.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FormCreacionAplicacion.aspx.designer.cs">
+      <DependentUpon>FormCreacionAplicacion.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FormCreacionDim.aspx.cs">
+      <DependentUpon>FormCreacionDim.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FormCreacionDim.aspx.designer.cs">
+      <DependentUpon>FormCreacionDim.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FormCrearCuentaBanco.aspx.cs">
+      <DependentUpon>FormCrearCuentaBanco.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FormCrearCuentaBanco.aspx.designer.cs">
+      <DependentUpon>FormCrearCuentaBanco.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FormDescargarAceite.aspx.cs">
+      <DependentUpon>FormDescargarAceite.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FormDescargarAceite.aspx.designer.cs">
+      <DependentUpon>FormDescargarAceite.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FormDescargarCarroGuia.aspx.cs">
+      <DependentUpon>FormDescargarCarroGuia.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FormDescargarCarroGuia.aspx.designer.cs">
+      <DependentUpon>FormDescargarCarroGuia.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FormDescuentosPorNombre.aspx.cs">
+      <DependentUpon>FormDescuentosPorNombre.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FormDescuentosPorNombre.aspx.designer.cs">
+      <DependentUpon>FormDescuentosPorNombre.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FormDetalleRutaAceite.aspx.cs">
+      <DependentUpon>FormDetalleRutaAceite.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FormDetalleRutaAceite.aspx.designer.cs">
+      <DependentUpon>FormDetalleRutaAceite.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FormDocumentosAceite.aspx.cs">
+      <DependentUpon>FormDocumentosAceite.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FormDocumentosAceite.aspx.designer.cs">
+      <DependentUpon>FormDocumentosAceite.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FormEliminarClientCamiones.aspx.cs">
+      <DependentUpon>FormEliminarClientCamiones.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FormEliminarClientCamiones.aspx.designer.cs">
+      <DependentUpon>FormEliminarClientCamiones.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FormEnlazarUsuZkTeko.aspx.cs">
+      <DependentUpon>FormEnlazarUsuZkTeko.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FormEnlazarUsuZkTeko.aspx.designer.cs">
+      <DependentUpon>FormEnlazarUsuZkTeko.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FormHabDeshab.aspx.cs">
+      <DependentUpon>FormHabDeshab.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FormHabDeshab.aspx.designer.cs">
+      <DependentUpon>FormHabDeshab.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FormHorarios.aspx.cs">
+      <DependentUpon>FormHorarios.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FormHorarios.aspx.designer.cs">
+      <DependentUpon>FormHorarios.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FormImagenAdelantoDePago.aspx.cs">
+      <DependentUpon>FormImagenAdelantoDePago.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FormImagenAdelantoDePago.aspx.designer.cs">
+      <DependentUpon>FormImagenAdelantoDePago.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FormImagenAdelPagoCheque.aspx.cs">
+      <DependentUpon>FormImagenAdelPagoCheque.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FormImagenAdelPagoCheque.aspx.designer.cs">
+      <DependentUpon>FormImagenAdelPagoCheque.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FormImagenConcVis.aspx.cs">
+      <DependentUpon>FormImagenConcVis.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FormImagenConcVis.aspx.designer.cs">
+      <DependentUpon>FormImagenConcVis.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FormImagenConcVisAceite.aspx.cs">
+      <DependentUpon>FormImagenConcVisAceite.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FormImagenConcVisAceite.aspx.designer.cs">
+      <DependentUpon>FormImagenConcVisAceite.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FormImagenesAnticipoChequeInter.aspx.cs">
+      <DependentUpon>FormImagenesAnticipoChequeInter.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FormImagenesAnticipoChequeInter.aspx.designer.cs">
+      <DependentUpon>FormImagenesAnticipoChequeInter.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FormImagenesAnticiposCheques.aspx.cs">
+      <DependentUpon>FormImagenesAnticiposCheques.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FormImagenesAnticiposCheques.aspx.designer.cs">
+      <DependentUpon>FormImagenesAnticiposCheques.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FormImagenesCarla.aspx.cs">
+      <DependentUpon>FormImagenesCarla.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FormImagenesCarla.aspx.designer.cs">
+      <DependentUpon>FormImagenesCarla.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FormImagenesCarroGuia.aspx.cs">
+      <DependentUpon>FormImagenesCarroGuia.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FormImagenesCarroGuia.aspx.designer.cs">
+      <DependentUpon>FormImagenesCarroGuia.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FormImagenesJoseluisCamiones.aspx.cs">
+      <DependentUpon>FormImagenesJoseluisCamiones.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FormImagenesJoseluisCamiones.aspx.designer.cs">
+      <DependentUpon>FormImagenesJoseluisCamiones.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FormImagenesPagadasCorporacion.aspx.cs">
+      <DependentUpon>FormImagenesPagadasCorporacion.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FormImagenesPagadasCorporacion.aspx.designer.cs">
+      <DependentUpon>FormImagenesPagadasCorporacion.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FormImgCheckList.aspx.cs">
+      <DependentUpon>FormImgCheckList.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FormImgCheckList.aspx.designer.cs">
+      <DependentUpon>FormImgCheckList.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FormImgPagadasCheques.aspx.cs">
+      <DependentUpon>FormImgPagadasCheques.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FormImgPagadasCheques.aspx.designer.cs">
+      <DependentUpon>FormImgPagadasCheques.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FormImgPagasChequesAceite.aspx.cs">
+      <DependentUpon>FormImgPagasChequesAceite.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FormImgPagasChequesAceite.aspx.designer.cs">
+      <DependentUpon>FormImgPagasChequesAceite.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FormInsertAnticipVer.aspx.cs">
+      <DependentUpon>FormInsertAnticipVer.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FormInsertAnticipVer.aspx.designer.cs">
+      <DependentUpon>FormInsertAnticipVer.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FormListaAdelantoCorreos.aspx.cs">
+      <DependentUpon>FormListaAdelantoCorreos.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FormListaAdelantoCorreos.aspx.designer.cs">
+      <DependentUpon>FormListaAdelantoCorreos.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FormListaAdelantoPagoNvFormat.aspx.cs">
+      <DependentUpon>FormListaAdelantoPagoNvFormat.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FormListaAdelantoPagoNvFormat.aspx.designer.cs">
+      <DependentUpon>FormListaAdelantoPagoNvFormat.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FormListaAdelantosCheques.aspx.cs">
+      <DependentUpon>FormListaAdelantosCheques.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FormListaAdelantosCheques.aspx.designer.cs">
+      <DependentUpon>FormListaAdelantosCheques.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FormListaAnticipoNvFormt.aspx.cs">
+      <DependentUpon>FormListaAnticipoNvFormt.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FormListaAnticipoNvFormt.aspx.designer.cs">
+      <DependentUpon>FormListaAnticipoNvFormt.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FormListaAnticiposCheques.aspx.cs">
+      <DependentUpon>FormListaAnticiposCheques.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FormListaAnticiposCheques.aspx.designer.cs">
+      <DependentUpon>FormListaAnticiposCheques.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FormListaAnticiposCorreo.aspx.cs">
+      <DependentUpon>FormListaAnticiposCorreo.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FormListaAnticiposCorreo.aspx.designer.cs">
+      <DependentUpon>FormListaAnticiposCorreo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FormListaAnticipoSinFactura.aspx.cs">
+      <DependentUpon>FormListaAnticipoSinFactura.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FormListaAnticipoSinFactura.aspx.designer.cs">
+      <DependentUpon>FormListaAnticipoSinFactura.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FormListaAplicacion.aspx.cs">
+      <DependentUpon>FormListaAplicacion.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FormListaAplicacion.aspx.designer.cs">
+      <DependentUpon>FormListaAplicacion.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FormListaAsegAlcohol.aspx.cs">
+      <DependentUpon>FormListaAsegAlcohol.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FormListaAsegAlcohol.aspx.designer.cs">
+      <DependentUpon>FormListaAsegAlcohol.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FormListaAsegDAPInter.aspx.cs">
+      <DependentUpon>FormListaAsegDAPInter.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FormListaAsegDAPInter.aspx.designer.cs">
+      <DependentUpon>FormListaAsegDAPInter.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FormListaAseguradoAlcoholPeriodo.aspx.cs">
+      <DependentUpon>FormListaAseguradoAlcoholPeriodo.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FormListaAseguradoAlcoholPeriodo.aspx.designer.cs">
+      <DependentUpon>FormListaAseguradoAlcoholPeriodo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FormListaAsegYPFBInter.aspx.cs">
+      <DependentUpon>FormListaAsegYPFBInter.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FormListaAsegYPFBInter.aspx.designer.cs">
+      <DependentUpon>FormListaAsegYPFBInter.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FormListaCarroGuiasAprobados.aspx.cs">
+      <DependentUpon>FormListaCarroGuiasAprobados.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FormListaCarroGuiasAprobados.aspx.designer.cs">
+      <DependentUpon>FormListaCarroGuiasAprobados.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FormListaConcAlcoholPer.aspx.cs">
+      <DependentUpon>FormListaConcAlcoholPer.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FormListaConcAlcoholPer.aspx.designer.cs">
+      <DependentUpon>FormListaConcAlcoholPer.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FormListaConcDapInter.aspx.cs">
+      <DependentUpon>FormListaConcDapInter.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FormListaConcDapInter.aspx.designer.cs">
+      <DependentUpon>FormListaConcDapInter.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FormListaConcilaicionPagarDAPInter.aspx.cs">
+      <DependentUpon>FormListaConcilaicionPagarDAPInter.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FormListaConcilaicionPagarDAPInter.aspx.designer.cs">
+      <DependentUpon>FormListaConcilaicionPagarDAPInter.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FormListaConciliacionPagarAlcPeri.aspx.cs">
+      <DependentUpon>FormListaConciliacionPagarAlcPeri.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FormListaConciliacionPagarAlcPeri.aspx.designer.cs">
+      <DependentUpon>FormListaConciliacionPagarAlcPeri.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FormListaConciliacionPagarDAPInter.aspx.cs">
+      <DependentUpon>FormListaConciliacionPagarDAPInter.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FormListaConciliacionPagarDAPInter.aspx.designer.cs">
+      <DependentUpon>FormListaConciliacionPagarDAPInter.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FormListaConciliacionPagarYPFBInter.aspx.cs">
+      <DependentUpon>FormListaConciliacionPagarYPFBInter.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FormListaConciliacionPagarYPFBInter.aspx.designer.cs">
+      <DependentUpon>FormListaConciliacionPagarYPFBInter.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FormListaConcYPFBInter.aspx.cs">
+      <DependentUpon>FormListaConcYPFBInter.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FormListaConcYPFBInter.aspx.designer.cs">
+      <DependentUpon>FormListaConcYPFBInter.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FormListaConfirmadosInternacional.aspx.cs">
+      <DependentUpon>FormListaConfirmadosInternacional.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FormListaConfirmadosInternacional.aspx.designer.cs">
+      <DependentUpon>FormListaConfirmadosInternacional.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FormListaConfirmarViajeInternacional.aspx.cs">
+      <DependentUpon>FormListaConfirmarViajeInternacional.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FormListaConfirmarViajeInternacional.aspx.designer.cs">
+      <DependentUpon>FormListaConfirmarViajeInternacional.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FormListaNroContratoAceite.aspx.cs">
+      <DependentUpon>FormListaNroContratoAceite.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FormListaNroContratoAceite.aspx.designer.cs">
+      <DependentUpon>FormListaNroContratoAceite.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FormListaNumeroDeConciliacion.aspx.cs">
+      <DependentUpon>FormListaNumeroDeConciliacion.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FormListaNumeroDeConciliacion.aspx.designer.cs">
+      <DependentUpon>FormListaNumeroDeConciliacion.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FormListaRutasCambiar.aspx.cs">
+      <DependentUpon>FormListaRutasCambiar.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FormListaRutasCambiar.aspx.designer.cs">
+      <DependentUpon>FormListaRutasCambiar.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FormListaSolicAceitePagSinFactura.aspx.cs">
+      <DependentUpon>FormListaSolicAceitePagSinFactura.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FormListaSolicAceitePagSinFactura.aspx.designer.cs">
+      <DependentUpon>FormListaSolicAceitePagSinFactura.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FormListaSolicitudPagoNuevoFormato.aspx.cs">
+      <DependentUpon>FormListaSolicitudPagoNuevoFormato.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FormListaSolicitudPagoNuevoFormato.aspx.designer.cs">
+      <DependentUpon>FormListaSolicitudPagoNuevoFormato.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FormListaSolicitudPagos.aspx.cs">
+      <DependentUpon>FormListaSolicitudPagos.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FormListaSolicitudPagos.aspx.designer.cs">
+      <DependentUpon>FormListaSolicitudPagos.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FormListaSolicitudPagosAceite.aspx.cs">
+      <DependentUpon>FormListaSolicitudPagosAceite.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FormListaSolicitudPagosAceite.aspx.designer.cs">
+      <DependentUpon>FormListaSolicitudPagosAceite.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FormListaSolicitudPagosCarroGuia.aspx.cs">
+      <DependentUpon>FormListaSolicitudPagosCarroGuia.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FormListaSolicitudPagosCarroGuia.aspx.designer.cs">
+      <DependentUpon>FormListaSolicitudPagosCarroGuia.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FormListaSolicitudPagoSinFactura.aspx.cs">
+      <DependentUpon>FormListaSolicitudPagoSinFactura.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FormListaSolicitudPagoSinFactura.aspx.designer.cs">
+      <DependentUpon>FormListaSolicitudPagoSinFactura.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FormListaSolPagoAceCheque.aspx.cs">
+      <DependentUpon>FormListaSolPagoAceCheque.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FormListaSolPagoAceCheque.aspx.designer.cs">
+      <DependentUpon>FormListaSolPagoAceCheque.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FormListaSolPagoCheque.aspx.cs">
+      <DependentUpon>FormListaSolPagoCheque.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FormListaSolPagoCheque.aspx.designer.cs">
+      <DependentUpon>FormListaSolPagoCheque.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FormListaViajesConfirmados.aspx.cs">
+      <DependentUpon>FormListaViajesConfirmados.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FormListaViajesConfirmados.aspx.designer.cs">
+      <DependentUpon>FormListaViajesConfirmados.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FormListaViajesNoDespachados.aspx.cs">
+      <DependentUpon>FormListaViajesNoDespachados.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FormListaViajesNoDespachados.aspx.designer.cs">
+      <DependentUpon>FormListaViajesNoDespachados.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FormListImgAdelanto.aspx.cs">
+      <DependentUpon>FormListImgAdelanto.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FormListImgAdelanto.aspx.designer.cs">
+      <DependentUpon>FormListImgAdelanto.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FormListImgAnticipoCheque.aspx.cs">
+      <DependentUpon>FormListImgAnticipoCheque.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FormListImgAnticipoCheque.aspx.designer.cs">
+      <DependentUpon>FormListImgAnticipoCheque.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FormModAnticipo.aspx.cs">
+      <DependentUpon>FormModAnticipo.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FormModAnticipo.aspx.designer.cs">
+      <DependentUpon>FormModAnticipo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FormModificarDetalleDim.aspx.cs">
+      <DependentUpon>FormModificarDetalleDim.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FormModificarDetalleDim.aspx.designer.cs">
+      <DependentUpon>FormModificarDetalleDim.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FormModificarDim.aspx.cs">
+      <DependentUpon>FormModificarDim.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FormModificarDim.aspx.designer.cs">
+      <DependentUpon>FormModificarDim.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FormModNroConcRefinacion.aspx.cs">
+      <DependentUpon>FormModNroConcRefinacion.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FormModNroConcRefinacion.aspx.designer.cs">
+      <DependentUpon>FormModNroConcRefinacion.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FormNroContratoAceite.aspx.cs">
+      <DependentUpon>FormNroContratoAceite.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FormNroContratoAceite.aspx.designer.cs">
+      <DependentUpon>FormNroContratoAceite.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FormObtenerHorarioBiometrico.aspx.cs">
+      <DependentUpon>FormObtenerHorarioBiometrico.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FormObtenerHorarioBiometrico.aspx.designer.cs">
+      <DependentUpon>FormObtenerHorarioBiometrico.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FormPagadoAlcoholMes.aspx.cs">
+      <DependentUpon>FormPagadoAlcoholMes.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FormPagadoAlcoholMes.aspx.designer.cs">
+      <DependentUpon>FormPagadoAlcoholMes.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FormPagadoAlcPeri.aspx.cs">
+      <DependentUpon>FormPagadoAlcPeri.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FormPagadoAlcPeri.aspx.designer.cs">
+      <DependentUpon>FormPagadoAlcPeri.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FormPagadoCarroGuia.aspx.cs">
+      <DependentUpon>FormPagadoCarroGuia.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FormPagadoCarroGuia.aspx.designer.cs">
+      <DependentUpon>FormPagadoCarroGuia.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FormPagadoDAPInternacional.aspx.cs">
+      <DependentUpon>FormPagadoDAPInternacional.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FormPagadoDAPInternacional.aspx.designer.cs">
+      <DependentUpon>FormPagadoDAPInternacional.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FormPagadosCheque.aspx.cs">
+      <DependentUpon>FormPagadosCheque.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FormPagadosCheque.aspx.designer.cs">
+      <DependentUpon>FormPagadosCheque.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FormPagadoYpfbInter.aspx.cs">
+      <DependentUpon>FormPagadoYpfbInter.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FormPagadoYpfbInter.aspx.designer.cs">
+      <DependentUpon>FormPagadoYpfbInter.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FormPagarAnticipoSinFactura.aspx.cs">
+      <DependentUpon>FormPagarAnticipoSinFactura.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FormPagarAnticipoSinFactura.aspx.designer.cs">
+      <DependentUpon>FormPagarAnticipoSinFactura.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FormPagarSinFacturaAceite.aspx.cs">
+      <DependentUpon>FormPagarSinFacturaAceite.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FormPagarSinFacturaAceite.aspx.designer.cs">
+      <DependentUpon>FormPagarSinFacturaAceite.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FormPagoSinFactura.aspx.cs">
+      <DependentUpon>FormPagoSinFactura.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FormPagoSinFactura.aspx.designer.cs">
+      <DependentUpon>FormPagoSinFactura.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FormPrecioAnticipo.aspx.cs">
+      <DependentUpon>FormPrecioAnticipo.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FormPrecioAnticipo.aspx.designer.cs">
+      <DependentUpon>FormPrecioAnticipo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FormRecordatorio.aspx.cs">
+      <DependentUpon>FormRecordatorio.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FormRecordatorio.aspx.designer.cs">
+      <DependentUpon>FormRecordatorio.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FormRecordatorioCamiones.aspx.cs">
+      <DependentUpon>FormRecordatorioCamiones.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FormRecordatorioCamiones.aspx.designer.cs">
+      <DependentUpon>FormRecordatorioCamiones.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FormRepCobrYPFBInternacional.aspx.cs">
+      <DependentUpon>FormRepCobrYPFBInternacional.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FormRepCobrYPFBInternacional.aspx.designer.cs">
+      <DependentUpon>FormRepCobrYPFBInternacional.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FormRepConcAlcPeriodoPagar.aspx.cs">
+      <DependentUpon>FormRepConcAlcPeriodoPagar.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FormRepConcAlcPeriodoPagar.aspx.designer.cs">
+      <DependentUpon>FormRepConcAlcPeriodoPagar.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FormRepConcDAPInter.aspx.cs">
+      <DependentUpon>FormRepConcDAPInter.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FormRepConcDAPInter.aspx.designer.cs">
+      <DependentUpon>FormRepConcDAPInter.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FormRepConCorpAlcohol.aspx.cs">
+      <DependentUpon>FormRepConCorpAlcohol.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FormRepConCorpAlcohol.aspx.designer.cs">
+      <DependentUpon>FormRepConCorpAlcohol.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FormRepConCorpPeriodo.aspx.cs">
+      <DependentUpon>FormRepConCorpPeriodo.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FormRepConCorpPeriodo.aspx.designer.cs">
+      <DependentUpon>FormRepConCorpPeriodo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FormRepConcRefPagar2023.aspx.cs">
+      <DependentUpon>FormRepConcRefPagar2023.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FormRepConcRefPagar2023.aspx.designer.cs">
+      <DependentUpon>FormRepConcRefPagar2023.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FormRepConcYpfbPagarInter.aspx.cs">
+      <DependentUpon>FormRepConcYpfbPagarInter.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FormRepConcYpfbPagarInter.aspx.designer.cs">
+      <DependentUpon>FormRepConcYpfbPagarInter.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FormRepMermCamPlaca.aspx.cs">
+      <DependentUpon>FormRepMermCamPlaca.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FormRepMermCamPlaca.aspx.designer.cs">
+      <DependentUpon>FormRepMermCamPlaca.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FormRepMermGeneralPlaca.aspx.cs">
+      <DependentUpon>FormRepMermGeneralPlaca.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FormRepMermGeneralPlaca.aspx.designer.cs">
+      <DependentUpon>FormRepMermGeneralPlaca.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FormReportCamionesMermaGeneral.aspx.cs">
+      <DependentUpon>FormReportCamionesMermaGeneral.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FormReportCamionesMermaGeneral.aspx.designer.cs">
+      <DependentUpon>FormReportCamionesMermaGeneral.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FormReportDetAdelPagoCuenta.aspx.cs">
+      <DependentUpon>FormReportDetAdelPagoCuenta.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FormReportDetAdelPagoCuenta.aspx.designer.cs">
+      <DependentUpon>FormReportDetAdelPagoCuenta.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FormReportDim.aspx.cs">
+      <DependentUpon>FormReportDim.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FormReportDim.aspx.designer.cs">
+      <DependentUpon>FormReportDim.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FormReporteAdelantoDePago.aspx.cs">
+      <DependentUpon>FormReporteAdelantoDePago.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FormReporteAdelantoDePago.aspx.designer.cs">
+      <DependentUpon>FormReporteAdelantoDePago.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FormReporteAdelantoDePagoCuenta.aspx.cs">
+      <DependentUpon>FormReporteAdelantoDePagoCuenta.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FormReporteAdelantoDePagoCuenta.aspx.designer.cs">
+      <DependentUpon>FormReporteAdelantoDePagoCuenta.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FormReporteAnticipoConfirNoPagado.aspx.cs">
+      <DependentUpon>FormReporteAnticipoConfirNoPagado.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FormReporteAnticipoConfirNoPagado.aspx.designer.cs">
+      <DependentUpon>FormReporteAnticipoConfirNoPagado.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FormReporteAnticiposInsertadosNombre.aspx.cs">
+      <DependentUpon>FormReporteAnticiposInsertadosNombre.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FormReporteAnticiposInsertadosNombre.aspx.designer.cs">
+      <DependentUpon>FormReporteAnticiposInsertadosNombre.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FormReporteAnticiposViajeSinConfirmar.aspx.cs">
+      <DependentUpon>FormReporteAnticiposViajeSinConfirmar.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FormReporteAnticiposViajeSinConfirmar.aspx.designer.cs">
+      <DependentUpon>FormReporteAnticiposViajeSinConfirmar.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FormReporteAnticipoTransitoPorPersona.aspx.cs">
+      <DependentUpon>FormReporteAnticipoTransitoPorPersona.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FormReporteAnticipoTransitoPorPersona.aspx.designer.cs">
+      <DependentUpon>FormReporteAnticipoTransitoPorPersona.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FormReporteAplicacion.aspx.cs">
+      <DependentUpon>FormReporteAplicacion.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FormReporteAplicacion.aspx.designer.cs">
+      <DependentUpon>FormReporteAplicacion.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FormReporteBercamCamiones.aspx.cs">
+      <DependentUpon>FormReporteBercamCamiones.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FormReporteBercamCamiones.aspx.designer.cs">
+      <DependentUpon>FormReporteBercamCamiones.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FormReporteComparacionCobrarPagar.aspx.cs">
+      <DependentUpon>FormReporteComparacionCobrarPagar.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FormReporteComparacionCobrarPagar.aspx.designer.cs">
+      <DependentUpon>FormReporteComparacionCobrarPagar.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FormReporteConfirmadosDescarga.aspx.cs">
+      <DependentUpon>FormReporteConfirmadosDescarga.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FormReporteConfirmadosDescarga.aspx.designer.cs">
+      <DependentUpon>FormReporteConfirmadosDescarga.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FormReporteCuentaTotal.aspx.cs">
+      <DependentUpon>FormReporteCuentaTotal.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FormReporteCuentaTotal.aspx.designer.cs">
+      <DependentUpon>FormReporteCuentaTotal.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FormReporteDescuentos.aspx.cs">
+      <DependentUpon>FormReporteDescuentos.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FormReporteDescuentos.aspx.designer.cs">
+      <DependentUpon>FormReporteDescuentos.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FormReporteDesFechaMonto.aspx.cs">
+      <DependentUpon>FormReporteDesFechaMonto.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FormReporteDesFechaMonto.aspx.designer.cs">
+      <DependentUpon>FormReporteDesFechaMonto.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FormReporteDetAdelPago.aspx.cs">
+      <DependentUpon>FormReporteDetAdelPago.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FormReporteDetAdelPago.aspx.designer.cs">
+      <DependentUpon>FormReporteDetAdelPago.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FormReporteDetalleViajeAnticipoInsertado.aspx.cs">
+      <DependentUpon>FormReporteDetalleViajeAnticipoInsertado.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FormReporteDetalleViajeAnticipoInsertado.aspx.designer.cs">
+      <DependentUpon>FormReporteDetalleViajeAnticipoInsertado.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FormReporteDetalleViajesAntciposTransito.aspx.cs">
+      <DependentUpon>FormReporteDetalleViajesAntciposTransito.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FormReporteDetalleViajesAntciposTransito.aspx.designer.cs">
+      <DependentUpon>FormReporteDetalleViajesAntciposTransito.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FormReporteDetalleViajesAnticipo.aspx.cs">
+      <DependentUpon>FormReporteDetalleViajesAnticipo.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FormReporteDetalleViajesAnticipo.aspx.designer.cs">
+      <DependentUpon>FormReporteDetalleViajesAnticipo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FormEditarFechaAnticipo.aspx.cs">
+      <DependentUpon>FormEditarFechaAnticipo.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FormEditarFechaAnticipo.aspx.designer.cs">
+      <DependentUpon>FormEditarFechaAnticipo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FormListaAdelantoDePagos.aspx.cs">
+      <DependentUpon>FormListaAdelantoDePagos.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FormListaAdelantoDePagos.aspx.designer.cs">
+      <DependentUpon>FormListaAdelantoDePagos.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FormAnticipo.aspx.cs">
+      <DependentUpon>FormAnticipo.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FormAnticipo.aspx.designer.cs">
+      <DependentUpon>FormAnticipo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FormAsegurarCarroGuia.aspx.cs">
+      <DependentUpon>FormAsegurarCarroGuia.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FormAsegurarCarroGuia.aspx.designer.cs">
+      <DependentUpon>FormAsegurarCarroGuia.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FormAsegurarConciliacion.aspx.cs">
+      <DependentUpon>FormAsegurarConciliacion.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FormAsegurarConciliacion.aspx.designer.cs">
+      <DependentUpon>FormAsegurarConciliacion.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FormBercamFletero.aspx.cs">
+      <DependentUpon>FormBercamFletero.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FormBercamFletero.aspx.designer.cs">
+      <DependentUpon>FormBercamFletero.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FormCamioGuia.aspx.cs">
+      <DependentUpon>FormCamioGuia.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FormCamioGuia.aspx.designer.cs">
+      <DependentUpon>FormCamioGuia.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FormConfirmarProgramacionFecha.aspx.cs">
+      <DependentUpon>FormConfirmarProgramacionFecha.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FormConfirmarProgramacionFecha.aspx.designer.cs">
+      <DependentUpon>FormConfirmarProgramacionFecha.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FormClienteCamionGuia.aspx.cs">
+      <DependentUpon>FormClienteCamionGuia.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FormClienteCamionGuia.aspx.designer.cs">
+      <DependentUpon>FormClienteCamionGuia.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FormCobroGuia.aspx.cs">
+      <DependentUpon>FormCobroGuia.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FormCobroGuia.aspx.designer.cs">
+      <DependentUpon>FormCobroGuia.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FormConceptoMulta.aspx.cs">
+      <DependentUpon>FormConceptoMulta.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FormConceptoMulta.aspx.designer.cs">
+      <DependentUpon>FormConceptoMulta.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FormConcilacionCorpo.aspx.cs">
+      <DependentUpon>FormConcilacionCorpo.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FormConcilacionCorpo.aspx.designer.cs">
+      <DependentUpon>FormConcilacionCorpo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FormConciliacionAsegurada.aspx.cs">
+      <DependentUpon>FormConciliacionAsegurada.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FormConciliacionAsegurada.aspx.designer.cs">
+      <DependentUpon>FormConciliacionAsegurada.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FormConciliacionCarroGuia.aspx.cs">
+      <DependentUpon>FormConciliacionCarroGuia.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FormConciliacionCarroGuia.aspx.designer.cs">
+      <DependentUpon>FormConciliacionCarroGuia.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FormConfirmarViaje.aspx.cs">
+      <DependentUpon>FormConfirmarViaje.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FormConfirmarViaje.aspx.designer.cs">
+      <DependentUpon>FormConfirmarViaje.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FormDescargarLiquidacion.aspx.cs">
+      <DependentUpon>FormDescargarLiquidacion.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FormDescargarLiquidacion.aspx.designer.cs">
+      <DependentUpon>FormDescargarLiquidacion.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FormDetalleMulta.aspx.cs">
+      <DependentUpon>FormDetalleMulta.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FormDetalleMulta.aspx.designer.cs">
+      <DependentUpon>FormDetalleMulta.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FormAsignaccionCamiones.aspx.cs">
+      <DependentUpon>FormAsignaccionCamiones.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FormAsignaccionCamiones.aspx.designer.cs">
+      <DependentUpon>FormAsignaccionCamiones.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FormCambiarCam.aspx.cs">
+      <DependentUpon>FormCambiarCam.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FormCambiarCam.aspx.designer.cs">
+      <DependentUpon>FormCambiarCam.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FormColor.aspx.cs">
+      <DependentUpon>FormColor.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FormColor.aspx.designer.cs">
+      <DependentUpon>FormColor.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FormConciliacionPorCobrar.aspx.cs">
+      <DependentUpon>FormConciliacionPorCobrar.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FormConciliacionPorCobrar.aspx.designer.cs">
+      <DependentUpon>FormConciliacionPorCobrar.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FormConciliacionPorPagar.aspx.cs">
+      <DependentUpon>FormConciliacionPorPagar.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FormConciliacionPorPagar.aspx.designer.cs">
+      <DependentUpon>FormConciliacionPorPagar.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FormDetalleRastreo.aspx.cs">
+      <DependentUpon>FormDetalleRastreo.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FormDetalleRastreo.aspx.designer.cs">
+      <DependentUpon>FormDetalleRastreo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FormDetalleTelefono.aspx.cs">
+      <DependentUpon>FormDetalleTelefono.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FormDetalleTelefono.aspx.designer.cs">
+      <DependentUpon>FormDetalleTelefono.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FormDetRuta.aspx.cs">
+      <DependentUpon>FormDetRuta.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FormDetRuta.aspx.designer.cs">
+      <DependentUpon>FormDetRuta.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FormEditarMermas.aspx.cs">
+      <DependentUpon>FormEditarMermas.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FormEditarMermas.aspx.designer.cs">
+      <DependentUpon>FormEditarMermas.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FormEstadoConcCorp.aspx.cs">
+      <DependentUpon>FormEstadoConcCorp.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FormEstadoConcCorp.aspx.designer.cs">
+      <DependentUpon>FormEstadoConcCorp.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FormEstadoConcRef.aspx.cs">
+      <DependentUpon>FormEstadoConcRef.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FormEstadoConcRef.aspx.designer.cs">
+      <DependentUpon>FormEstadoConcRef.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FormFechaConfirmada.aspx.cs">
+      <DependentUpon>FormFechaConfirmada.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FormFechaConfirmada.aspx.designer.cs">
+      <DependentUpon>FormFechaConfirmada.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FormHabPersona.aspx.cs">
+      <DependentUpon>FormHabPersona.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FormHabPersona.aspx.designer.cs">
+      <DependentUpon>FormHabPersona.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FormHistorialEstado.aspx.cs">
+      <DependentUpon>FormHistorialEstado.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FormHistorialEstado.aspx.designer.cs">
+      <DependentUpon>FormHistorialEstado.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FormImagenesPagadas.aspx.cs">
+      <DependentUpon>FormImagenesPagadas.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FormImagenesPagadas.aspx.designer.cs">
+      <DependentUpon>FormImagenesPagadas.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FormImagenesPagadasAceite.aspx.cs">
+      <DependentUpon>FormImagenesPagadasAceite.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FormImagenesPagadasAceite.aspx.designer.cs">
+      <DependentUpon>FormImagenesPagadasAceite.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FormListaAceite.aspx.cs">
+      <DependentUpon>FormListaAceite.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FormListaAceite.aspx.designer.cs">
+      <DependentUpon>FormListaAceite.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FormListaAnticipos.aspx.cs">
+      <DependentUpon>FormListaAnticipos.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FormListaAnticipos.aspx.designer.cs">
+      <DependentUpon>FormListaAnticipos.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FormListaAsegAceite.aspx.cs">
+      <DependentUpon>FormListaAsegAceite.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FormListaAsegAceite.aspx.designer.cs">
+      <DependentUpon>FormListaAsegAceite.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FormListaAsegCorp.aspx.cs">
+      <DependentUpon>FormListaAsegCorp.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FormListaAsegCorp.aspx.designer.cs">
+      <DependentUpon>FormListaAsegCorp.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FormListaAseguradosRefi.aspx.cs">
+      <DependentUpon>FormListaAseguradosRefi.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FormListaAseguradosRefi.aspx.designer.cs">
+      <DependentUpon>FormListaAseguradosRefi.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FormListaAsignacionCamiones.aspx.cs">
+      <DependentUpon>FormListaAsignacionCamiones.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FormListaAsignacionCamiones.aspx.designer.cs">
+      <DependentUpon>FormListaAsignacionCamiones.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FormListaCamionesEstado.aspx.cs">
+      <DependentUpon>FormListaCamionesEstado.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FormListaCamionesEstado.aspx.designer.cs">
+      <DependentUpon>FormListaCamionesEstado.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FormListaConcAlcohol.aspx.cs">
+      <DependentUpon>FormListaConcAlcohol.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FormListaConcAlcohol.aspx.designer.cs">
+      <DependentUpon>FormListaConcAlcohol.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FormListaConcFleteAlcohol.aspx.cs">
+      <DependentUpon>FormListaConcFleteAlcohol.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FormListaConcFleteAlcohol.aspx.designer.cs">
+      <DependentUpon>FormListaConcFleteAlcohol.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FormListaConciliacion.aspx.cs">
+      <DependentUpon>FormListaConciliacion.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FormListaConciliacion.aspx.designer.cs">
+      <DependentUpon>FormListaConciliacion.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FormListaConciliacionCorp.aspx.cs">
+      <DependentUpon>FormListaConciliacionCorp.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FormListaConciliacionCorp.aspx.designer.cs">
+      <DependentUpon>FormListaConciliacionCorp.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FormListaConciliacionPagarRef.aspx.cs">
+      <DependentUpon>FormListaConciliacionPagarRef.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FormListaConciliacionPagarRef.aspx.designer.cs">
+      <DependentUpon>FormListaConciliacionPagarRef.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FormListaCorpConc.aspx.cs">
+      <DependentUpon>FormListaCorpConc.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FormListaCorpConc.aspx.designer.cs">
+      <DependentUpon>FormListaCorpConc.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FormListaProgramNoConfir.aspx.cs">
+      <DependentUpon>FormListaProgramNoConfir.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FormListaProgramNoConfir.aspx.designer.cs">
+      <DependentUpon>FormListaProgramNoConfir.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FormListaDetalleConciliacion.aspx.cs">
+      <DependentUpon>FormListaDetalleConciliacion.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FormListaDetalleConciliacion.aspx.designer.cs">
+      <DependentUpon>FormListaDetalleConciliacion.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FormListaFacturaCarroGuia.aspx.cs">
+      <DependentUpon>FormListaFacturaCarroGuia.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FormListaFacturaCarroGuia.aspx.designer.cs">
+      <DependentUpon>FormListaFacturaCarroGuia.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FormListaImgAnticipo.aspx.cs">
+      <DependentUpon>FormListaImgAnticipo.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FormListaImgAnticipo.aspx.designer.cs">
+      <DependentUpon>FormListaImgAnticipo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FormListaMermaDetalle.aspx.cs">
+      <DependentUpon>FormListaMermaDetalle.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FormListaMermaDetalle.aspx.designer.cs">
+      <DependentUpon>FormListaMermaDetalle.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FormListaMultas.aspx.cs">
+      <DependentUpon>FormListaMultas.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FormListaMultas.aspx.designer.cs">
+      <DependentUpon>FormListaMultas.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FormListaProveedores.aspx.cs">
+      <DependentUpon>FormListaProveedores.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FormListaProveedores.aspx.designer.cs">
+      <DependentUpon>FormListaProveedores.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FormListaRastreo.aspx.cs">
+      <DependentUpon>FormListaRastreo.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FormListaRastreo.aspx.designer.cs">
+      <DependentUpon>FormListaRastreo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FormListaSolicitud.aspx.cs">
+      <DependentUpon>FormListaSolicitud.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FormListaSolicitud.aspx.designer.cs">
+      <DependentUpon>FormListaSolicitud.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FormListaSolicitudAceite.aspx.cs">
+      <DependentUpon>FormListaSolicitudAceite.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FormListaSolicitudAceite.aspx.designer.cs">
+      <DependentUpon>FormListaSolicitudAceite.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FormListaSolicitudCarroGuia.aspx.cs">
+      <DependentUpon>FormListaSolicitudCarroGuia.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FormListaSolicitudCarroGuia.aspx.designer.cs">
+      <DependentUpon>FormListaSolicitudCarroGuia.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FormListaSolicitudCorp.aspx.cs">
+      <DependentUpon>FormListaSolicitudCorp.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FormListaSolicitudCorp.aspx.designer.cs">
+      <DependentUpon>FormListaSolicitudCorp.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FormListaTelefono.aspx.cs">
+      <DependentUpon>FormListaTelefono.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FormListaTelefono.aspx.designer.cs">
+      <DependentUpon>FormListaTelefono.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FormListTransAceite.aspx.cs">
+      <DependentUpon>FormListTransAceite.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FormListTransAceite.aspx.designer.cs">
+      <DependentUpon>FormListTransAceite.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FormListTransCorp.aspx.cs">
+      <DependentUpon>FormListTransCorp.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FormListTransCorp.aspx.designer.cs">
+      <DependentUpon>FormListTransCorp.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FormListTransRefi.aspx.cs">
+      <DependentUpon>FormListTransRefi.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FormListTransRefi.aspx.designer.cs">
+      <DependentUpon>FormListTransRefi.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FormMontNomi.aspx.cs">
+      <DependentUpon>FormMontNomi.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FormMontNomi.aspx.designer.cs">
+      <DependentUpon>FormMontNomi.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FormMulta.aspx.cs">
+      <DependentUpon>FormMulta.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FormMulta.aspx.designer.cs">
+      <DependentUpon>FormMulta.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FormPagadoAceite.aspx.cs">
+      <DependentUpon>FormPagadoAceite.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FormPagadoAceite.aspx.designer.cs">
+      <DependentUpon>FormPagadoAceite.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FormPagadoCorp.aspx.cs">
+      <DependentUpon>FormPagadoCorp.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FormPagadoCorp.aspx.designer.cs">
+      <DependentUpon>FormPagadoCorp.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FormPagadosRefi.aspx.cs">
+      <DependentUpon>FormPagadosRefi.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FormPagadosRefi.aspx.designer.cs">
+      <DependentUpon>FormPagadosRefi.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FormPermisos.aspx.cs">
+      <DependentUpon>FormPermisos.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FormPermisos.aspx.designer.cs">
+      <DependentUpon>FormPermisos.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FormProgramacionRuta.aspx.cs">
+      <DependentUpon>FormProgramacionRuta.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FormProgramacionRuta.aspx.designer.cs">
+      <DependentUpon>FormProgramacionRuta.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Contact.aspx.cs">
+      <DependentUpon>Contact.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Contact.aspx.designer.cs">
+      <DependentUpon>Contact.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FormCertificados.aspx.cs">
+      <DependentUpon>FormCertificados.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FormCertificados.aspx.designer.cs">
+      <DependentUpon>FormCertificados.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FormCreacionCamiones.aspx.cs">
+      <DependentUpon>FormCreacionCamiones.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FormCreacionCamiones.aspx.designer.cs">
+      <DependentUpon>FormCreacionCamiones.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FormCuenta.aspx.cs">
+      <DependentUpon>FormCuenta.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FormCuenta.aspx.designer.cs">
+      <DependentUpon>FormCuenta.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FormCuentaContable.aspx.cs">
+      <DependentUpon>FormCuentaContable.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FormCuentaContable.aspx.designer.cs">
+      <DependentUpon>FormCuentaContable.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FormDatosEmpresa.aspx.cs">
+      <DependentUpon>FormDatosEmpresa.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FormDatosEmpresa.aspx.designer.cs">
+      <DependentUpon>FormDatosEmpresa.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FormEstCami.aspx.cs">
+      <DependentUpon>FormEstCami.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FormEstCami.aspx.designer.cs">
+      <DependentUpon>FormEstCami.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FormEstCamion.aspx.cs">
+      <DependentUpon>FormEstCamion.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FormEstCamion.aspx.designer.cs">
+      <DependentUpon>FormEstCamion.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FormListaCamiones.aspx.cs">
+      <DependentUpon>FormListaCamiones.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FormListaCamiones.aspx.designer.cs">
+      <DependentUpon>FormListaCamiones.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FormListarProgramacionRuta.aspx.cs">
+      <DependentUpon>FormListarProgramacionRuta.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FormListarProgramacionRuta.aspx.designer.cs">
+      <DependentUpon>FormListarProgramacionRuta.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FormListarMarca.aspx.cs">
+      <DependentUpon>FormListarMarca.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FormListarMarca.aspx.designer.cs">
+      <DependentUpon>FormListarMarca.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FormListarPersonas.aspx.cs">
+      <DependentUpon>FormListarPersonas.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FormListarPersonas.aspx.designer.cs">
+      <DependentUpon>FormListarPersonas.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FormListaTransacciones.aspx.cs">
+      <DependentUpon>FormListaTransacciones.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FormListaTransacciones.aspx.designer.cs">
+      <DependentUpon>FormListaTransacciones.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FormMarcas.aspx.cs">
+      <DependentUpon>FormMarcas.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FormMarcas.aspx.designer.cs">
+      <DependentUpon>FormMarcas.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FormMensaje.aspx.cs">
+      <DependentUpon>FormMensaje.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FormMensaje.aspx.designer.cs">
+      <DependentUpon>FormMensaje.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FormModCuenta.aspx.cs">
+      <DependentUpon>FormModCuenta.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FormModCuenta.aspx.designer.cs">
+      <DependentUpon>FormModCuenta.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FormProd.aspx.cs">
+      <DependentUpon>FormProd.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FormProd.aspx.designer.cs">
+      <DependentUpon>FormProd.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FormProveedores.aspx.cs">
+      <DependentUpon>FormProveedores.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FormProveedores.aspx.designer.cs">
+      <DependentUpon>FormProveedores.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FormRepConciliacion.aspx.cs">
+      <DependentUpon>FormRepConciliacion.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FormRepConciliacion.aspx.designer.cs">
+      <DependentUpon>FormRepConciliacion.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FormRepConCorp.aspx.cs">
+      <DependentUpon>FormRepConCorp.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FormRepConCorp.aspx.designer.cs">
+      <DependentUpon>FormRepConCorp.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FormRepConCorporacionFlet.aspx.cs">
+      <DependentUpon>FormRepConCorporacionFlet.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FormRepConCorporacionFlet.aspx.designer.cs">
+      <DependentUpon>FormRepConCorporacionFlet.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FormRepConcPagar.aspx.cs">
+      <DependentUpon>FormRepConcPagar.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FormRepConcPagar.aspx.designer.cs">
+      <DependentUpon>FormRepConcPagar.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FormRepNomina.aspx.cs">
+      <DependentUpon>FormRepNomina.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FormRepNomina.aspx.designer.cs">
+      <DependentUpon>FormRepNomina.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FormReportAceite.aspx.cs">
+      <DependentUpon>FormReportAceite.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FormReportAceite.aspx.designer.cs">
+      <DependentUpon>FormReportAceite.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FormReportCarroGuia.aspx.cs">
+      <DependentUpon>FormReportCarroGuia.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FormReportCarroGuia.aspx.designer.cs">
+      <DependentUpon>FormReportCarroGuia.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FormReporteAceiteAPagar.aspx.cs">
+      <DependentUpon>FormReporteAceiteAPagar.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FormReporteAceiteAPagar.aspx.designer.cs">
+      <DependentUpon>FormReporteAceiteAPagar.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FormReporteAnticiposViaje.aspx.cs">
+      <DependentUpon>FormReporteAnticiposViaje.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FormReporteAnticiposViaje.aspx.designer.cs">
+      <DependentUpon>FormReporteAnticiposViaje.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FormReporteCarroGuia.aspx.cs">
+      <DependentUpon>FormReporteCarroGuia.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FormReporteCarroGuia.aspx.designer.cs">
+      <DependentUpon>FormReporteCarroGuia.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FormReporteDeTelefonoLibre.aspx.cs">
+      <DependentUpon>FormReporteDeTelefonoLibre.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FormReporteDeTelefonoLibre.aspx.designer.cs">
+      <DependentUpon>FormReporteDeTelefonoLibre.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FormReporteDeTelefonoOcupado.aspx.cs">
+      <DependentUpon>FormReporteDeTelefonoOcupado.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FormReporteDeTelefonoOcupado.aspx.designer.cs">
+      <DependentUpon>FormReporteDeTelefonoOcupado.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FormReporteDeTelefonos.aspx.cs">
+      <DependentUpon>FormReporteDeTelefonos.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FormReporteDeTelefonos.aspx.designer.cs">
+      <DependentUpon>FormReporteDeTelefonos.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FormReporteDetViajesAntCuenta.aspx.cs">
+      <DependentUpon>FormReporteDetViajesAntCuenta.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FormReporteDetViajesAntCuenta.aspx.designer.cs">
+      <DependentUpon>FormReporteDetViajesAntCuenta.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FormReporteDiasViajados.aspx.cs">
+      <DependentUpon>FormReporteDiasViajados.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FormReporteDiasViajados.aspx.designer.cs">
+      <DependentUpon>FormReporteDiasViajados.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FormReporteFaltas.aspx.cs">
+      <DependentUpon>FormReporteFaltas.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FormReporteFaltas.aspx.designer.cs">
+      <DependentUpon>FormReporteFaltas.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FormReporteGeneralDescuento.aspx.cs">
+      <DependentUpon>FormReporteGeneralDescuento.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FormReporteGeneralDescuento.aspx.designer.cs">
+      <DependentUpon>FormReporteGeneralDescuento.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FormReporteHorarioFaltante.aspx.cs">
+      <DependentUpon>FormReporteHorarioFaltante.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FormReporteHorarioFaltante.aspx.designer.cs">
+      <DependentUpon>FormReporteHorarioFaltante.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FormReporteHorarioPersona.aspx.cs">
+      <DependentUpon>FormReporteHorarioPersona.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FormReporteHorarioPersona.aspx.designer.cs">
+      <DependentUpon>FormReporteHorarioPersona.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FormReporteLiquidacionPagada.aspx.cs">
+      <DependentUpon>FormReporteLiquidacionPagada.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FormReporteLiquidacionPagada.aspx.designer.cs">
+      <DependentUpon>FormReporteLiquidacionPagada.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FormReporteLiquidacionPagadaCuenta.aspx.cs">
+      <DependentUpon>FormReporteLiquidacionPagadaCuenta.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FormReporteLiquidacionPagadaCuenta.aspx.designer.cs">
+      <DependentUpon>FormReporteLiquidacionPagadaCuenta.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FormReporteLiquidacionPagadaSuma.aspx.cs">
+      <DependentUpon>FormReporteLiquidacionPagadaSuma.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FormReporteLiquidacionPagadaSuma.aspx.designer.cs">
+      <DependentUpon>FormReporteLiquidacionPagadaSuma.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FormReporteLiquidacionPendiente.aspx.cs">
+      <DependentUpon>FormReporteLiquidacionPendiente.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FormReporteLiquidacionPendiente.aspx.designer.cs">
+      <DependentUpon>FormReporteLiquidacionPendiente.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FormReporteMermaBercamCamiones.aspx.cs">
+      <DependentUpon>FormReporteMermaBercamCamiones.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FormReporteMermaBercamCamiones.aspx.designer.cs">
+      <DependentUpon>FormReporteMermaBercamCamiones.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FormReportePendienteAdelanto.aspx.cs">
+      <DependentUpon>FormReportePendienteAdelanto.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FormReportePendienteAdelanto.aspx.designer.cs">
+      <DependentUpon>FormReportePendienteAdelanto.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FormReportePendientesDescuentos.aspx.cs">
+      <DependentUpon>FormReportePendientesDescuentos.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FormReportePendientesDescuentos.aspx.designer.cs">
+      <DependentUpon>FormReportePendientesDescuentos.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FormReporteResConciAceite.aspx.cs">
+      <DependentUpon>FormReporteResConciAceite.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FormReporteResConciAceite.aspx.designer.cs">
+      <DependentUpon>FormReporteResConciAceite.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FormReporteResConciPeriodo.aspx.cs">
+      <DependentUpon>FormReporteResConciPeriodo.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FormReporteResConciPeriodo.aspx.designer.cs">
+      <DependentUpon>FormReporteResConciPeriodo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FormReporteResumenAlcoholCliente.aspx.cs">
+      <DependentUpon>FormReporteResumenAlcoholCliente.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FormReporteResumenAlcoholCliente.aspx.designer.cs">
+      <DependentUpon>FormReporteResumenAlcoholCliente.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FormReporteResumenAlcPeriodoCliente.aspx.cs">
+      <DependentUpon>FormReporteResumenAlcPeriodoCliente.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FormReporteResumenAlcPeriodoCliente.aspx.designer.cs">
+      <DependentUpon>FormReporteResumenAlcPeriodoCliente.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FormReporteSeguros.aspx.cs">
+      <DependentUpon>FormReporteSeguros.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FormReporteSeguros.aspx.designer.cs">
+      <DependentUpon>FormReporteSeguros.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FormReporteSumaSeguros.aspx.cs">
+      <DependentUpon>FormReporteSumaSeguros.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FormReporteSumaSeguros.aspx.designer.cs">
+      <DependentUpon>FormReporteSumaSeguros.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FormReporteTelefonoCamiones.aspx.cs">
+      <DependentUpon>FormReporteTelefonoCamiones.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FormReporteTelefonoCamiones.aspx.designer.cs">
+      <DependentUpon>FormReporteTelefonoCamiones.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FormReporteTelefonoGeneral.aspx.cs">
+      <DependentUpon>FormReporteTelefonoGeneral.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FormReporteTelefonoGeneral.aspx.designer.cs">
+      <DependentUpon>FormReporteTelefonoGeneral.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FormReporteTitularBanco.aspx.cs">
+      <DependentUpon>FormReporteTitularBanco.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FormReporteTitularBanco.aspx.designer.cs">
+      <DependentUpon>FormReporteTitularBanco.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FormReporteTotalAnticiposSinConfirmar.aspx.cs">
+      <DependentUpon>FormReporteTotalAnticiposSinConfirmar.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FormReporteTotalAnticiposSinConfirmar.aspx.designer.cs">
+      <DependentUpon>FormReporteTotalAnticiposSinConfirmar.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FormReporteTotalViajes.aspx.cs">
+      <DependentUpon>FormReporteTotalViajes.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FormReporteTotalViajes.aspx.designer.cs">
+      <DependentUpon>FormReporteTotalViajes.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FormReporteTransLiqui.aspx.cs">
+      <DependentUpon>FormReporteTransLiqui.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FormReporteTransLiqui.aspx.designer.cs">
+      <DependentUpon>FormReporteTransLiqui.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FormReporteViajesConfirInter.aspx.cs">
+      <DependentUpon>FormReporteViajesConfirInter.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FormReporteViajesConfirInter.aspx.designer.cs">
+      <DependentUpon>FormReporteViajesConfirInter.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FormReportTransitoNombre.aspx.cs">
+      <DependentUpon>FormReportTransitoNombre.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FormReportTransitoNombre.aspx.designer.cs">
+      <DependentUpon>FormReportTransitoNombre.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FormReportYpfbRefinacion.aspx.cs">
+      <DependentUpon>FormReportYpfbRefinacion.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FormReportYpfbRefinacion.aspx.designer.cs">
+      <DependentUpon>FormReportYpfbRefinacion.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FormReptCamionesHab.aspx.cs">
+      <DependentUpon>FormReptCamionesHab.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FormReptCamionesHab.aspx.designer.cs">
+      <DependentUpon>FormReptCamionesHab.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FormResumenAceite.aspx.cs">
+      <DependentUpon>FormResumenAceite.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FormResumenAceite.aspx.designer.cs">
+      <DependentUpon>FormResumenAceite.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FormResumenAceiteFletero.aspx.cs">
+      <DependentUpon>FormResumenAceiteFletero.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FormResumenAceiteFletero.aspx.designer.cs">
+      <DependentUpon>FormResumenAceiteFletero.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FormResumenAlcohol.aspx.cs">
+      <DependentUpon>FormResumenAlcohol.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FormResumenAlcohol.aspx.designer.cs">
+      <DependentUpon>FormResumenAlcohol.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FormResumenCorporacion.aspx.cs">
+      <DependentUpon>FormResumenCorporacion.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FormResumenCorporacion.aspx.designer.cs">
+      <DependentUpon>FormResumenCorporacion.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FormResumenDAPinternacional.aspx.cs">
+      <DependentUpon>FormResumenDAPinternacional.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FormResumenDAPinternacional.aspx.designer.cs">
+      <DependentUpon>FormResumenDAPinternacional.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FormResumenFleteroDAPInternacional.aspx.cs">
+      <DependentUpon>FormResumenFleteroDAPInternacional.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FormResumenFleteroDAPInternacional.aspx.designer.cs">
+      <DependentUpon>FormResumenFleteroDAPInternacional.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FormResumenFleterosAlcohol.aspx.cs">
+      <DependentUpon>FormResumenFleterosAlcohol.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FormResumenFleterosAlcohol.aspx.designer.cs">
+      <DependentUpon>FormResumenFleterosAlcohol.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FormResumenFleterosAlcoholPeriodo.aspx.cs">
+      <DependentUpon>FormResumenFleterosAlcoholPeriodo.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FormResumenFleterosAlcoholPeriodo.aspx.designer.cs">
+      <DependentUpon>FormResumenFleterosAlcoholPeriodo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FormResumenFleterosCoorp.aspx.cs">
+      <DependentUpon>FormResumenFleterosCoorp.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FormResumenFleterosCoorp.aspx.designer.cs">
+      <DependentUpon>FormResumenFleterosCoorp.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FormResumenFleteroYPFBInternacional.aspx.cs">
+      <DependentUpon>FormResumenFleteroYPFBInternacional.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FormResumenFleteroYPFBInternacional.aspx.designer.cs">
+      <DependentUpon>FormResumenFleteroYPFBInternacional.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FormResumenYpfbCorporacion.aspx.cs">
+      <DependentUpon>FormResumenYpfbCorporacion.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FormResumenYpfbCorporacion.aspx.designer.cs">
+      <DependentUpon>FormResumenYpfbCorporacion.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FormResumenYPFBInternacional.aspx.cs">
+      <DependentUpon>FormResumenYPFBInternacional.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FormResumenYPFBInternacional.aspx.designer.cs">
+      <DependentUpon>FormResumenYPFBInternacional.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FormRuta.aspx.cs">
+      <DependentUpon>FormRuta.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FormRuta.aspx.designer.cs">
+      <DependentUpon>FormRuta.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FormRutaCorta.aspx.cs">
+      <DependentUpon>FormRutaCorta.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FormRutaCorta.aspx.designer.cs">
+      <DependentUpon>FormRutaCorta.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FormSeguroCamiones.aspx.cs">
+      <DependentUpon>FormSeguroCamiones.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FormSeguroCamiones.aspx.designer.cs">
+      <DependentUpon>FormSeguroCamiones.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FormServicios.aspx.cs">
+      <DependentUpon>FormServicios.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FormServicios.aspx.designer.cs">
+      <DependentUpon>FormServicios.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FormSolicitudPagosAceiteNuevoFormato.aspx.cs">
+      <DependentUpon>FormSolicitudPagosAceiteNuevoFormato.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FormSolicitudPagosAceiteNuevoFormato.aspx.designer.cs">
+      <DependentUpon>FormSolicitudPagosAceiteNuevoFormato.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FormSumaLiquidaciones.aspx.cs">
+      <DependentUpon>FormSumaLiquidaciones.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FormSumaLiquidaciones.aspx.designer.cs">
+      <DependentUpon>FormSumaLiquidaciones.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FormTipoCambio.aspx.cs">
+      <DependentUpon>FormTipoCambio.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FormTipoCambio.aspx.designer.cs">
+      <DependentUpon>FormTipoCambio.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FormTotalPagarCorp.aspx.cs">
+      <DependentUpon>FormTotalPagarCorp.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FormTotalPagarCorp.aspx.designer.cs">
+      <DependentUpon>FormTotalPagarCorp.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FormTotalPorPagarRef.aspx.cs">
+      <DependentUpon>FormTotalPorPagarRef.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FormTotalPorPagarRef.aspx.designer.cs">
+      <DependentUpon>FormTotalPorPagarRef.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FormTransaccion.aspx.cs">
+      <DependentUpon>FormTransaccion.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FormTransaccion.aspx.designer.cs">
+      <DependentUpon>FormTransaccion.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FormTransAdelAnt.aspx.cs">
+      <DependentUpon>FormTransAdelAnt.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FormTransAdelAnt.aspx.designer.cs">
+      <DependentUpon>FormTransAdelAnt.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FormularioPrincipal.Master.cs">
+      <DependentUpon>FormularioPrincipal.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FormularioPrincipal.Master.designer.cs">
+      <DependentUpon>FormularioPrincipal.Master</DependentUpon>
+    </Compile>
+    <Compile Include="FormVerificarFechaDescarga.aspx.cs">
+      <DependentUpon>FormVerificarFechaDescarga.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FormVerificarFechaDescarga.aspx.designer.cs">
+      <DependentUpon>FormVerificarFechaDescarga.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FormViajesAcordados.aspx.cs">
+      <DependentUpon>FormViajesAcordados.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FormViajesAcordados.aspx.designer.cs">
+      <DependentUpon>FormViajesAcordados.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FormVisualizarDim.aspx.cs">
+      <DependentUpon>FormVisualizarDim.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FormVisualizarDim.aspx.designer.cs">
+      <DependentUpon>FormVisualizarDim.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FrmImagenesAnticipo.aspx.cs">
+      <DependentUpon>FrmImagenesAnticipo.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FrmImagenesAnticipo.aspx.designer.cs">
+      <DependentUpon>FrmImagenesAnticipo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="frmImagenesCamiones.aspx.cs">
+      <DependentUpon>frmImagenesCamiones.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="frmImagenesCamiones.aspx.designer.cs">
+      <DependentUpon>frmImagenesCamiones.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FrmImagenesJoseluis.aspx.cs">
+      <DependentUpon>FrmImagenesJoseluis.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FrmImagenesJoseluis.aspx.designer.cs">
+      <DependentUpon>FrmImagenesJoseluis.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="frmInicioSesion.aspx.cs">
+      <DependentUpon>frmInicioSesion.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="frmInicioSesion.aspx.designer.cs">
+      <DependentUpon>frmInicioSesion.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FrmKilometraje.aspx.cs">
+      <DependentUpon>FrmKilometraje.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FrmKilometraje.aspx.designer.cs">
+      <DependentUpon>FrmKilometraje.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="frmLogin.aspx.cs">
+      <DependentUpon>frmLogin.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="frmLogin.aspx.designer.cs">
+      <DependentUpon>frmLogin.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="frmPrincipal.aspx.cs">
+      <DependentUpon>frmPrincipal.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="frmPrincipal.aspx.designer.cs">
+      <DependentUpon>frmPrincipal.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FrmRegistrodeEntidades.aspx.cs">
+      <DependentUpon>FrmRegistrodeEntidades.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FrmRegistrodeEntidades.aspx.designer.cs">
+      <DependentUpon>FrmRegistrodeEntidades.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="FrmImagenes.aspx.cs">
+      <DependentUpon>FrmImagenes.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FrmImagenes.aspx.designer.cs">
+      <DependentUpon>FrmImagenes.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FrmListaRutas.aspx.cs">
+      <DependentUpon>FrmListaRutas.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FrmListaRutas.aspx.designer.cs">
+      <DependentUpon>FrmListaRutas.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FrmListarColor.aspx.cs">
+      <DependentUpon>FrmListarColor.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FrmListarColor.aspx.designer.cs">
+      <DependentUpon>FrmListarColor.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FormListaConcPagarAceite.aspx.cs">
+      <DependentUpon>FormListaConcPagarAceite.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FormListaConcPagarAceite.aspx.designer.cs">
+      <DependentUpon>FormListaConcPagarAceite.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Handler1.ashx.cs">
+      <DependentUpon>Handler1.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="HandlerLiquidaciones.ashx.cs">
+      <DependentUpon>HandlerLiquidaciones.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="Models\IdentityModels.cs" />
+    <Compile Include="paginabase.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="paginaBase_2.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="ReporteProgramacionRutas.aspx.cs">
+      <DependentUpon>ReporteProgramacionRutas.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ReporteProgramacionRutas.aspx.designer.cs">
+      <DependentUpon>ReporteProgramacionRutas.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Startup.cs" />
+    <Compile Include="Utils.cs" />
+    <Compile Include="ViewSwitcher.ascx.cs">
+      <DependentUpon>ViewSwitcher.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ViewSwitcher.ascx.designer.cs">
+      <DependentUpon>ViewSwitcher.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="FormCamiones.aspx.cs">
+      <DependentUpon>FormCamiones.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FormCamiones.aspx.designer.cs">
+      <DependentUpon>FormCamiones.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="webFormReporte.aspx.cs">
+      <DependentUpon>webFormReporte.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="webFormReporte.aspx.designer.cs">
+      <DependentUpon>webFormReporte.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WebServiceTransbercam.asmx.cs">
+      <DependentUpon>WebServiceTransbercam.asmx</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="XmlUtils.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="App_Data\" />
+    <Folder Include="cssfrmMain\" />
+    <Folder Include="jsfrmMain\" />
+    <Folder Include="PlantillaLogin\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\CapaDatos\CapaDatos.csproj">
+      <Project>{6d4ea392-7c6c-42df-8f18-018087f3d3d8}</Project>
+      <Name>CapaDatos</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\CapaEntidad\CapaEntidad.csproj">
+      <Project>{0c947429-c773-482b-af2a-dba348e10418}</Project>
+      <Name>CapaEntidad</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\CapaNegocios\CapaNegocios.csproj">
+      <Project>{1bfd1c98-b9dc-4cda-bc6e-0926944914b0}</Project>
+      <Name>CapaNegocios</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="NominaWebReport3.rdlc" />
+    <Content Include="NominaWebReport4.rdlc" />
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Content Include="RepNomMont.rdlc" />
+    <Content Include="RepBercamFletRef.rdlc" />
+    <Content Include="ReportCamionConfirInternacionales.rdlc" />
+    <Content Include="ReportAnticipoConfirNoPagado.rdlc" />
+    <Content Include="ReportCamionesBercamMerma.rdlc" />
+    <Content Include="ReportCamionesBercamMermaPlaca.rdlc" />
+    <Content Include="ReportCamionesMermaGeneral.rdlc" />
+    <Content Include="ReportCamionesPlacaMermaGeneral.rdlc" />
+    <Content Include="ReportDescuentoFechaMonto.rdlc" />
+    <Content Include="ReportConcPagarRef2023.rdlc" />
+    <Content Include="ReportAdelantoPagoCuenta.rdlc" />
+    <Content Include="ReportAnticiposDeViajeCuenta.rdlc" />
+    <Content Include="ReportDetalleAdelantoDePagoCuenta.rdlc" />
+    <Content Include="ReportLiquidacionPagadaCuenta.rdlc" />
+    <EmbeddedResource Include="ReportAplicacionDim.rdlc" />
+    <EmbeddedResource Include="ReportDescargasConfirmado.rdlc" />
+    <EmbeddedResource Include="ReportNumeroViajes.rdlc" />
+    <EmbeddedResource Include="Report2.rdlc" />
+    <Content Include="ReportConciliacion.rdlc" />
+    <Content Include="ReportNomina.rdlc" />
+    <Content Include="WebReportNomina.rdlc" />
+    <Content Include="WebReportMont.rdlc" />
+    <Content Include="ReportNomDef.rdlc" />
+    <Content Include="ReportNomMonDef.rdlc" />
+    <Content Include="WebRepNomDef.rdlc" />
+    <Content Include="WebRepNomMontDef.rdlc" />
+    <Content Include="WebRepNomDef2.rdlc" />
+    <Content Include="ReportConciliacionRef.rdlc" />
+    <Content Include="ReportConciliacionPagar.rdlc" />
+    <Content Include="ReportConciliacionCorporacion.rdlc" />
+    <Content Include="ReportPagarFletCorp.rdlc" />
+    <Content Include="ReportResumenConcPeriodo.rdlc" />
+    <Content Include="ReportResumenMensualCorporacion.rdlc" />
+    <Content Include="ReportResumenYpfbRefinacion.rdlc" />
+    <Content Include="ReportResumenYpfbCorporacion.rdlc" />
+    <Content Include="ReportPorPagarPeriodo.rdlc" />
+    <Content Include="ReportTotalPagarCoorp.rdlc" />
+    <Content Include="ReportConciliacionAceite.rdlc" />
+    <Content Include="ReportDetCarroGuia.rdlc" />
+    <Content Include="ReportConciliacionCarroGuia.rdlc" />
+    <Content Include="ReportDetalleConciliacionCarroGuia.rdlc" />
+    <Content Include="ReportConciliacionPagarAceite.rdlc" />
+    <Content Include="ReportAceiteResumenFleteros.rdlc" />
+    <Content Include="ReportResumenAceite.rdlc" />
+    <Content Include="ReportResumenFleteroAceite.rdlc" />
+    <Content Include="ReportSeguroFletero.rdlc" />
+    <Content Include="ReportAnticiposDeViaje.rdlc" />
+    <Content Include="ReportAnticiposDeViajeCliente.rdlc" />
+    <Content Include="ReporteLiquidacionPagada.rdlc" />
+    <Content Include="ReportBercamCamiones.rdlc" />
+    <Content Include="ReporteViajeAnticiposViajeSinConfirmar.rdlc" />
+    <Content Include="ReportAdeltantoDePago.rdlc" />
+    <Content Include="ReportAnticiposInsertados.rdlc" />
+    <Content Include="ReportAnticiposViajeTransito.rdlc" />
+    <Content Include="ReportConciliacionAlcohol.rdlc" />
+    <Content Include="ReportAnticipoInsertadoNombre.rdlc" />
+    <Content Include="ReportAnticipoTransitoNombre.rdlc" />
+    <Content Include="ReportCamionesHabilitados.rdlc" />
+    <Content Include="ReportDetalleAdelantoPago.rdlc" />
+    <Content Include="ReportDescuento.rdlc" />
+    <Content Include="ReportAdelantoDePagoPendiente.rdlc" />
+    <EmbeddedResource Include="ReportAnticiposInsertadosVer.rdlc" />
+    <Content Include="ReportConciliacionAlcoholPeriodo.rdlc" />
+    <Content Include="ReportConciliacionPagarAlcoholPeriodo.rdlc" />
+    <Content Include="ReportAnticiposManuales.rdlc" />
+    <Content Include="ReportConcPagarDAPInter.rdlc" />
+    <Content Include="ReportCamiones60dias.rdlc" />
+    <Content Include="ReportCamionesBercamConfirmados.rdlc" />
+    <Content Include="ReportAnticipoTransitoPorNombre.rdlc" />
+    <Content Include="ReportDescuentoPorNombre.rdlc" />
+    <Content Include="ReportComparacionPagarCobrar.rdlc" />
+    <Content Include="ReportConcCobrarYPFBInter.rdlc" />
+    <Content Include="ReportConcPagarYPFBInternacional.rdlc" />
+    <EmbeddedResource Include="ReporteAnticipoViajeNoDespachado.rdlc" />
+    <Content Include="ReporteDescuentoTotal.rdlc" />
+    <EmbeddedResource Include="ReporteTotalAnticiposNoConfirmados.rdlc" />
+    <Content Include="ReportSumaLiquidaciones.rdlc" />
+    <Content Include="ReportResumenAlcoholDAP.rdlc" />
+    <Content Include="ReportResumenFletAlcohol.rdlc" />
+    <Content Include="ReportResumenFleteroCoorporacion.rdlc" />
+    <Content Include="ReportTitularBanco.rdlc" />
+    <Content Include="ReportResumenAlcoholDapCliente.rdlc" />
+    <Content Include="ReportHorarioPersona.rdlc" />
+    <Content Include="ReportResumenAlcoholPeriodoDapCliente.rdlc" />
+    <Content Include="ReportResumenPagarAlcPeriodo.rdlc" />
+    <Content Include="ReportResumenDAPInter.rdlc" />
+    <Content Include="ReportResumenFleterosDAPInter.rdlc" />
+    <EmbeddedResource Include="ReportFaltaHorario.rdlc" />
+    <Content Include="ReportHorarioFaltantes.rdlc" />
+    <Content Include="ReportTelefonoCamion.rdlc" />
+    <Content Include="ReportTelefonoGeneral.rdlc" />
+    <Content Include="ReportTelefonoLibre.rdlc" />
+    <Content Include="ReportTelefonoOcupados.rdlc" />
+    <Content Include="ReportPendientesDescuentos.rdlc" />
+    <Content Include="ReportSumaSeguros.rdlc" />
+    <Content Include="ReportPorPagarBercamLiqui.rdlc" />
+    <Content Include="ReportResumenFleterosYPFBInternacional.rdlc" />
+    <Content Include="ReportResumenYPFBInternacional.rdlc" />
+    <Content Include="ReportPendientePorPagar.rdlc" />
+    <EmbeddedResource Include="ReportReporteDim.rdlc" />
+    <EmbeddedResource Include="ReportTotalRefinacion.rdlc" />
+    <EmbeddedResource Include="ReportViewCuentasTotal.rdlc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{3259AA49-8AA1-44D3-9025-A0B520596A8C}" />
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>1570</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:1848/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

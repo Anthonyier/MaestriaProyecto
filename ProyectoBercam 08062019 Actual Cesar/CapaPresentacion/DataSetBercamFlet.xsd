@@ -1,0 +1,413 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DataSetBercamFlet" targetNamespace="http://tempuri.org/DataSetBercamFlet.xsd" xmlns:mstns="http://tempuri.org/DataSetBercamFlet.xsd" xmlns="http://tempuri.org/DataSetBercamFlet.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Web.config" AppSettingsPropertyName="bercamConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="bercamConnectionString (Web.config)" ParameterPrefix="@" PropertyReference="AppConfig.System.Configuration.ConfigurationManager.0.ConnectionStrings.bercamConnectionString.ConnectionString" Provider="System.Data.SqlClient" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="ViReportConcilPagarTableAdapter" GeneratorDataComponentClassName="ViReportConcilPagarTableAdapter" Name="ViReportConcilPagar" UserDataComponentName="ViReportConcilPagarTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="bercamConnectionString (Web.config)" DbObjectName="bercam.dbo.ViReportConcilPagar" DbObjectType="View" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="false" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="true">
+                    <CommandText>SELECT id, fleteBruto, MultaMerma, SeguroProducto, seguroRespCivil, Anticipos, CarroGuia, Servicios, TotalPagable, TotalFactura, TotalAdelantos, PorPagar, IdTitular, IdPropietario, IdPeriodo, IdAño, IdMes, DetPagar, Placa, Tipo, Prod, Inicial, 
+                  Final, De, A, VolumenDespacho, VolumenRecepcion, Balance, PorcentajeMermaAdmisible, MermaAdmisibleLts, MermaCobrableLts, MultaMermaCobrable, TotalMermaCobrable, SegProd, ResponsabilidadCivil, Tarifa, TotalAPagar, 
+                  IdDetalle, NroRecepcion, IdConcPagar, Nombres, Periodo, Año
+FROM     ViReportConcilPagar</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="id" DataSetColumn="id" />
+              <Mapping SourceColumn="fleteBruto" DataSetColumn="fleteBruto" />
+              <Mapping SourceColumn="MultaMerma" DataSetColumn="MultaMerma" />
+              <Mapping SourceColumn="SeguroProducto" DataSetColumn="SeguroProducto" />
+              <Mapping SourceColumn="seguroRespCivil" DataSetColumn="seguroRespCivil" />
+              <Mapping SourceColumn="Anticipos" DataSetColumn="Anticipos" />
+              <Mapping SourceColumn="CarroGuia" DataSetColumn="CarroGuia" />
+              <Mapping SourceColumn="Servicios" DataSetColumn="Servicios" />
+              <Mapping SourceColumn="TotalPagable" DataSetColumn="TotalPagable" />
+              <Mapping SourceColumn="TotalFactura" DataSetColumn="TotalFactura" />
+              <Mapping SourceColumn="TotalAdelantos" DataSetColumn="TotalAdelantos" />
+              <Mapping SourceColumn="PorPagar" DataSetColumn="PorPagar" />
+              <Mapping SourceColumn="IdTitular" DataSetColumn="IdTitular" />
+              <Mapping SourceColumn="IdPropietario" DataSetColumn="IdPropietario" />
+              <Mapping SourceColumn="IdPeriodo" DataSetColumn="IdPeriodo" />
+              <Mapping SourceColumn="IdAño" DataSetColumn="IdAño" />
+              <Mapping SourceColumn="IdMes" DataSetColumn="IdMes" />
+              <Mapping SourceColumn="DetPagar" DataSetColumn="DetPagar" />
+              <Mapping SourceColumn="Placa" DataSetColumn="Placa" />
+              <Mapping SourceColumn="Tipo" DataSetColumn="Tipo" />
+              <Mapping SourceColumn="Prod" DataSetColumn="Prod" />
+              <Mapping SourceColumn="Inicial" DataSetColumn="Inicial" />
+              <Mapping SourceColumn="Final" DataSetColumn="Final" />
+              <Mapping SourceColumn="De" DataSetColumn="De" />
+              <Mapping SourceColumn="A" DataSetColumn="A" />
+              <Mapping SourceColumn="VolumenDespacho" DataSetColumn="VolumenDespacho" />
+              <Mapping SourceColumn="VolumenRecepcion" DataSetColumn="VolumenRecepcion" />
+              <Mapping SourceColumn="Balance" DataSetColumn="Balance" />
+              <Mapping SourceColumn="PorcentajeMermaAdmisible" DataSetColumn="PorcentajeMermaAdmisible" />
+              <Mapping SourceColumn="MermaAdmisibleLts" DataSetColumn="MermaAdmisibleLts" />
+              <Mapping SourceColumn="MermaCobrableLts" DataSetColumn="MermaCobrableLts" />
+              <Mapping SourceColumn="MultaMermaCobrable" DataSetColumn="MultaMermaCobrable" />
+              <Mapping SourceColumn="TotalMermaCobrable" DataSetColumn="TotalMermaCobrable" />
+              <Mapping SourceColumn="SegProd" DataSetColumn="SegProd" />
+              <Mapping SourceColumn="ResponsabilidadCivil" DataSetColumn="ResponsabilidadCivil" />
+              <Mapping SourceColumn="Tarifa" DataSetColumn="Tarifa" />
+              <Mapping SourceColumn="TotalAPagar" DataSetColumn="TotalAPagar" />
+              <Mapping SourceColumn="IdDetalle" DataSetColumn="IdDetalle" />
+              <Mapping SourceColumn="NroRecepcion" DataSetColumn="NroRecepcion" />
+              <Mapping SourceColumn="IdConcPagar" DataSetColumn="IdConcPagar" />
+              <Mapping SourceColumn="Nombres" DataSetColumn="Nombres" />
+              <Mapping SourceColumn="Periodo" DataSetColumn="Periodo" />
+              <Mapping SourceColumn="Año" DataSetColumn="Año" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="ViConciliacionPagarTableAdapter" GeneratorDataComponentClassName="ViConciliacionPagarTableAdapter" Name="ViConciliacionPagar" UserDataComponentName="ViConciliacionPagarTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="bercamConnectionString (Web.config)" DbObjectName="bercam.dbo.ViConciliacionPagar" DbObjectType="View" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="false" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="true">
+                    <CommandText>SELECT id, fleteBruto, MultaMerma, SeguroProducto, seguroRespCivil, Anticipos, CarroGuia, Servicios, TotalPagable, TotalFactura, TotalAdelantos, PorPagar, IdTitular, IdPropietario, IdPeriodo, IdAño, IdMes
+FROM     ViConciliacionPagar</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="id" DataSetColumn="id" />
+              <Mapping SourceColumn="fleteBruto" DataSetColumn="fleteBruto" />
+              <Mapping SourceColumn="MultaMerma" DataSetColumn="MultaMerma" />
+              <Mapping SourceColumn="SeguroProducto" DataSetColumn="SeguroProducto" />
+              <Mapping SourceColumn="seguroRespCivil" DataSetColumn="seguroRespCivil" />
+              <Mapping SourceColumn="Anticipos" DataSetColumn="Anticipos" />
+              <Mapping SourceColumn="CarroGuia" DataSetColumn="CarroGuia" />
+              <Mapping SourceColumn="Servicios" DataSetColumn="Servicios" />
+              <Mapping SourceColumn="TotalPagable" DataSetColumn="TotalPagable" />
+              <Mapping SourceColumn="TotalFactura" DataSetColumn="TotalFactura" />
+              <Mapping SourceColumn="TotalAdelantos" DataSetColumn="TotalAdelantos" />
+              <Mapping SourceColumn="PorPagar" DataSetColumn="PorPagar" />
+              <Mapping SourceColumn="IdTitular" DataSetColumn="IdTitular" />
+              <Mapping SourceColumn="IdPropietario" DataSetColumn="IdPropietario" />
+              <Mapping SourceColumn="IdPeriodo" DataSetColumn="IdPeriodo" />
+              <Mapping SourceColumn="IdAño" DataSetColumn="IdAño" />
+              <Mapping SourceColumn="IdMes" DataSetColumn="IdMes" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="Vi_TotalConciliacionPorPagarTableAdapter" GeneratorDataComponentClassName="Vi_TotalConciliacionPorPagarTableAdapter" Name="Vi_TotalConciliacionPorPagar" UserDataComponentName="Vi_TotalConciliacionPorPagarTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="bercamConnectionString (Web.config)" DbObjectName="bercam.dbo.Vi_TotalConciliacionPorPagar" DbObjectType="View" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="false" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="true">
+                    <CommandText>SELECT VolumenDespacho, volumenRecepcion, Balance, LTS, BOB, Producto, ResponsabilidadCivil, Total, Nombres, Id
+FROM     Vi_TotalConciliacionPorPagar</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="VolumenDespacho" DataSetColumn="VolumenDespacho" />
+              <Mapping SourceColumn="volumenRecepcion" DataSetColumn="volumenRecepcion" />
+              <Mapping SourceColumn="Balance" DataSetColumn="Balance" />
+              <Mapping SourceColumn="LTS" DataSetColumn="LTS" />
+              <Mapping SourceColumn="BOB" DataSetColumn="BOB" />
+              <Mapping SourceColumn="Producto" DataSetColumn="Producto" />
+              <Mapping SourceColumn="ResponsabilidadCivil" DataSetColumn="ResponsabilidadCivil" />
+              <Mapping SourceColumn="Total" DataSetColumn="Total" />
+              <Mapping SourceColumn="Nombres" DataSetColumn="Nombres" />
+              <Mapping SourceColumn="Id" DataSetColumn="Id" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="ViDetalleServiciosTableAdapter" GeneratorDataComponentClassName="ViDetalleServiciosTableAdapter" Name="ViDetalleServicios" UserDataComponentName="ViDetalleServiciosTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="bercamConnectionString (Web.config)" DbObjectName="bercam.dbo.ViDetalleServicios" DbObjectType="View" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="false" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="true">
+                    <CommandText>SELECT Monto, Descripcion, id
+FROM     ViDetalleServicios</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="Monto" DataSetColumn="Monto" />
+              <Mapping SourceColumn="Descripcion" DataSetColumn="Descripcion" />
+              <Mapping SourceColumn="id" DataSetColumn="id" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="VistaDetalleAnticipoTableAdapter" GeneratorDataComponentClassName="VistaDetalleAnticipoTableAdapter" Name="VistaDetalleAnticipo" UserDataComponentName="VistaDetalleAnticipoTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="bercamConnectionString (Web.config)" DbObjectName="bercam.dbo.VistaDetalleAnticipo" DbObjectType="View" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="false" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="true">
+                    <CommandText>SELECT fecha, Monto, Placa, id
+FROM     VistaDetalleAnticipo</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="fecha" DataSetColumn="fecha" />
+              <Mapping SourceColumn="Monto" DataSetColumn="Monto" />
+              <Mapping SourceColumn="Placa" DataSetColumn="Placa" />
+              <Mapping SourceColumn="id" DataSetColumn="id" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="ViListaDetalleGuiaTableAdapter" GeneratorDataComponentClassName="ViListaDetalleGuiaTableAdapter" Name="ViListaDetalleGuia" UserDataComponentName="ViListaDetalleGuiaTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="bercamConnectionString (Web.config)" DbObjectName="bercam.dbo.ViListaDetalleGuia" DbObjectType="View" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="false" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="true">
+                    <CommandText>SELECT Ruta, Monto, IdPeriodo, IdAño, id, FechaCarga
+FROM     ViListaDetalleGuia</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="Ruta" DataSetColumn="Ruta" />
+              <Mapping SourceColumn="Monto" DataSetColumn="Monto" />
+              <Mapping SourceColumn="IdPeriodo" DataSetColumn="IdPeriodo" />
+              <Mapping SourceColumn="IdAño" DataSetColumn="IdAño" />
+              <Mapping SourceColumn="id" DataSetColumn="id" />
+              <Mapping SourceColumn="FechaCarga" DataSetColumn="FechaCarga" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DataSetBercamFlet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="DataSetBercamFlet" msprop:Generator_UserDSName="DataSetBercamFlet">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="ViReportConcilPagar" msprop:Generator_TableClassName="ViReportConcilPagarDataTable" msprop:Generator_TableVarName="tableViReportConcilPagar" msprop:Generator_TablePropName="ViReportConcilPagar" msprop:Generator_RowDeletingName="ViReportConcilPagarRowDeleting" msprop:Generator_RowChangingName="ViReportConcilPagarRowChanging" msprop:Generator_RowEvHandlerName="ViReportConcilPagarRowChangeEventHandler" msprop:Generator_RowDeletedName="ViReportConcilPagarRowDeleted" msprop:Generator_UserTableName="ViReportConcilPagar" msprop:Generator_RowChangedName="ViReportConcilPagarRowChanged" msprop:Generator_RowEvArgName="ViReportConcilPagarRowChangeEvent" msprop:Generator_RowClassName="ViReportConcilPagarRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="id" msprop:Generator_ColumnVarNameInTable="columnid" msprop:Generator_ColumnPropNameInRow="id" msprop:Generator_ColumnPropNameInTable="idColumn" msprop:Generator_UserColumnName="id" type="xs:int" />
+              <xs:element name="fleteBruto" msprop:Generator_ColumnVarNameInTable="columnfleteBruto" msprop:Generator_ColumnPropNameInRow="fleteBruto" msprop:Generator_ColumnPropNameInTable="fleteBrutoColumn" msprop:Generator_UserColumnName="fleteBruto" type="xs:double" />
+              <xs:element name="MultaMerma" msprop:Generator_ColumnVarNameInTable="columnMultaMerma" msprop:Generator_ColumnPropNameInRow="MultaMerma" msprop:Generator_ColumnPropNameInTable="MultaMermaColumn" msprop:Generator_UserColumnName="MultaMerma" type="xs:double" />
+              <xs:element name="SeguroProducto" msprop:Generator_ColumnVarNameInTable="columnSeguroProducto" msprop:Generator_ColumnPropNameInRow="SeguroProducto" msprop:Generator_ColumnPropNameInTable="SeguroProductoColumn" msprop:Generator_UserColumnName="SeguroProducto" type="xs:double" />
+              <xs:element name="seguroRespCivil" msprop:Generator_ColumnVarNameInTable="columnseguroRespCivil" msprop:Generator_ColumnPropNameInRow="seguroRespCivil" msprop:Generator_ColumnPropNameInTable="seguroRespCivilColumn" msprop:Generator_UserColumnName="seguroRespCivil" type="xs:double" />
+              <xs:element name="Anticipos" msprop:Generator_ColumnVarNameInTable="columnAnticipos" msprop:Generator_ColumnPropNameInRow="Anticipos" msprop:Generator_ColumnPropNameInTable="AnticiposColumn" msprop:Generator_UserColumnName="Anticipos" type="xs:double" />
+              <xs:element name="CarroGuia" msprop:Generator_ColumnVarNameInTable="columnCarroGuia" msprop:Generator_ColumnPropNameInRow="CarroGuia" msprop:Generator_ColumnPropNameInTable="CarroGuiaColumn" msprop:Generator_UserColumnName="CarroGuia" type="xs:double" />
+              <xs:element name="Servicios" msprop:Generator_ColumnVarNameInTable="columnServicios" msprop:Generator_ColumnPropNameInRow="Servicios" msprop:Generator_ColumnPropNameInTable="ServiciosColumn" msprop:Generator_UserColumnName="Servicios" type="xs:double" />
+              <xs:element name="TotalPagable" msprop:Generator_ColumnVarNameInTable="columnTotalPagable" msprop:Generator_ColumnPropNameInRow="TotalPagable" msprop:Generator_ColumnPropNameInTable="TotalPagableColumn" msprop:Generator_UserColumnName="TotalPagable" type="xs:double" />
+              <xs:element name="TotalFactura" msprop:Generator_ColumnVarNameInTable="columnTotalFactura" msprop:Generator_ColumnPropNameInRow="TotalFactura" msprop:Generator_ColumnPropNameInTable="TotalFacturaColumn" msprop:Generator_UserColumnName="TotalFactura" type="xs:double" />
+              <xs:element name="TotalAdelantos" msprop:Generator_ColumnVarNameInTable="columnTotalAdelantos" msprop:Generator_ColumnPropNameInRow="TotalAdelantos" msprop:Generator_ColumnPropNameInTable="TotalAdelantosColumn" msprop:Generator_UserColumnName="TotalAdelantos" type="xs:double" />
+              <xs:element name="PorPagar" msprop:Generator_ColumnVarNameInTable="columnPorPagar" msprop:Generator_ColumnPropNameInRow="PorPagar" msprop:Generator_ColumnPropNameInTable="PorPagarColumn" msprop:Generator_UserColumnName="PorPagar" type="xs:double" />
+              <xs:element name="IdTitular" msprop:Generator_ColumnVarNameInTable="columnIdTitular" msprop:Generator_ColumnPropNameInRow="IdTitular" msprop:Generator_ColumnPropNameInTable="IdTitularColumn" msprop:Generator_UserColumnName="IdTitular" type="xs:int" />
+              <xs:element name="IdPropietario" msprop:Generator_ColumnVarNameInTable="columnIdPropietario" msprop:Generator_ColumnPropNameInRow="IdPropietario" msprop:Generator_ColumnPropNameInTable="IdPropietarioColumn" msprop:Generator_UserColumnName="IdPropietario" type="xs:int" minOccurs="0" />
+              <xs:element name="IdPeriodo" msprop:Generator_ColumnVarNameInTable="columnIdPeriodo" msprop:Generator_ColumnPropNameInRow="IdPeriodo" msprop:Generator_ColumnPropNameInTable="IdPeriodoColumn" msprop:Generator_UserColumnName="IdPeriodo" type="xs:int" minOccurs="0" />
+              <xs:element name="IdAño" msprop:Generator_ColumnVarNameInTable="columnIdAño" msprop:Generator_ColumnPropNameInRow="IdAño" msprop:Generator_ColumnPropNameInTable="IdAñoColumn" msprop:Generator_UserColumnName="IdAño" type="xs:int" minOccurs="0" />
+              <xs:element name="IdMes" msprop:Generator_ColumnVarNameInTable="columnIdMes" msprop:Generator_ColumnPropNameInRow="IdMes" msprop:Generator_ColumnPropNameInTable="IdMesColumn" msprop:Generator_UserColumnName="IdMes" type="xs:int" minOccurs="0" />
+              <xs:element name="DetPagar" msprop:Generator_ColumnVarNameInTable="columnDetPagar" msprop:Generator_ColumnPropNameInRow="DetPagar" msprop:Generator_ColumnPropNameInTable="DetPagarColumn" msprop:Generator_UserColumnName="DetPagar" type="xs:int" />
+              <xs:element name="Placa" msprop:Generator_ColumnVarNameInTable="columnPlaca" msprop:Generator_ColumnPropNameInRow="Placa" msprop:Generator_ColumnPropNameInTable="PlacaColumn" msprop:Generator_UserColumnName="Placa" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="350" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Tipo" msprop:Generator_ColumnVarNameInTable="columnTipo" msprop:Generator_ColumnPropNameInRow="Tipo" msprop:Generator_ColumnPropNameInTable="TipoColumn" msprop:Generator_UserColumnName="Tipo" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="250" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Prod" msprop:Generator_ColumnVarNameInTable="columnProd" msprop:Generator_ColumnPropNameInRow="Prod" msprop:Generator_ColumnPropNameInTable="ProdColumn" msprop:Generator_UserColumnName="Prod" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Inicial" msprop:Generator_ColumnVarNameInTable="columnInicial" msprop:Generator_ColumnPropNameInRow="Inicial" msprop:Generator_ColumnPropNameInTable="InicialColumn" msprop:Generator_UserColumnName="Inicial" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="Final" msprop:Generator_ColumnVarNameInTable="columnFinal" msprop:Generator_ColumnPropNameInRow="Final" msprop:Generator_ColumnPropNameInTable="FinalColumn" msprop:Generator_UserColumnName="Final" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="De" msprop:Generator_ColumnVarNameInTable="columnDe" msprop:Generator_ColumnPropNameInRow="De" msprop:Generator_ColumnPropNameInTable="DeColumn" msprop:Generator_UserColumnName="De" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="250" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="A" msprop:Generator_ColumnVarNameInTable="columnA" msprop:Generator_ColumnPropNameInRow="A" msprop:Generator_ColumnPropNameInTable="AColumn" msprop:Generator_UserColumnName="A" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="250" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="VolumenDespacho" msprop:Generator_ColumnVarNameInTable="columnVolumenDespacho" msprop:Generator_ColumnPropNameInRow="VolumenDespacho" msprop:Generator_ColumnPropNameInTable="VolumenDespachoColumn" msprop:Generator_UserColumnName="VolumenDespacho" type="xs:double" minOccurs="0" />
+              <xs:element name="VolumenRecepcion" msprop:Generator_ColumnVarNameInTable="columnVolumenRecepcion" msprop:Generator_ColumnPropNameInRow="VolumenRecepcion" msprop:Generator_ColumnPropNameInTable="VolumenRecepcionColumn" msprop:Generator_UserColumnName="VolumenRecepcion" type="xs:double" minOccurs="0" />
+              <xs:element name="Balance" msprop:Generator_ColumnVarNameInTable="columnBalance" msprop:Generator_ColumnPropNameInRow="Balance" msprop:Generator_ColumnPropNameInTable="BalanceColumn" msprop:Generator_UserColumnName="Balance" type="xs:double" minOccurs="0" />
+              <xs:element name="PorcentajeMermaAdmisible" msprop:Generator_ColumnVarNameInTable="columnPorcentajeMermaAdmisible" msprop:Generator_ColumnPropNameInRow="PorcentajeMermaAdmisible" msprop:Generator_ColumnPropNameInTable="PorcentajeMermaAdmisibleColumn" msprop:Generator_UserColumnName="PorcentajeMermaAdmisible" type="xs:double" minOccurs="0" />
+              <xs:element name="MermaAdmisibleLts" msprop:Generator_ColumnVarNameInTable="columnMermaAdmisibleLts" msprop:Generator_ColumnPropNameInRow="MermaAdmisibleLts" msprop:Generator_ColumnPropNameInTable="MermaAdmisibleLtsColumn" msprop:Generator_UserColumnName="MermaAdmisibleLts" type="xs:double" minOccurs="0" />
+              <xs:element name="MermaCobrableLts" msprop:Generator_ColumnVarNameInTable="columnMermaCobrableLts" msprop:Generator_ColumnPropNameInRow="MermaCobrableLts" msprop:Generator_ColumnPropNameInTable="MermaCobrableLtsColumn" msprop:Generator_UserColumnName="MermaCobrableLts" type="xs:double" minOccurs="0" />
+              <xs:element name="MultaMermaCobrable" msprop:Generator_ColumnVarNameInTable="columnMultaMermaCobrable" msprop:Generator_ColumnPropNameInRow="MultaMermaCobrable" msprop:Generator_ColumnPropNameInTable="MultaMermaCobrableColumn" msprop:Generator_UserColumnName="MultaMermaCobrable" type="xs:double" minOccurs="0" />
+              <xs:element name="TotalMermaCobrable" msprop:Generator_ColumnVarNameInTable="columnTotalMermaCobrable" msprop:Generator_ColumnPropNameInRow="TotalMermaCobrable" msprop:Generator_ColumnPropNameInTable="TotalMermaCobrableColumn" msprop:Generator_UserColumnName="TotalMermaCobrable" type="xs:double" minOccurs="0" />
+              <xs:element name="SegProd" msprop:Generator_ColumnVarNameInTable="columnSegProd" msprop:Generator_ColumnPropNameInRow="SegProd" msprop:Generator_ColumnPropNameInTable="SegProdColumn" msprop:Generator_UserColumnName="SegProd" type="xs:double" minOccurs="0" />
+              <xs:element name="ResponsabilidadCivil" msprop:Generator_ColumnVarNameInTable="columnResponsabilidadCivil" msprop:Generator_ColumnPropNameInRow="ResponsabilidadCivil" msprop:Generator_ColumnPropNameInTable="ResponsabilidadCivilColumn" msprop:Generator_UserColumnName="ResponsabilidadCivil" type="xs:double" minOccurs="0" />
+              <xs:element name="Tarifa" msprop:Generator_ColumnVarNameInTable="columnTarifa" msprop:Generator_ColumnPropNameInRow="Tarifa" msprop:Generator_ColumnPropNameInTable="TarifaColumn" msprop:Generator_UserColumnName="Tarifa" type="xs:double" minOccurs="0" />
+              <xs:element name="TotalAPagar" msprop:Generator_ColumnVarNameInTable="columnTotalAPagar" msprop:Generator_ColumnPropNameInRow="TotalAPagar" msprop:Generator_ColumnPropNameInTable="TotalAPagarColumn" msprop:Generator_UserColumnName="TotalAPagar" type="xs:double" minOccurs="0" />
+              <xs:element name="IdDetalle" msprop:Generator_ColumnVarNameInTable="columnIdDetalle" msprop:Generator_ColumnPropNameInRow="IdDetalle" msprop:Generator_ColumnPropNameInTable="IdDetalleColumn" msprop:Generator_UserColumnName="IdDetalle" type="xs:int" minOccurs="0" />
+              <xs:element name="NroRecepcion" msprop:Generator_ColumnVarNameInTable="columnNroRecepcion" msprop:Generator_ColumnPropNameInRow="NroRecepcion" msprop:Generator_ColumnPropNameInTable="NroRecepcionColumn" msprop:Generator_UserColumnName="NroRecepcion" type="xs:int" minOccurs="0" />
+              <xs:element name="IdConcPagar" msprop:Generator_ColumnVarNameInTable="columnIdConcPagar" msprop:Generator_ColumnPropNameInRow="IdConcPagar" msprop:Generator_ColumnPropNameInTable="IdConcPagarColumn" msprop:Generator_UserColumnName="IdConcPagar" type="xs:int" minOccurs="0" />
+              <xs:element name="Nombres" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnNombres" msprop:Generator_ColumnPropNameInRow="Nombres" msprop:Generator_ColumnPropNameInTable="NombresColumn" msprop:Generator_UserColumnName="Nombres" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="201" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Periodo" msprop:Generator_ColumnVarNameInTable="columnPeriodo" msprop:Generator_ColumnPropNameInRow="Periodo" msprop:Generator_ColumnPropNameInTable="PeriodoColumn" msprop:Generator_UserColumnName="Periodo">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="250" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Año" msprop:Generator_ColumnVarNameInTable="columnAño" msprop:Generator_ColumnPropNameInRow="Año" msprop:Generator_ColumnPropNameInTable="AñoColumn" msprop:Generator_UserColumnName="Año">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="250" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="ViConciliacionPagar" msprop:Generator_TableClassName="ViConciliacionPagarDataTable" msprop:Generator_TableVarName="tableViConciliacionPagar" msprop:Generator_TablePropName="ViConciliacionPagar" msprop:Generator_RowDeletingName="ViConciliacionPagarRowDeleting" msprop:Generator_RowChangingName="ViConciliacionPagarRowChanging" msprop:Generator_RowEvHandlerName="ViConciliacionPagarRowChangeEventHandler" msprop:Generator_RowDeletedName="ViConciliacionPagarRowDeleted" msprop:Generator_UserTableName="ViConciliacionPagar" msprop:Generator_RowChangedName="ViConciliacionPagarRowChanged" msprop:Generator_RowEvArgName="ViConciliacionPagarRowChangeEvent" msprop:Generator_RowClassName="ViConciliacionPagarRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="id" msprop:Generator_ColumnVarNameInTable="columnid" msprop:Generator_ColumnPropNameInRow="id" msprop:Generator_ColumnPropNameInTable="idColumn" msprop:Generator_UserColumnName="id" type="xs:int" />
+              <xs:element name="fleteBruto" msprop:Generator_ColumnVarNameInTable="columnfleteBruto" msprop:Generator_ColumnPropNameInRow="fleteBruto" msprop:Generator_ColumnPropNameInTable="fleteBrutoColumn" msprop:Generator_UserColumnName="fleteBruto" type="xs:double" />
+              <xs:element name="MultaMerma" msprop:Generator_ColumnVarNameInTable="columnMultaMerma" msprop:Generator_ColumnPropNameInRow="MultaMerma" msprop:Generator_ColumnPropNameInTable="MultaMermaColumn" msprop:Generator_UserColumnName="MultaMerma" type="xs:double" />
+              <xs:element name="SeguroProducto" msprop:Generator_ColumnVarNameInTable="columnSeguroProducto" msprop:Generator_ColumnPropNameInRow="SeguroProducto" msprop:Generator_ColumnPropNameInTable="SeguroProductoColumn" msprop:Generator_UserColumnName="SeguroProducto" type="xs:double" />
+              <xs:element name="seguroRespCivil" msprop:Generator_ColumnVarNameInTable="columnseguroRespCivil" msprop:Generator_ColumnPropNameInRow="seguroRespCivil" msprop:Generator_ColumnPropNameInTable="seguroRespCivilColumn" msprop:Generator_UserColumnName="seguroRespCivil" type="xs:double" />
+              <xs:element name="Anticipos" msprop:Generator_ColumnVarNameInTable="columnAnticipos" msprop:Generator_ColumnPropNameInRow="Anticipos" msprop:Generator_ColumnPropNameInTable="AnticiposColumn" msprop:Generator_UserColumnName="Anticipos" type="xs:double" />
+              <xs:element name="CarroGuia" msprop:Generator_ColumnVarNameInTable="columnCarroGuia" msprop:Generator_ColumnPropNameInRow="CarroGuia" msprop:Generator_ColumnPropNameInTable="CarroGuiaColumn" msprop:Generator_UserColumnName="CarroGuia" type="xs:double" />
+              <xs:element name="Servicios" msprop:Generator_ColumnVarNameInTable="columnServicios" msprop:Generator_ColumnPropNameInRow="Servicios" msprop:Generator_ColumnPropNameInTable="ServiciosColumn" msprop:Generator_UserColumnName="Servicios" type="xs:double" />
+              <xs:element name="TotalPagable" msprop:Generator_ColumnVarNameInTable="columnTotalPagable" msprop:Generator_ColumnPropNameInRow="TotalPagable" msprop:Generator_ColumnPropNameInTable="TotalPagableColumn" msprop:Generator_UserColumnName="TotalPagable" type="xs:double" />
+              <xs:element name="TotalFactura" msprop:Generator_ColumnVarNameInTable="columnTotalFactura" msprop:Generator_ColumnPropNameInRow="TotalFactura" msprop:Generator_ColumnPropNameInTable="TotalFacturaColumn" msprop:Generator_UserColumnName="TotalFactura" type="xs:double" />
+              <xs:element name="TotalAdelantos" msprop:Generator_ColumnVarNameInTable="columnTotalAdelantos" msprop:Generator_ColumnPropNameInRow="TotalAdelantos" msprop:Generator_ColumnPropNameInTable="TotalAdelantosColumn" msprop:Generator_UserColumnName="TotalAdelantos" type="xs:double" />
+              <xs:element name="PorPagar" msprop:Generator_ColumnVarNameInTable="columnPorPagar" msprop:Generator_ColumnPropNameInRow="PorPagar" msprop:Generator_ColumnPropNameInTable="PorPagarColumn" msprop:Generator_UserColumnName="PorPagar" type="xs:double" />
+              <xs:element name="IdTitular" msprop:Generator_ColumnVarNameInTable="columnIdTitular" msprop:Generator_ColumnPropNameInRow="IdTitular" msprop:Generator_ColumnPropNameInTable="IdTitularColumn" msprop:Generator_UserColumnName="IdTitular" type="xs:int" />
+              <xs:element name="IdPropietario" msprop:Generator_ColumnVarNameInTable="columnIdPropietario" msprop:Generator_ColumnPropNameInRow="IdPropietario" msprop:Generator_ColumnPropNameInTable="IdPropietarioColumn" msprop:Generator_UserColumnName="IdPropietario" type="xs:int" minOccurs="0" />
+              <xs:element name="IdPeriodo" msprop:Generator_ColumnVarNameInTable="columnIdPeriodo" msprop:Generator_ColumnPropNameInRow="IdPeriodo" msprop:Generator_ColumnPropNameInTable="IdPeriodoColumn" msprop:Generator_UserColumnName="IdPeriodo" type="xs:int" minOccurs="0" />
+              <xs:element name="IdAño" msprop:Generator_ColumnVarNameInTable="columnIdAño" msprop:Generator_ColumnPropNameInRow="IdAño" msprop:Generator_ColumnPropNameInTable="IdAñoColumn" msprop:Generator_UserColumnName="IdAño" type="xs:int" minOccurs="0" />
+              <xs:element name="IdMes" msprop:Generator_ColumnVarNameInTable="columnIdMes" msprop:Generator_ColumnPropNameInRow="IdMes" msprop:Generator_ColumnPropNameInTable="IdMesColumn" msprop:Generator_UserColumnName="IdMes" type="xs:int" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Vi_TotalConciliacionPorPagar" msprop:Generator_TableClassName="Vi_TotalConciliacionPorPagarDataTable" msprop:Generator_TableVarName="tableVi_TotalConciliacionPorPagar" msprop:Generator_RowChangedName="Vi_TotalConciliacionPorPagarRowChanged" msprop:Generator_TablePropName="Vi_TotalConciliacionPorPagar" msprop:Generator_RowDeletingName="Vi_TotalConciliacionPorPagarRowDeleting" msprop:Generator_RowChangingName="Vi_TotalConciliacionPorPagarRowChanging" msprop:Generator_RowEvHandlerName="Vi_TotalConciliacionPorPagarRowChangeEventHandler" msprop:Generator_RowDeletedName="Vi_TotalConciliacionPorPagarRowDeleted" msprop:Generator_RowClassName="Vi_TotalConciliacionPorPagarRow" msprop:Generator_UserTableName="Vi_TotalConciliacionPorPagar" msprop:Generator_RowEvArgName="Vi_TotalConciliacionPorPagarRowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="VolumenDespacho" msprop:Generator_ColumnVarNameInTable="columnVolumenDespacho" msprop:Generator_ColumnPropNameInRow="VolumenDespacho" msprop:Generator_ColumnPropNameInTable="VolumenDespachoColumn" msprop:Generator_UserColumnName="VolumenDespacho" type="xs:double" minOccurs="0" />
+              <xs:element name="volumenRecepcion" msprop:Generator_ColumnVarNameInTable="columnvolumenRecepcion" msprop:Generator_ColumnPropNameInRow="volumenRecepcion" msprop:Generator_ColumnPropNameInTable="volumenRecepcionColumn" msprop:Generator_UserColumnName="volumenRecepcion" type="xs:double" minOccurs="0" />
+              <xs:element name="Balance" msprop:Generator_ColumnVarNameInTable="columnBalance" msprop:Generator_ColumnPropNameInRow="Balance" msprop:Generator_ColumnPropNameInTable="BalanceColumn" msprop:Generator_UserColumnName="Balance" type="xs:double" minOccurs="0" />
+              <xs:element name="LTS" msprop:Generator_ColumnVarNameInTable="columnLTS" msprop:Generator_ColumnPropNameInRow="LTS" msprop:Generator_ColumnPropNameInTable="LTSColumn" msprop:Generator_UserColumnName="LTS" type="xs:double" minOccurs="0" />
+              <xs:element name="BOB" msprop:Generator_ColumnVarNameInTable="columnBOB" msprop:Generator_ColumnPropNameInRow="BOB" msprop:Generator_ColumnPropNameInTable="BOBColumn" msprop:Generator_UserColumnName="BOB" type="xs:double" minOccurs="0" />
+              <xs:element name="Producto" msprop:Generator_ColumnVarNameInTable="columnProducto" msprop:Generator_ColumnPropNameInRow="Producto" msprop:Generator_ColumnPropNameInTable="ProductoColumn" msprop:Generator_UserColumnName="Producto" type="xs:double" minOccurs="0" />
+              <xs:element name="ResponsabilidadCivil" msprop:Generator_ColumnVarNameInTable="columnResponsabilidadCivil" msprop:Generator_ColumnPropNameInRow="ResponsabilidadCivil" msprop:Generator_ColumnPropNameInTable="ResponsabilidadCivilColumn" msprop:Generator_UserColumnName="ResponsabilidadCivil" type="xs:double" minOccurs="0" />
+              <xs:element name="Total" msprop:Generator_ColumnVarNameInTable="columnTotal" msprop:Generator_ColumnPropNameInRow="Total" msprop:Generator_ColumnPropNameInTable="TotalColumn" msprop:Generator_UserColumnName="Total" type="xs:double" minOccurs="0" />
+              <xs:element name="Nombres" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnNombres" msprop:Generator_ColumnPropNameInRow="Nombres" msprop:Generator_ColumnPropNameInTable="NombresColumn" msprop:Generator_UserColumnName="Nombres" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="201" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Id" msprop:Generator_ColumnVarNameInTable="columnId" msprop:Generator_ColumnPropNameInRow="Id" msprop:Generator_ColumnPropNameInTable="IdColumn" msprop:Generator_UserColumnName="Id" type="xs:int" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="ViDetalleServicios" msprop:Generator_TableClassName="ViDetalleServiciosDataTable" msprop:Generator_TableVarName="tableViDetalleServicios" msprop:Generator_TablePropName="ViDetalleServicios" msprop:Generator_RowDeletingName="ViDetalleServiciosRowDeleting" msprop:Generator_RowChangingName="ViDetalleServiciosRowChanging" msprop:Generator_RowEvHandlerName="ViDetalleServiciosRowChangeEventHandler" msprop:Generator_RowDeletedName="ViDetalleServiciosRowDeleted" msprop:Generator_UserTableName="ViDetalleServicios" msprop:Generator_RowChangedName="ViDetalleServiciosRowChanged" msprop:Generator_RowEvArgName="ViDetalleServiciosRowChangeEvent" msprop:Generator_RowClassName="ViDetalleServiciosRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Monto" msprop:Generator_ColumnVarNameInTable="columnMonto" msprop:Generator_ColumnPropNameInRow="Monto" msprop:Generator_ColumnPropNameInTable="MontoColumn" msprop:Generator_UserColumnName="Monto" type="xs:double" minOccurs="0" />
+              <xs:element name="Descripcion" msprop:Generator_ColumnVarNameInTable="columnDescripcion" msprop:Generator_ColumnPropNameInRow="Descripcion" msprop:Generator_ColumnPropNameInTable="DescripcionColumn" msprop:Generator_UserColumnName="Descripcion">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="250" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="id" msprop:Generator_ColumnVarNameInTable="columnid" msprop:Generator_ColumnPropNameInRow="id" msprop:Generator_ColumnPropNameInTable="idColumn" msprop:Generator_UserColumnName="id" type="xs:int" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="VistaDetalleAnticipo" msprop:Generator_TableClassName="VistaDetalleAnticipoDataTable" msprop:Generator_TableVarName="tableVistaDetalleAnticipo" msprop:Generator_RowChangedName="VistaDetalleAnticipoRowChanged" msprop:Generator_TablePropName="VistaDetalleAnticipo" msprop:Generator_RowDeletingName="VistaDetalleAnticipoRowDeleting" msprop:Generator_RowChangingName="VistaDetalleAnticipoRowChanging" msprop:Generator_RowEvHandlerName="VistaDetalleAnticipoRowChangeEventHandler" msprop:Generator_RowDeletedName="VistaDetalleAnticipoRowDeleted" msprop:Generator_RowClassName="VistaDetalleAnticipoRow" msprop:Generator_UserTableName="VistaDetalleAnticipo" msprop:Generator_RowEvArgName="VistaDetalleAnticipoRowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="fecha" msprop:Generator_ColumnVarNameInTable="columnfecha" msprop:Generator_ColumnPropNameInRow="fecha" msprop:Generator_ColumnPropNameInTable="fechaColumn" msprop:Generator_UserColumnName="fecha" type="xs:dateTime" />
+              <xs:element name="Monto" msprop:Generator_ColumnVarNameInTable="columnMonto" msprop:Generator_ColumnPropNameInRow="Monto" msprop:Generator_ColumnPropNameInTable="MontoColumn" msprop:Generator_UserColumnName="Monto" type="xs:double" />
+              <xs:element name="Placa" msprop:Generator_ColumnVarNameInTable="columnPlaca" msprop:Generator_ColumnPropNameInRow="Placa" msprop:Generator_ColumnPropNameInTable="PlacaColumn" msprop:Generator_UserColumnName="Placa" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="150" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="id" msprop:Generator_ColumnVarNameInTable="columnid" msprop:Generator_ColumnPropNameInRow="id" msprop:Generator_ColumnPropNameInTable="idColumn" msprop:Generator_UserColumnName="id" type="xs:int" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="ViListaDetalleGuia" msprop:Generator_TableClassName="ViListaDetalleGuiaDataTable" msprop:Generator_TableVarName="tableViListaDetalleGuia" msprop:Generator_RowChangedName="ViListaDetalleGuiaRowChanged" msprop:Generator_TablePropName="ViListaDetalleGuia" msprop:Generator_RowDeletingName="ViListaDetalleGuiaRowDeleting" msprop:Generator_RowChangingName="ViListaDetalleGuiaRowChanging" msprop:Generator_RowEvHandlerName="ViListaDetalleGuiaRowChangeEventHandler" msprop:Generator_RowDeletedName="ViListaDetalleGuiaRowDeleted" msprop:Generator_RowClassName="ViListaDetalleGuiaRow" msprop:Generator_UserTableName="ViListaDetalleGuia" msprop:Generator_RowEvArgName="ViListaDetalleGuiaRowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Ruta" msprop:Generator_ColumnVarNameInTable="columnRuta" msprop:Generator_ColumnPropNameInRow="Ruta" msprop:Generator_ColumnPropNameInTable="RutaColumn" msprop:Generator_UserColumnName="Ruta" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="250" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Monto" msprop:Generator_ColumnVarNameInTable="columnMonto" msprop:Generator_ColumnPropNameInRow="Monto" msprop:Generator_ColumnPropNameInTable="MontoColumn" msprop:Generator_UserColumnName="Monto" type="xs:double" minOccurs="0" />
+              <xs:element name="IdPeriodo" msprop:Generator_ColumnVarNameInTable="columnIdPeriodo" msprop:Generator_ColumnPropNameInRow="IdPeriodo" msprop:Generator_ColumnPropNameInTable="IdPeriodoColumn" msprop:Generator_UserColumnName="IdPeriodo" type="xs:int" minOccurs="0" />
+              <xs:element name="IdAño" msprop:Generator_ColumnVarNameInTable="columnIdAño" msprop:Generator_ColumnPropNameInRow="IdAño" msprop:Generator_ColumnPropNameInTable="IdAñoColumn" msprop:Generator_UserColumnName="IdAño" type="xs:int" minOccurs="0" />
+              <xs:element name="id" msprop:Generator_ColumnVarNameInTable="columnid" msprop:Generator_ColumnPropNameInRow="id" msprop:Generator_ColumnPropNameInTable="idColumn" msprop:Generator_UserColumnName="id" type="xs:int" />
+              <xs:element name="FechaCarga" msprop:Generator_ColumnVarNameInTable="columnFechaCarga" msprop:Generator_ColumnPropNameInRow="FechaCarga" msprop:Generator_ColumnPropNameInTable="FechaCargaColumn" msprop:Generator_UserColumnName="FechaCarga" type="xs:dateTime" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:ViConciliacionPagar" />
+      <xs:field xpath="mstns:id" />
+    </xs:unique>
+    <xs:unique name="Vi_TotalConciliacionPorPagar_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:Vi_TotalConciliacionPorPagar" />
+      <xs:field xpath="mstns:Id" />
+    </xs:unique>
+    <xs:unique name="ViDetalleServicios_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:ViDetalleServicios" />
+      <xs:field xpath="mstns:id" />
+    </xs:unique>
+    <xs:unique name="VistaDetalleAnticipo_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:VistaDetalleAnticipo" />
+      <xs:field xpath="mstns:id" />
+    </xs:unique>
+    <xs:unique name="ViListaDetalleGuia_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:ViListaDetalleGuia" />
+      <xs:field xpath="mstns:id" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>

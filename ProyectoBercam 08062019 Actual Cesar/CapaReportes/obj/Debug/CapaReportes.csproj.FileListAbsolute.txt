@@ -1,0 +1,198 @@
+C:\Users\anthony\Desktop\Desarrollo Sys Bercam\Codigos\ProyectoBERCAM 09082018\ProyectoBercam 14062018\CapaReportes\obj\Debug\CapaReportes.csprojResolveAssemblyReference.cache
+C:\Users\anthony\Desktop\Desarrollo Sys Bercam\Codigos\ProyectoBERCAM 09082018\ProyectoBercam 14062018\CapaReportes\obj\Debug\RdlCompile.cache
+C:\Users\anthony\Desktop\Desarrollo Sys Bercam\Codigos\ProyectoBERCAM 09082018\ProyectoBercam 14062018\CapaReportes\obj\Debug\RdlCompile.compiled
+C:\Users\anthony\Desktop\Desarrollo Sys Bercam\Codigos\ProyectoBercam 18122018 Actual Cesar\CapaReportes\obj\Debug\CapaReportes.csprojResolveAssemblyReference.cache
+C:\Users\anthony\Desktop\Desarrollo Sys Bercam\Codigos\ProyectoBercam 18122018 Actual Cesar\CapaReportes\obj\Debug\RdlCompile.cache
+C:\Users\anthony\Desktop\Desarrollo Sys Bercam\Codigos\ProyectoBercam 18122018 Actual Cesar\CapaReportes\obj\Debug\RdlCompile.compiled
+C:\Users\anthony\Desktop\Desarrollo Sys Bercam\Codigos\ProyectoBercam 28012019 Actual Cesar\CapaReportes\obj\Debug\CapaReportes.csprojResolveAssemblyReference.cache
+C:\Users\anthony\Desktop\Desarrollo Sys Bercam\Codigos\ProyectoBercam 28012019 Actual Cesar\CapaReportes\obj\Debug\RdlCompile.cache
+C:\Users\anthony\Desktop\Desarrollo Sys Bercam\Codigos\ProyectoBercam 28012019 Actual Cesar\CapaReportes\obj\Debug\RdlCompile.compiled
+C:\Users\anthony\Desktop\Desarrollo Sys Bercam\Codigos\ProyectoBercam 10042019 Actual Cesar\CapaReportes\obj\Debug\CapaReportes.csprojResolveAssemblyReference.cache
+C:\Users\anthony\Desktop\Desarrollo Sys Bercam\Codigos\ProyectoBercam 10042019 Actual Cesar\CapaReportes\obj\Debug\RdlCompile.cache
+C:\Users\anthony\Desktop\Desarrollo Sys Bercam\Codigos\ProyectoBercam 10042019 Actual Cesar\CapaReportes\obj\Debug\RdlCompile.compiled
+C:\Users\Usuario\Desktop\Systemas ANthony\ProyectoBercam 08062019 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaReportes\obj\Debug\CapaReportes.csprojResolveAssemblyReference.cache
+C:\Users\Usuario\Desktop\Systemas ANthony\ProyectoBercam 08062019 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaReportes\bin\CapaReportes.dll.config
+C:\Users\Usuario\Desktop\Systemas ANthony\ProyectoBercam 08062019 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaReportes\bin\CapaReportes.dll
+C:\Users\Usuario\Desktop\Systemas ANthony\ProyectoBercam 08062019 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaReportes\bin\CapaReportes.pdb
+C:\Users\Usuario\Desktop\Systemas ANthony\ProyectoBercam 08062019 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaReportes\obj\Debug\CapaReportes.dll
+C:\Users\Usuario\Desktop\Systemas ANthony\ProyectoBercam 08062019 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaReportes\obj\Debug\CapaReportes.pdb
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 08062019 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaReportes\bin\CapaReportes.dll.config
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 08062019 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaReportes\bin\CapaReportes.dll
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 08062019 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaReportes\bin\CapaReportes.pdb
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 08062019 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaReportes\obj\Debug\CapaReportes.csprojResolveAssemblyReference.cache
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 08062019 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaReportes\obj\Debug\CapaReportes.dll
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 08062019 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaReportes\obj\Debug\CapaReportes.pdb
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 31082019 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaReportes\bin\CapaReportes.dll.config
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 31082019 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaReportes\bin\CapaReportes.dll
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 31082019 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaReportes\bin\CapaReportes.pdb
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 31082019 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaReportes\obj\Debug\CapaReportes.csprojResolveAssemblyReference.cache
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 31082019 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaReportes\obj\Debug\CapaReportes.dll
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 31082019 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaReportes\obj\Debug\CapaReportes.pdb
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 17092019 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaReportes\bin\CapaReportes.dll.config
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 17092019 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaReportes\bin\CapaReportes.dll
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 17092019 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaReportes\bin\CapaReportes.pdb
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 17092019 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaReportes\obj\Debug\CapaReportes.csprojResolveAssemblyReference.cache
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 17092019 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaReportes\obj\Debug\CapaReportes.dll
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 17092019 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaReportes\obj\Debug\CapaReportes.pdb
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 28092019 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaReportes\bin\CapaReportes.dll.config
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 28092019 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaReportes\bin\CapaReportes.dll
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 28092019 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaReportes\bin\CapaReportes.pdb
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 28092019 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaReportes\obj\Debug\CapaReportes.csprojResolveAssemblyReference.cache
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 28092019 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaReportes\obj\Debug\CapaReportes.dll
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 28092019 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaReportes\obj\Debug\CapaReportes.pdb
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 7112019 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaReportes\bin\CapaReportes.dll.config
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 7112019 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaReportes\bin\CapaReportes.dll
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 7112019 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaReportes\bin\CapaReportes.pdb
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 7112019 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaReportes\obj\Debug\CapaReportes.csprojResolveAssemblyReference.cache
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 7112019 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaReportes\obj\Debug\CapaReportes.dll
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 7112019 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaReportes\obj\Debug\CapaReportes.pdb
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 20112019 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaReportes\bin\CapaReportes.dll.config
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 20112019 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaReportes\bin\CapaReportes.dll
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 20112019 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaReportes\bin\CapaReportes.pdb
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 20112019 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaReportes\obj\Debug\CapaReportes.csprojResolveAssemblyReference.cache
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 20112019 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaReportes\obj\Debug\CapaReportes.dll
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 20112019 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaReportes\obj\Debug\CapaReportes.pdb
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 28122019 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaReportes\bin\CapaReportes.dll.config
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 28122019 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaReportes\bin\CapaReportes.dll
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 28122019 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaReportes\bin\CapaReportes.pdb
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 28122019 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaReportes\obj\Debug\CapaReportes.csprojResolveAssemblyReference.cache
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 28122019 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaReportes\obj\Debug\CapaReportes.dll
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 28122019 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaReportes\obj\Debug\CapaReportes.pdb
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 24012020 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaReportes\bin\CapaReportes.dll.config
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 24012020 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaReportes\bin\CapaReportes.dll
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 24012020 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaReportes\bin\CapaReportes.pdb
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 24012020 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaReportes\obj\Debug\CapaReportes.csprojResolveAssemblyReference.cache
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 24012020 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaReportes\obj\Debug\CapaReportes.dll
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 24012020 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaReportes\obj\Debug\CapaReportes.pdb
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 3022020 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaReportes\bin\CapaReportes.dll.config
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 3022020 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaReportes\bin\CapaReportes.dll
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 3022020 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaReportes\bin\CapaReportes.pdb
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 3022020 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaReportes\obj\Debug\CapaReportes.csprojResolveAssemblyReference.cache
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 3022020 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaReportes\obj\Debug\CapaReportes.dll
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 3022020 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaReportes\obj\Debug\CapaReportes.pdb
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 21022020 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaReportes\bin\CapaReportes.dll.config
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 21022020 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaReportes\bin\CapaReportes.dll
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 21022020 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaReportes\bin\CapaReportes.pdb
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 21022020 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaReportes\obj\Debug\CapaReportes.csprojResolveAssemblyReference.cache
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 21022020 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaReportes\obj\Debug\CapaReportes.dll
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 21022020 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaReportes\obj\Debug\CapaReportes.pdb
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 03032020 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaReportes\bin\CapaReportes.dll.config
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 03032020 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaReportes\bin\CapaReportes.dll
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 03032020 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaReportes\bin\CapaReportes.pdb
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 03032020 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaReportes\obj\Debug\CapaReportes.csprojResolveAssemblyReference.cache
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 03032020 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaReportes\obj\Debug\CapaReportes.dll
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 03032020 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaReportes\obj\Debug\CapaReportes.pdb
+D:\datos c\Desktop\Systemas ANthony\ProyectoBercam 23042020 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaReportes\bin\CapaReportes.dll.config
+D:\datos c\Desktop\Systemas ANthony\ProyectoBercam 23042020 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaReportes\bin\CapaReportes.dll
+D:\datos c\Desktop\Systemas ANthony\ProyectoBercam 23042020 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaReportes\bin\CapaReportes.pdb
+D:\datos c\Desktop\Systemas ANthony\ProyectoBercam 23042020 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaReportes\obj\Debug\CapaReportes.csprojResolveAssemblyReference.cache
+D:\datos c\Desktop\Systemas ANthony\ProyectoBercam 23042020 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaReportes\obj\Debug\CapaReportes.dll
+D:\datos c\Desktop\Systemas ANthony\ProyectoBercam 23042020 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaReportes\obj\Debug\CapaReportes.pdb
+D:\datos c\Desktop\Systemas ANthony\ProyectoBercam 07052020 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaReportes\bin\CapaReportes.dll.config
+D:\datos c\Desktop\Systemas ANthony\ProyectoBercam 07052020 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaReportes\bin\CapaReportes.dll
+D:\datos c\Desktop\Systemas ANthony\ProyectoBercam 07052020 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaReportes\bin\CapaReportes.pdb
+D:\datos c\Desktop\Systemas ANthony\ProyectoBercam 07052020 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaReportes\obj\Debug\CapaReportes.csprojResolveAssemblyReference.cache
+D:\datos c\Desktop\Systemas ANthony\ProyectoBercam 07052020 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaReportes\obj\Debug\CapaReportes.dll
+D:\datos c\Desktop\Systemas ANthony\ProyectoBercam 07052020 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaReportes\obj\Debug\CapaReportes.pdb
+D:\datos c\Desktop\Systemas ANthony\ProyectoBercam 08052020 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaReportes\bin\CapaReportes.dll.config
+D:\datos c\Desktop\Systemas ANthony\ProyectoBercam 08052020 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaReportes\bin\CapaReportes.dll
+D:\datos c\Desktop\Systemas ANthony\ProyectoBercam 08052020 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaReportes\bin\CapaReportes.pdb
+D:\datos c\Desktop\Systemas ANthony\ProyectoBercam 08052020 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaReportes\obj\Debug\CapaReportes.csprojResolveAssemblyReference.cache
+D:\datos c\Desktop\Systemas ANthony\ProyectoBercam 08052020 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaReportes\obj\Debug\CapaReportes.dll
+D:\datos c\Desktop\Systemas ANthony\ProyectoBercam 08052020 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaReportes\obj\Debug\CapaReportes.pdb
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 18052020 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaReportes\bin\CapaReportes.dll.config
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 18052020 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaReportes\bin\CapaReportes.dll
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 18052020 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaReportes\bin\CapaReportes.pdb
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 18052020 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaReportes\obj\Debug\CapaReportes.csprojResolveAssemblyReference.cache
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 18052020 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaReportes\obj\Debug\CapaReportes.dll
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 18052020 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaReportes\obj\Debug\CapaReportes.pdb
+D:\datos c\Desktop\Systemas ANthony\ProyectoBercam 16062020 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaReportes\bin\CapaReportes.dll.config
+D:\datos c\Desktop\Systemas ANthony\ProyectoBercam 16062020 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaReportes\bin\CapaReportes.dll
+D:\datos c\Desktop\Systemas ANthony\ProyectoBercam 16062020 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaReportes\bin\CapaReportes.pdb
+D:\datos c\Desktop\Systemas ANthony\ProyectoBercam 16062020 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaReportes\obj\Debug\CapaReportes.csprojResolveAssemblyReference.cache
+D:\datos c\Desktop\Systemas ANthony\ProyectoBercam 16062020 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaReportes\obj\Debug\CapaReportes.dll
+D:\datos c\Desktop\Systemas ANthony\ProyectoBercam 16062020 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaReportes\obj\Debug\CapaReportes.pdb
+D:\datos c\Desktop\Systemas ANthony\ProyectoBercam 1072020 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaReportes\bin\CapaReportes.dll.config
+D:\datos c\Desktop\Systemas ANthony\ProyectoBercam 1072020 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaReportes\bin\CapaReportes.dll
+D:\datos c\Desktop\Systemas ANthony\ProyectoBercam 1072020 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaReportes\bin\CapaReportes.pdb
+D:\datos c\Desktop\Systemas ANthony\ProyectoBercam 1072020 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaReportes\obj\Debug\CapaReportes.csprojResolveAssemblyReference.cache
+D:\datos c\Desktop\Systemas ANthony\ProyectoBercam 1072020 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaReportes\obj\Debug\CapaReportes.dll
+D:\datos c\Desktop\Systemas ANthony\ProyectoBercam 1072020 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaReportes\obj\Debug\CapaReportes.pdb
+D:\datos c\Desktop\Systemas ANthony\ProyectoBercam 3072020 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaReportes\bin\CapaReportes.dll.config
+D:\datos c\Desktop\Systemas ANthony\ProyectoBercam 3072020 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaReportes\bin\CapaReportes.dll
+D:\datos c\Desktop\Systemas ANthony\ProyectoBercam 3072020 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaReportes\bin\CapaReportes.pdb
+D:\datos c\Desktop\Systemas ANthony\ProyectoBercam 3072020 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaReportes\obj\Debug\CapaReportes.csprojResolveAssemblyReference.cache
+D:\datos c\Desktop\Systemas ANthony\ProyectoBercam 3072020 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaReportes\obj\Debug\CapaReportes.dll
+D:\datos c\Desktop\Systemas ANthony\ProyectoBercam 3072020 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaReportes\obj\Debug\CapaReportes.pdb
+D:\datos c\Desktop\Systemas ANthony\ProyectoBercam 16072020 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaReportes\bin\CapaReportes.dll.config
+D:\datos c\Desktop\Systemas ANthony\ProyectoBercam 16072020 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaReportes\bin\CapaReportes.dll
+D:\datos c\Desktop\Systemas ANthony\ProyectoBercam 16072020 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaReportes\bin\CapaReportes.pdb
+D:\datos c\Desktop\Systemas ANthony\ProyectoBercam 16072020 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaReportes\obj\Debug\CapaReportes.csprojResolveAssemblyReference.cache
+D:\datos c\Desktop\Systemas ANthony\ProyectoBercam 16072020 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaReportes\obj\Debug\CapaReportes.dll
+D:\datos c\Desktop\Systemas ANthony\ProyectoBercam 16072020 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaReportes\obj\Debug\CapaReportes.pdb
+D:\datos c\Desktop\Systemas ANthony\ProyectoBercam 20072020 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaReportes\bin\CapaReportes.dll.config
+D:\datos c\Desktop\Systemas ANthony\ProyectoBercam 20072020 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaReportes\bin\CapaReportes.dll
+D:\datos c\Desktop\Systemas ANthony\ProyectoBercam 20072020 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaReportes\bin\CapaReportes.pdb
+D:\datos c\Desktop\Systemas ANthony\ProyectoBercam 20072020 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaReportes\obj\Debug\CapaReportes.csprojResolveAssemblyReference.cache
+D:\datos c\Desktop\Systemas ANthony\ProyectoBercam 20072020 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaReportes\obj\Debug\CapaReportes.dll
+D:\datos c\Desktop\Systemas ANthony\ProyectoBercam 20072020 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaReportes\obj\Debug\CapaReportes.pdb
+D:\datos c\Desktop\Systemas ANthony\ProyectoBercam 01092020 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaReportes\bin\CapaReportes.dll.config
+D:\datos c\Desktop\Systemas ANthony\ProyectoBercam 01092020 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaReportes\bin\CapaReportes.dll
+D:\datos c\Desktop\Systemas ANthony\ProyectoBercam 01092020 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaReportes\bin\CapaReportes.pdb
+D:\datos c\Desktop\Systemas ANthony\ProyectoBercam 01092020 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaReportes\obj\Debug\CapaReportes.csprojResolveAssemblyReference.cache
+D:\datos c\Desktop\Systemas ANthony\ProyectoBercam 01092020 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaReportes\obj\Debug\CapaReportes.dll
+D:\datos c\Desktop\Systemas ANthony\ProyectoBercam 01092020 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaReportes\obj\Debug\CapaReportes.pdb
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 11092020 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaReportes\bin\CapaReportes.dll.config
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 11092020 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaReportes\bin\CapaReportes.dll
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 11092020 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaReportes\bin\CapaReportes.pdb
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 11092020 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaReportes\obj\Debug\CapaReportes.csprojResolveAssemblyReference.cache
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 11092020 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaReportes\obj\Debug\CapaReportes.dll
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 11092020 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaReportes\obj\Debug\CapaReportes.pdb
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 13102020 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaReportes\bin\CapaReportes.dll.config
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 13102020 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaReportes\bin\CapaReportes.dll
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 13102020 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaReportes\bin\CapaReportes.pdb
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 13102020 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaReportes\obj\Debug\CapaReportes.csprojResolveAssemblyReference.cache
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 13102020 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaReportes\obj\Debug\CapaReportes.dll
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 13102020 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaReportes\obj\Debug\CapaReportes.pdb
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 24112020 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaReportes\bin\CapaReportes.dll.config
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 24112020 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaReportes\bin\CapaReportes.dll
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 24112020 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaReportes\bin\CapaReportes.pdb
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 24112020 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaReportes\obj\Debug\CapaReportes.csprojResolveAssemblyReference.cache
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 24112020 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaReportes\obj\Debug\CapaReportes.dll
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 24112020 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaReportes\obj\Debug\CapaReportes.pdb
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 25012021 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaReportes\bin\CapaReportes.dll.config
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 25012021 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaReportes\bin\CapaReportes.dll
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 25012021 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaReportes\bin\CapaReportes.pdb
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 25012021 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaReportes\obj\Debug\CapaReportes.csprojResolveAssemblyReference.cache
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 25012021 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaReportes\obj\Debug\CapaReportes.dll
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 25012021 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaReportes\obj\Debug\CapaReportes.pdb
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 30062021 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaReportes\bin\CapaReportes.dll.config
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 30062021 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaReportes\bin\CapaReportes.dll
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 30062021 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaReportes\bin\CapaReportes.pdb
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 30062021 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaReportes\obj\Debug\CapaReportes.csprojResolveAssemblyReference.cache
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 30062021 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaReportes\obj\Debug\CapaReportes.dll
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 30062021 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaReportes\obj\Debug\CapaReportes.pdb
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 15022022 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaReportes\bin\CapaReportes.dll.config
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 15022022 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaReportes\bin\CapaReportes.dll
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 15022022 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaReportes\bin\CapaReportes.pdb
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 15022022 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaReportes\obj\Debug\CapaReportes.csprojResolveAssemblyReference.cache
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 15022022 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaReportes\obj\Debug\CapaReportes.dll
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 15022022 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaReportes\obj\Debug\CapaReportes.pdb
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 30082022 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaReportes\bin\CapaReportes.dll.config
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 30082022 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaReportes\bin\CapaReportes.dll
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 30082022 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaReportes\bin\CapaReportes.pdb
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 30082022 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaReportes\obj\Debug\CapaReportes.csprojResolveAssemblyReference.cache
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 30082022 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaReportes\obj\Debug\CapaReportes.dll
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 30082022 Actual Cesar\ProyectoBercam 08062019 Actual Cesar\CapaReportes\obj\Debug\CapaReportes.pdb
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 16022023\ProyectoBercam 08062019 Actual Cesar\CapaReportes\bin\CapaReportes.dll.config
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 16022023\ProyectoBercam 08062019 Actual Cesar\CapaReportes\bin\CapaReportes.dll
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 16022023\ProyectoBercam 08062019 Actual Cesar\CapaReportes\bin\CapaReportes.pdb
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 16022023\ProyectoBercam 08062019 Actual Cesar\CapaReportes\obj\Debug\CapaReportes.csprojResolveAssemblyReference.cache
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 16022023\ProyectoBercam 08062019 Actual Cesar\CapaReportes\obj\Debug\CapaReportes.dll
+C:\Users\pc\Desktop\Systemas ANthony\ProyectoBercam 16022023\ProyectoBercam 08062019 Actual Cesar\CapaReportes\obj\Debug\CapaReportes.pdb
+D:\datos c\Desktop\Systemas ANthony\ProyectoBercam 20052023\ProyectoBercam 08062019 Actual Cesar\CapaReportes\bin\CapaReportes.dll.config
+D:\datos c\Desktop\Systemas ANthony\ProyectoBercam 20052023\ProyectoBercam 08062019 Actual Cesar\CapaReportes\bin\CapaReportes.dll
+D:\datos c\Desktop\Systemas ANthony\ProyectoBercam 20052023\ProyectoBercam 08062019 Actual Cesar\CapaReportes\bin\CapaReportes.pdb
+D:\datos c\Desktop\Systemas ANthony\ProyectoBercam 20052023\ProyectoBercam 08062019 Actual Cesar\CapaReportes\obj\Debug\CapaReportes.csprojResolveAssemblyReference.cache
+D:\datos c\Desktop\Systemas ANthony\ProyectoBercam 20052023\ProyectoBercam 08062019 Actual Cesar\CapaReportes\obj\Debug\CapaReportes.dll
+D:\datos c\Desktop\Systemas ANthony\ProyectoBercam 20052023\ProyectoBercam 08062019 Actual Cesar\CapaReportes\obj\Debug\CapaReportes.pdb

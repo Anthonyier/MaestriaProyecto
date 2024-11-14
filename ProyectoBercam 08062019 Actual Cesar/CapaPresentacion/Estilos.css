@@ -1,0 +1,141 @@
+﻿body {
+    margin:0;
+    padding:0;
+    color:#555;
+    font-size: 9px;
+    line-height: 17px;
+    font-family: "Calibri";
+    background-color:#fff;
+    background-position: center top;
+    background-repeat: no-repeat;
+    height: 100%;
+}
+
+h2{
+    text-align: center;
+}
+
+a, a:link, a:visited {
+    color: #990000;
+    font-weight: normal;
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+#abrigo_general{
+    width: 100%;
+    height: 100%;
+    margin: 0.2cm auto;
+}
+
+#content_login{
+    margin-top: 980px;
+    overflow: hidden;
+    width: 800px;
+    position: relative;
+    padding-bottom: 10px;
+}
+
+#banner{
+    background: url(Bercam/imgBannerBercam.jpg);
+    height: 140px;
+
+}
+
+#contenido_izquierdo{
+    float: left;
+    width: 220px;
+    height: 800px;
+    overflow-y: scroll;
+    text-align: center;
+    margin-left: 5px;
+}
+
+#contenido_izquierdo .etiqueta
+{
+    float: left;
+    width: 170px;
+    height: 20px;
+    text-align: left;
+    margin-left: 5px;
+
+}
+#contenido_derecho
+{
+    float: left;
+    width: 600px;
+    height: 400px;
+    overflow-y: scroll;
+    text-align: center;
+    margin-left: 5px;
+    
+}
+
+#contenido_der{
+    float:left;
+    width:750px;
+    height:800px;
+    overflow-y:scroll;
+    margin-left:10px;
+}
+#contenido_main{
+    float:left;
+    width:1000px;
+    height:800px;
+    overflow-y:scroll;
+    margin-left:10px;
+}
+#contenido_mainTop{
+    float:left;
+    width:1000px;
+    height:120px;
+    overflow-y:scroll;
+    margin-left:10px;
+}
+.alinear
+{
+    text-align: left;
+}
+
+#abrigo_formulario
+{
+    float: left;
+    width: 1220px;
+    height: 2000px;
+    margin-left: 20px;
+    font-size: xx-small;
+
+
+}
+#abrigo_form
+{
+    float: left;
+    width: 750px;
+    height: 750px;
+    margin-left: 100px;
+
+}
+#abrigo_formConc
+{
+    float: left;
+    width: 1000px;
+    height: 800px;
+    margin-left: 10px;
+
+}
+#imgDoc
+{
+    float: left;
+    width:1000px;
+    height:800px;
+    margin-left: 30px;
+}
+
+h3 
+{
+font-size:12px;
+text-align: left;
+}

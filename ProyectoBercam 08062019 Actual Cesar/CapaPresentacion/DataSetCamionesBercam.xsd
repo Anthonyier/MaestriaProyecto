@@ -1,0 +1,995 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DataSetCamionesBercam" targetNamespace="http://tempuri.org/DataSetCamionesBercam.xsd" xmlns:mstns="http://tempuri.org/DataSetCamionesBercam.xsd" xmlns="http://tempuri.org/DataSetCamionesBercam.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Web.config" AppSettingsPropertyName="bercamConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="bercamConnectionString (Web.config)" ParameterPrefix="@" PropertyReference="AppConfig.System.Configuration.ConfigurationManager.0.ConnectionStrings.bercamConnectionString.ConnectionString" Provider="System.Data.SqlClient" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="ListaConciliacionesCamionesBercamTableAdapter" GeneratorDataComponentClassName="ListaConciliacionesCamionesBercamTableAdapter" Name="ListaConciliacionesCamionesBercam" UserDataComponentName="ListaConciliacionesCamionesBercamTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="bercamConnectionString (Web.config)" DbObjectName="bercam.dbo.ListaConciliacionesCamionesBercam" DbObjectType="View" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="false" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="true">
+                    <CommandText>SELECT ListaConciliacionesCamionesBercam.*
+FROM     ListaConciliacionesCamionesBercam</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="FleteBruto" DataSetColumn="FleteBruto" />
+              <Mapping SourceColumn="MultaMerma" DataSetColumn="MultaMerma" />
+              <Mapping SourceColumn="SeguroProducto" DataSetColumn="SeguroProducto" />
+              <Mapping SourceColumn="SeguroRespCivil" DataSetColumn="SeguroRespCivil" />
+              <Mapping SourceColumn="Anticipos" DataSetColumn="Anticipos" />
+              <Mapping SourceColumn="CarroGuia" DataSetColumn="CarroGuia" />
+              <Mapping SourceColumn="Servicios" DataSetColumn="Servicios" />
+              <Mapping SourceColumn="Multa" DataSetColumn="Multa" />
+              <Mapping SourceColumn="TotalPagable" DataSetColumn="TotalPagable" />
+              <Mapping SourceColumn="IdPeriodo" DataSetColumn="IdPeriodo" />
+              <Mapping SourceColumn="IdMes" DataSetColumn="IdMes" />
+              <Mapping SourceColumn="IdAño" DataSetColumn="IdAño" />
+              <Mapping SourceColumn="IdConcPagar" DataSetColumn="IdConcPagar" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="ProcBercamCamionesTableAdapter" GeneratorDataComponentClassName="ProcBercamCamionesTableAdapter" Name="ProcBercamCamiones" UserDataComponentName="ProcBercamCamionesTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="bercamConnectionString (Web.config)" DbObjectName="bercam.dbo.ProcBercamCamiones" DbObjectType="StoredProcedure" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="false" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="StoredProcedure" ModifiedByUser="false">
+                    <CommandText>dbo.ProcBercamCamiones</CommandText>
+                    <Parameters>
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DataTypeServer="int" DbType="Int32" Direction="ReturnValue" ParameterName="@RETURN_VALUE" Precision="10" ProviderType="Int" Scale="0" Size="4" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DataTypeServer="int" DbType="Int32" Direction="Input" ParameterName="@Mes" Precision="10" ProviderType="Int" Scale="0" Size="4" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DataTypeServer="int" DbType="Int32" Direction="Input" ParameterName="@Año" Precision="10" ProviderType="Int" Scale="0" Size="4" SourceColumnNullMapping="false" SourceVersion="Current" />
+                    </Parameters>
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="Id" DataSetColumn="Id" />
+              <Mapping SourceColumn="Placa" DataSetColumn="Placa" />
+              <Mapping SourceColumn="Tipo" DataSetColumn="Tipo" />
+              <Mapping SourceColumn="Prod" DataSetColumn="Prod" />
+              <Mapping SourceColumn="Inicial" DataSetColumn="Inicial" />
+              <Mapping SourceColumn="Final" DataSetColumn="Final" />
+              <Mapping SourceColumn="De" DataSetColumn="De" />
+              <Mapping SourceColumn="A" DataSetColumn="A" />
+              <Mapping SourceColumn="VolumenDespacho" DataSetColumn="VolumenDespacho" />
+              <Mapping SourceColumn="VolumenRecepcion" DataSetColumn="VolumenRecepcion" />
+              <Mapping SourceColumn="Balance" DataSetColumn="Balance" />
+              <Mapping SourceColumn="PorcentajeMermaAdmisible" DataSetColumn="PorcentajeMermaAdmisible" />
+              <Mapping SourceColumn="MermaAdmisibleLts" DataSetColumn="MermaAdmisibleLts" />
+              <Mapping SourceColumn="MermaCobrableLts" DataSetColumn="MermaCobrableLts" />
+              <Mapping SourceColumn="MultaMermaCobrable" DataSetColumn="MultaMermaCobrable" />
+              <Mapping SourceColumn="TotalMermaCobrable" DataSetColumn="TotalMermaCobrable" />
+              <Mapping SourceColumn="SeguroProducto" DataSetColumn="SeguroProducto" />
+              <Mapping SourceColumn="ResponsabilidadCivil" DataSetColumn="ResponsabilidadCivil" />
+              <Mapping SourceColumn="Tarifa" DataSetColumn="Tarifa" />
+              <Mapping SourceColumn="TotalAPagar" DataSetColumn="TotalAPagar" />
+              <Mapping SourceColumn="Periodo" DataSetColumn="Periodo" />
+              <Mapping SourceColumn="IdMes" DataSetColumn="IdMes" />
+              <Mapping SourceColumn="IdAño" DataSetColumn="IdAño" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="ProcBercamCamionesAceiteTableAdapter" GeneratorDataComponentClassName="ProcBercamCamionesAceiteTableAdapter" Name="ProcBercamCamionesAceite" UserDataComponentName="ProcBercamCamionesAceiteTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="bercamConnectionString (Web.config)" DbObjectName="bercam.dbo.ProcBercamCamionesAceite" DbObjectType="StoredProcedure" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="false" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="StoredProcedure" ModifiedByUser="false">
+                    <CommandText>dbo.ProcBercamCamionesAceite</CommandText>
+                    <Parameters>
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DataTypeServer="int" DbType="Int32" Direction="ReturnValue" ParameterName="@RETURN_VALUE" Precision="10" ProviderType="Int" Scale="0" Size="4" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DataTypeServer="int" DbType="Int32" Direction="Input" ParameterName="@Mes" Precision="10" ProviderType="Int" Scale="0" Size="4" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DataTypeServer="int" DbType="Int32" Direction="Input" ParameterName="@Año" Precision="10" ProviderType="Int" Scale="0" Size="4" SourceColumnNullMapping="false" SourceVersion="Current" />
+                    </Parameters>
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="Placa_Camion" DataSetColumn="Placa_Camion" />
+              <Mapping SourceColumn="Tipo" DataSetColumn="Tipo" />
+              <Mapping SourceColumn="Abrev" DataSetColumn="Abrev" />
+              <Mapping SourceColumn="Inicial" DataSetColumn="Inicial" />
+              <Mapping SourceColumn="Final" DataSetColumn="Final" />
+              <Mapping SourceColumn="Origen" DataSetColumn="Origen" />
+              <Mapping SourceColumn="Destino" DataSetColumn="Destino" />
+              <Mapping SourceColumn="VolumenDespacho" DataSetColumn="VolumenDespacho" />
+              <Mapping SourceColumn="VolumenRecepcionado" DataSetColumn="VolumenRecepcionado" />
+              <Mapping SourceColumn="Balance" DataSetColumn="Balance" />
+              <Mapping SourceColumn="PorcentajeMerma" DataSetColumn="PorcentajeMerma" />
+              <Mapping SourceColumn="MermaAdmisible" DataSetColumn="MermaAdmisible" />
+              <Mapping SourceColumn="MermaCobrable" DataSetColumn="MermaCobrable" />
+              <Mapping SourceColumn="MultaMermaCobrable" DataSetColumn="MultaMermaCobrable" />
+              <Mapping SourceColumn="TotalmermaCobrable" DataSetColumn="TotalmermaCobrable" />
+              <Mapping SourceColumn="Tarifa" DataSetColumn="Tarifa" />
+              <Mapping SourceColumn="TotalAPagar" DataSetColumn="TotalAPagar" />
+              <Mapping SourceColumn="mes" DataSetColumn="mes" />
+              <Mapping SourceColumn="Año" DataSetColumn="Año" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="ProcPreciosCamionesBercamTableAdapter" GeneratorDataComponentClassName="ProcPreciosCamionesBercamTableAdapter" Name="ProcPreciosCamionesBercam" UserDataComponentName="ProcPreciosCamionesBercamTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="bercamConnectionString (Web.config)" DbObjectName="bercam.dbo.ProcPreciosCamionesBercam" DbObjectType="StoredProcedure" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="false" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="StoredProcedure" ModifiedByUser="false">
+                    <CommandText>dbo.ProcPreciosCamionesBercam</CommandText>
+                    <Parameters>
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DataTypeServer="int" DbType="Int32" Direction="ReturnValue" ParameterName="@RETURN_VALUE" Precision="10" ProviderType="Int" Scale="0" Size="4" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DataTypeServer="int" DbType="Int32" Direction="Input" ParameterName="@IdMes" Precision="10" ProviderType="Int" Scale="0" Size="4" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DataTypeServer="int" DbType="Int32" Direction="Input" ParameterName="@IdAño" Precision="10" ProviderType="Int" Scale="0" Size="4" SourceColumnNullMapping="false" SourceVersion="Current" />
+                    </Parameters>
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="TotalPagable" DataSetColumn="TotalPagable" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="ProcPreciosCamionesBercamAceiteTableAdapter" GeneratorDataComponentClassName="ProcPreciosCamionesBercamAceiteTableAdapter" Name="ProcPreciosCamionesBercamAceite" UserDataComponentName="ProcPreciosCamionesBercamAceiteTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="bercamConnectionString (Web.config)" DbObjectName="bercam.dbo.ProcPreciosCamionesBercamAceite" DbObjectType="StoredProcedure" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="false" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="StoredProcedure" ModifiedByUser="false">
+                    <CommandText>dbo.ProcPreciosCamionesBercamAceite</CommandText>
+                    <Parameters>
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DataTypeServer="int" DbType="Int32" Direction="ReturnValue" ParameterName="@RETURN_VALUE" Precision="10" ProviderType="Int" Scale="0" Size="4" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DataTypeServer="int" DbType="Int32" Direction="Input" ParameterName="@IdMes" Precision="10" ProviderType="Int" Scale="0" Size="4" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DataTypeServer="int" DbType="Int32" Direction="Input" ParameterName="@IdAño" Precision="10" ProviderType="Int" Scale="0" Size="4" SourceColumnNullMapping="false" SourceVersion="Current" />
+                    </Parameters>
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="TotalPagable" DataSetColumn="TotalPagable" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="VistaDiasNoViajadosTableAdapter" GeneratorDataComponentClassName="VistaDiasNoViajadosTableAdapter" Name="VistaDiasNoViajados" UserDataComponentName="VistaDiasNoViajadosTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="bercamConnectionString (Web.config)" DbObjectName="bercam.dbo.VistaDiasNoViajados" DbObjectType="View" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="false" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="true">
+                    <CommandText>SELECT VistaDiasNoViajados.*
+FROM     VistaDiasNoViajados</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="DiasNoViajados" DataSetColumn="DiasNoViajados" />
+              <Mapping SourceColumn="UltimaFecha" DataSetColumn="UltimaFecha" />
+              <Mapping SourceColumn="Placa" DataSetColumn="Placa" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="ProdCamionesBercamConfirmadosTableAdapter" GeneratorDataComponentClassName="ProdCamionesBercamConfirmadosTableAdapter" Name="ProdCamionesBercamConfirmados" UserDataComponentName="ProdCamionesBercamConfirmadosTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="bercamConnectionString (Web.config)" DbObjectName="bercam.dbo.ProdCamionesBercamConfirmados" DbObjectType="StoredProcedure" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="false" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="StoredProcedure" ModifiedByUser="false">
+                    <CommandText>dbo.ProdCamionesBercamConfirmados</CommandText>
+                    <Parameters>
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DataTypeServer="int" DbType="Int32" Direction="ReturnValue" ParameterName="@RETURN_VALUE" Precision="10" ProviderType="Int" Scale="0" Size="4" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DataTypeServer="int" DbType="Int32" Direction="Input" ParameterName="@IdMes" Precision="10" ProviderType="Int" Scale="0" Size="4" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DataTypeServer="int" DbType="Int32" Direction="Input" ParameterName="@IdAño" Precision="10" ProviderType="Int" Scale="0" Size="4" SourceColumnNullMapping="false" SourceVersion="Current" />
+                    </Parameters>
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="Id_Detalle" DataSetColumn="Id_Detalle" />
+              <Mapping SourceColumn="Placa_Camion" DataSetColumn="Placa_Camion" />
+              <Mapping SourceColumn="Abrev" DataSetColumn="Abrev" />
+              <Mapping SourceColumn="Ruta" DataSetColumn="Ruta" />
+              <Mapping SourceColumn="Mes" DataSetColumn="Mes" />
+              <Mapping SourceColumn="Año" DataSetColumn="Año" />
+              <Mapping SourceColumn="FechaCarga" DataSetColumn="FechaCarga" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="ProcBercamCamionesBercamTableAdapter" GeneratorDataComponentClassName="ProcBercamCamionesBercamTableAdapter" Name="ProcBercamCamionesBercam" UserDataComponentName="ProcBercamCamionesBercamTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="bercamConnectionString (Web.config)" DbObjectName="bercam.dbo.ProcBercamCamionesBercam" DbObjectType="StoredProcedure" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="false" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="StoredProcedure" ModifiedByUser="false">
+                    <CommandText>dbo.ProcBercamCamionesBercam</CommandText>
+                    <Parameters>
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DataTypeServer="int" DbType="Int32" Direction="ReturnValue" ParameterName="@RETURN_VALUE" Precision="10" ProviderType="Int" Scale="0" Size="4" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DataTypeServer="int" DbType="Int32" Direction="Input" ParameterName="@IdMes" Precision="10" ProviderType="Int" Scale="0" Size="4" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DataTypeServer="int" DbType="Int32" Direction="Input" ParameterName="@IdAño" Precision="10" ProviderType="Int" Scale="0" Size="4" SourceColumnNullMapping="false" SourceVersion="Current" />
+                    </Parameters>
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="Id_Detalle" DataSetColumn="Id_Detalle" />
+              <Mapping SourceColumn="Placa_Camion" DataSetColumn="Placa_Camion" />
+              <Mapping SourceColumn="FechaCarga" DataSetColumn="FechaCarga" />
+              <Mapping SourceColumn="Origen" DataSetColumn="Origen" />
+              <Mapping SourceColumn="Destino" DataSetColumn="Destino" />
+              <Mapping SourceColumn="Producto" DataSetColumn="Producto" />
+              <Mapping SourceColumn="Kilometraje" DataSetColumn="Kilometraje" />
+              <Mapping SourceColumn="Acumulado" DataSetColumn="Acumulado" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="ProcSumaKilometrajeTableAdapter" GeneratorDataComponentClassName="ProcSumaKilometrajeTableAdapter" Name="ProcSumaKilometraje" UserDataComponentName="ProcSumaKilometrajeTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="bercamConnectionString (Web.config)" DbObjectName="bercam.dbo.ProcSumaKilometraje" DbObjectType="StoredProcedure" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="false" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="StoredProcedure" ModifiedByUser="false">
+                    <CommandText>dbo.ProcSumaKilometraje</CommandText>
+                    <Parameters>
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DataTypeServer="int" DbType="Int32" Direction="ReturnValue" ParameterName="@RETURN_VALUE" Precision="10" ProviderType="Int" Scale="0" Size="4" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DataTypeServer="int" DbType="Int32" Direction="Input" ParameterName="@IdMes" Precision="10" ProviderType="Int" Scale="0" Size="4" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DataTypeServer="int" DbType="Int32" Direction="Input" ParameterName="@IdAño" Precision="10" ProviderType="Int" Scale="0" Size="4" SourceColumnNullMapping="false" SourceVersion="Current" />
+                    </Parameters>
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="TotalKilometraje" DataSetColumn="TotalKilometraje" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="Proc_BusquedaViajesInternacionalConfirTableAdapter" GeneratorDataComponentClassName="Proc_BusquedaViajesInternacionalConfirTableAdapter" Name="Proc_BusquedaViajesInternacionalConfir" UserDataComponentName="Proc_BusquedaViajesInternacionalConfirTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="bercamConnectionString (Web.config)" DbObjectName="bercam.dbo.Proc_BusquedaViajesInternacionalConfir" DbObjectType="StoredProcedure" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="false" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="StoredProcedure" ModifiedByUser="false">
+                    <CommandText>dbo.Proc_BusquedaViajesInternacionalConfir</CommandText>
+                    <Parameters>
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DataTypeServer="int" DbType="Int32" Direction="ReturnValue" ParameterName="@RETURN_VALUE" Precision="10" ProviderType="Int" Scale="0" Size="4" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DataTypeServer="int" DbType="Int32" Direction="Input" ParameterName="@mes" Precision="10" ProviderType="Int" Scale="0" Size="4" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DataTypeServer="varchar" DbType="AnsiString" Direction="Input" ParameterName="@año" Precision="0" ProviderType="VarChar" Scale="0" Size="250" SourceColumnNullMapping="false" SourceVersion="Current" />
+                    </Parameters>
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="Placa_Camion" DataSetColumn="Placa_Camion" />
+              <Mapping SourceColumn="FechaCarga" DataSetColumn="FechaCarga" />
+              <Mapping SourceColumn="FechaDescarga" DataSetColumn="FechaDescarga" />
+              <Mapping SourceColumn="FechaConfirmacion" DataSetColumn="FechaConfirmacion" />
+              <Mapping SourceColumn="ruta" DataSetColumn="ruta" />
+              <Mapping SourceColumn="Descripcion" DataSetColumn="Descripcion" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="lg_ProcListMermaCamionesPropiosTableAdapter" GeneratorDataComponentClassName="lg_ProcListMermaCamionesPropiosTableAdapter" Name="lg_ProcListMermaCamionesPropios" UserDataComponentName="lg_ProcListMermaCamionesPropiosTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="bercamConnectionString (Web.config)" DbObjectName="bercam.dbo.lg_ProcListMermaCamionesPropios" DbObjectType="StoredProcedure" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="false" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="StoredProcedure" ModifiedByUser="false">
+                    <CommandText>dbo.lg_ProcListMermaCamionesPropios</CommandText>
+                    <Parameters>
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DataTypeServer="int" DbType="Int32" Direction="ReturnValue" ParameterName="@RETURN_VALUE" Precision="10" ProviderType="Int" Scale="0" Size="4" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DataTypeServer="int" DbType="Int32" Direction="Input" ParameterName="@IdMes" Precision="10" ProviderType="Int" Scale="0" Size="4" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DataTypeServer="varchar" DbType="AnsiString" Direction="Input" ParameterName="@IdAño" Precision="0" ProviderType="VarChar" Scale="0" Size="250" SourceColumnNullMapping="false" SourceVersion="Current" />
+                    </Parameters>
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="placa" DataSetColumn="placa" />
+              <Mapping SourceColumn="Inicial" DataSetColumn="Inicial" />
+              <Mapping SourceColumn="final" DataSetColumn="final" />
+              <Mapping SourceColumn="TramoDesde" DataSetColumn="TramoDesde" />
+              <Mapping SourceColumn="TramoHasta" DataSetColumn="TramoHasta" />
+              <Mapping SourceColumn="PrecioMerma" DataSetColumn="PrecioMerma" />
+              <Mapping SourceColumn="MermaAReponer" DataSetColumn="MermaAReponer" />
+              <Mapping SourceColumn="Mes" DataSetColumn="Mes" />
+              <Mapping SourceColumn="Año" DataSetColumn="Año" />
+              <Mapping SourceColumn="VolumenDespacho" DataSetColumn="VolumenDespacho" />
+              <Mapping SourceColumn="VolumenRecepcion" DataSetColumn="VolumenRecepcion" />
+              <Mapping SourceColumn="Balance" DataSetColumn="Balance" />
+              <Mapping SourceColumn="MermaAdmisibleLts" DataSetColumn="MermaAdmisibleLts" />
+              <Mapping SourceColumn="MermaCobrable" DataSetColumn="MermaCobrable" />
+              <Mapping SourceColumn="TipoConc" DataSetColumn="TipoConc" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="lg_ProcSumaListMermaCamionesPropiosTableAdapter" GeneratorDataComponentClassName="lg_ProcSumaListMermaCamionesPropiosTableAdapter" Name="lg_ProcSumaListMermaCamionesPropios" UserDataComponentName="lg_ProcSumaListMermaCamionesPropiosTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="bercamConnectionString (Web.config)" DbObjectName="bercam.dbo.lg_ProcSumaListMermaCamionesPropios" DbObjectType="StoredProcedure" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="false" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="StoredProcedure" ModifiedByUser="false">
+                    <CommandText>dbo.lg_ProcSumaListMermaCamionesPropios</CommandText>
+                    <Parameters>
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DataTypeServer="int" DbType="Int32" Direction="ReturnValue" ParameterName="@RETURN_VALUE" Precision="10" ProviderType="Int" Scale="0" Size="4" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DataTypeServer="int" DbType="Int32" Direction="Input" ParameterName="@IdMes" Precision="10" ProviderType="Int" Scale="0" Size="4" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DataTypeServer="varchar" DbType="AnsiString" Direction="Input" ParameterName="@IdAño" Precision="0" ProviderType="VarChar" Scale="0" Size="250" SourceColumnNullMapping="false" SourceVersion="Current" />
+                    </Parameters>
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="TotalMerma" DataSetColumn="TotalMerma" />
+              <Mapping SourceColumn="MermaReponer" DataSetColumn="MermaReponer" />
+              <Mapping SourceColumn="SumaTotal" DataSetColumn="SumaTotal" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="lg_ProcListMermaCamionesPropiosPlacaTableAdapter" GeneratorDataComponentClassName="lg_ProcListMermaCamionesPropiosPlacaTableAdapter" Name="lg_ProcListMermaCamionesPropiosPlaca" UserDataComponentName="lg_ProcListMermaCamionesPropiosPlacaTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="bercamConnectionString (Web.config)" DbObjectName="bercam.dbo.lg_ProcListMermaCamionesPropiosPlaca" DbObjectType="StoredProcedure" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="false" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="StoredProcedure" ModifiedByUser="false">
+                    <CommandText>dbo.lg_ProcListMermaCamionesPropiosPlaca</CommandText>
+                    <Parameters>
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DataTypeServer="int" DbType="Int32" Direction="ReturnValue" ParameterName="@RETURN_VALUE" Precision="10" ProviderType="Int" Scale="0" Size="4" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DataTypeServer="int" DbType="Int32" Direction="Input" ParameterName="@IdMes" Precision="10" ProviderType="Int" Scale="0" Size="4" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DataTypeServer="varchar" DbType="AnsiString" Direction="Input" ParameterName="@IdAño" Precision="0" ProviderType="VarChar" Scale="0" Size="250" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DataTypeServer="varchar" DbType="AnsiString" Direction="Input" ParameterName="@Placa" Precision="0" ProviderType="VarChar" Scale="0" Size="250" SourceColumnNullMapping="false" SourceVersion="Current" />
+                    </Parameters>
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="placa" DataSetColumn="placa" />
+              <Mapping SourceColumn="Inicial" DataSetColumn="Inicial" />
+              <Mapping SourceColumn="final" DataSetColumn="final" />
+              <Mapping SourceColumn="TramoDesde" DataSetColumn="TramoDesde" />
+              <Mapping SourceColumn="TramoHasta" DataSetColumn="TramoHasta" />
+              <Mapping SourceColumn="PrecioMerma" DataSetColumn="PrecioMerma" />
+              <Mapping SourceColumn="MermaAReponer" DataSetColumn="MermaAReponer" />
+              <Mapping SourceColumn="Mes" DataSetColumn="Mes" />
+              <Mapping SourceColumn="Año" DataSetColumn="Año" />
+              <Mapping SourceColumn="VolumenDespacho" DataSetColumn="VolumenDespacho" />
+              <Mapping SourceColumn="VolumenRecepcion" DataSetColumn="VolumenRecepcion" />
+              <Mapping SourceColumn="Balance" DataSetColumn="Balance" />
+              <Mapping SourceColumn="MermaAdmisibleLts" DataSetColumn="MermaAdmisibleLts" />
+              <Mapping SourceColumn="MermaCobrable" DataSetColumn="MermaCobrable" />
+              <Mapping SourceColumn="TipoConc" DataSetColumn="TipoConc" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="lg_ProcSumListMermCamPropiosPlacaTableAdapter" GeneratorDataComponentClassName="lg_ProcSumListMermCamPropiosPlacaTableAdapter" Name="lg_ProcSumListMermCamPropiosPlaca" UserDataComponentName="lg_ProcSumListMermCamPropiosPlacaTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="bercamConnectionString (Web.config)" DbObjectName="bercam.dbo.lg_ProcSumListMermCamPropiosPlaca" DbObjectType="StoredProcedure" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="false" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="StoredProcedure" ModifiedByUser="false">
+                    <CommandText>dbo.lg_ProcSumListMermCamPropiosPlaca</CommandText>
+                    <Parameters>
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DataTypeServer="int" DbType="Int32" Direction="ReturnValue" ParameterName="@RETURN_VALUE" Precision="10" ProviderType="Int" Scale="0" Size="4" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DataTypeServer="int" DbType="Int32" Direction="Input" ParameterName="@IdMes" Precision="10" ProviderType="Int" Scale="0" Size="4" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DataTypeServer="varchar" DbType="AnsiString" Direction="Input" ParameterName="@IdAño" Precision="0" ProviderType="VarChar" Scale="0" Size="250" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DataTypeServer="varchar" DbType="AnsiString" Direction="Input" ParameterName="@Placa" Precision="0" ProviderType="VarChar" Scale="0" Size="250" SourceColumnNullMapping="false" SourceVersion="Current" />
+                    </Parameters>
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="TotalMerma" DataSetColumn="TotalMerma" />
+              <Mapping SourceColumn="MermaReponer" DataSetColumn="MermaReponer" />
+              <Mapping SourceColumn="SumaTotal" DataSetColumn="SumaTotal" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="lg_ProcListMermaCamionesGeneralTableAdapter" GeneratorDataComponentClassName="lg_ProcListMermaCamionesGeneralTableAdapter" Name="lg_ProcListMermaCamionesGeneral" UserDataComponentName="lg_ProcListMermaCamionesGeneralTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="bercamConnectionString (Web.config)" DbObjectName="bercam.dbo.lg_ProcListMermaCamionesGeneral" DbObjectType="StoredProcedure" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="false" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="StoredProcedure" ModifiedByUser="false">
+                    <CommandText>dbo.lg_ProcListMermaCamionesGeneral</CommandText>
+                    <Parameters>
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DataTypeServer="int" DbType="Int32" Direction="ReturnValue" ParameterName="@RETURN_VALUE" Precision="10" ProviderType="Int" Scale="0" Size="4" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DataTypeServer="int" DbType="Int32" Direction="Input" ParameterName="@IdMes" Precision="10" ProviderType="Int" Scale="0" Size="4" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DataTypeServer="varchar" DbType="AnsiString" Direction="Input" ParameterName="@IdAño" Precision="0" ProviderType="VarChar" Scale="0" Size="250" SourceColumnNullMapping="false" SourceVersion="Current" />
+                    </Parameters>
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="placa" DataSetColumn="placa" />
+              <Mapping SourceColumn="Inicial" DataSetColumn="Inicial" />
+              <Mapping SourceColumn="final" DataSetColumn="final" />
+              <Mapping SourceColumn="TramoDesde" DataSetColumn="TramoDesde" />
+              <Mapping SourceColumn="TramoHasta" DataSetColumn="TramoHasta" />
+              <Mapping SourceColumn="PrecioMerma" DataSetColumn="PrecioMerma" />
+              <Mapping SourceColumn="MermaAReponer" DataSetColumn="MermaAReponer" />
+              <Mapping SourceColumn="Mes" DataSetColumn="Mes" />
+              <Mapping SourceColumn="Año" DataSetColumn="Año" />
+              <Mapping SourceColumn="VolumenDespacho" DataSetColumn="VolumenDespacho" />
+              <Mapping SourceColumn="VolumenRecepcion" DataSetColumn="VolumenRecepcion" />
+              <Mapping SourceColumn="Balance" DataSetColumn="Balance" />
+              <Mapping SourceColumn="MermaAdmisibleLts" DataSetColumn="MermaAdmisibleLts" />
+              <Mapping SourceColumn="MermaCobrable" DataSetColumn="MermaCobrable" />
+              <Mapping SourceColumn="TipoConc" DataSetColumn="TipoConc" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="lg_ProcSumaListMermaCamionesGeneralesTableAdapter" GeneratorDataComponentClassName="lg_ProcSumaListMermaCamionesGeneralesTableAdapter" Name="lg_ProcSumaListMermaCamionesGenerales" UserDataComponentName="lg_ProcSumaListMermaCamionesGeneralesTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="bercamConnectionString (Web.config)" DbObjectName="bercam.dbo.lg_ProcSumaListMermaCamionesGenerales" DbObjectType="StoredProcedure" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="false" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="StoredProcedure" ModifiedByUser="false">
+                    <CommandText>dbo.lg_ProcSumaListMermaCamionesGenerales</CommandText>
+                    <Parameters>
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DataTypeServer="int" DbType="Int32" Direction="ReturnValue" ParameterName="@RETURN_VALUE" Precision="10" ProviderType="Int" Scale="0" Size="4" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DataTypeServer="int" DbType="Int32" Direction="Input" ParameterName="@IdMes" Precision="10" ProviderType="Int" Scale="0" Size="4" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DataTypeServer="varchar" DbType="AnsiString" Direction="Input" ParameterName="@IdAño" Precision="0" ProviderType="VarChar" Scale="0" Size="250" SourceColumnNullMapping="false" SourceVersion="Current" />
+                    </Parameters>
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="SumaTotal" DataSetColumn="SumaTotal" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="lg_ProcListMermaCamionesGeneralPlacaTableAdapter" GeneratorDataComponentClassName="lg_ProcListMermaCamionesGeneralPlacaTableAdapter" Name="lg_ProcListMermaCamionesGeneralPlaca" UserDataComponentName="lg_ProcListMermaCamionesGeneralPlacaTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="bercamConnectionString (Web.config)" DbObjectName="bercam.dbo.lg_ProcListMermaCamionesGeneralPlaca" DbObjectType="StoredProcedure" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="false" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="StoredProcedure" ModifiedByUser="false">
+                    <CommandText>dbo.lg_ProcListMermaCamionesGeneralPlaca</CommandText>
+                    <Parameters>
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DataTypeServer="int" DbType="Int32" Direction="ReturnValue" ParameterName="@RETURN_VALUE" Precision="10" ProviderType="Int" Scale="0" Size="4" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DataTypeServer="int" DbType="Int32" Direction="Input" ParameterName="@IdMes" Precision="10" ProviderType="Int" Scale="0" Size="4" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DataTypeServer="varchar" DbType="AnsiString" Direction="Input" ParameterName="@IdAño" Precision="0" ProviderType="VarChar" Scale="0" Size="250" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DataTypeServer="varchar" DbType="AnsiString" Direction="Input" ParameterName="@Placa" Precision="0" ProviderType="VarChar" Scale="0" Size="250" SourceColumnNullMapping="false" SourceVersion="Current" />
+                    </Parameters>
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="placa" DataSetColumn="placa" />
+              <Mapping SourceColumn="Inicial" DataSetColumn="Inicial" />
+              <Mapping SourceColumn="final" DataSetColumn="final" />
+              <Mapping SourceColumn="TramoDesde" DataSetColumn="TramoDesde" />
+              <Mapping SourceColumn="TramoHasta" DataSetColumn="TramoHasta" />
+              <Mapping SourceColumn="PrecioMerma" DataSetColumn="PrecioMerma" />
+              <Mapping SourceColumn="MermaAReponer" DataSetColumn="MermaAReponer" />
+              <Mapping SourceColumn="Mes" DataSetColumn="Mes" />
+              <Mapping SourceColumn="Año" DataSetColumn="Año" />
+              <Mapping SourceColumn="VolumenDespacho" DataSetColumn="VolumenDespacho" />
+              <Mapping SourceColumn="VolumenRecepcion" DataSetColumn="VolumenRecepcion" />
+              <Mapping SourceColumn="Balance" DataSetColumn="Balance" />
+              <Mapping SourceColumn="MermaAdmisibleLts" DataSetColumn="MermaAdmisibleLts" />
+              <Mapping SourceColumn="MermaCobrable" DataSetColumn="MermaCobrable" />
+              <Mapping SourceColumn="TipoConc" DataSetColumn="TipoConc" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="lg_ProcSumListMermCamGeneralPlacaTableAdapter" GeneratorDataComponentClassName="lg_ProcSumListMermCamGeneralPlacaTableAdapter" Name="lg_ProcSumListMermCamGeneralPlaca" UserDataComponentName="lg_ProcSumListMermCamGeneralPlacaTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="bercamConnectionString (Web.config)" DbObjectName="bercam.dbo.lg_ProcSumListMermCamGeneralPlaca" DbObjectType="StoredProcedure" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="false" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="StoredProcedure" ModifiedByUser="false">
+                    <CommandText>dbo.lg_ProcSumListMermCamGeneralPlaca</CommandText>
+                    <Parameters>
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DataTypeServer="int" DbType="Int32" Direction="ReturnValue" ParameterName="@RETURN_VALUE" Precision="10" ProviderType="Int" Scale="0" Size="4" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DataTypeServer="int" DbType="Int32" Direction="Input" ParameterName="@IdMes" Precision="10" ProviderType="Int" Scale="0" Size="4" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DataTypeServer="varchar" DbType="AnsiString" Direction="Input" ParameterName="@IdAño" Precision="0" ProviderType="VarChar" Scale="0" Size="250" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DataTypeServer="varchar" DbType="AnsiString" Direction="Input" ParameterName="@Placa" Precision="0" ProviderType="VarChar" Scale="0" Size="250" SourceColumnNullMapping="false" SourceVersion="Current" />
+                    </Parameters>
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="SumaTotal" DataSetColumn="SumaTotal" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DataSetCamionesBercam" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="DataSetCamionesBercam" msprop:Generator_UserDSName="DataSetCamionesBercam">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="ListaConciliacionesCamionesBercam" msprop:Generator_TableClassName="ListaConciliacionesCamionesBercamDataTable" msprop:Generator_TableVarName="tableListaConciliacionesCamionesBercam" msprop:Generator_TablePropName="ListaConciliacionesCamionesBercam" msprop:Generator_RowDeletingName="ListaConciliacionesCamionesBercamRowDeleting" msprop:Generator_RowChangingName="ListaConciliacionesCamionesBercamRowChanging" msprop:Generator_RowEvHandlerName="ListaConciliacionesCamionesBercamRowChangeEventHandler" msprop:Generator_RowDeletedName="ListaConciliacionesCamionesBercamRowDeleted" msprop:Generator_UserTableName="ListaConciliacionesCamionesBercam" msprop:Generator_RowChangedName="ListaConciliacionesCamionesBercamRowChanged" msprop:Generator_RowEvArgName="ListaConciliacionesCamionesBercamRowChangeEvent" msprop:Generator_RowClassName="ListaConciliacionesCamionesBercamRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="FleteBruto" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnFleteBruto" msprop:Generator_ColumnPropNameInRow="FleteBruto" msprop:Generator_ColumnPropNameInTable="FleteBrutoColumn" msprop:Generator_UserColumnName="FleteBruto" type="xs:double" minOccurs="0" />
+              <xs:element name="MultaMerma" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnMultaMerma" msprop:Generator_ColumnPropNameInRow="MultaMerma" msprop:Generator_ColumnPropNameInTable="MultaMermaColumn" msprop:Generator_UserColumnName="MultaMerma" type="xs:double" minOccurs="0" />
+              <xs:element name="SeguroProducto" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnSeguroProducto" msprop:Generator_ColumnPropNameInRow="SeguroProducto" msprop:Generator_ColumnPropNameInTable="SeguroProductoColumn" msprop:Generator_UserColumnName="SeguroProducto" type="xs:double" minOccurs="0" />
+              <xs:element name="SeguroRespCivil" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnSeguroRespCivil" msprop:Generator_ColumnPropNameInRow="SeguroRespCivil" msprop:Generator_ColumnPropNameInTable="SeguroRespCivilColumn" msprop:Generator_UserColumnName="SeguroRespCivil" type="xs:double" minOccurs="0" />
+              <xs:element name="Anticipos" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnAnticipos" msprop:Generator_ColumnPropNameInRow="Anticipos" msprop:Generator_ColumnPropNameInTable="AnticiposColumn" msprop:Generator_UserColumnName="Anticipos" type="xs:double" minOccurs="0" />
+              <xs:element name="CarroGuia" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnCarroGuia" msprop:Generator_ColumnPropNameInRow="CarroGuia" msprop:Generator_ColumnPropNameInTable="CarroGuiaColumn" msprop:Generator_UserColumnName="CarroGuia" type="xs:double" minOccurs="0" />
+              <xs:element name="Servicios" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnServicios" msprop:Generator_ColumnPropNameInRow="Servicios" msprop:Generator_ColumnPropNameInTable="ServiciosColumn" msprop:Generator_UserColumnName="Servicios" type="xs:double" minOccurs="0" />
+              <xs:element name="Multa" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnMulta" msprop:Generator_ColumnPropNameInRow="Multa" msprop:Generator_ColumnPropNameInTable="MultaColumn" msprop:Generator_UserColumnName="Multa" type="xs:double" minOccurs="0" />
+              <xs:element name="TotalPagable" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnTotalPagable" msprop:Generator_ColumnPropNameInRow="TotalPagable" msprop:Generator_ColumnPropNameInTable="TotalPagableColumn" msprop:Generator_UserColumnName="TotalPagable" type="xs:double" minOccurs="0" />
+              <xs:element name="IdPeriodo" msprop:Generator_ColumnVarNameInTable="columnIdPeriodo" msprop:Generator_ColumnPropNameInRow="IdPeriodo" msprop:Generator_ColumnPropNameInTable="IdPeriodoColumn" msprop:Generator_UserColumnName="IdPeriodo" type="xs:int" minOccurs="0" />
+              <xs:element name="IdMes" msprop:Generator_ColumnVarNameInTable="columnIdMes" msprop:Generator_ColumnPropNameInRow="IdMes" msprop:Generator_ColumnPropNameInTable="IdMesColumn" msprop:Generator_UserColumnName="IdMes" type="xs:int" minOccurs="0" />
+              <xs:element name="IdAño" msprop:Generator_ColumnVarNameInTable="columnIdAño" msprop:Generator_ColumnPropNameInRow="IdAño" msprop:Generator_ColumnPropNameInTable="IdAñoColumn" msprop:Generator_UserColumnName="IdAño" type="xs:int" minOccurs="0" />
+              <xs:element name="IdConcPagar" msprop:Generator_ColumnVarNameInTable="columnIdConcPagar" msprop:Generator_ColumnPropNameInRow="IdConcPagar" msprop:Generator_ColumnPropNameInTable="IdConcPagarColumn" msprop:Generator_UserColumnName="IdConcPagar" type="xs:int" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="ProcBercamCamiones" msprop:Generator_TableClassName="ProcBercamCamionesDataTable" msprop:Generator_TableVarName="tableProcBercamCamiones" msprop:Generator_RowChangedName="ProcBercamCamionesRowChanged" msprop:Generator_TablePropName="ProcBercamCamiones" msprop:Generator_RowDeletingName="ProcBercamCamionesRowDeleting" msprop:Generator_RowChangingName="ProcBercamCamionesRowChanging" msprop:Generator_RowEvHandlerName="ProcBercamCamionesRowChangeEventHandler" msprop:Generator_RowDeletedName="ProcBercamCamionesRowDeleted" msprop:Generator_RowClassName="ProcBercamCamionesRow" msprop:Generator_UserTableName="ProcBercamCamiones" msprop:Generator_RowEvArgName="ProcBercamCamionesRowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Id" msprop:Generator_ColumnVarNameInTable="columnId" msprop:Generator_ColumnPropNameInRow="Id" msprop:Generator_ColumnPropNameInTable="IdColumn" msprop:Generator_UserColumnName="Id" type="xs:int" />
+              <xs:element name="Placa" msprop:Generator_ColumnVarNameInTable="columnPlaca" msprop:Generator_ColumnPropNameInRow="Placa" msprop:Generator_ColumnPropNameInTable="PlacaColumn" msprop:Generator_UserColumnName="Placa" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="350" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Tipo" msprop:Generator_ColumnVarNameInTable="columnTipo" msprop:Generator_ColumnPropNameInRow="Tipo" msprop:Generator_ColumnPropNameInTable="TipoColumn" msprop:Generator_UserColumnName="Tipo" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="250" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Prod" msprop:Generator_ColumnVarNameInTable="columnProd" msprop:Generator_ColumnPropNameInRow="Prod" msprop:Generator_ColumnPropNameInTable="ProdColumn" msprop:Generator_UserColumnName="Prod" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Inicial" msprop:Generator_ColumnVarNameInTable="columnInicial" msprop:Generator_ColumnPropNameInRow="Inicial" msprop:Generator_ColumnPropNameInTable="InicialColumn" msprop:Generator_UserColumnName="Inicial" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="Final" msprop:Generator_ColumnVarNameInTable="columnFinal" msprop:Generator_ColumnPropNameInRow="Final" msprop:Generator_ColumnPropNameInTable="FinalColumn" msprop:Generator_UserColumnName="Final" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="De" msprop:Generator_ColumnVarNameInTable="columnDe" msprop:Generator_ColumnPropNameInRow="De" msprop:Generator_ColumnPropNameInTable="DeColumn" msprop:Generator_UserColumnName="De" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="250" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="A" msprop:Generator_ColumnVarNameInTable="columnA" msprop:Generator_ColumnPropNameInRow="A" msprop:Generator_ColumnPropNameInTable="AColumn" msprop:Generator_UserColumnName="A" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="250" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="VolumenDespacho" msprop:Generator_ColumnVarNameInTable="columnVolumenDespacho" msprop:Generator_ColumnPropNameInRow="VolumenDespacho" msprop:Generator_ColumnPropNameInTable="VolumenDespachoColumn" msprop:Generator_UserColumnName="VolumenDespacho" type="xs:double" minOccurs="0" />
+              <xs:element name="VolumenRecepcion" msprop:Generator_ColumnVarNameInTable="columnVolumenRecepcion" msprop:Generator_ColumnPropNameInRow="VolumenRecepcion" msprop:Generator_ColumnPropNameInTable="VolumenRecepcionColumn" msprop:Generator_UserColumnName="VolumenRecepcion" type="xs:double" minOccurs="0" />
+              <xs:element name="Balance" msprop:Generator_ColumnVarNameInTable="columnBalance" msprop:Generator_ColumnPropNameInRow="Balance" msprop:Generator_ColumnPropNameInTable="BalanceColumn" msprop:Generator_UserColumnName="Balance" type="xs:double" minOccurs="0" />
+              <xs:element name="PorcentajeMermaAdmisible" msprop:Generator_ColumnVarNameInTable="columnPorcentajeMermaAdmisible" msprop:Generator_ColumnPropNameInRow="PorcentajeMermaAdmisible" msprop:Generator_ColumnPropNameInTable="PorcentajeMermaAdmisibleColumn" msprop:Generator_UserColumnName="PorcentajeMermaAdmisible" type="xs:double" minOccurs="0" />
+              <xs:element name="MermaAdmisibleLts" msprop:Generator_ColumnVarNameInTable="columnMermaAdmisibleLts" msprop:Generator_ColumnPropNameInRow="MermaAdmisibleLts" msprop:Generator_ColumnPropNameInTable="MermaAdmisibleLtsColumn" msprop:Generator_UserColumnName="MermaAdmisibleLts" type="xs:double" minOccurs="0" />
+              <xs:element name="MermaCobrableLts" msprop:Generator_ColumnVarNameInTable="columnMermaCobrableLts" msprop:Generator_ColumnPropNameInRow="MermaCobrableLts" msprop:Generator_ColumnPropNameInTable="MermaCobrableLtsColumn" msprop:Generator_UserColumnName="MermaCobrableLts" type="xs:double" minOccurs="0" />
+              <xs:element name="MultaMermaCobrable" msprop:Generator_ColumnVarNameInTable="columnMultaMermaCobrable" msprop:Generator_ColumnPropNameInRow="MultaMermaCobrable" msprop:Generator_ColumnPropNameInTable="MultaMermaCobrableColumn" msprop:Generator_UserColumnName="MultaMermaCobrable" type="xs:double" minOccurs="0" />
+              <xs:element name="TotalMermaCobrable" msprop:Generator_ColumnVarNameInTable="columnTotalMermaCobrable" msprop:Generator_ColumnPropNameInRow="TotalMermaCobrable" msprop:Generator_ColumnPropNameInTable="TotalMermaCobrableColumn" msprop:Generator_UserColumnName="TotalMermaCobrable" type="xs:double" minOccurs="0" />
+              <xs:element name="SeguroProducto" msprop:Generator_ColumnVarNameInTable="columnSeguroProducto" msprop:Generator_ColumnPropNameInRow="SeguroProducto" msprop:Generator_ColumnPropNameInTable="SeguroProductoColumn" msprop:Generator_UserColumnName="SeguroProducto" type="xs:double" minOccurs="0" />
+              <xs:element name="ResponsabilidadCivil" msprop:Generator_ColumnVarNameInTable="columnResponsabilidadCivil" msprop:Generator_ColumnPropNameInRow="ResponsabilidadCivil" msprop:Generator_ColumnPropNameInTable="ResponsabilidadCivilColumn" msprop:Generator_UserColumnName="ResponsabilidadCivil" type="xs:double" minOccurs="0" />
+              <xs:element name="Tarifa" msprop:Generator_ColumnVarNameInTable="columnTarifa" msprop:Generator_ColumnPropNameInRow="Tarifa" msprop:Generator_ColumnPropNameInTable="TarifaColumn" msprop:Generator_UserColumnName="Tarifa" type="xs:double" minOccurs="0" />
+              <xs:element name="TotalAPagar" msprop:Generator_ColumnVarNameInTable="columnTotalAPagar" msprop:Generator_ColumnPropNameInRow="TotalAPagar" msprop:Generator_ColumnPropNameInTable="TotalAPagarColumn" msprop:Generator_UserColumnName="TotalAPagar" type="xs:double" minOccurs="0" />
+              <xs:element name="Periodo" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnPeriodo" msprop:Generator_ColumnPropNameInRow="Periodo" msprop:Generator_ColumnPropNameInTable="PeriodoColumn" msprop:Generator_UserColumnName="Periodo" type="xs:int" minOccurs="0" />
+              <xs:element name="IdMes" msprop:Generator_ColumnVarNameInTable="columnIdMes" msprop:Generator_ColumnPropNameInRow="IdMes" msprop:Generator_ColumnPropNameInTable="IdMesColumn" msprop:Generator_UserColumnName="IdMes" type="xs:int" minOccurs="0" />
+              <xs:element name="IdAño" msprop:Generator_ColumnVarNameInTable="columnIdAño" msprop:Generator_ColumnPropNameInRow="IdAño" msprop:Generator_ColumnPropNameInTable="IdAñoColumn" msprop:Generator_UserColumnName="IdAño" type="xs:int" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="ProcBercamCamionesAceite" msprop:Generator_TableClassName="ProcBercamCamionesAceiteDataTable" msprop:Generator_TableVarName="tableProcBercamCamionesAceite" msprop:Generator_TablePropName="ProcBercamCamionesAceite" msprop:Generator_RowDeletingName="ProcBercamCamionesAceiteRowDeleting" msprop:Generator_RowChangingName="ProcBercamCamionesAceiteRowChanging" msprop:Generator_RowEvHandlerName="ProcBercamCamionesAceiteRowChangeEventHandler" msprop:Generator_RowDeletedName="ProcBercamCamionesAceiteRowDeleted" msprop:Generator_UserTableName="ProcBercamCamionesAceite" msprop:Generator_RowChangedName="ProcBercamCamionesAceiteRowChanged" msprop:Generator_RowEvArgName="ProcBercamCamionesAceiteRowChangeEvent" msprop:Generator_RowClassName="ProcBercamCamionesAceiteRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Placa_Camion" msprop:Generator_ColumnVarNameInTable="columnPlaca_Camion" msprop:Generator_ColumnPropNameInRow="Placa_Camion" msprop:Generator_ColumnPropNameInTable="Placa_CamionColumn" msprop:Generator_UserColumnName="Placa_Camion" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="250" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Tipo" msprop:Generator_ColumnVarNameInTable="columnTipo" msprop:Generator_ColumnPropNameInRow="Tipo" msprop:Generator_ColumnPropNameInTable="TipoColumn" msprop:Generator_UserColumnName="Tipo" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="250" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Abrev" msprop:Generator_ColumnVarNameInTable="columnAbrev" msprop:Generator_ColumnPropNameInRow="Abrev" msprop:Generator_ColumnPropNameInTable="AbrevColumn" msprop:Generator_UserColumnName="Abrev" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Inicial" msprop:Generator_ColumnVarNameInTable="columnInicial" msprop:Generator_ColumnPropNameInRow="Inicial" msprop:Generator_ColumnPropNameInTable="InicialColumn" msprop:Generator_UserColumnName="Inicial" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="Final" msprop:Generator_ColumnVarNameInTable="columnFinal" msprop:Generator_ColumnPropNameInRow="Final" msprop:Generator_ColumnPropNameInTable="FinalColumn" msprop:Generator_UserColumnName="Final" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="Origen" msprop:Generator_ColumnVarNameInTable="columnOrigen" msprop:Generator_ColumnPropNameInRow="Origen" msprop:Generator_ColumnPropNameInTable="OrigenColumn" msprop:Generator_UserColumnName="Origen" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="350" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Destino" msprop:Generator_ColumnVarNameInTable="columnDestino" msprop:Generator_ColumnPropNameInRow="Destino" msprop:Generator_ColumnPropNameInTable="DestinoColumn" msprop:Generator_UserColumnName="Destino" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="350" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="VolumenDespacho" msprop:Generator_ColumnVarNameInTable="columnVolumenDespacho" msprop:Generator_ColumnPropNameInRow="VolumenDespacho" msprop:Generator_ColumnPropNameInTable="VolumenDespachoColumn" msprop:Generator_UserColumnName="VolumenDespacho" type="xs:double" />
+              <xs:element name="VolumenRecepcionado" msprop:Generator_ColumnVarNameInTable="columnVolumenRecepcionado" msprop:Generator_ColumnPropNameInRow="VolumenRecepcionado" msprop:Generator_ColumnPropNameInTable="VolumenRecepcionadoColumn" msprop:Generator_UserColumnName="VolumenRecepcionado" type="xs:double" />
+              <xs:element name="Balance" msprop:Generator_ColumnVarNameInTable="columnBalance" msprop:Generator_ColumnPropNameInRow="Balance" msprop:Generator_ColumnPropNameInTable="BalanceColumn" msprop:Generator_UserColumnName="Balance" type="xs:double" />
+              <xs:element name="PorcentajeMerma" msprop:Generator_ColumnVarNameInTable="columnPorcentajeMerma" msprop:Generator_ColumnPropNameInRow="PorcentajeMerma" msprop:Generator_ColumnPropNameInTable="PorcentajeMermaColumn" msprop:Generator_UserColumnName="PorcentajeMerma" type="xs:double" />
+              <xs:element name="MermaAdmisible" msprop:Generator_ColumnVarNameInTable="columnMermaAdmisible" msprop:Generator_ColumnPropNameInRow="MermaAdmisible" msprop:Generator_ColumnPropNameInTable="MermaAdmisibleColumn" msprop:Generator_UserColumnName="MermaAdmisible" type="xs:double" />
+              <xs:element name="MermaCobrable" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnMermaCobrable" msprop:Generator_ColumnPropNameInRow="MermaCobrable" msprop:Generator_ColumnPropNameInTable="MermaCobrableColumn" msprop:Generator_UserColumnName="MermaCobrable" type="xs:double" minOccurs="0" />
+              <xs:element name="MultaMermaCobrable" msprop:Generator_ColumnVarNameInTable="columnMultaMermaCobrable" msprop:Generator_ColumnPropNameInRow="MultaMermaCobrable" msprop:Generator_ColumnPropNameInTable="MultaMermaCobrableColumn" msprop:Generator_UserColumnName="MultaMermaCobrable" type="xs:double" />
+              <xs:element name="TotalmermaCobrable" msprop:Generator_ColumnVarNameInTable="columnTotalmermaCobrable" msprop:Generator_ColumnPropNameInRow="TotalmermaCobrable" msprop:Generator_ColumnPropNameInTable="TotalmermaCobrableColumn" msprop:Generator_UserColumnName="TotalmermaCobrable" type="xs:double" />
+              <xs:element name="Tarifa" msprop:Generator_ColumnVarNameInTable="columnTarifa" msprop:Generator_ColumnPropNameInRow="Tarifa" msprop:Generator_ColumnPropNameInTable="TarifaColumn" msprop:Generator_UserColumnName="Tarifa" type="xs:double" />
+              <xs:element name="TotalAPagar" msprop:Generator_ColumnVarNameInTable="columnTotalAPagar" msprop:Generator_ColumnPropNameInRow="TotalAPagar" msprop:Generator_ColumnPropNameInTable="TotalAPagarColumn" msprop:Generator_UserColumnName="TotalAPagar" type="xs:double" />
+              <xs:element name="mes" msprop:Generator_ColumnVarNameInTable="columnmes" msprop:Generator_ColumnPropNameInRow="mes" msprop:Generator_ColumnPropNameInTable="mesColumn" msprop:Generator_UserColumnName="mes" type="xs:int" minOccurs="0" />
+              <xs:element name="Año" msprop:Generator_ColumnVarNameInTable="columnAño" msprop:Generator_ColumnPropNameInRow="Año" msprop:Generator_ColumnPropNameInTable="AñoColumn" msprop:Generator_UserColumnName="Año" type="xs:int" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="ProcPreciosCamionesBercam" msprop:Generator_TableClassName="ProcPreciosCamionesBercamDataTable" msprop:Generator_TableVarName="tableProcPreciosCamionesBercam" msprop:Generator_TablePropName="ProcPreciosCamionesBercam" msprop:Generator_RowDeletingName="ProcPreciosCamionesBercamRowDeleting" msprop:Generator_RowChangingName="ProcPreciosCamionesBercamRowChanging" msprop:Generator_RowEvHandlerName="ProcPreciosCamionesBercamRowChangeEventHandler" msprop:Generator_RowDeletedName="ProcPreciosCamionesBercamRowDeleted" msprop:Generator_UserTableName="ProcPreciosCamionesBercam" msprop:Generator_RowChangedName="ProcPreciosCamionesBercamRowChanged" msprop:Generator_RowEvArgName="ProcPreciosCamionesBercamRowChangeEvent" msprop:Generator_RowClassName="ProcPreciosCamionesBercamRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="TotalPagable" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnTotalPagable" msprop:Generator_ColumnPropNameInRow="TotalPagable" msprop:Generator_ColumnPropNameInTable="TotalPagableColumn" msprop:Generator_UserColumnName="TotalPagable" type="xs:double" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="ProcPreciosCamionesBercamAceite" msprop:Generator_TableClassName="ProcPreciosCamionesBercamAceiteDataTable" msprop:Generator_TableVarName="tableProcPreciosCamionesBercamAceite" msprop:Generator_TablePropName="ProcPreciosCamionesBercamAceite" msprop:Generator_RowDeletingName="ProcPreciosCamionesBercamAceiteRowDeleting" msprop:Generator_RowChangingName="ProcPreciosCamionesBercamAceiteRowChanging" msprop:Generator_RowEvHandlerName="ProcPreciosCamionesBercamAceiteRowChangeEventHandler" msprop:Generator_RowDeletedName="ProcPreciosCamionesBercamAceiteRowDeleted" msprop:Generator_UserTableName="ProcPreciosCamionesBercamAceite" msprop:Generator_RowChangedName="ProcPreciosCamionesBercamAceiteRowChanged" msprop:Generator_RowEvArgName="ProcPreciosCamionesBercamAceiteRowChangeEvent" msprop:Generator_RowClassName="ProcPreciosCamionesBercamAceiteRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="TotalPagable" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnTotalPagable" msprop:Generator_ColumnPropNameInRow="TotalPagable" msprop:Generator_ColumnPropNameInTable="TotalPagableColumn" msprop:Generator_UserColumnName="TotalPagable" type="xs:double" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="VistaDiasNoViajados" msprop:Generator_TableClassName="VistaDiasNoViajadosDataTable" msprop:Generator_TableVarName="tableVistaDiasNoViajados" msprop:Generator_TablePropName="VistaDiasNoViajados" msprop:Generator_RowDeletingName="VistaDiasNoViajadosRowDeleting" msprop:Generator_RowChangingName="VistaDiasNoViajadosRowChanging" msprop:Generator_RowEvHandlerName="VistaDiasNoViajadosRowChangeEventHandler" msprop:Generator_RowDeletedName="VistaDiasNoViajadosRowDeleted" msprop:Generator_UserTableName="VistaDiasNoViajados" msprop:Generator_RowChangedName="VistaDiasNoViajadosRowChanged" msprop:Generator_RowEvArgName="VistaDiasNoViajadosRowChangeEvent" msprop:Generator_RowClassName="VistaDiasNoViajadosRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="DiasNoViajados" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnDiasNoViajados" msprop:Generator_ColumnPropNameInRow="DiasNoViajados" msprop:Generator_ColumnPropNameInTable="DiasNoViajadosColumn" msprop:Generator_UserColumnName="DiasNoViajados" type="xs:int" minOccurs="0" />
+              <xs:element name="UltimaFecha" msprop:Generator_ColumnVarNameInTable="columnUltimaFecha" msprop:Generator_ColumnPropNameInRow="UltimaFecha" msprop:Generator_ColumnPropNameInTable="UltimaFechaColumn" msprop:Generator_UserColumnName="UltimaFecha" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="Placa" msprop:Generator_ColumnVarNameInTable="columnPlaca" msprop:Generator_ColumnPropNameInRow="Placa" msprop:Generator_ColumnPropNameInTable="PlacaColumn" msprop:Generator_UserColumnName="Placa" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="150" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="ProdCamionesBercamConfirmados" msprop:Generator_TableClassName="ProdCamionesBercamConfirmadosDataTable" msprop:Generator_TableVarName="tableProdCamionesBercamConfirmados" msprop:Generator_RowChangedName="ProdCamionesBercamConfirmadosRowChanged" msprop:Generator_TablePropName="ProdCamionesBercamConfirmados" msprop:Generator_RowDeletingName="ProdCamionesBercamConfirmadosRowDeleting" msprop:Generator_RowChangingName="ProdCamionesBercamConfirmadosRowChanging" msprop:Generator_RowEvHandlerName="ProdCamionesBercamConfirmadosRowChangeEventHandler" msprop:Generator_RowDeletedName="ProdCamionesBercamConfirmadosRowDeleted" msprop:Generator_RowClassName="ProdCamionesBercamConfirmadosRow" msprop:Generator_UserTableName="ProdCamionesBercamConfirmados" msprop:Generator_RowEvArgName="ProdCamionesBercamConfirmadosRowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Id_Detalle" msprop:Generator_ColumnVarNameInTable="columnId_Detalle" msprop:Generator_ColumnPropNameInRow="Id_Detalle" msprop:Generator_ColumnPropNameInTable="Id_DetalleColumn" msprop:Generator_UserColumnName="Id_Detalle" type="xs:int" />
+              <xs:element name="Placa_Camion" msprop:Generator_ColumnVarNameInTable="columnPlaca_Camion" msprop:Generator_ColumnPropNameInRow="Placa_Camion" msprop:Generator_ColumnPropNameInTable="Placa_CamionColumn" msprop:Generator_UserColumnName="Placa_Camion" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="250" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Abrev" msprop:Generator_ColumnVarNameInTable="columnAbrev" msprop:Generator_ColumnPropNameInRow="Abrev" msprop:Generator_ColumnPropNameInTable="AbrevColumn" msprop:Generator_UserColumnName="Abrev" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Ruta" msprop:Generator_ColumnVarNameInTable="columnRuta" msprop:Generator_ColumnPropNameInRow="Ruta" msprop:Generator_ColumnPropNameInTable="RutaColumn" msprop:Generator_UserColumnName="Ruta" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="250" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Mes" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnMes" msprop:Generator_ColumnPropNameInRow="Mes" msprop:Generator_ColumnPropNameInTable="MesColumn" msprop:Generator_UserColumnName="Mes" type="xs:int" minOccurs="0" />
+              <xs:element name="Año" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnAño" msprop:Generator_ColumnPropNameInRow="Año" msprop:Generator_ColumnPropNameInTable="AñoColumn" msprop:Generator_UserColumnName="Año" type="xs:int" minOccurs="0" />
+              <xs:element name="FechaCarga" msprop:Generator_ColumnVarNameInTable="columnFechaCarga" msprop:Generator_ColumnPropNameInRow="FechaCarga" msprop:Generator_ColumnPropNameInTable="FechaCargaColumn" msprop:Generator_UserColumnName="FechaCarga" type="xs:dateTime" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="ProcBercamCamionesBercam" msprop:Generator_TableClassName="ProcBercamCamionesBercamDataTable" msprop:Generator_TableVarName="tableProcBercamCamionesBercam" msprop:Generator_TablePropName="ProcBercamCamionesBercam" msprop:Generator_RowDeletingName="ProcBercamCamionesBercamRowDeleting" msprop:Generator_RowChangingName="ProcBercamCamionesBercamRowChanging" msprop:Generator_RowEvHandlerName="ProcBercamCamionesBercamRowChangeEventHandler" msprop:Generator_RowDeletedName="ProcBercamCamionesBercamRowDeleted" msprop:Generator_UserTableName="ProcBercamCamionesBercam" msprop:Generator_RowChangedName="ProcBercamCamionesBercamRowChanged" msprop:Generator_RowEvArgName="ProcBercamCamionesBercamRowChangeEvent" msprop:Generator_RowClassName="ProcBercamCamionesBercamRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Id_Detalle" msprop:Generator_ColumnVarNameInTable="columnId_Detalle" msprop:Generator_ColumnPropNameInRow="Id_Detalle" msprop:Generator_ColumnPropNameInTable="Id_DetalleColumn" msprop:Generator_UserColumnName="Id_Detalle" type="xs:int" />
+              <xs:element name="Placa_Camion" msprop:Generator_ColumnVarNameInTable="columnPlaca_Camion" msprop:Generator_ColumnPropNameInRow="Placa_Camion" msprop:Generator_ColumnPropNameInTable="Placa_CamionColumn" msprop:Generator_UserColumnName="Placa_Camion" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="250" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="FechaCarga" msprop:Generator_ColumnVarNameInTable="columnFechaCarga" msprop:Generator_ColumnPropNameInRow="FechaCarga" msprop:Generator_ColumnPropNameInTable="FechaCargaColumn" msprop:Generator_UserColumnName="FechaCarga" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="Origen" msprop:Generator_ColumnVarNameInTable="columnOrigen" msprop:Generator_ColumnPropNameInRow="Origen" msprop:Generator_ColumnPropNameInTable="OrigenColumn" msprop:Generator_UserColumnName="Origen">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="300" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Destino" msprop:Generator_ColumnVarNameInTable="columnDestino" msprop:Generator_ColumnPropNameInRow="Destino" msprop:Generator_ColumnPropNameInTable="DestinoColumn" msprop:Generator_UserColumnName="Destino">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="300" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Producto" msprop:Generator_ColumnVarNameInTable="columnProducto" msprop:Generator_ColumnPropNameInRow="Producto" msprop:Generator_ColumnPropNameInTable="ProductoColumn" msprop:Generator_UserColumnName="Producto" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="250" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Kilometraje" msprop:Generator_ColumnVarNameInTable="columnKilometraje" msprop:Generator_ColumnPropNameInRow="Kilometraje" msprop:Generator_ColumnPropNameInTable="KilometrajeColumn" msprop:Generator_UserColumnName="Kilometraje" type="xs:int" minOccurs="0" />
+              <xs:element name="Acumulado" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnAcumulado" msprop:Generator_ColumnPropNameInRow="Acumulado" msprop:Generator_ColumnPropNameInTable="AcumuladoColumn" msprop:Generator_UserColumnName="Acumulado" type="xs:int" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="ProcSumaKilometraje" msprop:Generator_TableClassName="ProcSumaKilometrajeDataTable" msprop:Generator_TableVarName="tableProcSumaKilometraje" msprop:Generator_TablePropName="ProcSumaKilometraje" msprop:Generator_RowDeletingName="ProcSumaKilometrajeRowDeleting" msprop:Generator_RowChangingName="ProcSumaKilometrajeRowChanging" msprop:Generator_RowEvHandlerName="ProcSumaKilometrajeRowChangeEventHandler" msprop:Generator_RowDeletedName="ProcSumaKilometrajeRowDeleted" msprop:Generator_UserTableName="ProcSumaKilometraje" msprop:Generator_RowChangedName="ProcSumaKilometrajeRowChanged" msprop:Generator_RowEvArgName="ProcSumaKilometrajeRowChangeEvent" msprop:Generator_RowClassName="ProcSumaKilometrajeRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="TotalKilometraje" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnTotalKilometraje" msprop:Generator_ColumnPropNameInRow="TotalKilometraje" msprop:Generator_ColumnPropNameInTable="TotalKilometrajeColumn" msprop:Generator_UserColumnName="TotalKilometraje" type="xs:int" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Proc_BusquedaViajesInternacionalConfir" msprop:Generator_TableClassName="Proc_BusquedaViajesInternacionalConfirDataTable" msprop:Generator_TableVarName="tableProc_BusquedaViajesInternacionalConfir" msprop:Generator_RowChangedName="Proc_BusquedaViajesInternacionalConfirRowChanged" msprop:Generator_TablePropName="Proc_BusquedaViajesInternacionalConfir" msprop:Generator_RowDeletingName="Proc_BusquedaViajesInternacionalConfirRowDeleting" msprop:Generator_RowChangingName="Proc_BusquedaViajesInternacionalConfirRowChanging" msprop:Generator_RowEvHandlerName="Proc_BusquedaViajesInternacionalConfirRowChangeEventHandler" msprop:Generator_RowDeletedName="Proc_BusquedaViajesInternacionalConfirRowDeleted" msprop:Generator_RowClassName="Proc_BusquedaViajesInternacionalConfirRow" msprop:Generator_UserTableName="Proc_BusquedaViajesInternacionalConfir" msprop:Generator_RowEvArgName="Proc_BusquedaViajesInternacionalConfirRowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Placa_Camion" msprop:Generator_ColumnVarNameInTable="columnPlaca_Camion" msprop:Generator_ColumnPropNameInRow="Placa_Camion" msprop:Generator_ColumnPropNameInTable="Placa_CamionColumn" msprop:Generator_UserColumnName="Placa_Camion" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="250" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="FechaCarga" msprop:Generator_ColumnVarNameInTable="columnFechaCarga" msprop:Generator_ColumnPropNameInRow="FechaCarga" msprop:Generator_ColumnPropNameInTable="FechaCargaColumn" msprop:Generator_UserColumnName="FechaCarga" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="FechaDescarga" msprop:Generator_ColumnVarNameInTable="columnFechaDescarga" msprop:Generator_ColumnPropNameInRow="FechaDescarga" msprop:Generator_ColumnPropNameInTable="FechaDescargaColumn" msprop:Generator_UserColumnName="FechaDescarga" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="FechaConfirmacion" msprop:Generator_ColumnVarNameInTable="columnFechaConfirmacion" msprop:Generator_ColumnPropNameInRow="FechaConfirmacion" msprop:Generator_ColumnPropNameInTable="FechaConfirmacionColumn" msprop:Generator_UserColumnName="FechaConfirmacion" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="ruta" msprop:Generator_ColumnVarNameInTable="columnruta" msprop:Generator_ColumnPropNameInRow="ruta" msprop:Generator_ColumnPropNameInTable="rutaColumn" msprop:Generator_UserColumnName="ruta" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="250" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Descripcion" msprop:Generator_ColumnVarNameInTable="columnDescripcion" msprop:Generator_ColumnPropNameInRow="Descripcion" msprop:Generator_ColumnPropNameInTable="DescripcionColumn" msprop:Generator_UserColumnName="Descripcion" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="250" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="lg_ProcListMermaCamionesPropios" msprop:Generator_TableClassName="lg_ProcListMermaCamionesPropiosDataTable" msprop:Generator_TableVarName="tablelg_ProcListMermaCamionesPropios" msprop:Generator_TablePropName="lg_ProcListMermaCamionesPropios" msprop:Generator_RowDeletingName="lg_ProcListMermaCamionesPropiosRowDeleting" msprop:Generator_RowChangingName="lg_ProcListMermaCamionesPropiosRowChanging" msprop:Generator_RowEvHandlerName="lg_ProcListMermaCamionesPropiosRowChangeEventHandler" msprop:Generator_RowDeletedName="lg_ProcListMermaCamionesPropiosRowDeleted" msprop:Generator_UserTableName="lg_ProcListMermaCamionesPropios" msprop:Generator_RowChangedName="lg_ProcListMermaCamionesPropiosRowChanged" msprop:Generator_RowEvArgName="lg_ProcListMermaCamionesPropiosRowChangeEvent" msprop:Generator_RowClassName="lg_ProcListMermaCamionesPropiosRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="placa" msprop:Generator_ColumnVarNameInTable="columnplaca" msprop:Generator_ColumnPropNameInRow="placa" msprop:Generator_ColumnPropNameInTable="placaColumn" msprop:Generator_UserColumnName="placa" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="150" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Inicial" msprop:Generator_ColumnVarNameInTable="columnInicial" msprop:Generator_ColumnPropNameInRow="Inicial" msprop:Generator_ColumnPropNameInTable="InicialColumn" msprop:Generator_UserColumnName="Inicial" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="final" msprop:Generator_ColumnVarNameInTable="columnfinal" msprop:Generator_ColumnPropNameInRow="final" msprop:Generator_ColumnPropNameInTable="finalColumn" msprop:Generator_UserColumnName="final" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="TramoDesde" msprop:Generator_ColumnVarNameInTable="columnTramoDesde" msprop:Generator_ColumnPropNameInRow="TramoDesde" msprop:Generator_ColumnPropNameInTable="TramoDesdeColumn" msprop:Generator_UserColumnName="TramoDesde" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="150" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="TramoHasta" msprop:Generator_ColumnVarNameInTable="columnTramoHasta" msprop:Generator_ColumnPropNameInRow="TramoHasta" msprop:Generator_ColumnPropNameInTable="TramoHastaColumn" msprop:Generator_UserColumnName="TramoHasta" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="150" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="PrecioMerma" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnPrecioMerma" msprop:Generator_ColumnPropNameInRow="PrecioMerma" msprop:Generator_ColumnPropNameInTable="PrecioMermaColumn" msprop:Generator_UserColumnName="PrecioMerma" type="xs:double" minOccurs="0" />
+              <xs:element name="MermaAReponer" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnMermaAReponer" msprop:Generator_ColumnPropNameInRow="MermaAReponer" msprop:Generator_ColumnPropNameInTable="MermaAReponerColumn" msprop:Generator_UserColumnName="MermaAReponer" type="xs:double" minOccurs="0" />
+              <xs:element name="Mes" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnMes" msprop:Generator_ColumnPropNameInRow="Mes" msprop:Generator_ColumnPropNameInTable="MesColumn" msprop:Generator_UserColumnName="Mes" type="xs:int" minOccurs="0" />
+              <xs:element name="Año" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnAño" msprop:Generator_ColumnPropNameInRow="Año" msprop:Generator_ColumnPropNameInTable="AñoColumn" msprop:Generator_UserColumnName="Año" type="xs:int" minOccurs="0" />
+              <xs:element name="VolumenDespacho" msprop:Generator_ColumnVarNameInTable="columnVolumenDespacho" msprop:Generator_ColumnPropNameInRow="VolumenDespacho" msprop:Generator_ColumnPropNameInTable="VolumenDespachoColumn" msprop:Generator_UserColumnName="VolumenDespacho" type="xs:double" minOccurs="0" />
+              <xs:element name="VolumenRecepcion" msprop:Generator_ColumnVarNameInTable="columnVolumenRecepcion" msprop:Generator_ColumnPropNameInRow="VolumenRecepcion" msprop:Generator_ColumnPropNameInTable="VolumenRecepcionColumn" msprop:Generator_UserColumnName="VolumenRecepcion" type="xs:double" minOccurs="0" />
+              <xs:element name="Balance" msprop:Generator_ColumnVarNameInTable="columnBalance" msprop:Generator_ColumnPropNameInRow="Balance" msprop:Generator_ColumnPropNameInTable="BalanceColumn" msprop:Generator_UserColumnName="Balance" type="xs:double" minOccurs="0" />
+              <xs:element name="MermaAdmisibleLts" msprop:Generator_ColumnVarNameInTable="columnMermaAdmisibleLts" msprop:Generator_ColumnPropNameInRow="MermaAdmisibleLts" msprop:Generator_ColumnPropNameInTable="MermaAdmisibleLtsColumn" msprop:Generator_UserColumnName="MermaAdmisibleLts" type="xs:double" minOccurs="0" />
+              <xs:element name="MermaCobrable" msprop:Generator_ColumnVarNameInTable="columnMermaCobrable" msprop:Generator_ColumnPropNameInRow="MermaCobrable" msprop:Generator_ColumnPropNameInTable="MermaCobrableColumn" msprop:Generator_UserColumnName="MermaCobrable" type="xs:double" minOccurs="0" />
+              <xs:element name="TipoConc" msprop:Generator_ColumnVarNameInTable="columnTipoConc" msprop:Generator_ColumnPropNameInRow="TipoConc" msprop:Generator_ColumnPropNameInTable="TipoConcColumn" msprop:Generator_UserColumnName="TipoConc">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="18" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="lg_ProcSumaListMermaCamionesPropios" msprop:Generator_TableClassName="lg_ProcSumaListMermaCamionesPropiosDataTable" msprop:Generator_TableVarName="tablelg_ProcSumaListMermaCamionesPropios" msprop:Generator_TablePropName="lg_ProcSumaListMermaCamionesPropios" msprop:Generator_RowDeletingName="lg_ProcSumaListMermaCamionesPropiosRowDeleting" msprop:Generator_RowChangingName="lg_ProcSumaListMermaCamionesPropiosRowChanging" msprop:Generator_RowEvHandlerName="lg_ProcSumaListMermaCamionesPropiosRowChangeEventHandler" msprop:Generator_RowDeletedName="lg_ProcSumaListMermaCamionesPropiosRowDeleted" msprop:Generator_UserTableName="lg_ProcSumaListMermaCamionesPropios" msprop:Generator_RowChangedName="lg_ProcSumaListMermaCamionesPropiosRowChanged" msprop:Generator_RowEvArgName="lg_ProcSumaListMermaCamionesPropiosRowChangeEvent" msprop:Generator_RowClassName="lg_ProcSumaListMermaCamionesPropiosRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="TotalMerma" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnTotalMerma" msprop:Generator_ColumnPropNameInRow="TotalMerma" msprop:Generator_ColumnPropNameInTable="TotalMermaColumn" msprop:Generator_UserColumnName="TotalMerma" type="xs:double" minOccurs="0" />
+              <xs:element name="MermaReponer" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnMermaReponer" msprop:Generator_ColumnPropNameInRow="MermaReponer" msprop:Generator_ColumnPropNameInTable="MermaReponerColumn" msprop:Generator_UserColumnName="MermaReponer" type="xs:double" minOccurs="0" />
+              <xs:element name="SumaTotal" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnSumaTotal" msprop:Generator_ColumnPropNameInRow="SumaTotal" msprop:Generator_ColumnPropNameInTable="SumaTotalColumn" msprop:Generator_UserColumnName="SumaTotal" type="xs:double" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="lg_ProcListMermaCamionesPropiosPlaca" msprop:Generator_TableClassName="lg_ProcListMermaCamionesPropiosPlacaDataTable" msprop:Generator_TableVarName="tablelg_ProcListMermaCamionesPropiosPlaca" msprop:Generator_TablePropName="lg_ProcListMermaCamionesPropiosPlaca" msprop:Generator_RowDeletingName="lg_ProcListMermaCamionesPropiosPlacaRowDeleting" msprop:Generator_RowChangingName="lg_ProcListMermaCamionesPropiosPlacaRowChanging" msprop:Generator_RowEvHandlerName="lg_ProcListMermaCamionesPropiosPlacaRowChangeEventHandler" msprop:Generator_RowDeletedName="lg_ProcListMermaCamionesPropiosPlacaRowDeleted" msprop:Generator_UserTableName="lg_ProcListMermaCamionesPropiosPlaca" msprop:Generator_RowChangedName="lg_ProcListMermaCamionesPropiosPlacaRowChanged" msprop:Generator_RowEvArgName="lg_ProcListMermaCamionesPropiosPlacaRowChangeEvent" msprop:Generator_RowClassName="lg_ProcListMermaCamionesPropiosPlacaRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="placa" msprop:Generator_ColumnVarNameInTable="columnplaca" msprop:Generator_ColumnPropNameInRow="placa" msprop:Generator_ColumnPropNameInTable="placaColumn" msprop:Generator_UserColumnName="placa" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="150" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Inicial" msprop:Generator_ColumnVarNameInTable="columnInicial" msprop:Generator_ColumnPropNameInRow="Inicial" msprop:Generator_ColumnPropNameInTable="InicialColumn" msprop:Generator_UserColumnName="Inicial" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="final" msprop:Generator_ColumnVarNameInTable="columnfinal" msprop:Generator_ColumnPropNameInRow="final" msprop:Generator_ColumnPropNameInTable="finalColumn" msprop:Generator_UserColumnName="final" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="TramoDesde" msprop:Generator_ColumnVarNameInTable="columnTramoDesde" msprop:Generator_ColumnPropNameInRow="TramoDesde" msprop:Generator_ColumnPropNameInTable="TramoDesdeColumn" msprop:Generator_UserColumnName="TramoDesde" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="150" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="TramoHasta" msprop:Generator_ColumnVarNameInTable="columnTramoHasta" msprop:Generator_ColumnPropNameInRow="TramoHasta" msprop:Generator_ColumnPropNameInTable="TramoHastaColumn" msprop:Generator_UserColumnName="TramoHasta" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="150" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="PrecioMerma" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnPrecioMerma" msprop:Generator_ColumnPropNameInRow="PrecioMerma" msprop:Generator_ColumnPropNameInTable="PrecioMermaColumn" msprop:Generator_UserColumnName="PrecioMerma" type="xs:double" minOccurs="0" />
+              <xs:element name="MermaAReponer" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnMermaAReponer" msprop:Generator_ColumnPropNameInRow="MermaAReponer" msprop:Generator_ColumnPropNameInTable="MermaAReponerColumn" msprop:Generator_UserColumnName="MermaAReponer" type="xs:double" minOccurs="0" />
+              <xs:element name="Mes" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnMes" msprop:Generator_ColumnPropNameInRow="Mes" msprop:Generator_ColumnPropNameInTable="MesColumn" msprop:Generator_UserColumnName="Mes" type="xs:int" minOccurs="0" />
+              <xs:element name="Año" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnAño" msprop:Generator_ColumnPropNameInRow="Año" msprop:Generator_ColumnPropNameInTable="AñoColumn" msprop:Generator_UserColumnName="Año" type="xs:int" minOccurs="0" />
+              <xs:element name="VolumenDespacho" msprop:Generator_ColumnVarNameInTable="columnVolumenDespacho" msprop:Generator_ColumnPropNameInRow="VolumenDespacho" msprop:Generator_ColumnPropNameInTable="VolumenDespachoColumn" msprop:Generator_UserColumnName="VolumenDespacho" type="xs:double" minOccurs="0" />
+              <xs:element name="VolumenRecepcion" msprop:Generator_ColumnVarNameInTable="columnVolumenRecepcion" msprop:Generator_ColumnPropNameInRow="VolumenRecepcion" msprop:Generator_ColumnPropNameInTable="VolumenRecepcionColumn" msprop:Generator_UserColumnName="VolumenRecepcion" type="xs:double" minOccurs="0" />
+              <xs:element name="Balance" msprop:Generator_ColumnVarNameInTable="columnBalance" msprop:Generator_ColumnPropNameInRow="Balance" msprop:Generator_ColumnPropNameInTable="BalanceColumn" msprop:Generator_UserColumnName="Balance" type="xs:double" minOccurs="0" />
+              <xs:element name="MermaAdmisibleLts" msprop:Generator_ColumnVarNameInTable="columnMermaAdmisibleLts" msprop:Generator_ColumnPropNameInRow="MermaAdmisibleLts" msprop:Generator_ColumnPropNameInTable="MermaAdmisibleLtsColumn" msprop:Generator_UserColumnName="MermaAdmisibleLts" type="xs:double" minOccurs="0" />
+              <xs:element name="MermaCobrable" msprop:Generator_ColumnVarNameInTable="columnMermaCobrable" msprop:Generator_ColumnPropNameInRow="MermaCobrable" msprop:Generator_ColumnPropNameInTable="MermaCobrableColumn" msprop:Generator_UserColumnName="MermaCobrable" type="xs:double" minOccurs="0" />
+              <xs:element name="TipoConc" msprop:Generator_ColumnVarNameInTable="columnTipoConc" msprop:Generator_ColumnPropNameInRow="TipoConc" msprop:Generator_ColumnPropNameInTable="TipoConcColumn" msprop:Generator_UserColumnName="TipoConc">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="18" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="lg_ProcSumListMermCamPropiosPlaca" msprop:Generator_TableClassName="lg_ProcSumListMermCamPropiosPlacaDataTable" msprop:Generator_TableVarName="tablelg_ProcSumListMermCamPropiosPlaca" msprop:Generator_TablePropName="lg_ProcSumListMermCamPropiosPlaca" msprop:Generator_RowDeletingName="lg_ProcSumListMermCamPropiosPlacaRowDeleting" msprop:Generator_RowChangingName="lg_ProcSumListMermCamPropiosPlacaRowChanging" msprop:Generator_RowEvHandlerName="lg_ProcSumListMermCamPropiosPlacaRowChangeEventHandler" msprop:Generator_RowDeletedName="lg_ProcSumListMermCamPropiosPlacaRowDeleted" msprop:Generator_UserTableName="lg_ProcSumListMermCamPropiosPlaca" msprop:Generator_RowChangedName="lg_ProcSumListMermCamPropiosPlacaRowChanged" msprop:Generator_RowEvArgName="lg_ProcSumListMermCamPropiosPlacaRowChangeEvent" msprop:Generator_RowClassName="lg_ProcSumListMermCamPropiosPlacaRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="TotalMerma" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnTotalMerma" msprop:Generator_ColumnPropNameInRow="TotalMerma" msprop:Generator_ColumnPropNameInTable="TotalMermaColumn" msprop:Generator_UserColumnName="TotalMerma" type="xs:double" minOccurs="0" />
+              <xs:element name="MermaReponer" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnMermaReponer" msprop:Generator_ColumnPropNameInRow="MermaReponer" msprop:Generator_ColumnPropNameInTable="MermaReponerColumn" msprop:Generator_UserColumnName="MermaReponer" type="xs:double" minOccurs="0" />
+              <xs:element name="SumaTotal" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnSumaTotal" msprop:Generator_ColumnPropNameInRow="SumaTotal" msprop:Generator_ColumnPropNameInTable="SumaTotalColumn" msprop:Generator_UserColumnName="SumaTotal" type="xs:double" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="lg_ProcListMermaCamionesGeneral" msprop:Generator_TableClassName="lg_ProcListMermaCamionesGeneralDataTable" msprop:Generator_TableVarName="tablelg_ProcListMermaCamionesGeneral" msprop:Generator_TablePropName="lg_ProcListMermaCamionesGeneral" msprop:Generator_RowDeletingName="lg_ProcListMermaCamionesGeneralRowDeleting" msprop:Generator_RowChangingName="lg_ProcListMermaCamionesGeneralRowChanging" msprop:Generator_RowEvHandlerName="lg_ProcListMermaCamionesGeneralRowChangeEventHandler" msprop:Generator_RowDeletedName="lg_ProcListMermaCamionesGeneralRowDeleted" msprop:Generator_UserTableName="lg_ProcListMermaCamionesGeneral" msprop:Generator_RowChangedName="lg_ProcListMermaCamionesGeneralRowChanged" msprop:Generator_RowEvArgName="lg_ProcListMermaCamionesGeneralRowChangeEvent" msprop:Generator_RowClassName="lg_ProcListMermaCamionesGeneralRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="placa" msprop:Generator_ColumnVarNameInTable="columnplaca" msprop:Generator_ColumnPropNameInRow="placa" msprop:Generator_ColumnPropNameInTable="placaColumn" msprop:Generator_UserColumnName="placa" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="250" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Inicial" msprop:Generator_ColumnVarNameInTable="columnInicial" msprop:Generator_ColumnPropNameInRow="Inicial" msprop:Generator_ColumnPropNameInTable="InicialColumn" msprop:Generator_UserColumnName="Inicial" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="final" msprop:Generator_ColumnVarNameInTable="columnfinal" msprop:Generator_ColumnPropNameInRow="final" msprop:Generator_ColumnPropNameInTable="finalColumn" msprop:Generator_UserColumnName="final" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="TramoDesde" msprop:Generator_ColumnVarNameInTable="columnTramoDesde" msprop:Generator_ColumnPropNameInRow="TramoDesde" msprop:Generator_ColumnPropNameInTable="TramoDesdeColumn" msprop:Generator_UserColumnName="TramoDesde" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="350" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="TramoHasta" msprop:Generator_ColumnVarNameInTable="columnTramoHasta" msprop:Generator_ColumnPropNameInRow="TramoHasta" msprop:Generator_ColumnPropNameInTable="TramoHastaColumn" msprop:Generator_UserColumnName="TramoHasta" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="350" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="PrecioMerma" msprop:Generator_ColumnVarNameInTable="columnPrecioMerma" msprop:Generator_ColumnPropNameInRow="PrecioMerma" msprop:Generator_ColumnPropNameInTable="PrecioMermaColumn" msprop:Generator_UserColumnName="PrecioMerma" type="xs:double" minOccurs="0" />
+              <xs:element name="MermaAReponer" msprop:Generator_ColumnVarNameInTable="columnMermaAReponer" msprop:Generator_ColumnPropNameInRow="MermaAReponer" msprop:Generator_ColumnPropNameInTable="MermaAReponerColumn" msprop:Generator_UserColumnName="MermaAReponer" type="xs:double" minOccurs="0" />
+              <xs:element name="Mes" msprop:Generator_ColumnVarNameInTable="columnMes" msprop:Generator_ColumnPropNameInRow="Mes" msprop:Generator_ColumnPropNameInTable="MesColumn" msprop:Generator_UserColumnName="Mes" type="xs:int" minOccurs="0" />
+              <xs:element name="Año" msprop:Generator_ColumnVarNameInTable="columnAño" msprop:Generator_ColumnPropNameInRow="Año" msprop:Generator_ColumnPropNameInTable="AñoColumn" msprop:Generator_UserColumnName="Año" type="xs:int" minOccurs="0" />
+              <xs:element name="VolumenDespacho" msprop:Generator_ColumnVarNameInTable="columnVolumenDespacho" msprop:Generator_ColumnPropNameInRow="VolumenDespacho" msprop:Generator_ColumnPropNameInTable="VolumenDespachoColumn" msprop:Generator_UserColumnName="VolumenDespacho" type="xs:double" minOccurs="0" />
+              <xs:element name="VolumenRecepcion" msprop:Generator_ColumnVarNameInTable="columnVolumenRecepcion" msprop:Generator_ColumnPropNameInRow="VolumenRecepcion" msprop:Generator_ColumnPropNameInTable="VolumenRecepcionColumn" msprop:Generator_UserColumnName="VolumenRecepcion" type="xs:double" minOccurs="0" />
+              <xs:element name="Balance" msprop:Generator_ColumnVarNameInTable="columnBalance" msprop:Generator_ColumnPropNameInRow="Balance" msprop:Generator_ColumnPropNameInTable="BalanceColumn" msprop:Generator_UserColumnName="Balance" type="xs:double" minOccurs="0" />
+              <xs:element name="MermaAdmisibleLts" msprop:Generator_ColumnVarNameInTable="columnMermaAdmisibleLts" msprop:Generator_ColumnPropNameInRow="MermaAdmisibleLts" msprop:Generator_ColumnPropNameInTable="MermaAdmisibleLtsColumn" msprop:Generator_UserColumnName="MermaAdmisibleLts" type="xs:double" minOccurs="0" />
+              <xs:element name="MermaCobrable" msprop:Generator_ColumnVarNameInTable="columnMermaCobrable" msprop:Generator_ColumnPropNameInRow="MermaCobrable" msprop:Generator_ColumnPropNameInTable="MermaCobrableColumn" msprop:Generator_UserColumnName="MermaCobrable" type="xs:double" minOccurs="0" />
+              <xs:element name="TipoConc" msprop:Generator_ColumnVarNameInTable="columnTipoConc" msprop:Generator_ColumnPropNameInRow="TipoConc" msprop:Generator_ColumnPropNameInTable="TipoConcColumn" msprop:Generator_UserColumnName="TipoConc">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="18" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="lg_ProcSumaListMermaCamionesGenerales" msprop:Generator_TableClassName="lg_ProcSumaListMermaCamionesGeneralesDataTable" msprop:Generator_TableVarName="tablelg_ProcSumaListMermaCamionesGenerales" msprop:Generator_RowChangedName="lg_ProcSumaListMermaCamionesGeneralesRowChanged" msprop:Generator_TablePropName="lg_ProcSumaListMermaCamionesGenerales" msprop:Generator_RowDeletingName="lg_ProcSumaListMermaCamionesGeneralesRowDeleting" msprop:Generator_RowChangingName="lg_ProcSumaListMermaCamionesGeneralesRowChanging" msprop:Generator_RowEvHandlerName="lg_ProcSumaListMermaCamionesGeneralesRowChangeEventHandler" msprop:Generator_RowDeletedName="lg_ProcSumaListMermaCamionesGeneralesRowDeleted" msprop:Generator_RowClassName="lg_ProcSumaListMermaCamionesGeneralesRow" msprop:Generator_UserTableName="lg_ProcSumaListMermaCamionesGenerales" msprop:Generator_RowEvArgName="lg_ProcSumaListMermaCamionesGeneralesRowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="SumaTotal" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnSumaTotal" msprop:Generator_ColumnPropNameInRow="SumaTotal" msprop:Generator_ColumnPropNameInTable="SumaTotalColumn" msprop:Generator_UserColumnName="SumaTotal" type="xs:double" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="lg_ProcListMermaCamionesGeneralPlaca" msprop:Generator_TableClassName="lg_ProcListMermaCamionesGeneralPlacaDataTable" msprop:Generator_TableVarName="tablelg_ProcListMermaCamionesGeneralPlaca" msprop:Generator_TablePropName="lg_ProcListMermaCamionesGeneralPlaca" msprop:Generator_RowDeletingName="lg_ProcListMermaCamionesGeneralPlacaRowDeleting" msprop:Generator_RowChangingName="lg_ProcListMermaCamionesGeneralPlacaRowChanging" msprop:Generator_RowEvHandlerName="lg_ProcListMermaCamionesGeneralPlacaRowChangeEventHandler" msprop:Generator_RowDeletedName="lg_ProcListMermaCamionesGeneralPlacaRowDeleted" msprop:Generator_UserTableName="lg_ProcListMermaCamionesGeneralPlaca" msprop:Generator_RowChangedName="lg_ProcListMermaCamionesGeneralPlacaRowChanged" msprop:Generator_RowEvArgName="lg_ProcListMermaCamionesGeneralPlacaRowChangeEvent" msprop:Generator_RowClassName="lg_ProcListMermaCamionesGeneralPlacaRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="placa" msprop:Generator_ColumnVarNameInTable="columnplaca" msprop:Generator_ColumnPropNameInRow="placa" msprop:Generator_ColumnPropNameInTable="placaColumn" msprop:Generator_UserColumnName="placa" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="250" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Inicial" msprop:Generator_ColumnVarNameInTable="columnInicial" msprop:Generator_ColumnPropNameInRow="Inicial" msprop:Generator_ColumnPropNameInTable="InicialColumn" msprop:Generator_UserColumnName="Inicial" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="final" msprop:Generator_ColumnVarNameInTable="columnfinal" msprop:Generator_ColumnPropNameInRow="final" msprop:Generator_ColumnPropNameInTable="finalColumn" msprop:Generator_UserColumnName="final" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="TramoDesde" msprop:Generator_ColumnVarNameInTable="columnTramoDesde" msprop:Generator_ColumnPropNameInRow="TramoDesde" msprop:Generator_ColumnPropNameInTable="TramoDesdeColumn" msprop:Generator_UserColumnName="TramoDesde" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="350" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="TramoHasta" msprop:Generator_ColumnVarNameInTable="columnTramoHasta" msprop:Generator_ColumnPropNameInRow="TramoHasta" msprop:Generator_ColumnPropNameInTable="TramoHastaColumn" msprop:Generator_UserColumnName="TramoHasta" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="350" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="PrecioMerma" msprop:Generator_ColumnVarNameInTable="columnPrecioMerma" msprop:Generator_ColumnPropNameInRow="PrecioMerma" msprop:Generator_ColumnPropNameInTable="PrecioMermaColumn" msprop:Generator_UserColumnName="PrecioMerma" type="xs:double" minOccurs="0" />
+              <xs:element name="MermaAReponer" msprop:Generator_ColumnVarNameInTable="columnMermaAReponer" msprop:Generator_ColumnPropNameInRow="MermaAReponer" msprop:Generator_ColumnPropNameInTable="MermaAReponerColumn" msprop:Generator_UserColumnName="MermaAReponer" type="xs:double" minOccurs="0" />
+              <xs:element name="Mes" msprop:Generator_ColumnVarNameInTable="columnMes" msprop:Generator_ColumnPropNameInRow="Mes" msprop:Generator_ColumnPropNameInTable="MesColumn" msprop:Generator_UserColumnName="Mes" type="xs:int" minOccurs="0" />
+              <xs:element name="Año" msprop:Generator_ColumnVarNameInTable="columnAño" msprop:Generator_ColumnPropNameInRow="Año" msprop:Generator_ColumnPropNameInTable="AñoColumn" msprop:Generator_UserColumnName="Año" type="xs:int" minOccurs="0" />
+              <xs:element name="VolumenDespacho" msprop:Generator_ColumnVarNameInTable="columnVolumenDespacho" msprop:Generator_ColumnPropNameInRow="VolumenDespacho" msprop:Generator_ColumnPropNameInTable="VolumenDespachoColumn" msprop:Generator_UserColumnName="VolumenDespacho" type="xs:double" minOccurs="0" />
+              <xs:element name="VolumenRecepcion" msprop:Generator_ColumnVarNameInTable="columnVolumenRecepcion" msprop:Generator_ColumnPropNameInRow="VolumenRecepcion" msprop:Generator_ColumnPropNameInTable="VolumenRecepcionColumn" msprop:Generator_UserColumnName="VolumenRecepcion" type="xs:double" minOccurs="0" />
+              <xs:element name="Balance" msprop:Generator_ColumnVarNameInTable="columnBalance" msprop:Generator_ColumnPropNameInRow="Balance" msprop:Generator_ColumnPropNameInTable="BalanceColumn" msprop:Generator_UserColumnName="Balance" type="xs:double" minOccurs="0" />
+              <xs:element name="MermaAdmisibleLts" msprop:Generator_ColumnVarNameInTable="columnMermaAdmisibleLts" msprop:Generator_ColumnPropNameInRow="MermaAdmisibleLts" msprop:Generator_ColumnPropNameInTable="MermaAdmisibleLtsColumn" msprop:Generator_UserColumnName="MermaAdmisibleLts" type="xs:double" minOccurs="0" />
+              <xs:element name="MermaCobrable" msprop:Generator_ColumnVarNameInTable="columnMermaCobrable" msprop:Generator_ColumnPropNameInRow="MermaCobrable" msprop:Generator_ColumnPropNameInTable="MermaCobrableColumn" msprop:Generator_UserColumnName="MermaCobrable" type="xs:double" minOccurs="0" />
+              <xs:element name="TipoConc" msprop:Generator_ColumnVarNameInTable="columnTipoConc" msprop:Generator_ColumnPropNameInRow="TipoConc" msprop:Generator_ColumnPropNameInTable="TipoConcColumn" msprop:Generator_UserColumnName="TipoConc">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="18" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="lg_ProcSumListMermCamGeneralPlaca" msprop:Generator_TableClassName="lg_ProcSumListMermCamGeneralPlacaDataTable" msprop:Generator_TableVarName="tablelg_ProcSumListMermCamGeneralPlaca" msprop:Generator_TablePropName="lg_ProcSumListMermCamGeneralPlaca" msprop:Generator_RowDeletingName="lg_ProcSumListMermCamGeneralPlacaRowDeleting" msprop:Generator_RowChangingName="lg_ProcSumListMermCamGeneralPlacaRowChanging" msprop:Generator_RowEvHandlerName="lg_ProcSumListMermCamGeneralPlacaRowChangeEventHandler" msprop:Generator_RowDeletedName="lg_ProcSumListMermCamGeneralPlacaRowDeleted" msprop:Generator_UserTableName="lg_ProcSumListMermCamGeneralPlaca" msprop:Generator_RowChangedName="lg_ProcSumListMermCamGeneralPlacaRowChanged" msprop:Generator_RowEvArgName="lg_ProcSumListMermCamGeneralPlacaRowChangeEvent" msprop:Generator_RowClassName="lg_ProcSumListMermCamGeneralPlacaRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="SumaTotal" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnSumaTotal" msprop:Generator_ColumnPropNameInRow="SumaTotal" msprop:Generator_ColumnPropNameInTable="SumaTotalColumn" msprop:Generator_UserColumnName="SumaTotal" type="xs:double" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:ProcBercamCamiones" />
+      <xs:field xpath="mstns:Id" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>

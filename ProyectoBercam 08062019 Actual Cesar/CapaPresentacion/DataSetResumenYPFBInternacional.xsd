@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DataSetResumenYPFBInternacional" targetNamespace="http://tempuri.org/DataSetResumenYPFBInternacional.xsd" xmlns:mstns="http://tempuri.org/DataSetResumenYPFBInternacional.xsd" xmlns="http://tempuri.org/DataSetResumenYPFBInternacional.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Web.config" AppSettingsPropertyName="bercamConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="bercamConnectionString (Web.config)" ParameterPrefix="@" PropertyReference="AppConfig.System.Configuration.ConfigurationManager.0.ConnectionStrings.bercamConnectionString.ConnectionString" Provider="System.Data.SqlClient" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="ViResumenYPFBInternacionalTableAdapter" GeneratorDataComponentClassName="ViResumenYPFBInternacionalTableAdapter" Name="ViResumenYPFBInternacional" UserDataComponentName="ViResumenYPFBInternacionalTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="bercamConnectionString (Web.config)" DbObjectName="bercam.dbo.ViResumenYPFBInternacional" DbObjectType="View" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="false" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="true">
+                    <CommandText>SELECT ViResumenYPFBInternacional.*
+FROM     ViResumenYPFBInternacional</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="Despacho" DataSetColumn="Despacho" />
+              <Mapping SourceColumn="Recepcion" DataSetColumn="Recepcion" />
+              <Mapping SourceColumn="Merma" DataSetColumn="Merma" />
+              <Mapping SourceColumn="MermaCobrable" DataSetColumn="MermaCobrable" />
+              <Mapping SourceColumn="MermaCobrables" DataSetColumn="MermaCobrables" />
+              <Mapping SourceColumn="TotalPagar" DataSetColumn="TotalPagar" />
+              <Mapping SourceColumn="TotalAPagar" DataSetColumn="TotalAPagar" />
+              <Mapping SourceColumn="TotalAFacturar" DataSetColumn="TotalAFacturar" />
+              <Mapping SourceColumn="TotalFacturar" DataSetColumn="TotalFacturar" />
+              <Mapping SourceColumn="IdMes" DataSetColumn="IdMes" />
+              <Mapping SourceColumn="IdAño" DataSetColumn="IdAño" />
+              <Mapping SourceColumn="Id_Cliente" DataSetColumn="Id_Cliente" />
+              <Mapping SourceColumn="MermaMultaAccidente" DataSetColumn="MermaMultaAccidente" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DataSetResumenYPFBInternacional" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="DataSetResumenYPFBInternacional" msprop:Generator_UserDSName="DataSetResumenYPFBInternacional">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="ViResumenYPFBInternacional" msprop:Generator_TableClassName="ViResumenYPFBInternacionalDataTable" msprop:Generator_TableVarName="tableViResumenYPFBInternacional" msprop:Generator_RowChangedName="ViResumenYPFBInternacionalRowChanged" msprop:Generator_TablePropName="ViResumenYPFBInternacional" msprop:Generator_RowDeletingName="ViResumenYPFBInternacionalRowDeleting" msprop:Generator_RowChangingName="ViResumenYPFBInternacionalRowChanging" msprop:Generator_RowEvHandlerName="ViResumenYPFBInternacionalRowChangeEventHandler" msprop:Generator_RowDeletedName="ViResumenYPFBInternacionalRowDeleted" msprop:Generator_RowClassName="ViResumenYPFBInternacionalRow" msprop:Generator_UserTableName="ViResumenYPFBInternacional" msprop:Generator_RowEvArgName="ViResumenYPFBInternacionalRowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Despacho" msprop:Generator_ColumnVarNameInTable="columnDespacho" msprop:Generator_ColumnPropNameInRow="Despacho" msprop:Generator_ColumnPropNameInTable="DespachoColumn" msprop:Generator_UserColumnName="Despacho" type="xs:double" minOccurs="0" />
+              <xs:element name="Recepcion" msprop:Generator_ColumnVarNameInTable="columnRecepcion" msprop:Generator_ColumnPropNameInRow="Recepcion" msprop:Generator_ColumnPropNameInTable="RecepcionColumn" msprop:Generator_UserColumnName="Recepcion" type="xs:double" minOccurs="0" />
+              <xs:element name="Merma" msprop:Generator_ColumnVarNameInTable="columnMerma" msprop:Generator_ColumnPropNameInRow="Merma" msprop:Generator_ColumnPropNameInTable="MermaColumn" msprop:Generator_UserColumnName="Merma" type="xs:double" minOccurs="0" />
+              <xs:element name="MermaCobrable" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnMermaCobrable" msprop:Generator_ColumnPropNameInRow="MermaCobrable" msprop:Generator_ColumnPropNameInTable="MermaCobrableColumn" msprop:Generator_UserColumnName="MermaCobrable" type="xs:double" minOccurs="0" />
+              <xs:element name="MermaCobrables" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnMermaCobrables" msprop:Generator_ColumnPropNameInRow="MermaCobrables" msprop:Generator_ColumnPropNameInTable="MermaCobrablesColumn" msprop:Generator_UserColumnName="MermaCobrables" type="xs:double" minOccurs="0" />
+              <xs:element name="TotalPagar" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnTotalPagar" msprop:Generator_ColumnPropNameInRow="TotalPagar" msprop:Generator_ColumnPropNameInTable="TotalPagarColumn" msprop:Generator_UserColumnName="TotalPagar" type="xs:double" minOccurs="0" />
+              <xs:element name="TotalAPagar" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnTotalAPagar" msprop:Generator_ColumnPropNameInRow="TotalAPagar" msprop:Generator_ColumnPropNameInTable="TotalAPagarColumn" msprop:Generator_UserColumnName="TotalAPagar" type="xs:double" minOccurs="0" />
+              <xs:element name="TotalAFacturar" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnTotalAFacturar" msprop:Generator_ColumnPropNameInRow="TotalAFacturar" msprop:Generator_ColumnPropNameInTable="TotalAFacturarColumn" msprop:Generator_UserColumnName="TotalAFacturar" type="xs:double" minOccurs="0" />
+              <xs:element name="TotalFacturar" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnTotalFacturar" msprop:Generator_ColumnPropNameInRow="TotalFacturar" msprop:Generator_ColumnPropNameInTable="TotalFacturarColumn" msprop:Generator_UserColumnName="TotalFacturar" type="xs:double" minOccurs="0" />
+              <xs:element name="IdMes" msprop:Generator_ColumnVarNameInTable="columnIdMes" msprop:Generator_ColumnPropNameInRow="IdMes" msprop:Generator_ColumnPropNameInTable="IdMesColumn" msprop:Generator_UserColumnName="IdMes" type="xs:int" minOccurs="0" />
+              <xs:element name="IdAño" msprop:Generator_ColumnVarNameInTable="columnIdAño" msprop:Generator_ColumnPropNameInRow="IdAño" msprop:Generator_ColumnPropNameInTable="IdAñoColumn" msprop:Generator_UserColumnName="IdAño" type="xs:int" minOccurs="0" />
+              <xs:element name="Id_Cliente" msprop:Generator_ColumnVarNameInTable="columnId_Cliente" msprop:Generator_ColumnPropNameInRow="Id_Cliente" msprop:Generator_ColumnPropNameInTable="Id_ClienteColumn" msprop:Generator_UserColumnName="Id_Cliente" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="350" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="MermaMultaAccidente" msprop:Generator_ColumnVarNameInTable="columnMermaMultaAccidente" msprop:Generator_ColumnPropNameInRow="MermaMultaAccidente" msprop:Generator_ColumnPropNameInTable="MermaMultaAccidenteColumn" msprop:Generator_UserColumnName="MermaMultaAccidente" type="xs:double" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
