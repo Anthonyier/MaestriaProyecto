@@ -28,7 +28,7 @@ namespace CapaPresentacion
         bool Clien = false;
         protected void Page_Load(object sender, EventArgs e)
         {
-            if (Request.QueryString["Id"] != null)
+            if (Request.QueryString["Id"] != null) // Cargamos una persona ya existente
             {
                 
                 Nom = txtNombres.Text;
@@ -41,7 +41,7 @@ namespace CapaPresentacion
                 int PersonaId = Convert.ToInt32(Request.QueryString["Id"]);
                 txtCI.Text = Convert.ToString(PersonaId);
                 EntPersona objPropietario = new EntPersona();
-                objPropietario = NegPersona.BuscarTodo(PersonaId); //haber
+                objPropietario = NegPersona.BuscarTodo(PersonaId); //BuscarPersona
                 txtCI.Text = objPropietario.CI;
                 txtEmision.Text = objPropietario.Emision; 
                 txtNombres.Text = objPropietario.Nombres;
@@ -58,32 +58,8 @@ namespace CapaPresentacion
                 bit.IdUsuario = us.Id_Usuario;
                 int bi = NegBitacora.GuardarBitacora(bit);
                 objPropietario = NegPersona.BuscarTipoEntidad(PersonaId);
-                if (objPropietario.Id_TipoPersonaPRO == 1)
-                {
-                    chkPropietario.Checked = true;
-                    Prop = true;
-                }
-                if (objPropietario.Id_TipoPersonaCho == 1)
-                {
-                    chkChofer.Checked = true;
-                     Chof = true;
-                }
-                if (objPropietario.Id_TipoPersonaTit == 1)
-                {
-                    chkTitularBanco.Checked = true;
-                     Titban = true;
-                }
-                if (objPropietario.Id_TipoPersonaUs == 1)
-                {
-                    chkUsuario.Checked = true;
-                     Usua = true;
-                }
-                if (objPropietario.Id_TipoPersonaCL == 1)
-                {
-                    chkCliente.Checked = true;
-                    Clien = true;
-                }
-                
+
+                MarcarCheckboxLoad(objPropietario);
             }
             else
             {
@@ -95,19 +71,35 @@ namespace CapaPresentacion
                 int bi = NegBitacora.GuardarBitacora(bit);
 
             }
-            EntUsuario usuario = (EntUsuario)Session["Usuario"];
-            EntPermisoPersona Persona = NegPermisoPersona.BuscarPermiso(usuario.Id_Usuario);
+            
+        }
 
-            if (Persona.CrearPersona != 1)
+        public void MarcarCheckboxLoad(EntPersona objPropietario)
+        {
+            if (objPropietario.Id_TipoPersonaPRO == 1)
             {
-
-                BtnGuardar.Visible = false;
-                BtnGuardar.Enabled = false;
+                chkPropietario.Checked = true;
+                Prop = true;
             }
-            if (Persona.CrearUsuario != 1)
+            if (objPropietario.Id_TipoPersonaCho == 1)
             {
-                chkUsuario.Visible = false;
-                chkUsuario.Enabled = false;
+                chkChofer.Checked = true;
+                Chof = true;
+            }
+            if (objPropietario.Id_TipoPersonaTit == 1)
+            {
+                chkTitularBanco.Checked = true;
+                Titban = true;
+            }
+            if (objPropietario.Id_TipoPersonaUs == 1)
+            {
+                chkUsuario.Checked = true;
+                Usua = true;
+            }
+            if (objPropietario.Id_TipoPersonaCL == 1)
+            {
+                chkCliente.Checked = true;
+                Clien = true;
             }
         }
 
@@ -133,22 +125,9 @@ namespace CapaPresentacion
                 lblError.Visible = true;
                 return;
             }
-            if (chkUsuario.Checked)
-            {
-                //GuardarUsuario();
-                if (Convert.ToString(txtUsuario.Text) != "" && Convert.ToString(txtContraseña.Text) != "")
-                {
-                    //sigue su curso
-                }
-                else
-                {
-                    //lblError.Text = "Debe Ingresar el Nombre de Usuario o Contraseña";
-                    //lblError.Visible = true;
-                    //return;
-                }
-            }
+           
             if (txtNombres.Text != "" && txtCI.Text != "")
-                // si chk ususario is true then, txtuser tiene datos y contraseña tiene datos
+                // si texto nombre y texto Ci no son vacios
             {
                 EntPersona objPropietario = new EntPersona();
                 
@@ -163,177 +142,8 @@ namespace CapaPresentacion
                     return;
                 }
 
-                objPropietario.Id_TipoPersonaPRO = 0;
-                objPropietario.Id_TipoPersonaCho = 0;
-                objPropietario.Id_TipoPersonaTit = 0;
-                objPropietario.Id_TipoPersonaUs = 0;
-                objPropietario.Id_TipoPersonaCL = 0;
-                if (chkPropietario.Checked) //&& (chkChofer.Checked) && (chkTitularBanco.Checked) %% (chkUsuario.Checked)
-                {
-                    objPropietario.Id_TipoPersonaPRO = 1;
-                    if (chkChofer.Checked)
-                    {
-                        objPropietario.Id_TipoPersonaCho = 1;
-                        if (chkTitularBanco.Checked)
-                        {
-                            objPropietario.Id_TipoPersonaTit = 1;
-                            if (chkUsuario.Checked)
-                            {
-                                objPropietario.Id_TipoPersonaUs = 1;
-                                if (chkCliente.Checked) //Insert 16-08-2017
-                                {
-                                    objPropietario.Id_TipoPersonaCL = 1;
-                                }//hasta aqui
-                            }
-                            else
-                            {
-                                if (chkCliente.Checked) //Insert 16-08-2017
-                                {
-                                    objPropietario.Id_TipoPersonaCL = 1;
-                                }//hasta aqui
-                            }
 
-                        }
-                        else
-                        {
-                            if (chkUsuario.Checked)
-                            {
-                                objPropietario.Id_TipoPersonaUs = 1;
-                                if (chkCliente.Checked) //Insert 16-08-2017
-                                {
-                                    objPropietario.Id_TipoPersonaCL = 1;
-                                }//hasta aqui
-                            }
-                            else
-                            {
-                                if (chkCliente.Checked) //Insert 16-08-2017
-                                {
-                                    objPropietario.Id_TipoPersonaCL = 1;
-                                }//hasta aqui
-                            }
-                        }
-                    }
-                    else
-                    {
-                        if (chkTitularBanco.Checked)
-                        {
-                            objPropietario.Id_TipoPersonaTit = 1;
-                            if (chkUsuario.Checked)
-                            {
-                                objPropietario.Id_TipoPersonaUs = 1;
-                                if (chkCliente.Checked) //Insert 16-08-2017
-                                {
-                                    objPropietario.Id_TipoPersonaCL = 1;
-                                }//hasta aqui
-                            }
-                            else
-                            {
-                                if (chkCliente.Checked) //Insert 16-08-2017
-                                {
-                                    objPropietario.Id_TipoPersonaCL = 1;
-                                }//hasta aqui
-                            }
-                        }
-                        else
-                        {
-                            if (chkUsuario.Checked)
-                            {
-                                objPropietario.Id_TipoPersonaUs = 1;
-                                if (chkCliente.Checked) //Insert 16-08-2017
-                                {
-                                    objPropietario.Id_TipoPersonaCL = 1;
-                                }//hasta aqui
-                            }
-                            else
-                            {
-                                if (chkCliente.Checked) //Insert 16-08-2017
-                                {
-                                    objPropietario.Id_TipoPersonaCL = 1;
-                                }//hasta aqui
-                            }
-                        }
-                    }
-
-                }
-                else
-                {
-                    if (chkChofer.Checked)
-                    {
-                        objPropietario.Id_TipoPersonaCho = 1;
-                        if (chkTitularBanco.Checked)
-                        {
-                            objPropietario.Id_TipoPersonaTit = 1;
-                            if (chkUsuario.Checked)
-                            {
-                                objPropietario.Id_TipoPersonaUs = 1;
-                                if (chkCliente.Checked) //Insert 16-08-2017
-                                {
-                                    objPropietario.Id_TipoPersonaCL = 1;
-                                }//hasta aqui
-                            }
-                        }
-                        else
-                        {
-                            if (chkUsuario.Checked)
-                            {
-                                objPropietario.Id_TipoPersonaUs = 1;
-                                if (chkCliente.Checked) //Insert 16-08-2017
-                                {
-                                    objPropietario.Id_TipoPersonaCL = 1;
-                                }//hasta aqui
-                            }
-                            else
-                            {
-                                if (chkCliente.Checked) //Insert 16-08-2017
-                                {
-                                    objPropietario.Id_TipoPersonaCL = 1;
-                                }//hasta aqui
-                            }
-                        }
-                    }
-                    else
-                    {
-                        if (chkTitularBanco.Checked)
-                        {
-                            objPropietario.Id_TipoPersonaTit = 1;
-                            if (chkUsuario.Checked)
-                            {
-                                objPropietario.Id_TipoPersonaUs = 1;
-                                if (chkCliente.Checked) //Insert 16-08-2017
-                                {
-                                    objPropietario.Id_TipoPersonaCL = 1;
-                                }//hasta aqui
-                            }
-                            else
-                            {
-                                if (chkCliente.Checked) //Insert 16-08-2017
-                                {
-                                    objPropietario.Id_TipoPersonaCL = 1;
-                                }//hasta aqui
-                            }
-                        }
-                        else
-                        {
-                            if (chkUsuario.Checked)
-                            {
-                                objPropietario.Id_TipoPersonaUs = 1;
-                                if (chkCliente.Checked) //Insert 16-08-2017
-                                {
-                                    objPropietario.Id_TipoPersonaCL = 1;
-                                }//hasta aqui
-                            }
-                            else
-                            {
-                                if (chkCliente.Checked) //Insert 16-08-2017
-                                {
-                                    objPropietario.Id_TipoPersonaCL = 1;
-                                }//hasta aqui
-                            }
-                        }
-                    }
-                }
-
-                
+                CheckearTipoPerosna(objPropietario);
                 objPropietario.Nombres = txtNombres.Text;
                 objPropietario.Apellidos = txtApellidos.Text;
                 objPropietario.Direccion = txtDireccion.Text;
@@ -341,7 +151,7 @@ namespace CapaPresentacion
                 objPropietario.Telefono = txtTelefono.Text;
                 objPropietario.TelfReferencia = txtTelfReferencia.Text;
                 objPropietario.Email = txtEmail.Text;
-                //objPropietario.Estado = int.Parse(txtEstado.Text);
+                
 
 
               
@@ -355,7 +165,6 @@ namespace CapaPresentacion
                 {
                     objPropietario.Usuario = txtUsuario.Text;
                     objPropietario.Contraseña = txtContraseña.Text;
-                    //objPropietario.Id_Rol = Convert.ToInt32(cmbRol.SelectedValue);
                 }
 
                 if (Request.QueryString["Id"] == null)
@@ -416,25 +225,13 @@ namespace CapaPresentacion
                     if (NegPersona.ActualizarPropietario(objPropietario) == 1)
                     {
                  
-                        //Response.Redirect("frmPrincipal.aspx");
+                        
                         lblError.Text = "Registro de Entidad ACTUALIZADO satisfactoriamente";
                         lblError.Visible = true;
                         Response.Write("<script languaje =javascript>alert ('Registro de Entidad ACTUALIZADO satisfactoriamente');</script>");
-                        //Response.Redirect("frmRegistrarPropietarios.aspx");
-                        txtCI.Text = "";
-                        txtNombres.Text = "";
-                        txtApellidos.Text = "";
-                        txtEmision.Text = "";
-                        txtDireccion.Text = "";
-                        txtTelefono.Text = "";
-                        txtTelfReferencia.Text = "";
-                        txtEmail.Text = "";
-                        //txtEstado.Text = "";
-                        chkUsuario.Checked = false;
-                        chkChofer.Checked = false;
-                        chkCliente.Checked = false;
-                        chkPropietario.Checked = false;
-                        chkTitularBanco.Checked = false;
+
+                        LimpiarTextbox();
+
                         EntUsuario us = (EntUsuario)Session["Usuario"];
                         EntBitacora bit = new EntBitacora();
                         bit.Usuario = us.Nombre + "" + us.Apellidos;
@@ -453,30 +250,15 @@ namespace CapaPresentacion
                 }
                 else
                 {
-                    if (NegPersona.InsertarPersona(objPropietario) == 1)
+                    if (NegPersona.InsertarPersona(objPropietario) == 1) // Insertamos La person
                     {
-                        //Response.Redirect("frmPrincipal.aspx");
+                       
                         lblError.Text = "Registro de Entidad guardado satisfactoriamente";
                         lblError.Visible = true;
                         Response.Write("<script languaje =javascript>alert ('Registro de Entidad guardado satisfactoriamente');</script>");
-                        //Response.Redirect("frmRegistrarPropietarios.aspx");
-                        txtCI.Text = "";
-                        txtNombres.Text = "";
-                        txtApellidos.Text = "";
-                        txtEmision.Text = "";
-                        txtDireccion.Text = "";
-                        txtTelefono.Text = "";
-                        txtTelfReferencia.Text = "";
-                        txtEmail.Text = "";
-                        //txtEstado.Text = "";
-                        chkUsuario.Checked = false;
-                        chkChofer.Checked = false;
-                        chkPropietario.Checked = false;
-                        chkTitularBanco.Checked = false;
-                        chkCliente.Checked = false;
-                        txtUsuario.Text = "";
-                        txtContraseña.Text = "";
-                        txtConfirmarContraseña.Text = "";
+                        
+
+                        LimpiarTextbox();
 
                         EntUsuario us = (EntUsuario)Session["Usuario"];
                         EntBitacora bit = new EntBitacora();
@@ -503,6 +285,200 @@ namespace CapaPresentacion
             }
         }
        
+        //Limpiaremos TextBox
+        public void LimpiarTextbox()
+        {
+            txtCI.Text = "";
+            txtNombres.Text = "";
+            txtApellidos.Text = "";
+            txtEmision.Text = "";
+            txtDireccion.Text = "";
+            txtTelefono.Text = "";
+            txtTelfReferencia.Text = "";
+            txtEmail.Text = "";
+            //txtEstado.Text = "";
+            chkUsuario.Checked = false;
+            chkChofer.Checked = false;
+            chkPropietario.Checked = false;
+            chkTitularBanco.Checked = false;
+            chkCliente.Checked = false;
+            txtUsuario.Text = "";
+            txtContraseña.Text = "";
+            txtConfirmarContraseña.Text = "";
+        }
+        //Nos encargamos de confirmar los Tipos de Persona
+        public void CheckearTipoPerosna(EntPersona objPropietario)
+        {
+            objPropietario.Id_TipoPersonaPRO = 0;
+            objPropietario.Id_TipoPersonaCho = 0;
+            objPropietario.Id_TipoPersonaTit = 0;
+            objPropietario.Id_TipoPersonaUs = 0;
+            objPropietario.Id_TipoPersonaCL = 0;
+            if (chkPropietario.Checked) 
+            {
+                objPropietario.Id_TipoPersonaPRO = 1;
+                if (chkChofer.Checked)
+                {
+                    objPropietario.Id_TipoPersonaCho = 1;
+                    if (chkTitularBanco.Checked)
+                    {
+                        objPropietario.Id_TipoPersonaTit = 1;
+                        if (chkUsuario.Checked)
+                        {
+                            objPropietario.Id_TipoPersonaUs = 1;
+                            if (chkCliente.Checked) //Insert 16-08-2017
+                            {
+                                objPropietario.Id_TipoPersonaCL = 1;
+                            }//hasta aqui
+                        }
+                        else
+                        {
+                            if (chkCliente.Checked) //Insert 16-08-2017
+                            {
+                                objPropietario.Id_TipoPersonaCL = 1;
+                            }//hasta aqui
+                        }
+
+                    }
+                    else
+                    {
+                        if (chkUsuario.Checked)
+                        {
+                            objPropietario.Id_TipoPersonaUs = 1;
+                            if (chkCliente.Checked) //Insert 16-08-2017
+                            {
+                                objPropietario.Id_TipoPersonaCL = 1;
+                            }//hasta aqui
+                        }
+                        else
+                        {
+                            if (chkCliente.Checked) //Insert 16-08-2017
+                            {
+                                objPropietario.Id_TipoPersonaCL = 1;
+                            }//hasta aqui
+                        }
+                    }
+                }
+                else
+                {
+                    if (chkTitularBanco.Checked)
+                    {
+                        objPropietario.Id_TipoPersonaTit = 1;
+                        if (chkUsuario.Checked)
+                        {
+                            objPropietario.Id_TipoPersonaUs = 1;
+                            if (chkCliente.Checked) //Insert 16-08-2017
+                            {
+                                objPropietario.Id_TipoPersonaCL = 1;
+                            }//hasta aqui
+                        }
+                        else
+                        {
+                            if (chkCliente.Checked) //Insert 16-08-2017
+                            {
+                                objPropietario.Id_TipoPersonaCL = 1;
+                            }//hasta aqui
+                        }
+                    }
+                    else
+                    {
+                        if (chkUsuario.Checked)
+                        {
+                            objPropietario.Id_TipoPersonaUs = 1;
+                            if (chkCliente.Checked) //Insert 16-08-2017
+                            {
+                                objPropietario.Id_TipoPersonaCL = 1;
+                            }//hasta aqui
+                        }
+                        else
+                        {
+                            if (chkCliente.Checked) //Insert 16-08-2017
+                            {
+                                objPropietario.Id_TipoPersonaCL = 1;
+                            }//hasta aqui
+                        }
+                    }
+                }
+
+            }
+            else
+            {
+                if (chkChofer.Checked)
+                {
+                    objPropietario.Id_TipoPersonaCho = 1;
+                    if (chkTitularBanco.Checked)
+                    {
+                        objPropietario.Id_TipoPersonaTit = 1;
+                        if (chkUsuario.Checked)
+                        {
+                            objPropietario.Id_TipoPersonaUs = 1;
+                            if (chkCliente.Checked) //Insert 16-08-2017
+                            {
+                                objPropietario.Id_TipoPersonaCL = 1;
+                            }//hasta aqui
+                        }
+                    }
+                    else
+                    {
+                        if (chkUsuario.Checked)
+                        {
+                            objPropietario.Id_TipoPersonaUs = 1;
+                            if (chkCliente.Checked) //Insert 16-08-2017
+                            {
+                                objPropietario.Id_TipoPersonaCL = 1;
+                            }//hasta aqui
+                        }
+                        else
+                        {
+                            if (chkCliente.Checked) //Insert 16-08-2017
+                            {
+                                objPropietario.Id_TipoPersonaCL = 1;
+                            }//hasta aqui
+                        }
+                    }
+                }
+                else
+                {
+                    if (chkTitularBanco.Checked)
+                    {
+                        objPropietario.Id_TipoPersonaTit = 1;
+                        if (chkUsuario.Checked)
+                        {
+                            objPropietario.Id_TipoPersonaUs = 1;
+                            if (chkCliente.Checked) //Insert 16-08-2017
+                            {
+                                objPropietario.Id_TipoPersonaCL = 1;
+                            }//hasta aqui
+                        }
+                        else
+                        {
+                            if (chkCliente.Checked) //Insert 16-08-2017
+                            {
+                                objPropietario.Id_TipoPersonaCL = 1;
+                            }//hasta aqui
+                        }
+                    }
+                    else
+                    {
+                        if (chkUsuario.Checked)
+                        {
+                            objPropietario.Id_TipoPersonaUs = 1;
+                            if (chkCliente.Checked) //Insert 16-08-2017
+                            {
+                                objPropietario.Id_TipoPersonaCL = 1;
+                            }//hasta aqui
+                        }
+                        else
+                        {
+                            if (chkCliente.Checked) //Insert 16-08-2017
+                            {
+                                objPropietario.Id_TipoPersonaCL = 1;
+                            }//hasta aqui
+                        }
+                    }
+                }
+            }
+        }
 
         protected void chkUsuario_CheckedChanged(object sender, EventArgs e)
         {

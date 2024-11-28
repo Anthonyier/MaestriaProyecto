@@ -57,24 +57,8 @@
                                    CommandName="AnularRecepcion" OnClientClick="return confirm('Esta seguro que desea deshabilitar?');">Anular</asp:LinkButton>
                             </ItemTemplate>
                          </asp:TemplateField>
-                         <asp:TemplateField HeaderText="ConciliacionPorCobrar">
-                             <ItemTemplate>
-                                <asp:LinkButton ID="LinkConciliacionCobrar" runat ="server" CausesValidation="false" CommandArgument='<%#Bind("Id_Recepcion") %>'
-                                   CommandName="Conciliacion" >Conciliación por cobrar</asp:LinkButton>
-                            </ItemTemplate>
-                         </asp:TemplateField>
-                        <asp:TemplateField HeaderText="Imprimir">
-                             <ItemTemplate >
-                                 <asp:LinkButton ID="LinkImprimir" runat ="server" CausesValidation="false" CommandArgument='<%#Bind("Id_Recepcion") %>'
-                                   CommandName="Imprimir">Imprimir</asp:LinkButton>
-                             </ItemTemplate>
-                         </asp:TemplateField> 
-                         <asp:TemplateField HeaderText="ImprimirMonto" >
-                              <ItemTemplate >
-                                 <asp:LinkButton ID="LinkImprimirMonto" runat ="server" CausesValidation="false" CommandArgument='<%#Bind("Id_Recepcion") %>'
-                                   CommandName="Imprimir Monto" >Imprimir Monto</asp:LinkButton>
-                             </ItemTemplate>
-                             </asp:TemplateField>
+                       
+                      
                      </Columns>
                      <FooterStyle BackColor="#B5C7DE" ForeColor="#4A3C8C" />
                      <HeaderStyle BackColor="#4A3C8C" Font-Bold="True" ForeColor="#F7F7F7" />
@@ -97,38 +81,6 @@
       </asp:SqlDataSource>
       </div>
 
-
-<%--SelectCommand="SELECT * FROM [View_AsignacionRuta] order by ClIENTE,Id_Recepcion--%>
-    <%--<asp:TemplateField HeaderText="Editar">
-                             <ItemTemplate>
-                                <asp:LinkButton ID="LinkAgregar" runat ="server" CausesValidation="false" CommandArgument='<%#Bind("Id_Recepcion") %>'
-                                 CommandName="EditarRecepcion" >Editar</asp:LinkButton>
-                            </ItemTemplate>
-                         </asp:TemplateField>
-                         <asp:TemplateField HeaderText="Anular">
-                              <ItemTemplate>
-                                <asp:LinkButton ID="LinkAnular" runat ="server" CausesValidation="false" CommandArgument='<%#Bind("Id_Recepcion") %>'
-                                   CommandName="AnularRecepcion" OnClientClick="return confirm('Esta seguro que desea deshabilitar?');">Anular</asp:LinkButton>
-                            </ItemTemplate>
-                         </asp:TemplateField>
-                         <asp:TemplateField HeaderText="ConciliacionPorCobrar">
-                             <ItemTemplate>
-                                <asp:LinkButton ID="LinkConciliacionCobrar" runat ="server" CausesValidation="false" CommandArgument='<%#Bind("Id_Recepcion") %>'
-                                   CommandName="Conciliacion" >Conciliación por cobrar</asp:LinkButton>
-                            </ItemTemplate>
-                         </asp:TemplateField>
-                        <asp:TemplateField HeaderText="Imprimir">
-                             <ItemTemplate >
-                                 <asp:LinkButton ID="LinkImprimir" runat ="server" CausesValidation="false" CommandArgument='<%#Bind("Id_Recepcion") %>'
-                                   CommandName="Imprimir">Imprimir</asp:LinkButton>
-                             </ItemTemplate>
-                         </asp:TemplateField> 
-                         <asp:TemplateField HeaderText="ImprimirMonto" >
-                              <ItemTemplate >
-                                 <asp:LinkButton ID="LinkImprimirMonto" runat ="server" CausesValidation="false" CommandArgument='<%#Bind("Id_Recepcion") %>'
-                                   CommandName="Imprimir Monto" >Imprimir Monto</asp:LinkButton>
-                             </ItemTemplate>
-                             </asp:TemplateField>--%>
 </asp:Content>
 
 

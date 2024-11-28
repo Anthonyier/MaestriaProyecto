@@ -63,20 +63,7 @@ namespace CapaPresentacion
                 }
             }
            
-            EntUsuario usuario = (EntUsuario)Session["Usuario"];
-            EntPermisoRutas Persona = NegPermisoRutas.BuscarPermiso(usuario.Id_Usuario);
-
-            if (Persona.CrearRuta != 1)
-            {
-
-                BtnGuardar.Visible = false;
-                BtnGuardar.Enabled = false;
-            }
-
-            if (Persona.ListaRutas != 1)
-            {
-                GridView1.Visible = false;
-            }
+           
         }
 
         public void GridView1_PageIndexChanging(object sender,GridViewPageEventArgs e)
@@ -93,24 +80,14 @@ namespace CapaPresentacion
                 bit.Accion = "El usuario va Modificar Rutas";
                 bit.IdUsuario = us.Id_Usuario;
                 int bi = NegBitacora.GuardarBitacora(bit);
-                EntUsuario usuario = (EntUsuario)Session["Usuario"];
-                EntPermisoRutas Persona = NegPermisoRutas.BuscarPermiso(usuario.Id_Usuario);
-                if (Persona.ModificarRutas == 1)
-                {
-                    string sRutaId = e.CommandArgument.ToString();
-                    Response.Redirect("FormRuta.aspx?Id=" + sRutaId);
-                }
+               
+                string sRutaId = e.CommandArgument.ToString();
+                Response.Redirect("FormRuta.aspx?Id=" + sRutaId);
+                
             }
             if (e.CommandName == "CarroGuia")
             {
-                EntUsuario usuario = (EntUsuario)Session["Usuario"];
-                EntPermisoRutas Persona = NegPermisoRutas.BuscarPermiso(usuario.Id_Usuario);
-                if (Persona.ModificarRutas == 1)
-                {
-                    string RutaId = e.CommandArgument.ToString();
-                    NegRuta.CarroGuia(int.Parse(RutaId));
-                    Response.Write("<script languaje =javascript>alert ('Carro Guia Habilitado');</script>");
-                }
+                
             }
         }
         public void CargarCliente()
@@ -148,39 +125,7 @@ namespace CapaPresentacion
         }
 
 
-        //public void CargarProducto()
-        //{
-        //    Producto.Items.Clear();
-        //    Producto.Items.Add(new ListItem("--Selecciona Producto--", ""));
-        //    Producto.AppendDataBoundItems = true;
-        //    ClaseConexion Conexion = new ClaseConexion();
-        //    SqlConnection cnx = Conexion.conectar();
-        //    SqlCommand cmd = new SqlCommand();
-        //    try
-        //    {
-        //        string sql = "SELECT * From Producto";
-        //        cmd.CommandText = sql;
-        //        cmd.Connection = cnx;
-        //        SqlDataReader dr = null;
-        //        cnx.Open();
-        //        //cmd.Transaction = myTrans;
-        //        dr = cmd.ExecuteReader();
-        //        Producto.DataSource = dr; //cmd.ExecuteReader();    
-        //        Producto.DataTextField = "Descripcion";
-        //        Producto.DataValueField = "Id_Producto";
-        //        Producto.DataBind();
-        //        dr.Close();
-        //    }
-        //    catch (Exception ex)
-        //    {
-        //        throw ex;
-        //    }
-        //    finally
-        //    {
-        //        cmd.Connection.Close();
-        //        cmd.Connection.Dispose();
-        //    }
-        //}
+        
 
 
         protected void BtnGuardar_Click(object sender, EventArgs e)
@@ -210,13 +155,7 @@ namespace CapaPresentacion
                 {
                     ObjRuta.Destino = Des;
                 }
-                //if (Producto.Text == "")
-                //{
-                //    ObjRuta.Id_Producto = 0;
-                //}else
-                //{
-                //    ObjRuta.Id_Producto = int.Parse(Producto.Text);
-                //}
+               
                 if (Cliente.Text == "")
                 {
                     ObjRuta.Id_Cliente = 0;
@@ -254,6 +193,7 @@ namespace CapaPresentacion
                 }
                 else
                 {
+                    //Insertar Ruta
                     if (ObjRuta.Id_Cliente != 0 && ObjRuta.Id_Cliente != 0 && NegRuta.InsertarRuta(ObjRuta) == 1)
                     {
                         //Response.Redirect("frmPrincipal.aspx");
@@ -267,21 +207,7 @@ namespace CapaPresentacion
                         txtIdDestino.Text = "";
                         txtIdOrigen.Text = "";
 
-                        //SqlDataSource SqlDataSource1 = new SqlDataSource();
-
-                        //SqlDataSource1.ID = "SqlDataSource1";
-
-                        //this.Page.Controls.Add(SqlDataSource1);
-
-                        //SqlDataSource1.ConnectionString = System.Configuration.ConfigurationManager.ConnectionStrings["bercamConnectionString5"].ConnectionString;
-
-                        //SqlDataSource1.SelectCommand = "SELECT * FROM [Vi_ListaRuta]";
-
-
-
-                        //GridView1.DataSource = SqlDataSource1;
-
-                        //GridView1.DataBind(); 
+                       
                         
                         
 
@@ -322,80 +248,7 @@ namespace CapaPresentacion
                 Des=GuardarPlanta(TextUbicacion.Text);
             }
         }
-        //protected void AgProducto_Click(object sender, EventArgs e)
-        //{
-        //    //if (txtIdOrigen.Text != null || txtIdOrigen.Text != String.Empty)
-        //    //{
-        //    //    //no hace nada ya que ese item ya esta guardado en la Base de datos
-        //    //}
-        //    //else
-        //    //{
-        //    //    GuardarPlanta(TextOrigen.Text);
-        //    //}
-        //    //if (txtIdDestino.Text != null || txtIdDestino.Text != String.Empty)
-        //    //{
-        //    //    //no hace nada ya que ese item ya esta guardado en la Base de datos
-        //    //}
-        //    //else
-        //    //{
-        //    //    GuardarPlanta(TextUbicacion.Text);
-        //    //}
-        //    if (TextRegProd.Text != "")
-        //    {
-        //        EntProducto ObjProd = new EntProducto();
-        //        ObjProd.Descripcion = TextRegProd.Text;
-
-        //        if (Request.QueryString["Id"] != null)
-        //        {
-        //            //ActualizaRegistros
-        //            ObjProd.Id_Producto = Convert.ToInt32(Request.QueryString["Id"]);
-        //            if (Negproducto.ActualizarProducto(ObjProd) == 1)
-        //            {
-        //                //Response.Redirect("frmPrincipal.aspx");
-        //                //lblError.Text = "Registro de Entidad ACTUALIZADO satisfactoriamente";
-        //                //lblError.Visible = true;
-        //                Response.Write("<script languaje =javascript>alert ('Registro de Entidad ACTUALIZADO satisfactoriamente');</script>");
-        //                //Response.Redirect("frmRegistrarPropietarios.aspx");
-        //                TextRegProd.Text = "";
-
-        //            }
-        //            else
-        //            {
-        //                lblError.Text = "No se pudo ACTUALIZAR el Registro por algun motivo, Verifique e intente nuevamente";
-        //                lblError.Visible = true;
-        //            }
-        //        }
-        //        else
-        //        {
-        //            if (Negproducto.InsertarProducto(ObjProd) == 1)
-        //            {
-        //                //Response.Redirect("frmPrincipal.aspx");
-        //                lblError.Text = "Registro de Entidad guardado satisfactoriamente";
-        //                lblError.Visible = true;
-        //                Response.Write("<script languaje =javascript>alert ('Registro de Entidad guardado satisfactoriamente');</script>");
-        //                //Response.Redirect("frmRegistrarPropietarios.aspx");
-        //                TextRegProd.Text = "";
-
-
-        //            }
-        //            else
-        //            {
-        //                lblError.Text = "No se pudo Insertar el Registro por algun motivo, Verifique e intente nuevamente";
-        //                lblError.Visible = true;
-
-        //            }
-
-        //        }
-
-        //    }
-        //    else
-        //    {
-        //        lblError.Text = "Faltan Ingresar campos Obligatorios";
-        //        lblError.Visible = true;
-        //    }
-        //    CargarProducto();
-        //}
-
+      
         protected void TextOrigen_TextChanged(object sender, EventArgs e)
         {
             string var;
@@ -414,28 +267,12 @@ namespace CapaPresentacion
                         while (reader.Read())
                         {
                             idpl = Convert.ToString(reader["Id"].ToString());
-                            //if (string.IsNullOrEmpty(ListPlantas))
-                            //{
-                            //    ListPlantas += "\"" + reader["Descripcion"].ToString() + "\"";
-                            //}
-                            //else
-                            //{
-                            //    ListPlantas += ", \"" + reader["Descripcion"].ToString() + "\"";
-                            //}
+                           
                         }
                         int re;
-                        //re = idpl;
+                        
                         txtIdOrigen.Text= idpl.ToString();
-                        //if (txtIdOrigen.Text != null || txtIdOrigen.Text != String.Empty) 
-                        //{
-                        //    //no hace nada ya que ese item ya esta guardado en la Base de datos
-                        //}
-                        //else
-                        //{
-                        //    //command = new SqlCommand(queryString, connection);
-                            
-                        //    GuardarPlanta(var);
-                        //}
+                       
                     connection.Close();
                 }
             }

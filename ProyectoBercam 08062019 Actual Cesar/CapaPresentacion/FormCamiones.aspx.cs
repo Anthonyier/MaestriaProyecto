@@ -76,8 +76,7 @@ namespace CapaPresentacion
                              }
                          }
                      }
-                    //Cuenta.Text = Convert.ToString(objCuenta.NroCuenta);
-                    //Banco.Text = Convert.ToString(objCuenta.Id_Banco);
+                    
                     Rastreo.Text = Convert.ToString(objCamion.Id_Rastreo);
                     EntUsuario us = (EntUsuario)Session["Usuario"];
                     EntBitacora bit = new EntBitacora();
@@ -100,15 +99,7 @@ namespace CapaPresentacion
                 
              }
 
-            EntUsuario usuario = (EntUsuario)Session["Usuario"];
-            EntPermisoCamiones Persona = NegPermisoCamiones.BuscarPermiso(usuario.Id_Usuario);
-
-            if (Persona.CrearCamion != 1)
-            {
-
-                BtnGuardar.Visible = false;
-                BtnGuardar.Enabled = false;
-            }
+            
         }
 
 
@@ -159,15 +150,15 @@ namespace CapaPresentacion
             try
             {
                 String sql = "Select Id_Color, Descripcion from Color";
-                //cmd.Parameters.AddWithValue("@Id_Tipo_Prod1", cmbCategoria1.SelectedItem.Value);
+                
                 cmd.CommandType = CommandType.Text;
                 cmd.CommandText = sql;
                 cmd.Connection = cnx;
                 SqlDataReader dr = null;
                 cnx.Open();
-                //cmd.Transaction = myTrans;
+                
                 dr = cmd.ExecuteReader();
-                Color.DataSource = dr; //cmd.ExecuteReader();    
+                Color.DataSource = dr;    
                 Color.DataTextField = "Descripcion";
                 Color.DataValueField = "Id_Color";
                 Color.DataBind();
@@ -195,15 +186,15 @@ namespace CapaPresentacion
             try
             {
                 String sql = "Select Id_Banco, Descripcion from Banco";
-                //cmd.Parameters.AddWithValue("@Id_Tipo_Prod1", cmbCategoria1.SelectedItem.Value);
+              
                 cmd.CommandType = CommandType.Text;
                 cmd.CommandText = sql;
                 cmd.Connection = cnx;
                 SqlDataReader dr = null;
                 cnx.Open();
-                //cmd.Transaction = myTrans;
+                
                 dr = cmd.ExecuteReader();
-                Banco.DataSource = dr; //cmd.ExecuteReader();    
+                Banco.DataSource = dr;  
                 Banco.DataTextField = "Descripcion";
                 Banco.DataValueField = "Id_Banco";
                 Banco.DataBind();
@@ -231,15 +222,14 @@ namespace CapaPresentacion
             try
             {
                 String sql = "Select Id_Rastreo, Descripcion from Rastreo";
-                //cmd.Parameters.AddWithValue("@Id_Tipo_Prod1", cmbCategoria1.SelectedItem.Value);
+                
                 cmd.CommandType = CommandType.Text;
                 cmd.CommandText = sql;
                 cmd.Connection = cnx;
                 SqlDataReader dr = null;
                 cnx.Open();
-                //cmd.Transaction = myTrans;
                 dr = cmd.ExecuteReader();
-                Rastreo.DataSource = dr; //cmd.ExecuteReader();    
+                Rastreo.DataSource = dr; 
                 Rastreo.DataTextField = "Descripcion";
                 Rastreo.DataValueField = "Id_Rastreo";
                 Rastreo.DataBind();
@@ -425,23 +415,14 @@ namespace CapaPresentacion
 
                 if (Request.QueryString["Id"] != null)
                 {
-                    //int CamionId = Convert.ToInt32(Request.QueryString["Id"]);
-                    //EntCamiones ObjetoCamion = new EntCamiones();
-                    //ObjetoCamion = NegCamiones.BuscarCamiones(CamionId);
-                    //string CIAntiguo = objCamion.IdTitBanco;
-                    //if (CIAntiguo != TxtCittitularBanco.Text)
-                    //{
-
-                    //}
+                   
                     //ActualizaRegistros
                     objCamion.Id_Camion = Convert.ToInt32(Request.QueryString["Id"]);
                     if (NegCamiones.ActualizarCamiones(objCamion,objCuen) == 1)
                     {
-                        //Response.Redirect("frmPrincipal.aspx");
-                        //lblError.Text = "Registro de Entidad ACTUALIZADO satisfactoriamente";
-                        //lblError.Visible = true;
+                        
                         Response.Write("<script languaje =javascript>alert ('Registro de Entidad ACTUALIZADO satisfactoriamente');</script>");
-                        //Response.Redirect("frmRegistrarPropietarios.aspx");
+                        
                         txtPlaca.Text = "";
                         txtEmplaque.Text = "";
                         txtCapacidad.Text = "";

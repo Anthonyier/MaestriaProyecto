@@ -64,11 +64,10 @@ namespace LogisticaBercam
 
         protected void Button1_Click(object sender, EventArgs e)
         {
-            //lblError.Text = "";
-            //lblNombreUser.Text = "";
+           
             string usuario = us.Value;
 
-            if (us.Value != "" && pass.Value != "") //(txtUsuario.Text != "" && txtContraseña.Text != "")
+            if (us.Value != "" && pass.Value != "") //si el usuario y contraseña no son vacios
             {
                 EntUsuario obj = NegUsuario.Login(us.Value, pass.Value);
                 if (obj != null)
@@ -81,95 +80,22 @@ namespace LogisticaBercam
                         bit.Usuario = obj.Nombre + " " + obj.Apellidos;
                         bit.Accion = "El usuario se ha logeado";
                         bit.IdUsuario = obj.Id_Usuario;
-                        int bi = NegBitacora.GuardarBitacora(bit);
-                        //Correo();
-                        //lblNombreUser.Text = obj.Nombres.ToString() + " " + obj.Apellidos.ToString();
-                        //lblNombreUser.Visible = true;
+                        int bi = NegBitacora.GuardarBitacora(bit);// Guardamos datos en la bitacora
+                        
 
-                        if (obj.Id_Usuario == 1010)
-                        {
-                            DateTime fecha = DateTime.Now;
-                            int Cantidad=NegBitacora.NumeroDeEntrada(fecha.Day,fecha.Month,fecha.Year,obj.Id_Usuario);
-                            if (Cantidad == 1)
-                            {
-                                CorreoCamiones();
-                                CorreoPersonas();
-                                CorreoSoat();
-                                CorreoInspecionTec();
-                            }
-                        }
-                        if(obj.Id_Usuario==1006)
-                        {
-                            DateTime fecha = DateTime.Now;
-                            int Cantidad = NegBitacora.NumeroDeEntrada(fecha.Day, fecha.Month, fecha.Year, obj.Id_Usuario);
-                            if (Cantidad == 1)
-                            {
-                                CorreoCamionesCarla();
-                            }
-                        }
-                        if(obj.Id_Usuario==1022)
-                        {
-                            DateTime fecha = DateTime.Now;
-                            int Cantidad = NegBitacora.NumeroDeEntrada(fecha.Day, fecha.Month, fecha.Year, obj.Id_Usuario);
-                            if (Cantidad == 1)
-                            {
-                                //CorreoCamionesJoseLuis();
-                                CorreoCamionesExtintoresAndres();
-                                CorreoCamionesCheckListAndres();
-                                CorreoPersonaJoseLuis();
-                                CorreoCamionesAndres();
-                            }
-                        }
-                        if (obj.Id_Usuario == 1002)
-                        {
-                            DateTime fecha = DateTime.Now;
-                            int Cantidad = NegBitacora.NumeroDeEntrada(fecha.Day, fecha.Month, fecha.Year, obj.Id_Usuario);
-                            if (Cantidad == 1)
-                            {
-                                //CorreoCamionesAndresJefe();
-                                CorreoCamionExtintoresJefe();
-                                CorreoPersonaAndresJefe();
-                                CorreoCamionesNancyJefe();
-                                CorreoPersonasNancyJefe();
-                                CorreoCamionesCarlaJefe();
-                                CorreoCamionesCheckListJefe();
-                                //CorreoSoatJefe();
-                                //CorreoInspecionTecJefe();
-                            }
-                        }
-                        if(obj.Id_Usuario==1020)
-                        {
-                            DateTime fecha = DateTime.Now;
-                            int Cantidad = NegBitacora.NumeroDeEntrada(fecha.Day, fecha.Month, fecha.Year, obj.Id_Usuario);
-                            if (Cantidad == 1)
-                            {
-                                CorreoCamionesCheckList();
-                            }
-                        }
-                        if (obj.Id_Usuario == 2024)
-                        {
-                            DateTime fecha = DateTime.Now;
-                            int Cantidad = NegBitacora.NumeroDeEntrada(fecha.Day, fecha.Month, fecha.Year, obj.Id_Usuario);
-                            if (Cantidad == 1)
-                            {
-                                CorreoCamionesCheckListNaty();
-                            }
-                        }
                         Response.Redirect("frmPrincipal.aspx");
                     }
                 }
                 else
                 {
                     Response.Write("<script languaje =javascript>alert ('Usuario o Contraseña invalidos');</script>");
-                    //lblError.Text = "Usuario o Contraseña invalidos";
-                    //lblError.Visible = true;
+                    
                 }
             }
             else
             {
                 Response.Write("<script languaje =javascript>alert ('Falta ingresar campos');</script>");
-                //lblError.Text = "Falta ingresar campos";
-                //lblError.Visible = true;
+                
             }
         }
         public void CorreoPersonaJoseLuis()

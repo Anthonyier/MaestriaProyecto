@@ -119,7 +119,6 @@ namespace CapaPresentacion
             {
                 Ruta.AppendDataBoundItems = true;
                 CargarCombo();
-                CargarCliente();
                 CargarAsignacion();
                 tabla = new System.Data.DataTable();
                 GridView1.DataSource = tabla;
@@ -225,15 +224,7 @@ namespace CapaPresentacion
                 bit.IdUsuario = us.Id_Usuario;
                 int bi = NegBitacora.GuardarBitacora(bit);
             }
-            EntUsuario usuario = (EntUsuario)Session["Usuario"];
-            EntPermisoRutas Persona = NegPermisoRutas.BuscarPermiso(usuario.Id_Usuario);
-
-            if (Persona.CrearRuta != 1)
-            {
-
-                BtnGuardar.Visible = false;
-                BtnGuardar.Enabled = false;
-            }
+           
 
             }
         }
@@ -303,39 +294,7 @@ namespace CapaPresentacion
                 CalendarVigencia.Visible = true;
             }
         }
-        public void CargarCliente()
-        {
-            //Cliente.Items.Clear();
-            //Cliente.Items.Add(new ListItem("--Selecciona Cliente--", ""));
-            //Cliente.AppendDataBoundItems = true;
-            //ClaseConexion Conexion = new ClaseConexion();
-            //SqlConnection cnx = Conexion.conectar();
-            //SqlCommand cmd = new SqlCommand();
-            //try
-            //{
-            //    string sql = "SELECT * FROM Vi_ClienteEnte";
-            //    cmd.CommandText = sql;
-            //    cmd.Connection = cnx;
-            //    SqlDataReader dr = null;
-            //    cnx.Open();
-            //    //cmd.Transaction = myTrans;
-            //    dr = cmd.ExecuteReader();
-            //    Cliente.DataSource = dr; //cmd.ExecuteReader();    
-            //    Cliente.DataTextField = "CI";
-            //    Cliente.DataValueField = "Cod_Ente";
-            //    Cliente.DataBind();
-            //    dr.Close();
-            //}
-            //catch (Exception ex)
-            //{
-            //    throw ex;
-            //}
-            //finally
-            //{
-            //    cmd.Connection.Close();
-            //    cmd.Connection.Dispose();
-            //}
-        }
+       
 
         public void CargarAsignacion()
         {
@@ -1035,17 +994,7 @@ namespace CapaPresentacion
             {
                 row["Vigencia"] = "";
             }
-            SqlDataReader db = NegAsignacionRuta.BuscarPendientes(Placa.Text);
-            db.Read();
-            if (db.HasRows == true)
-            {
-                if (string.IsNullOrEmpty(db["Maximo"].ToString())==false)
-                {
-                    lblError.Text = "Hay una Programacion Pendiente A Confirmar";
-                    lblError.Visible = true;
-                    return;
-                }
-            }
+           
             SqlDataReader bd = NegAsignacionRuta.BuscarProgramacion(Placa.Text,Convert.ToInt32(Ruta.Text),Convert.ToDateTime(TextCarga.Text));
             bd.Read();
             if (bd.HasRows == true)

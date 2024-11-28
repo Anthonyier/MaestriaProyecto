@@ -43,14 +43,7 @@ namespace CapaNegocios
         {
              DAOPersona.Habilitar(id);
         }
-        public static void HabilitarProveedor(int id)
-        {
-            DAOPersona.HabilitarProveedor(id);
-        }
-        public static bool EnviarCorreo(string Mensaje)
-        {
-           return DAOPersona.EnviarCorreo(Mensaje);
-        }
+        
         public static EntPersona BuscarTodasPersonas()
         {
             return DAOPersona.ConsultaPersonaTodo();
@@ -71,14 +64,7 @@ namespace CapaNegocios
         {
             return DAOPersona.Repetidos(ci);
         }
-        public static void DesactivarMaestroProveedor(int id)
-        {
-             DAOPersona.DesactivarMaestroProveedor(id);
-        }
-        public static int ObtenerProveedor(int id)
-        {
-            return DAOPersona.EncontrarIdProveedor(id);
-        }
+       
         public static int EliminarPersona(int id)
         {
             return DAOPersona.ElimianrPersona(id);

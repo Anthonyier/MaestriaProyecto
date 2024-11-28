@@ -29,16 +29,7 @@ namespace CapaPresentacion
             bit.IdUsuario = us.Id_Usuario;
             int bi = NegBitacora.GuardarBitacora(bit);
 
-            EntUsuario usuario = (EntUsuario)Session["Usuario"];
-            EntPermisoCamiones Persona = NegPermisoCamiones.BuscarPermiso(usuario.Id_Usuario);
-
-            if (Persona.ListaCamion != 1)
-            {
-
-                GridViewCamiones.Visible = false;
-                BtnBuscar.Visible = false;
-                TxtBuscar.Visible = false;
-            }
+           
         }
         public void CargarCombo()
         {
@@ -120,46 +111,17 @@ namespace CapaPresentacion
                 
                 int bi = NegBitacora.GuardarBitacora(bit);
                 
-                EntPermisoCamiones Persona = NegPermisoCamiones.BuscarPermiso(us.Id_Usuario);
+              
 
-                if (Persona.ModificarCamiones == 1)
-                {
                     string CamionId = e.CommandArgument.ToString();
                     Response.Redirect("FormCamiones.aspx?Id=" + CamionId);
-                }
+                
             }
             if (e.CommandName == "AgregarDocumentos")
             {
                 
-                bit.Accion = "El usuario va ingresar documentos ";
-              
-                int bi = NegBitacora.GuardarBitacora(bit);
-                EntUsuario usuario = (EntUsuario)Session["Usuario"];
-                EntPermisoCamiones Persona = NegPermisoCamiones.BuscarPermiso(usuario.Id_Usuario);
 
-                if (Persona.DocumentoCamion== 1)
-                {
-                    if(usuario.Id_Usuario==1010)
-                    {
-                     string CamionId = e.CommandArgument.ToString();
-                    Response.Redirect("FrmImagenesCamiones.aspx?Id=" + CamionId);
-                    }
-                    if (usuario.Id_Usuario == 1006)
-                    {
-                        string CamionId = e.CommandArgument.ToString();
-                        Response.Redirect("FormImagenesCarla.aspx?Id=" + CamionId);
-                    }
-                    if (usuario.Id_Usuario == 1022)
-                    {
-                        string CamionId = e.CommandArgument.ToString();
-                        Response.Redirect("FormImagenesJoseluisCamiones.aspx?Id=" + CamionId);
-                    }
-                    if (usuario.Id_Usuario == 1020 || usuario.Id_Usuario==2024)
-                    {
-                        string CamionId = e.CommandArgument.ToString();
-                        Response.Redirect("FormImgCheckList.aspx?Id=" + CamionId);
-                    }
-                }
+ 
             }
             if (e.CommandName == "Anular")
             {

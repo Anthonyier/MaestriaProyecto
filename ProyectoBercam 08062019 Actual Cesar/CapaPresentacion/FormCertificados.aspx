@@ -113,7 +113,7 @@
                           </td>
                          </tr>
           </table>
-         <asp:SqlDataSource ID="SqlDataSource3" runat="server" ConnectionString="Data Source=SERVIDOR;Initial Catalog=bercam;Integrated Security=True" 
+         <asp:SqlDataSource ID="SqlDataSource3" runat="server" ConnectionString="Data Source=SERVIDOR;Initial Catalog=Maestria1Modulo;Integrated Security=True" 
            ProviderName="<%$ ConnectionStrings:bercamConnectionString.ProviderName %>"></asp:SqlDataSource>
      </div>
 </asp:Content>

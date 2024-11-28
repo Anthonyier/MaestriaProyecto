@@ -40,9 +40,7 @@ namespace CapaPresentacion
                     ObjProd.Id_Producto = Convert.ToInt32(Request.QueryString["Id"]);
                     if (Negproducto.ActualizarProducto(ObjProd) == 1)
                     {
-                        //Response.Redirect("frmPrincipal.aspx");
-                        //lblError.Text = "Registro de Entidad ACTUALIZADO satisfactoriamente";
-                        //lblError.Visible = true;
+                      
                         Response.Write("<script languaje =javascript>alert ('Registro de Entidad ACTUALIZADO satisfactoriamente');</script>");
                         //Response.Redirect("frmRegistrarPropietarios.aspx");
                         TextProd.Text = "";
@@ -56,13 +54,13 @@ namespace CapaPresentacion
                 }
                 else
                 {
-                    if (Negproducto.InsertarProducto(ObjProd)== 1)
+                    if (Negproducto.InsertarProducto(ObjProd)== 1)//insertamos producto
                     {
-                        //Response.Redirect("frmPrincipal.aspx");
+                        
                         lblError.Text = "Registro de Entidad guardado satisfactoriamente";
                         lblError.Visible = true;
                         Response.Write("<script languaje =javascript>alert ('Registro de Entidad guardado satisfactoriamente');</script>");
-                        //Response.Redirect("frmRegistrarPropietarios.aspx");
+                      
                         TextProd.Text = "";
                         
 

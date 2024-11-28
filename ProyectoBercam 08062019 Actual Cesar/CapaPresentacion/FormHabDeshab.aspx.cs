@@ -22,14 +22,7 @@ namespace CapaPresentacion
             {
                 CargarEstado();
             }
-            EntUsuario usuario = (EntUsuario)Session["Usuario"];
-            EntPermisoCamiones  Persona = NegPermisoCamiones.BuscarPermiso(usuario.Id_Usuario);
-            if (Persona.CrearCamion != 1)
-            {
-
-                BtnGuardar.Visible = false;
-                BtnGuardar.Enabled = false;
-            }
+          
         }
         public void CargarEstado()
         {
@@ -125,7 +118,7 @@ namespace CapaPresentacion
                 int Guarestado = NegCamiones.CambioEstado(es, placa, obs, chofer);
                 if (Guarestado == 1)
                 {
-                    if (es == 1)
+                    if (es == 1)// Preguntamos si estamos habilitando o deshabilitando
                     {
                         NegCamiones.Deshabilitar(placa);
                     }

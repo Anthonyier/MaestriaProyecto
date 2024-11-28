@@ -1178,3 +1178,17 @@ D:\datos c\Desktop\Systemas ANthony\ProyectoBercam 21052023\ProyectoBercam 08062
 D:\datos c\Desktop\Systemas ANthony\ProyectoBercam 21052023\ProyectoBercam 08062019 Actual Cesar\CapaNegocios\obj\Debug\CapaNegocios.csprojResolveAssemblyReference.cache
 D:\datos c\Desktop\Systemas ANthony\ProyectoBercam 21052023\ProyectoBercam 08062019 Actual Cesar\CapaNegocios\obj\Debug\CapaNegocios.dll
 D:\datos c\Desktop\Systemas ANthony\ProyectoBercam 21052023\ProyectoBercam 08062019 Actual Cesar\CapaNegocios\obj\Debug\CapaNegocios.pdb
+C:\Users\pc\Desktop\Maestria\1erModulo\Codigo\MaestriaProyecto\ProyectoBercam 08062019 Actual Cesar\CapaNegocios\bin\CapaNegocios.dll.config
+C:\Users\pc\Desktop\Maestria\1erModulo\Codigo\MaestriaProyecto\ProyectoBercam 08062019 Actual Cesar\CapaNegocios\bin\CapaNegocios.dll
+C:\Users\pc\Desktop\Maestria\1erModulo\Codigo\MaestriaProyecto\ProyectoBercam 08062019 Actual Cesar\CapaNegocios\bin\CapaNegocios.pdb
+C:\Users\pc\Desktop\Maestria\1erModulo\Codigo\MaestriaProyecto\ProyectoBercam 08062019 Actual Cesar\CapaNegocios\bin\CapaDatos.dll
+C:\Users\pc\Desktop\Maestria\1erModulo\Codigo\MaestriaProyecto\ProyectoBercam 08062019 Actual Cesar\CapaNegocios\bin\CapaEntidad.dll
+C:\Users\pc\Desktop\Maestria\1erModulo\Codigo\MaestriaProyecto\ProyectoBercam 08062019 Actual Cesar\CapaNegocios\bin\CapaDatos.pdb
+C:\Users\pc\Desktop\Maestria\1erModulo\Codigo\MaestriaProyecto\ProyectoBercam 08062019 Actual Cesar\CapaNegocios\bin\CapaDatos.dll.config
+C:\Users\pc\Desktop\Maestria\1erModulo\Codigo\MaestriaProyecto\ProyectoBercam 08062019 Actual Cesar\CapaNegocios\bin\CapaEntidad.pdb
+C:\Users\pc\Desktop\Maestria\1erModulo\Codigo\MaestriaProyecto\ProyectoBercam 08062019 Actual Cesar\CapaNegocios\bin\CapaEntidad.dll.config
+C:\Users\pc\Desktop\Maestria\1erModulo\Codigo\MaestriaProyecto\ProyectoBercam 08062019 Actual Cesar\CapaNegocios\obj\Debug\CapaNegocios.csprojAssemblyReference.cache
+C:\Users\pc\Desktop\Maestria\1erModulo\Codigo\MaestriaProyecto\ProyectoBercam 08062019 Actual Cesar\CapaNegocios\obj\Debug\CapaNegocios.csproj.CoreCompileInputs.cache
+C:\Users\pc\Desktop\Maestria\1erModulo\Codigo\MaestriaProyecto\ProyectoBercam 08062019 Actual Cesar\CapaNegocios\obj\Debug\CapaNegocios.csproj.CopyComplete
+C:\Users\pc\Desktop\Maestria\1erModulo\Codigo\MaestriaProyecto\ProyectoBercam 08062019 Actual Cesar\CapaNegocios\obj\Debug\CapaNegocios.dll
+C:\Users\pc\Desktop\Maestria\1erModulo\Codigo\MaestriaProyecto\ProyectoBercam 08062019 Actual Cesar\CapaNegocios\obj\Debug\CapaNegocios.pdb

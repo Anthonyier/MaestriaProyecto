@@ -25,14 +25,7 @@ namespace CapaPresentacion
             bit.IdUsuario = us.Id_Usuario;
             int bi = NegBitacora.GuardarBitacora(bit);
 
-            EntUsuario usuario = (EntUsuario)Session["Usuario"];
-            EntPermisoPersona Persona = NegPermisoPersona.BuscarPermiso(usuario.Id_Usuario);
-            if (Persona.ListaPersona != 1)
-            {
-                GridView1.Visible = false;
-                TxtBuscar.Visible = false;
-                BtnBuscar.Visible = false;
-            }
+          
             string queryString = "SELECT * FROM vi_listaPersonasCL  ORDER BY Cliente";
 
             using (SqlConnection connection = new SqlConnection(Properties.Resources.ConexionBercamPrin))
@@ -68,19 +61,14 @@ namespace CapaPresentacion
             EntBitacora bit = new EntBitacora();
             bit.Usuario = us.Nombre + "" + us.Apellidos;
             bit.IdUsuario = us.Id_Usuario;
-            EntPermisoPersona Persona = NegPermisoPersona.BuscarPermiso(us.Id_Usuario);
             if (e.CommandName == "EditarPersona")
             {
-                
                
                 bit.Accion = "El usuario va editar una persona ";
                 
-                  int bi = NegBitacora.GuardarBitacora(bit);
-                  if (Persona.ModificarUsuario == 1)
-                  {
-                      string sPersonaId = e.CommandArgument.ToString();
-                      Response.Redirect("FrmRegistrodeEntidades.aspx?Id=" + sPersonaId);
-                  }
+               string sPersonaId = e.CommandArgument.ToString();
+               Response.Redirect("FrmRegistrodeEntidades.aspx?Id=" + sPersonaId);
+                  
             }
             if (e.CommandName == "AgregarDocumentos")
             {
@@ -89,20 +77,10 @@ namespace CapaPresentacion
                 bit.Accion = "El usuario va agreagar documentos ";
                
                 int bi = NegBitacora.GuardarBitacora(bit);
-                 if (Persona.AgregarDocumentos == 1)
-                 {
-                     if (us.Id_Usuario == 1010)
-                     {
-                         string sPersonaId = e.CommandArgument.ToString();
-                         Response.Redirect("FrmImagenes.aspx?Id=" + sPersonaId);
-                     }
-                     if(us.Id_Usuario==1022)
-                     {
-                         string sPersonaId = e.CommandArgument.ToString();
-                         Response.Redirect("FrmImagenesJoseluis.aspx?Id=" + sPersonaId);
-                     }
-                     
-                 }
+                 
+                string sPersonaId = e.CommandArgument.ToString();
+                Response.Redirect("FrmImagenes.aspx?Id=" + sPersonaId);
+                   
             }
             if (e.CommandName == "DeshabilitarPersona")
             {
@@ -111,14 +89,11 @@ namespace CapaPresentacion
                 bit.Accion = "El usuario ha deshabilitado una persona ";
                 
                 int bi = NegBitacora.GuardarBitacora(bit);
-                if (Persona.Deshabilitar == 1)
-                {
+              
                     string sPersonaId = e.CommandArgument.ToString();
                     NegPersona.EliminarPersona(int.Parse(sPersonaId));
-                    int Prov= NegPersona.ObtenerProveedor(int.Parse(sPersonaId));
-                    NegPersona.DesactivarMaestroProveedor(Prov);
                     Response.Write("<script languaje =javascript>alert ('Deshabilitado satisfactoriamente');</script>");
-                }
+               
             }
         }
 

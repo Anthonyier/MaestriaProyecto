@@ -108,31 +108,15 @@ namespace CapaPresentacion
                 bit.Accion = "El usuario esta intentando deshabilitar una recepcion";
                 bit.IdUsuario = us.Id_Usuario;
                 int bi = NegBitacora.GuardarBitacora(bit);
-                EntPermisoRutas Persona = NegPermisoRutas.BuscarPermiso(us.Id_Usuario);
-                if (Persona.AnularRutas == 1)
-                {
+              
                     String sPersonaID = e.CommandArgument.ToString();
                     NegAsignacionRuta.Deshabilitar(int.Parse(sPersonaID));
                     bit.Accion = "El usuario ha logrado deshabilitar una recepcion";
                     bi = NegBitacora.GuardarBitacora(bit);
                     Response.Write("<script languaje =javascript>alert ('Deshabilitado satisfactoriamente');</script>");
-                }
+                
             }
-            if (e.CommandName == "Conciliacion")
-            {
-                string sPersonaId = e.CommandArgument.ToString();
-                Response.Redirect("FormConciliacionPorCobrar.aspx?Id=" + sPersonaId);
-            }
-            if (e.CommandName == "Imprimir")
-            {
-                string sPersonaId = e.CommandArgument.ToString();
-                Response.Redirect("FormRepNomina.aspx?Id=" + sPersonaId);
-            }
-            if (e.CommandName == "Imprimir Monto")
-            {
-                string sPersonaId = e.CommandArgument.ToString();
-                Response.Redirect("FormMontNomi.aspx?Id=" + sPersonaId);
-            }
+            
         }
 
     }  

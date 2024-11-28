@@ -90,48 +90,6 @@ namespace CapaDatos
                     cmd.Transaction = myTrans;
                     cmd.ExecuteNonQuery();
 
-                    int IdProve = EncontrarIdProveedor(obj.Id_Persona);
-                    int Maestro = 0;
-                    if (IdProve == 0)
-                    {
-                        int Maest = EncontrarProveedor(obj.CI);
-                        if (Maest == 0)
-                        {
-                            cmd = new SqlCommand("Insert into isi_maestro_proveedor(razon_social,tipo_proveedor,nacionalidad,no_documento,tipo_documento,id_pais,id_ciudad,telefono_fijo,id_compra,id_modalidad,dias_plazo,forma_pago,moneda,activo) " +
-                                "values (@razonSocial, 'Empresa Unipersonal','NAL',@CI,'NIT',0,0,@TelefonoFijo,0,0,0,0,'BOB',1) ;SELECT  Scope_Identity(); ", cnx);
-                            cmd.Parameters.AddWithValue("@razonSocial", obj.Nombres + " " + obj.Apellidos);
-                            cmd.Parameters.AddWithValue("@CI", obj.CI);
-                            cmd.Parameters.AddWithValue("@TelefonoFijo", obj.Telefono);
-                            cmd.Transaction = myTrans;
-                            Maestro = Convert.ToInt32(cmd.ExecuteScalar());
-
-                            //INTEGRACION PROVEEEDOR
-                            cmd = new SqlCommand("Insert into isi_vinculacion_proveedor values (@idProveedor,@idMaestroProv)", cnx);
-                            cmd.Parameters.AddWithValue("@idProveedor", Id_Persona);
-                            cmd.Parameters.AddWithValue("@idMaestroProv", Maestro);
-                            cmd.Transaction = myTrans;
-                            cmd.ExecuteNonQuery();
-
-                            //Actualizar Codigo De Maestro_Proveedor
-                            string CodigoProv = "P" + Convert.ToString(Maestro);
-                            cmd = new SqlCommand("Update isi_maestro_proveedor set codigo=@Codigo where id=@Id", cnx);
-                            cmd.Parameters.AddWithValue("@Codigo", CodigoProv);
-                            cmd.Parameters.AddWithValue("@Id", Maestro);
-                            cmd.Transaction = myTrans;
-                            cmd.ExecuteNonQuery();
-
-                            string Mensaje = "Se Ha Creado un nuevo proveedor, Su nombre es" + obj.Nombres + " " + obj.Apellidos;
-                            EnviarCorreo(Mensaje);
-                        }
-                        else
-                        {
-                            cmd = new SqlCommand("Insert into isi_vinculacion_proveedor values (@idProveedor,@idMaestroProv)", cnx);
-                            cmd.Parameters.AddWithValue("@idProveedor", Id_Persona);
-                            cmd.Parameters.AddWithValue("@idMaestroProv", Maest);
-                            cmd.Transaction = myTrans;
-                            cmd.ExecuteNonQuery();
-                        }
-                    }
                 }
                 if (obj.Id_TipoPersonaUs == 1)
                 {
@@ -282,71 +240,8 @@ namespace CapaDatos
                 cmd.Connection.Close();
             }
         }
-        public static bool EnviarCorreo(string Mensaje)
-        {
-            MailMessage msj = new MailMessage();
-            SmtpClient smtp = new SmtpClient();
-            try
-            {
-                msj.From = new MailAddress("transbercamcorreo@gmail.com");
-                msj.To.Add(new MailAddress("vribera@indsermaq.com.bo"));
-                //msj.To.Add(new MailAddress("anthonyriberas6v@gmail.com"));
-                msj.To.Add("kticona@transbercam.com.bo");
-                msj.To.Add("ligiaameller@transbercam.com.bo");
-                msj.Body = Mensaje;
-                msj.Subject = "Pago De Anticipo";
-                smtp.Host = "smtp.gmail.com";
-                smtp.Port = 587;
-                string fr = "transbercamcorreo@gmail.com";
-                //string pass = "transbercam12345";
-                string pass = "kcqbzupdtnioterv";
-                smtp.Credentials = new NetworkCredential(fr, pass);
-                smtp.EnableSsl = true;
-                //thread = new Thread(smtp.Send(msj));
-                smtp.Send(msj);
-                return true;
-            }
-            catch (Exception e)
-            {
-                Console.WriteLine(e.StackTrace);
-                return false;
-            }
-        }
-        public static void HabilitarProveedor(int Id)
-        {
-            SqlCommand cmd = null;
-            SqlTransaction myTrans = null;
-            try
-            {
-                ClaseConexion Conexion = new ClaseConexion();
-                SqlConnection cnx = Conexion.conectar();
-
-                cnx.Open();
-                myTrans = cnx.BeginTransaction();
-
-                ////string sql = "Insert into Persona (CI, Tipo_Persona, Id_TipoPersonaPRO, Id_TipoPersonaCho, Id_TipoPersonaTit, Id_TipoPersonaUs, Nombres, Apellidos, Direccion, Telefonos, TelfReferencia, Email, VigenciaCI, VigenciaLicencia, VigenciaFelcn, VigenciaRejap) values(@CI, @Tipo_Persona, @Id_TipoPersonaPRO, @Id_TipoPersonaCho, @Id_TipoPersonaTit, @Id_TipoPersonaUs, @Nombres, @Apellidos, @Direccion, @Telefonos, @TelfReferencia, @Email, @VigenciaCI, @VigenciaLicencia, @VigenciaFelcn, @VigenciaRejap) ;SELECT  Scope_Identity(); ";
-
-                string sql = "Update isi_maestro_proveedor set activo=1 where id=@Id";
-                cmd = new SqlCommand(sql, cnx);
-                cmd.Parameters.AddWithValue("@Id", Id);
-                cmd.Transaction = myTrans;
-                cmd.ExecuteNonQuery();
-
-                //hasta aqui
-            }
-            catch (Exception e)
-            {
-
-                myTrans.Rollback();
-
-
-            }
-            finally
-            {
-                myTrans.Commit();
-                cmd.Connection.Close();
-            }
-        }
+       
+       
         public static int ElimianrPersona(int Id)
         {
            SqlCommand cmd = null;
@@ -383,42 +278,7 @@ namespace CapaDatos
            }
            return 1;
         }
-        public static void DesactivarMaestroProveedor(int Id)
-        {
-            SqlCommand cmd = null;
-            SqlTransaction myTrans = null;
-            try
-            {
-                ClaseConexion Conexion = new ClaseConexion();
-                SqlConnection cnx = Conexion.conectar();
-
-                cnx.Open();
-                myTrans = cnx.BeginTransaction();
-
-                ////string sql = "Insert into Persona (CI, Tipo_Persona, Id_TipoPersonaPRO, Id_TipoPersonaCho, Id_TipoPersonaTit, Id_TipoPersonaUs, Nombres, Apellidos, Direccion, Telefonos, TelfReferencia, Email, VigenciaCI, VigenciaLicencia, VigenciaFelcn, VigenciaRejap) values(@CI, @Tipo_Persona, @Id_TipoPersonaPRO, @Id_TipoPersonaCho, @Id_TipoPersonaTit, @Id_TipoPersonaUs, @Nombres, @Apellidos, @Direccion, @Telefonos, @TelfReferencia, @Email, @VigenciaCI, @VigenciaLicencia, @VigenciaFelcn, @VigenciaRejap) ;SELECT  Scope_Identity(); ";
-
-                string sql = "Update isi_maestro_proveedor set activo=0 where id=@Id";
-                cmd = new SqlCommand(sql, cnx);
-                cmd.Parameters.AddWithValue("@Id", Id);
-                cmd.Transaction = myTrans;
-                cmd.ExecuteNonQuery();
-
-                //hasta aqui
-            }
-            catch (Exception e)
-            {
-
-                myTrans.Rollback();
-                
-
-            }
-            finally
-            {
-                myTrans.Commit();
-                cmd.Connection.Close();
-            }
-            
-        }
+       
         public static int ActualizarPersona(EntPersona obj)//string Nombres, string Apellidos, string CI, string Direccion, string Telefonos, string TelfReferencia, string Email, byte[] imgLicConducir, byte[] AntFelcn, byte[] AntRejap)
         {
             //EntPropietario objPropietario = null;
@@ -483,49 +343,6 @@ namespace CapaDatos
                     cmd.Parameters.AddWithValue("@Id_TipoEntidad", 3); //quiere decir que es titular banco
                     cmd.Transaction = myTrans;
                     cmd.ExecuteNonQuery();
-
-                    int IdProve = EncontrarIdProveedor(obj.Id_Persona);
-                    if (IdProve == 0)
-                    {
-
-                        int Maest = EncontrarProveedor(obj.CI);
-                        if (Maest == 0)
-                        {
-                            int Maestro = 0;
-                            cmd = new SqlCommand("Insert into isi_maestro_proveedor(razon_social,tipo_proveedor,nacionalidad,tipo_documento,id_pais,id_ciudad,telefono_fijo,id_compra,id_modalidad,dias_plazo,forma_pago,moneda,activo) " +
-                                "values (@razonSocial, 'Empresa Unipersonal','NAL','NIT',0,0,@TelefonoFijo,0,0,0,0,'BOB',1) ;SELECT  Scope_Identity(); ", cnx);
-                            cmd.Parameters.AddWithValue("@razonSocial", obj.Nombres + " " + obj.Apellidos);
-                            cmd.Parameters.AddWithValue("@TelefonoFijo", obj.Telefono);
-                            cmd.Transaction = myTrans;
-                            Maestro = Convert.ToInt32(cmd.ExecuteScalar());
-
-                            //INTEGRACION PROVEEEDOR
-                            cmd = new SqlCommand("Insert into isi_vinculacion_proveedor values (@idProveedor,@idMaestroProv)", cnx);
-                            cmd.Parameters.AddWithValue("@idProveedor", obj.Id_Persona);
-                            cmd.Parameters.AddWithValue("@idMaestroProv", Maestro);
-                            cmd.Transaction = myTrans;
-                            cmd.ExecuteNonQuery();
-
-                            //Actualizar Codigo De Maestro_Proveedor
-                            string CodigoProv = "P" + Convert.ToString(Maestro);
-                            cmd = new SqlCommand("Update isi_maestro_proveedor set codigo=@Codigo where id=@Id", cnx);
-                            cmd.Parameters.AddWithValue("@Codigo", CodigoProv);
-                            cmd.Parameters.AddWithValue("@Id", Maestro);
-                            cmd.Transaction = myTrans;
-                            cmd.ExecuteNonQuery();
-
-                            string Mensaje = "Se Ha Creado un nuevo proveedor, Su nombre es" + obj.Nombres + " " + obj.Apellidos;
-                            EnviarCorreo(Mensaje);
-                        }
-                        else
-                        {
-                            cmd = new SqlCommand("Insert into isi_vinculacion_proveedor values (@idProveedor,@idMaestroProv)", cnx);
-                            cmd.Parameters.AddWithValue("@idProveedor", obj.Id_Persona);
-                            cmd.Parameters.AddWithValue("@idMaestroProv", Maest);
-                            cmd.Transaction = myTrans;
-                            cmd.ExecuteNonQuery();
-                        }
-                    }
                 }
                 if (obj.Id_TipoPersonaUs == 1)
                 {
@@ -559,73 +376,8 @@ namespace CapaDatos
             return 1;//obj;
         }
 
-        public static int EncontrarIdProveedor(int IdPersona)
-        {
-            int IdProv= 0;
-            SqlCommand cmd = null;
-            SqlDataReader dr = null;
-
-            ClaseConexion cn = new ClaseConexion();
-            SqlConnection cnx = cn.conectar();
-            try
-            {
-                //ClaseConexion cn = new ClaseConexion();
-                //SqlConnection cnx = cn.conectar();
-                cmd = new SqlCommand("select idMaestro_proveedor from isi_vinculacion_proveedor where idTitular=@IdTitular", cnx);
-                cmd.Parameters.AddWithValue("@idTitular", IdPersona);
-                cmd.CommandType = CommandType.Text;
-                cnx.Open();
-                dr = cmd.ExecuteReader();
-                dr.Read();
-                IdProv = int.Parse(dr["idMaestro_proveedor"].ToString());
-             
-            }
-            catch (Exception e)
-            {
-                IdProv = 0;
-                return IdProv;
-            }
-            finally
-            {
-                cmd.Connection.Close();
-
-            }
-            return IdProv;
-        }
-
-        public static int EncontrarProveedor(string Ci)
-        {
-            int IdProv = 0;
-            SqlCommand cmd = null;
-            SqlDataReader dr = null;
-
-            ClaseConexion cn = new ClaseConexion();
-            SqlConnection cnx = cn.conectar();
-            try
-            {
-                //ClaseConexion cn = new ClaseConexion();
-                //SqlConnection cnx = cn.conectar();
-                cmd = new SqlCommand("select id from isi_maestro_proveedor where no_documento=@Ci", cnx);
-                cmd.Parameters.AddWithValue("@Ci", Ci );
-                cmd.CommandType = CommandType.Text;
-                cnx.Open();
-                dr = cmd.ExecuteReader();
-                dr.Read();
-                IdProv = int.Parse(dr["id"].ToString());
-
-            }
-            catch (Exception e)
-            {
-                IdProv = 0;
-                return IdProv;
-            }
-            finally
-            {
-                cmd.Connection.Close();
-
-            }
-            return IdProv;
-        }
+      
+        
         public static EntPersona ConsultaImagenes(int Id_img)
         {
             EntPersona obj = null;

@@ -13,6 +13,7 @@ namespace CapaDatos
 {
     public class DAOUsuario
     {
+        //Esta Funcion nos permite logearnos
         public static EntUsuario Login(string usuario, string password)
         {
             EntUsuario obj = null;

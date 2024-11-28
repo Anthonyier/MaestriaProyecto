@@ -165,7 +165,7 @@
                 <td><asp:Label ID="lblError" runat="server" Text="" Visible="false" ForeColor="Green" Font-Size="Medium"></asp:Label></td>
             </tr>
         </table>
-        <asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="Data Source=SERVIDOR;Initial Catalog=bercam;Integrated Security=True" 
+        <asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="Data Source=SERVIDOR;Initial Catalog=Maestria1Modulo;Integrated Security=True" 
              ProviderName="<%$ ConnectionStrings:bercamConnectionString.ProviderName %>"></asp:SqlDataSource>
     </div>
 </asp:Content>

@@ -27,8 +27,6 @@ namespace CapaPresentacion
              
                     string sPersonaId = e.CommandArgument.ToString();
                     NegPersona.Habilitar(int.Parse(sPersonaId));
-                    int Prov = NegPersona.ObtenerProveedor(int.Parse(sPersonaId));
-                    NegPersona.HabilitarProveedor(Prov);
                     Response.Write("<script languaje =javascript>alert ('Haabilitado satisfactoriamente');</script>");
                 
             }

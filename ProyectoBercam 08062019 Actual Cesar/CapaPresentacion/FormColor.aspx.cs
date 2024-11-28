@@ -40,11 +40,8 @@ namespace CapaPresentacion
                     ObjColor.Id_Color = Convert.ToInt32(Request.QueryString["Id"]);
                     if (NegColor.ActualizarColor(ObjColor) == 1)
                     {
-                        //Response.Redirect("frmPrincipal.aspx");
-                        //lblError.Text = "Registro de Entidad ACTUALIZADO satisfactoriamente";
-                        //lblError.Visible = true;
-                        Response.Write("<script languaje =javascript>alert ('Registro de Entidad ACTUALIZADO satisfactoriamente');</script>");
-                        //Response.Redirect("frmRegistrarPropietarios.aspx");
+                        
+                        Response.Write("<script languaje =javascript>alert ('Registro de Color ACTUALIZADO satisfactoriamente');</script>");
                         TextColor.Text = "";
                        
                     }
@@ -56,13 +53,14 @@ namespace CapaPresentacion
                 }
                 else
                 {
+                    //Registrar Color
                     if (NegColor.InsertarColor(ObjColor)== 1)
                     {
-                        //Response.Redirect("frmPrincipal.aspx");
-                        lblError.Text = "Registro de Marca guardado satisfactoriamente";
+                        
+                        lblError.Text = "Registro de Color guardado satisfactoriamente";
                         lblError.Visible = true;
-                        Response.Write("<script languaje =javascript>alert ('Registro de Entidad guardado satisfactoriamente');</script>");
-                        //Response.Redirect("frmRegistrarPropietarios.aspx");
+                        Response.Write("<script languaje =javascript>alert ('Registro de Color guardado satisfactoriamente');</script>");
+                        
                         TextColor.Text = "";
                     }
                     else

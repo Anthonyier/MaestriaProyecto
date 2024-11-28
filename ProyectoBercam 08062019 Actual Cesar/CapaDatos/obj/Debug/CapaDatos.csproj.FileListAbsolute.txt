@@ -1148,3 +1148,16 @@ D:\datos c\Desktop\Systemas ANthony\ProyectoBercam 21052023\ProyectoBercam 08062
 D:\datos c\Desktop\Systemas ANthony\ProyectoBercam 21052023\ProyectoBercam 08062019 Actual Cesar\CapaDatos\obj\Debug\CapaDatos.csproj.GenerateResource.Cache
 D:\datos c\Desktop\Systemas ANthony\ProyectoBercam 21052023\ProyectoBercam 08062019 Actual Cesar\CapaDatos\obj\Debug\CapaDatos.dll
 D:\datos c\Desktop\Systemas ANthony\ProyectoBercam 21052023\ProyectoBercam 08062019 Actual Cesar\CapaDatos\obj\Debug\CapaDatos.pdb
+C:\Users\pc\Desktop\Maestria\1erModulo\Codigo\MaestriaProyecto\ProyectoBercam 08062019 Actual Cesar\CapaDatos\bin\CapaDatos.dll.config
+C:\Users\pc\Desktop\Maestria\1erModulo\Codigo\MaestriaProyecto\ProyectoBercam 08062019 Actual Cesar\CapaDatos\bin\CapaDatos.dll
+C:\Users\pc\Desktop\Maestria\1erModulo\Codigo\MaestriaProyecto\ProyectoBercam 08062019 Actual Cesar\CapaDatos\bin\CapaDatos.pdb
+C:\Users\pc\Desktop\Maestria\1erModulo\Codigo\MaestriaProyecto\ProyectoBercam 08062019 Actual Cesar\CapaDatos\bin\CapaEntidad.dll
+C:\Users\pc\Desktop\Maestria\1erModulo\Codigo\MaestriaProyecto\ProyectoBercam 08062019 Actual Cesar\CapaDatos\bin\CapaEntidad.pdb
+C:\Users\pc\Desktop\Maestria\1erModulo\Codigo\MaestriaProyecto\ProyectoBercam 08062019 Actual Cesar\CapaDatos\bin\CapaEntidad.dll.config
+C:\Users\pc\Desktop\Maestria\1erModulo\Codigo\MaestriaProyecto\ProyectoBercam 08062019 Actual Cesar\CapaDatos\obj\Debug\CapaDatos.csprojAssemblyReference.cache
+C:\Users\pc\Desktop\Maestria\1erModulo\Codigo\MaestriaProyecto\ProyectoBercam 08062019 Actual Cesar\CapaDatos\obj\Debug\CapaDatos.Properties.Resources.resources
+C:\Users\pc\Desktop\Maestria\1erModulo\Codigo\MaestriaProyecto\ProyectoBercam 08062019 Actual Cesar\CapaDatos\obj\Debug\CapaDatos.csproj.GenerateResource.cache
+C:\Users\pc\Desktop\Maestria\1erModulo\Codigo\MaestriaProyecto\ProyectoBercam 08062019 Actual Cesar\CapaDatos\obj\Debug\CapaDatos.csproj.CoreCompileInputs.cache
+C:\Users\pc\Desktop\Maestria\1erModulo\Codigo\MaestriaProyecto\ProyectoBercam 08062019 Actual Cesar\CapaDatos\obj\Debug\CapaDatos.csproj.CopyComplete
+C:\Users\pc\Desktop\Maestria\1erModulo\Codigo\MaestriaProyecto\ProyectoBercam 08062019 Actual Cesar\CapaDatos\obj\Debug\CapaDatos.dll
+C:\Users\pc\Desktop\Maestria\1erModulo\Codigo\MaestriaProyecto\ProyectoBercam 08062019 Actual Cesar\CapaDatos\obj\Debug\CapaDatos.pdb

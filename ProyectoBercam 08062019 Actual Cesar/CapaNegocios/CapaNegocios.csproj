@@ -19,6 +19,8 @@
     <IISExpressAnonymousAuthentication />
     <IISExpressWindowsAuthentication />
     <IISExpressUseClassicPipelineMode />
+    <Use64BitIISExpress />
+    <UseGlobalApplicationHostFile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -70,67 +72,35 @@
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="NegAdelanto.cs" />
-    <Compile Include="NegAdelantoDePago.cs" />
-    <Compile Include="NegAnticipo.cs" />
-    <Compile Include="NegAplicacion.cs" />
     <Compile Include="NegAsignacionCamion.cs" />
     <Compile Include="NegAsignacionRuta.cs" />
-    <Compile Include="NegAño.cs" />
     <Compile Include="NegBitacora.cs" />
     <Compile Include="NegCamiones.cs" />
     <Compile Include="NegCamionGuia.cs" />
     <Compile Include="NegColor.cs" />
-    <Compile Include="NegConciliacionCarroGuia.cs" />
     <Compile Include="NegConciliacionPagarAceite.cs" />
     <Compile Include="NegConciliacionPorCobrar.cs" />
     <Compile Include="NegConciliacionPorCobrarAceite.cs" />
     <Compile Include="NegConciliacionPorPagar.cs" />
     <Compile Include="NegCuentaContable.cs" />
-    <Compile Include="NegDatosEmpresa.cs" />
-    <Compile Include="NegDetalleCarroGuia.cs" />
-    <Compile Include="NegDetalleDim.cs" />
-    <Compile Include="NegDetalleMulta.cs" />
     <Compile Include="NegDetalleRastreo.cs" />
-    <Compile Include="NegDetalleRutaAceite.cs" />
-    <Compile Include="NegDetalleTelefono.cs" />
-    <Compile Include="NegDim.cs" />
     <Compile Include="NegFacturaCamionGuia.cs" />
-    <Compile Include="NegFacturaTrans.cs" />
-    <Compile Include="NegFrontera.cs" />
-    <Compile Include="NegHorario.cs" />
-    <Compile Include="NegHorarioFaltantes.cs" />
-    <Compile Include="NegHorarioPersona.cs" />
     <Compile Include="NegImagCert.cs" />
     <Compile Include="NegImagenes.cs" />
     <Compile Include="NegImagenesAdelantoDepagos.cs" />
     <Compile Include="NegImagenesAnticipos.cs" />
     <Compile Include="NegImagenesCarroGuia.cs" />
-    <Compile Include="NegImgPagadas.cs" />
     <Compile Include="NegInspeccTec.cs" />
-    <Compile Include="NegKilometraje.cs" />
     <Compile Include="NegMaestroProveedor.cs" />
     <Compile Include="NegMarca.cs" />
-    <Compile Include="NegMes.cs" />
-    <Compile Include="NegMulta.cs" />
     <Compile Include="NegPermisoAnticipos.cs" />
     <Compile Include="NegPermisoCamiones.cs" />
-    <Compile Include="NegPermisoPersona.cs" />
-    <Compile Include="NegPermisoRutas.cs" />
-    <Compile Include="NegPermisosAdelantosDePago.cs" />
-    <Compile Include="NegPermisosCarroGuia.cs" />
-    <Compile Include="NegPermisosConciliaciones.cs" />
-    <Compile Include="NegPermisosPagos.cs" />
-    <Compile Include="NegPermisosServicios.cs" />
     <Compile Include="NegPersona.cs" />
     <Compile Include="Negproducto.cs" />
-    <Compile Include="NegProveedores.cs" />
     <Compile Include="NegRuta.cs" />
     <Compile Include="NegServicios.cs" />
     <Compile Include="NegSoat.cs" />
-    <Compile Include="NegTransaccion.cs" />
     <Compile Include="NegUsuario.cs" />
-    <Compile Include="NegZkteko.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

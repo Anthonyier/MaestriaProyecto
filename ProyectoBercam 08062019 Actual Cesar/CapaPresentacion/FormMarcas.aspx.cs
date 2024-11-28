@@ -61,7 +61,7 @@ namespace CapaPresentacion
                         //Response.Redirect("frmPrincipal.aspx");
                         lblError.Text = "Registro de Marca guardado satisfactoriamente";
                         lblError.Visible = true;
-                        Response.Write("<script languaje =javascript>alert ('Registro de Entidad guardado satisfactoriamente');</script>");
+                        Response.Write("<script languaje =javascript>alert ('Registro de Marca guardado satisfactoriamente');</script>");
                         //Response.Redirect("frmRegistrarPropietarios.aspx");
                         TextMarca.Text = "";
                         

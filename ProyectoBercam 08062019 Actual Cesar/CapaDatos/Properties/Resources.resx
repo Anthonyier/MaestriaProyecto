@@ -118,6 +118,6 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="ConexionBercam" xml:space="preserve">
-    <value>Data Source=SERVIDOR;Initial Catalog=bercam;Integrated Security=True</value>
+    <value>Data Source=SERVIDOR;Initial Catalog=Maestria1Modulo;Integrated Security=True</value>
   </data>
 </root>

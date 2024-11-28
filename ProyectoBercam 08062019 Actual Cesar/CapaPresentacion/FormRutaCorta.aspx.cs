@@ -22,15 +22,7 @@ namespace CapaPresentacion
                 CargarDestino();
                 CargarOrigen();
             }
-            EntUsuario usuario = (EntUsuario)Session["Usuario"];
-            EntPermisoRutas Persona = NegPermisoRutas.BuscarPermiso(usuario.Id_Usuario);
-
-            if (Persona.CrearRuta != 1)
-            {
-
-                BtnGuardar.Visible = false;
-                BtnGuardar.Enabled = false;
-            }
+           
         }
         public void CargarDestino()
         {

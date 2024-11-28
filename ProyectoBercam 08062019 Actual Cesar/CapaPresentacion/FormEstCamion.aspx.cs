@@ -21,16 +21,7 @@ namespace CapaPresentacion
             {
                 CargarEstado();
             }
-            EntUsuario usuario = (EntUsuario)Session["Usuario"];
-            EntPermisoCamiones Persona = NegPermisoCamiones.BuscarPermiso(usuario.Id_Usuario);
-            EntPermisoRutas Ruta = NegPermisoRutas.BuscarPermiso(usuario.Id_Usuario );
-            if (Persona.CrearCamion != 1 && Ruta.ProgramaRutas != 1 )
-            {
-
-                BtnGuardar.Visible = false;
-                BtnGuardar.Enabled = false;
-                
-            }
+            
           
         }
 
